@@ -40,7 +40,7 @@ class MasterIntelligenceAgent:
         self.pipeline_path = self.base_path / "Processing_Pipeline"
         
         # Define specialized agent capabilities
-        self.agent_registry = {
+        self.agent_capabilities = {
             "market_intelligence": AgentCapability(
                 name="Market Intelligence Agent",
                 domains=["market_analysis", "competitive_landscape", "development_pipeline", "pricing_trends"],
@@ -71,6 +71,16 @@ class MasterIntelligenceAgent:
                 domains=["proptech", "innovation_districts", "smart_buildings", "construction_tech"],
                 capabilities=["technology_adoption", "innovation_opportunities", "efficiency_improvements", "future_trends"]
             )
+        }
+        
+        # Map agent IDs to their folder paths
+        self.agent_registry = {
+            "market_intelligence": self.agents_path / "Market Intelligence Agent",
+            "neighborhood_intelligence": self.agents_path / "Neighborhood Intelligence Agent",
+            "financial_intelligence": self.agents_path / "Financial Intelligence Agent",
+            "environmental_intelligence": self.agents_path / "Environmental Intelligence Agent",
+            "regulatory_intelligence": self.agents_path / "Regulatory Intelligence Agent",
+            "technology_intelligence": self.agents_path / "Technology & Innovation Intelligence Agent"
         }
         
         # Query intent patterns
@@ -187,7 +197,7 @@ class MasterIntelligenceAgent:
             QueryIntent.RISK_ASSESSMENT: ["environmental_intelligence", "financial_intelligence", "market_intelligence"],
             QueryIntent.DEVELOPMENT_FEASIBILITY: ["regulatory_intelligence", "market_intelligence", "environmental_intelligence", "financial_intelligence"],
             QueryIntent.COMPETITIVE_INTELLIGENCE: ["market_intelligence"],
-            QueryIntent.COMPREHENSIVE_ANALYSIS: list(self.agent_registry.keys())  # All agents
+            QueryIntent.COMPREHENSIVE_ANALYSIS: list(self.agent_capabilities.keys())  # All agents
         }
         
         base_agents = agent_mapping.get(intent, ["market_intelligence"])
@@ -211,7 +221,7 @@ class MasterIntelligenceAgent:
         results = {}
         
         for agent_id in agents:
-            if agent_id in self.agent_registry:
+            if agent_id in self.agent_capabilities:
                 agent_data = self.query_specialized_agent(agent_id, query, intent, location)
                 if agent_data:
                     results[agent_id] = agent_data
@@ -237,7 +247,7 @@ class MasterIntelligenceAgent:
         # Simulate querying the agent's knowledge base
         # In production, this would involve more sophisticated retrieval
         agent_knowledge = {
-            "agent_name": self.agent_registry[agent_id].name,
+            "agent_name": self.agent_capabilities[agent_id].name,
             "confidence": 0.85,
             "insights": [],
             "data_points": []

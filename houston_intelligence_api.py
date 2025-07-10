@@ -101,12 +101,18 @@ def query_intelligence():
         context = data.get('context', {})
         
         # Process query through Master Intelligence Agent
-        response = intelligence_agent.process_query(query, context)
+        response = intelligence_agent.analyze_query(query)
         
         return jsonify({
             'status': 'success',
             'query': query,
-            'response': response,
+            'response': {
+                'answer': response.get('executive_summary', 'No summary available'),
+                'insights': response.get('key_insights', []),
+                'data': response.get('data_highlights', []),
+                'sources': response.get('sources', []),
+                'full_analysis': response
+            },
             'timestamp': datetime.datetime.now().isoformat()
         })
         
