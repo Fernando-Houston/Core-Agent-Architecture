@@ -14,7 +14,7 @@ from typing import Dict, List
 import os
 
 # Configuration
-API_BASE_URL = os.getenv("API_URL", "https://your-app.railway.app")
+API_BASE_URL = os.getenv("API_URL", "https://core-agents-6d4f5.up.railway.app")
 API_VERSION = "v1"
 
 # Page config
