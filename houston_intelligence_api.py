@@ -71,6 +71,24 @@ def log_request(f):
         return response
     return decorated_function
 
+@app.route('/', methods=['GET'])
+def index():
+    """Root endpoint with API information"""
+    return jsonify({
+        'name': 'Houston Intelligence Platform API',
+        'version': API_VERSION,
+        'status': 'online',
+        'endpoints': {
+            'health': '/health',
+            'query': f'/api/{API_VERSION}/query',
+            'agents': f'/api/{API_VERSION}/agents',
+            'stats': f'/api/{API_VERSION}/stats',
+            'insights': f'/api/{API_VERSION}/insights/latest',
+            'search': f'/api/{API_VERSION}/search'
+        },
+        'documentation': 'https://github.com/Fernando-Houston/Core-Agent-Architecture'
+    })
+
 @app.route('/health', methods=['GET'])
 def health_check():
     """Health check endpoint"""
