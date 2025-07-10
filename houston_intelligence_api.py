@@ -16,6 +16,7 @@ from typing import Dict, List, Optional, Any
 import logging
 from functools import wraps
 import time
+import os
 
 # Import our master intelligence agent
 from master_intelligence_agent import MasterIntelligenceAgent
@@ -350,8 +351,9 @@ def internal_error(error):
 
 if __name__ == '__main__':
     # Development server
+    port = int(os.environ.get('PORT', 5000))
     app.run(
         host='0.0.0.0',
-        port=5000,
-        debug=True
+        port=port,
+        debug=False  # Turn off debug for production
     )
