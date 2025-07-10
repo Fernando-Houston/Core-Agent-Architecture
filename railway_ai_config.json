@@ -1,0 +1,21 @@
+{
+  "build": {
+    "builder": "nixpacks",
+    "buildCommand": "pip install --no-cache-dir -r requirements.txt"
+  },
+  "deploy": {
+    "startCommand": "gunicorn houston_intelligence_api:app --bind 0.0.0.0:$PORT --timeout 120 --workers 1 --threads 2",
+    "healthcheckPath": "/health",
+    "healthcheckTimeout": 100,
+    "restartPolicyType": "on_failure",
+    "restartPolicyMaxRetries": 3
+  },
+  "env": {
+    "USE_AI_ENHANCED": "true",
+    "TRANSFORMERS_CACHE": "/app/.cache/huggingface",
+    "TORCH_HOME": "/app/.cache/torch",
+    "HF_HOME": "/app/.cache/huggingface",
+    "PYTHONUNBUFFERED": "1",
+    "MODEL_DEVICE": "cpu"
+  }
+}

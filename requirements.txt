@@ -39,3 +39,9 @@ requests>=2.26.0
 
 # Machine Learning for knowledge base search
 scikit-learn>=1.0.0
+
+# Hugging Face AI Models (FREE local execution)
+torch>=2.0.0
+transformers>=4.30.0
+sentencepiece>=0.1.99  # Required for some tokenizers
+protobuf>=3.20.0  # Required for some models

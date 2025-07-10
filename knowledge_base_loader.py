@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Knowledge Base Loader for Houston Intelligence Platform
-Loads and searches through actual knowledge base files instead of using hardcoded responses
+Knowledge Base Loader for Houston Intelligence Platform - FIXED VERSION
+Properly handles the nested dictionary structure in knowledge base files
 """
 
 import json
@@ -34,7 +34,7 @@ class KnowledgeBaseLoader:
         
         knowledge_records = []
         
-        # Map agent IDs to folder names (using underscores as found in actual structure)
+        # Map agent IDs to folder names
         folder_mapping = {
             "market_intelligence": "Market_Intelligence",
             "neighborhood_intelligence": "Neighborhood_Intelligence",
@@ -57,15 +57,37 @@ class KnowledgeBaseLoader:
                 with open(json_file, 'r') as f:
                     data = json.load(f)
                     
-                    # Handle different file structures
+                    # FIXED: Properly handle different file structures
                     if isinstance(data, list):
+                        # It's already a list of records
                         knowledge_records.extend(data)
                     elif isinstance(data, dict):
-                        if 'insights' in data:
+                        # Check if it's a nested dictionary of records
+                        if data and all(isinstance(v, dict) for v in data.values()):
+                            # Check if values look like knowledge records (have id, title, or content)
+                            first_value = next(iter(data.values()))
+                            if any(key in first_value for key in ['id', 'title', 'content', 'insight']):
+                                # This is a knowledge file with nested records
+                                knowledge_records.extend(data.values())
+                            elif 'insights' in data:
+                                # This is a structured insights file
+                                knowledge_records.extend(data['insights'])
+                            elif 'records' in data:
+                                # This is a structured records file
+                                knowledge_records.extend(data['records'])
+                            else:
+                                # This is likely a metadata file, skip or add as single record
+                                if 'agent_name' not in data:  # Skip pure metadata files
+                                    knowledge_records.append(data)
+                        elif 'insights' in data:
                             knowledge_records.extend(data['insights'])
                         elif 'records' in data:
                             knowledge_records.extend(data['records'])
+                        # Skip pure metadata files
+                        elif 'agent_name' in data and 'categories' in data:
+                            continue  # Skip expertise_summary.json type files
                         else:
+                            # Single record
                             knowledge_records.append(data)
                             
             except Exception as e:
@@ -78,6 +100,8 @@ class KnowledgeBaseLoader:
         
         # Build TF-IDF matrix for searching
         self._build_tfidf_index(agent_name, knowledge_records)
+        
+        logger.info(f"Loaded {len(knowledge_records)} records for {agent_name}")
         
         return knowledge_records
     
@@ -94,34 +118,58 @@ class KnowledgeBaseLoader:
             # Add various fields to searchable text
             if 'title' in record:
                 text_parts.append(str(record['title']))
-            if 'content' in record:
+            
+            # Handle nested content structure
+            if 'content' in record and isinstance(record['content'], dict):
+                content = record['content']
+                if 'summary' in content:
+                    text_parts.append(str(content['summary']))
+                if 'key_findings' in content and isinstance(content['key_findings'], list):
+                    text_parts.extend([str(f) for f in content['key_findings']])
+                if 'recommendations' in content and isinstance(content['recommendations'], list):
+                    text_parts.extend([str(r) for r in content['recommendations']])
+                # Add any string values from metrics
+                if 'metrics' in content and isinstance(content['metrics'], dict):
+                    for key, value in content['metrics'].items():
+                        text_parts.append(f"{key} {value}")
+            elif 'content' in record:
                 text_parts.append(str(record['content']))
-            if 'insight' in record:
-                text_parts.append(str(record['insight']))
-            if 'summary' in record:
-                text_parts.append(str(record['summary']))
-            if 'key_findings' in record:
-                text_parts.append(' '.join(str(f) for f in record['key_findings']))
+            
+            # Add other searchable fields
+            for field in ['insight', 'summary', 'domain', 'category', 'subcategory']:
+                if field in record:
+                    text_parts.append(str(record[field]))
+            
+            # Add location/neighborhood info
             if 'location' in record:
                 text_parts.append(str(record['location']))
             if 'neighborhood' in record:
                 text_parts.append(str(record['neighborhood']))
-            if 'tags' in record:
-                text_parts.append(' '.join(str(t) for t in record['tags']))
+            if 'geographic_scope' in record and isinstance(record['geographic_scope'], list):
+                text_parts.extend([str(loc) for loc in record['geographic_scope']])
+            
+            # Add tags
+            if 'tags' in record and isinstance(record['tags'], list):
+                text_parts.extend([str(t) for t in record['tags']])
                 
-            texts.append(' '.join(text_parts))
+            # Combine all text
+            combined_text = ' '.join(text_parts)
+            texts.append(combined_text)
         
         # Create TF-IDF vectorizer
         vectorizer = TfidfVectorizer(
             max_features=1000,
             stop_words='english',
-            ngram_range=(1, 2)
+            ngram_range=(1, 2),
+            min_df=1,  # Include terms that appear in at least 1 document
+            max_df=0.95  # Exclude terms that appear in more than 95% of documents
         )
         
         try:
             tfidf_matrix = vectorizer.fit_transform(texts)
             self.vectorizers[agent_name] = vectorizer
             self.tfidf_matrices[agent_name] = tfidf_matrix
+            logger.info(f"Built TF-IDF index for {agent_name} with vocabulary size: {len(vectorizer.vocabulary_)}")
         except Exception as e:
             logger.error(f"Error building TF-IDF index for {agent_name}: {str(e)}")
     
@@ -130,34 +178,35 @@ class KnowledgeBaseLoader:
         # Load knowledge if not already loaded
         records = self.load_agent_knowledge(agent_name)
         
-        if not records or agent_name not in self.vectorizers:
-            return records[:top_k] if records else []
+        if not records:
+            return []
         
-        try:
-            # Vectorize the query
-            query_vector = self.vectorizers[agent_name].transform([query])
-            
-            # Calculate similarities
-            similarities = cosine_similarity(query_vector, self.tfidf_matrices[agent_name]).flatten()
-            
-            # Get top k most similar records
-            top_indices = similarities.argsort()[-top_k:][::-1]
-            
-            results = []
-            for idx in top_indices:
-                if similarities[idx] > 0.1:  # Minimum similarity threshold
-                    record = records[idx].copy()
-                    record['relevance_score'] = float(similarities[idx])
-                    results.append(record)
-            
-            return results
-            
-        except Exception as e:
-            logger.warning(f"TF-IDF search failed for {agent_name}, using fallback: {str(e)}")
-            # Use fallback search
-            return self.search_knowledge_fallback(agent_name, query, top_k)
-            logger.error(f"Error searching knowledge for {agent_name}: {str(e)}")
-            return records[:top_k] if records else []
+        # If TF-IDF search is available, use it
+        if agent_name in self.vectorizers and agent_name in self.tfidf_matrices:
+            try:
+                # Vectorize the query
+                query_vector = self.vectorizers[agent_name].transform([query])
+                
+                # Calculate similarities
+                similarities = cosine_similarity(query_vector, self.tfidf_matrices[agent_name]).flatten()
+                
+                # Get top k most similar records
+                top_indices = similarities.argsort()[-top_k:][::-1]
+                
+                results = []
+                for idx in top_indices:
+                    if similarities[idx] > 0.05:  # Lower threshold for better recall
+                        record = records[idx].copy()
+                        record['relevance_score'] = float(similarities[idx])
+                        results.append(record)
+                
+                return results
+                
+            except Exception as e:
+                logger.warning(f"TF-IDF search failed for {agent_name}, using fallback: {str(e)}")
+        
+        # Fallback to keyword search
+        return self.search_knowledge_fallback(agent_name, query, top_k)
     
     def search_knowledge_fallback(self, agent_name: str, query: str, top_k: int = 5) -> List[Dict[str, Any]]:
         """Fallback search when TF-IDF fails - uses simple keyword matching"""
@@ -173,9 +222,33 @@ class KnowledgeBaseLoader:
         for record in records:
             # Create searchable text from record
             text_parts = []
-            for field in ['title', 'content', 'insight', 'summary', 'location', 'neighborhood']:
+            
+            # Add title
+            if 'title' in record:
+                text_parts.append(str(record['title']))
+            
+            # Add content fields
+            if 'content' in record and isinstance(record['content'], dict):
+                content = record['content']
+                for field in ['summary', 'key_findings', 'recommendations']:
+                    if field in content:
+                        if isinstance(content[field], list):
+                            text_parts.extend([str(item) for item in content[field]])
+                        else:
+                            text_parts.append(str(content[field]))
+            
+            # Add other fields
+            for field in ['insight', 'summary', 'domain', 'category', 'location', 'neighborhood']:
                 if field in record:
                     text_parts.append(str(record[field]))
+            
+            # Add geographic scope
+            if 'geographic_scope' in record and isinstance(record['geographic_scope'], list):
+                text_parts.extend([str(loc) for loc in record['geographic_scope']])
+            
+            # Add tags
+            if 'tags' in record and isinstance(record['tags'], list):
+                text_parts.extend([str(t) for t in record['tags']])
             
             record_text = ' '.join(text_parts).lower()
             record_words = set(record_text.split())
@@ -206,24 +279,56 @@ class KnowledgeBaseLoader:
             records = self.load_agent_knowledge(agent)
             
             for record in records:
-                # Check if record is relevant to the location
-                record_text = json.dumps(record).lower()
-                if location.lower() in record_text:
+                # Check multiple fields for location match
+                location_lower = location.lower()
+                
+                # Check direct location field
+                if 'location' in record and location_lower in str(record['location']).lower():
                     record_copy = record.copy()
                     record_copy['agent_source'] = agent
                     results.append(record_copy)
+                    continue
+                
+                # Check geographic_scope
+                if 'geographic_scope' in record and isinstance(record['geographic_scope'], list):
+                    if any(location_lower in str(scope).lower() for scope in record['geographic_scope']):
+                        record_copy = record.copy()
+                        record_copy['agent_source'] = agent
+                        results.append(record_copy)
+                        continue
+                
+                # Check domain field
+                if 'domain' in record and location_lower in str(record['domain']).lower():
+                    record_copy = record.copy()
+                    record_copy['agent_source'] = agent
+                    results.append(record_copy)
+                    continue
+                
+                # Check in title and content
+                if 'title' in record and location_lower in str(record['title']).lower():
+                    record_copy = record.copy()
+                    record_copy['agent_source'] = agent
+                    results.append(record_copy)
+                    continue
+                
+                # Check in content summary
+                if 'content' in record and isinstance(record['content'], dict):
+                    if 'summary' in record['content'] and location_lower in str(record['content']['summary']).lower():
+                        record_copy = record.copy()
+                        record_copy['agent_source'] = agent
+                        results.append(record_copy)
         
         return results
     
     def get_category_knowledge(self, category: str, agent_name: Optional[str] = None) -> List[Dict[str, Any]]:
         """Get knowledge by category (permits, trends, investments, etc.)"""
         category_keywords = {
-            'permits': ['permit', 'building', 'construction', 'approval', 'zoning'],
-            'trends': ['trend', 'growth', 'market', 'development', 'emerging'],
-            'investment': ['investment', 'roi', 'return', 'opportunity', 'financing'],
-            'risk': ['risk', 'flood', 'environmental', 'hazard', 'compliance'],
-            'developer': ['developer', 'builder', 'construction', 'project'],
-            'technology': ['technology', 'tech', 'innovation', 'smart', 'proptech']
+            'permits': ['permit', 'building', 'construction', 'approval', 'zoning', 'expedited'],
+            'trends': ['trend', 'growth', 'market', 'development', 'emerging', 'forecast', 'projection'],
+            'investment': ['investment', 'roi', 'return', 'opportunity', 'financing', 'funding'],
+            'risk': ['risk', 'flood', 'environmental', 'hazard', 'compliance', 'mitigation'],
+            'developer': ['developer', 'builder', 'construction', 'project', 'development'],
+            'technology': ['technology', 'tech', 'innovation', 'smart', 'proptech', 'digital']
         }
         
         keywords = category_keywords.get(category.lower(), [category.lower()])
@@ -239,7 +344,31 @@ class KnowledgeBaseLoader:
             records = self.load_agent_knowledge(agent)
             
             for record in records:
-                record_text = json.dumps(record).lower()
+                # Create searchable text
+                text_parts = []
+                
+                # Add all text fields
+                for field in ['title', 'category', 'subcategory', 'domain']:
+                    if field in record:
+                        text_parts.append(str(record[field]))
+                
+                # Add content fields
+                if 'content' in record and isinstance(record['content'], dict):
+                    content = record['content']
+                    for field in ['summary', 'key_findings', 'recommendations']:
+                        if field in content:
+                            if isinstance(content[field], list):
+                                text_parts.extend([str(item) for item in content[field]])
+                            else:
+                                text_parts.append(str(content[field]))
+                
+                # Add tags
+                if 'tags' in record and isinstance(record['tags'], list):
+                    text_parts.extend([str(t) for t in record['tags']])
+                
+                record_text = ' '.join(text_parts).lower()
+                
+                # Check if any keyword matches
                 if any(keyword in record_text for keyword in keywords):
                     record_copy = record.copy()
                     record_copy['agent_source'] = agent
@@ -249,17 +378,28 @@ class KnowledgeBaseLoader:
     
     def get_cross_domain_insights(self) -> List[Dict[str, Any]]:
         """Load cross-domain intelligence insights"""
-        cross_domain_path = Path("Processing_Pipeline/Cross_Domain_Intelligence/cross_domain_insights.json")
+        insights = []
         
-        if cross_domain_path.exists():
-            try:
-                with open(cross_domain_path, 'r') as f:
-                    data = json.load(f)
-                    return data.get('insights', [])
-            except Exception as e:
-                logger.error(f"Error loading cross-domain insights: {str(e)}")
+        # Check both possible locations
+        paths_to_check = [
+            self.base_path / "Cross_Domain_Intelligence" / "cross_domain_insights.json",
+            Path("Processing_Pipeline/Cross_Domain_Intelligence/cross_domain_insights.json")
+        ]
         
-        return []
+        for cross_domain_path in paths_to_check:
+            if cross_domain_path.exists():
+                try:
+                    with open(cross_domain_path, 'r') as f:
+                        data = json.load(f)
+                        if isinstance(data, dict) and 'insights' in data:
+                            insights.extend(data['insights'])
+                        elif isinstance(data, list):
+                            insights.extend(data)
+                        break
+                except Exception as e:
+                    logger.error(f"Error loading cross-domain insights from {cross_domain_path}: {str(e)}")
+        
+        return insights
     
     def get_latest_insights(self, limit: int = 10) -> List[Dict[str, Any]]:
         """Get the most recent insights across all agents"""
@@ -296,10 +436,10 @@ class KnowledgeBaseLoader:
 
 
 def test_knowledge_loader():
-    """Test the knowledge base loader"""
+    """Test the fixed knowledge base loader"""
     loader = KnowledgeBaseLoader()
     
-    print("Testing Knowledge Base Loader...")
+    print("Testing Fixed Knowledge Base Loader...")
     print("=" * 60)
     
     # Test loading market intelligence
@@ -309,20 +449,30 @@ def test_knowledge_loader():
         print(f"Sample: {market_records[0].get('title', 'No title')}")
     
     # Test searching
-    search_results = loader.search_knowledge("market_intelligence", "permits Houston", top_k=3)
-    print(f"\nSearch Results for 'permits Houston': {len(search_results)}")
-    for i, result in enumerate(search_results):
-        print(f"{i+1}. {result.get('title', 'No title')} (relevance: {result.get('relevance_score', 0):.2f})")
+    test_queries = [
+        "permits Houston",
+        "Sugar Land investment",
+        "market trends",
+        "expedited permit program"
+    ]
+    
+    for query in test_queries:
+        print(f"\nSearch Results for '{query}':")
+        search_results = loader.search_knowledge("market_intelligence", query, top_k=3)
+        for i, result in enumerate(search_results):
+            title = result.get('title', 'No title')
+            score = result.get('relevance_score', 0)
+            print(f"{i+1}. {title} (relevance: {score:.3f})")
     
     # Test location-specific
-    location_results = loader.get_location_specific_knowledge("Katy")
-    print(f"\nLocation-specific results for 'Katy': {len(location_results)}")
+    location_results = loader.get_location_specific_knowledge("Sugar Land")
+    print(f"\nLocation-specific results for 'Sugar Land': {len(location_results)}")
     
     # Test category search
     permit_results = loader.get_category_knowledge("permits")
     print(f"\nCategory results for 'permits': {len(permit_results)}")
     
-    print("\n✅ Knowledge Base Loader is working!")
+    print("\n✅ Fixed Knowledge Base Loader is working!")
 
 
 if __name__ == "__main__":
