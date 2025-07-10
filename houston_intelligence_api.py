@@ -20,7 +20,6 @@ import os
 
 # Import our master intelligence agent
 from master_intelligence_agent import MasterIntelligenceAgent
-from master_intelligence_agent_ai import AIEnhancedMasterAgent
 from houston_data_enhanced import HoustonDataAPI
 from houston_intelligence_endpoints import houston_endpoints, init_endpoints
 
@@ -49,22 +48,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Initialize Master Intelligence Agent
-# Temporarily disable AI enhancement until we fix Railway build
-USE_AI_ENHANCED = os.getenv('USE_AI_ENHANCED', 'false').lower() == 'true'
-if USE_AI_ENHANCED:
-    try:
-        from master_intelligence_agent_ai import AIEnhancedMasterAgent
-        intelligence_agent = AIEnhancedMasterAgent()
-        logger.info("🚀 Using AI-Enhanced Master Intelligence Agent with Hugging Face models")
-    except ImportError as e:
-        logger.warning(f"AI modules not available: {e}. Using standard agent.")
-        intelligence_agent = MasterIntelligenceAgent()
-    except Exception as e:
-        logger.warning(f"Failed to load AI-enhanced agent: {e}. Falling back to standard agent.")
-        intelligence_agent = MasterIntelligenceAgent()
-else:
-    intelligence_agent = MasterIntelligenceAgent()
-    logger.info("Using standard Master Intelligence Agent")
+intelligence_agent = MasterIntelligenceAgent()
+logger.info("Using Master Intelligence Agent")
 
 # API version
 API_VERSION = "v1"
