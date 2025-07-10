@@ -25,7 +25,8 @@ except ImportError:
     TTS_AVAILABLE = False
 
 # Configuration
-API_BASE_URL = os.getenv("API_URL", "https://core-agents-6d4f5.up.railway.app")
+# Hardcoded for Streamlit deployment
+API_BASE_URL = "https://core-agents-6d4f5.up.railway.app"
 API_VERSION = "v1"
 
 # Page config
