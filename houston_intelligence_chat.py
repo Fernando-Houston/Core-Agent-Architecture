@@ -8,10 +8,21 @@ import streamlit as st
 import requests
 import json
 from datetime import datetime
-import speech_recognition as sr
-import pyttsx3
 from typing import Dict, List
 import os
+
+# Optional imports for voice features
+try:
+    import speech_recognition as sr
+    SPEECH_AVAILABLE = True
+except ImportError:
+    SPEECH_AVAILABLE = False
+
+try:
+    import pyttsx3
+    TTS_AVAILABLE = True
+except ImportError:
+    TTS_AVAILABLE = False
 
 # Configuration
 API_BASE_URL = os.getenv("API_URL", "https://core-agents-6d4f5.up.railway.app")
@@ -53,6 +64,10 @@ def process_query(query: str) -> Dict:
 
 def get_voice_input():
     """Get voice input from microphone"""
+    if not SPEECH_AVAILABLE:
+        st.error("Speech recognition not available. Install with: pip install SpeechRecognition pyaudio")
+        return None
+    
     r = sr.Recognizer()
     with sr.Microphone() as source:
         st.write("🎤 Listening...")
@@ -65,6 +80,9 @@ def get_voice_input():
 
 def speak_response(text: str):
     """Convert text to speech"""
+    if not TTS_AVAILABLE:
+        return
+    
     engine = pyttsx3.init()
     engine.say(text)
     engine.runAndWait()
@@ -235,12 +253,13 @@ st.info("""
 """)
 
 # Error handling for missing dependencies
-if voice_input or voice_output:
+if (voice_input or voice_output) and (not SPEECH_AVAILABLE or not TTS_AVAILABLE):
     st.warning("""
-    **Voice features require additional setup:**
+    **Voice features are disabled. To enable them locally:**
     ```bash
     pip install SpeechRecognition pyttsx3 pyaudio
     ```
+    Note: Voice features don't work on Streamlit Cloud due to browser limitations.
     """)
 
 # Update API URL reminder
