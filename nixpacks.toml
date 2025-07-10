@@ -1,6 +1,0 @@
-# Use the minimal requirements first to get it working
-[phases.install]
-cmds = ["pip install -r requirements-minimal.txt"]
-
-[start]
-cmd = "gunicorn houston_intelligence_api:app --bind 0.0.0.0:$PORT --timeout 120"
