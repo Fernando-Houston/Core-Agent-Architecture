@@ -1,0 +1,131 @@
+{
+  "report_type": "performance_analysis",
+  "generated_at": "2025-07-10T13:46:01.085209",
+  "period_hours": 24,
+  "system_health": {
+    "current_score": 100,
+    "uptime_percent": 100.0,
+    "total_alerts": 0
+  },
+  "real_time_metrics": {
+    "calls_per_minute": {
+      "current": 73,
+      "avg_1min": 73,
+      "avg_5min": 73,
+      "trend": "stable"
+    },
+    "response_time": {
+      "current": 112.97,
+      "avg_1min": 112.97,
+      "avg_5min": 112.97,
+      "trend": "stable"
+    },
+    "error_rate": {
+      "current": 1.37,
+      "avg_1min": 1.37,
+      "avg_5min": 1.37,
+      "trend": "stable"
+    }
+  },
+  "performance_summary": {
+    "avg_response_time": {
+      "average": 126.87,
+      "min": 54.48,
+      "max": 302.97,
+      "data_points": 7
+    },
+    "error_rate": {
+      "average": 2.38,
+      "min": 0.0,
+      "max": 16.67,
+      "data_points": 7
+    },
+    "throughput": {
+      "average": 1.97,
+      "min": 0.8,
+      "max": 3.8,
+      "data_points": 7
+    }
+  },
+  "endpoint_performance": [
+    {
+      "endpoint": "/api/v1/agents/market/query",
+      "total_calls": 35,
+      "avg_response_time": 104.77,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "min_response_time": 100.9,
+      "max_response_time": 119.41,
+      "std_deviation": 3.95
+    },
+    {
+      "endpoint": "/api/v1/agents/neighborhood/analysis",
+      "total_calls": 26,
+      "avg_response_time": 54.35,
+      "error_count": 3,
+      "error_rate": 11.54,
+      "min_response_time": 50.24,
+      "max_response_time": 59.08,
+      "std_deviation": 1.85
+    },
+    {
+      "endpoint": "/api/v1/agents/environmental/risk",
+      "total_calls": 16,
+      "avg_response_time": 84.59,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "min_response_time": 80.15,
+      "max_response_time": 98.75,
+      "std_deviation": 3.92
+    },
+    {
+      "endpoint": "/api/v1/agents/financial/roi",
+      "total_calls": 16,
+      "avg_response_time": 204.1,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "min_response_time": 201.01,
+      "max_response_time": 208.26,
+      "std_deviation": 1.6
+    },
+    {
+      "endpoint": "/api/v1/agents/regulatory/zoning",
+      "total_calls": 16,
+      "avg_response_time": 63.89,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "min_response_time": 61.0,
+      "max_response_time": 67.2,
+      "std_deviation": 1.61
+    },
+    {
+      "endpoint": "/api/v1/search",
+      "total_calls": 16,
+      "avg_response_time": 303.08,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "min_response_time": 300.66,
+      "max_response_time": 306.75,
+      "std_deviation": 1.63
+    },
+    {
+      "endpoint": "/api/v1/agents/technology/innovation",
+      "total_calls": 15,
+      "avg_response_time": 74.15,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "min_response_time": 71.18,
+      "max_response_time": 76.65,
+      "std_deviation": 1.66
+    }
+  ],
+  "hourly_breakdown": {
+    "2025-07-10 13:00": {
+      "avg_response_time": 126.87,
+      "error_rate": 2.38,
+      "throughput": 1.97
+    }
+  },
+  "recent_alerts": [],
+  "recommendations": []
+}

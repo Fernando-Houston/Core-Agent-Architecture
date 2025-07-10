@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "folder_name": "Real-Time Houston Development Pipeline Research",
+    "extraction_timestamp": "2025-07-10T01:36:42.448890",
+    "file_count": 16,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script.py": {
+      "imports": [
+        "import plotly.express as px\nimport plotly.graph_objects as go\nimport pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#944454",
+          "#B4413C",
+          "#1FB8CD",
+          "#D2BA4C",
+          "#5D878F",
+          "#13343B",
+          "#DB4545",
+          "#FFC185",
+          "#964325",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Houston Dev Projects 2024-25",
+          "Investment ($b)",
+          "Projects"
+        ]
+      },
+      "analysis_methods": [
+        "ranking_analysis"
+      ]
+    },
+    "chart_script_1.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.io as pio\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "scatter_plot"
+        ],
+        "color_scheme": [
+          "#1FB8CD"
+        ],
+        "titles": [
+          "Houston Building Permits 2020-2025",
+          "Year",
+          "Num of Permits"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "script_1.py": {
+      "imports": [
+        "import pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "houston_infrastructure_projects.csv",
+        "houston_construction_permits.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": [
+        "totaling"
+      ]
+    },
+    "script_2.py": {
+      "imports": [
+        "import pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "houston_zoning_changes.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    },
+    "chart_script_2.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport pandas as pd\nfrom datetime import datetime\n"
+      ],
+      "functions": [
+        "convert_date"
+      ],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "scatter_plot"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Houston Permitting Center Improvements<br><sub>Streamlining Development Process</sub>",
+          "Timeline"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "script.py": {
+      "imports": [
+        "import pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "houston_development_projects.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": [
+        "aggregation_analysis"
+      ]
+    },
+    "chart_script_3.py": {
+      "imports": [
+        "import plotly.express as px\nimport plotly.graph_objects as go\nimport pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "scatter_plot"
+        ],
+        "color_scheme": [
+          "#1FB8CD",
+          "#D2BA4C",
+          "#5D878F",
+          "#FFC185",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Houston Development Projects by Area",
+          "West \u2190 \u2192 East",
+          "South \u2190 \u2192 North"
+        ]
+      },
+      "analysis_methods": []
+    }
+  }
+}

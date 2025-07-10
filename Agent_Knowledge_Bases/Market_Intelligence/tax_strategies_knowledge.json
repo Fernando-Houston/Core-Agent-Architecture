@@ -1,0 +1,70 @@
+{
+  "26c2a0e4ffc4": {
+    "id": "26c2a0e4ffc4",
+    "timestamp": "2025-07-10T02:28:01.025258",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/financial_analysis_t2.json",
+    "domain": "tax_implications",
+    "category": "tax_strategies",
+    "subcategory": "",
+    "title": "Opportunity Zone Tax Benefits",
+    "content": {
+      "summary": "Tax optimization through opportunity zone investments",
+      "key_findings": [
+        "Capital gains deferral until 2026",
+        "10% basis increase after 5 years",
+        "Tax-free appreciation after 10 years"
+      ],
+      "metrics": {
+        "tax_savings_5yr": 150000,
+        "tax_savings_10yr": 500000,
+        "effective_tax_rate": 15
+      },
+      "recommendations": [
+        "Structure investments through qualified opportunity funds",
+        "Focus on long-term hold strategies",
+        "Combine with other tax incentives"
+      ]
+    },
+    "tags": [
+      "tax",
+      "opportunity-zone",
+      "incentives",
+      "financial"
+    ],
+    "relationships": [],
+    "confidence_score": 0.92,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "tax_savings_5yr",
+        "value": 150000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:01.025258"
+      },
+      {
+        "type": "metric",
+        "name": "tax_savings_10yr",
+        "value": 500000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:01.025258"
+      },
+      {
+        "type": "metric",
+        "name": "effective_tax_rate",
+        "value": 15,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:28:01.025258"
+      }
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.95,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:01.025258",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Database
+*.db
+*.sqlite3
+
+# Test results
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# API Keys - NEVER commit these!
+perplexity_api_key.txt
+api_keys.json
+credentials.json
+
+# Local data
+local_data/
+*.local.json
+
+# Test outputs
+perplexity_test_results_*.json

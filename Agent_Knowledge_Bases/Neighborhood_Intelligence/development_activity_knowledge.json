@@ -1,0 +1,136 @@
+{
+  "48b4dea37eba": {
+    "id": "48b4dea37eba",
+    "timestamp": "2025-07-10T01:52:58.109405",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/sample_t2_analysis.json",
+    "domain": "houston_heights",
+    "category": "development_activity",
+    "subcategory": "mixed_use",
+    "title": "Heights Mixed-Use Development Pipeline",
+    "content": {
+      "summary": "5 major mixed-use projects in pipeline for Houston Heights",
+      "key_findings": [
+        "$250M total investment planned",
+        "Focus on walkable retail and residential",
+        "Strong pre-leasing activity"
+      ],
+      "metrics": {
+        "total_units": 850,
+        "retail_sqft": 125000,
+        "completion_timeline": "2024-2025"
+      }
+    },
+    "tags": [
+      "mixed-use",
+      "development",
+      "houston-heights",
+      "pipeline"
+    ],
+    "relationships": [],
+    "confidence_score": 0.92,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "total_units",
+        "value": 850,
+        "unit": "count",
+        "timestamp": "2025-07-10T01:52:58.109405"
+      },
+      {
+        "type": "metric",
+        "name": "retail_sqft",
+        "value": 125000,
+        "unit": "sqft",
+        "timestamp": "2025-07-10T01:52:58.109405"
+      },
+      {
+        "type": "metric",
+        "name": "completion_timeline",
+        "value": "2024-2025",
+        "unit": "count",
+        "timestamp": "2025-07-10T01:52:58.109405"
+      }
+    ],
+    "geographic_scope": [
+      "Houston Heights",
+      "Heights District"
+    ],
+    "temporal_relevance": "2024-2025",
+    "cross_references": [],
+    "priority_score": 0.7999999999999999,
+    "metadata": {
+      "processing_date": "2025-07-10T01:52:58.109405",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  },
+  "c3f5c6ca4a5c": {
+    "id": "c3f5c6ca4a5c",
+    "timestamp": "2025-07-10T02:39:31.417043",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/sample_t2_analysis.json",
+    "domain": "houston_heights",
+    "category": "development_activity",
+    "subcategory": "mixed_use",
+    "title": "Heights Mixed-Use Development Pipeline",
+    "content": {
+      "summary": "5 major mixed-use projects in pipeline for Houston Heights",
+      "key_findings": [
+        "$250M total investment planned",
+        "Focus on walkable retail and residential",
+        "Strong pre-leasing activity"
+      ],
+      "metrics": {
+        "total_units": 850,
+        "retail_sqft": 125000,
+        "completion_timeline": "2024-2025"
+      },
+      "recommendations": [],
+      "raw_data": {}
+    },
+    "tags": [
+      "mixed-use",
+      "development",
+      "houston-heights",
+      "pipeline",
+      "construction",
+      "project"
+    ],
+    "geographic_scope": [
+      "Houston Heights",
+      "Heights District"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.884,
+    "confidence_score": 0.92,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "total_units",
+        "value": 850,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.417056"
+      },
+      {
+        "type": "metric",
+        "name": "retail_sqft",
+        "value": 125000,
+        "unit": "sqft",
+        "timestamp": "2025-07-10T02:39:31.417058"
+      },
+      {
+        "type": "metric",
+        "name": "completion_timeline",
+        "value": "2024-2025",
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.417060"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.417061",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

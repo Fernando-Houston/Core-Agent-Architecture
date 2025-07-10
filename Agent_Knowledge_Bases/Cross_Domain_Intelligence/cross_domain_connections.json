@@ -1,0 +1,278 @@
+{
+  "generated_at": "2025-07-10T02:29:38.946231",
+  "connections": {
+    "geographic_connections": [
+      {
+        "type": "geographic",
+        "location": "Houston",
+        "agents": [
+          "Market_Intelligence",
+          "Financial_Intelligence",
+          "Environmental_Intelligence",
+          "Technology_Innovation_Intelligence",
+          "Regulatory_Intelligence"
+        ],
+        "record_count": 16,
+        "insights": [
+          "5 different intelligence domains active in Houston",
+          "Houston shows tech-driven market growth potential",
+          "Environmental factors may impact Houston development"
+        ]
+      },
+      {
+        "type": "geographic",
+        "location": "Houston Heights",
+        "agents": [
+          "Neighborhood_Intelligence",
+          "Market_Intelligence",
+          "Financial_Intelligence"
+        ],
+        "record_count": 3,
+        "insights": [
+          "3 different intelligence domains active in Houston Heights"
+        ]
+      },
+      {
+        "type": "geographic",
+        "location": "Heights District",
+        "agents": [
+          "Neighborhood_Intelligence",
+          "Market_Intelligence",
+          "Financial_Intelligence"
+        ],
+        "record_count": 3,
+        "insights": [
+          "3 different intelligence domains active in Heights District"
+        ]
+      },
+      {
+        "type": "geographic",
+        "location": "Inner Loop",
+        "agents": [
+          "Market_Intelligence",
+          "Regulatory_Intelligence"
+        ],
+        "record_count": 2,
+        "insights": [
+          "2 different intelligence domains active in Inner Loop"
+        ]
+      },
+      {
+        "type": "geographic",
+        "location": "Transit Corridors",
+        "agents": [
+          "Market_Intelligence",
+          "Regulatory_Intelligence"
+        ],
+        "record_count": 2,
+        "insights": [
+          "2 different intelligence domains active in Transit Corridors"
+        ]
+      }
+    ],
+    "topic_connections": [
+      {
+        "type": "topic",
+        "tag": "technology",
+        "agents": [
+          "Technology_Innovation_Intelligence",
+          "Market_Intelligence"
+        ],
+        "record_count": 2,
+        "cross_domain_value": "Medium - notable cross-domain relevance"
+      },
+      {
+        "type": "topic",
+        "tag": "mixed-use",
+        "agents": [
+          "Neighborhood_Intelligence",
+          "Market_Intelligence",
+          "Financial_Intelligence"
+        ],
+        "record_count": 4,
+        "cross_domain_value": "High - significant cross-domain impact"
+      },
+      {
+        "type": "topic",
+        "tag": "development",
+        "agents": [
+          "Neighborhood_Intelligence",
+          "Market_Intelligence",
+          "Regulatory_Intelligence",
+          "Financial_Intelligence"
+        ],
+        "record_count": 6,
+        "cross_domain_value": "Critical - affects multiple domains"
+      },
+      {
+        "type": "topic",
+        "tag": "houston-heights",
+        "agents": [
+          "Neighborhood_Intelligence",
+          "Market_Intelligence",
+          "Financial_Intelligence"
+        ],
+        "record_count": 4,
+        "cross_domain_value": "High - significant cross-domain impact"
+      },
+      {
+        "type": "topic",
+        "tag": "pipeline",
+        "agents": [
+          "Neighborhood_Intelligence",
+          "Market_Intelligence",
+          "Financial_Intelligence"
+        ],
+        "record_count": 3,
+        "cross_domain_value": "High - significant cross-domain impact"
+      },
+      {
+        "type": "topic",
+        "tag": "risk",
+        "agents": [
+          "Financial_Intelligence",
+          "Environmental_Intelligence"
+        ],
+        "record_count": 2,
+        "cross_domain_value": "Medium - notable cross-domain relevance"
+      },
+      {
+        "type": "topic",
+        "tag": "environmental",
+        "agents": [
+          "Market_Intelligence",
+          "Environmental_Intelligence"
+        ],
+        "record_count": 4,
+        "cross_domain_value": "Medium - notable cross-domain relevance"
+      },
+      {
+        "type": "topic",
+        "tag": "infrastructure",
+        "agents": [
+          "Market_Intelligence",
+          "Environmental_Intelligence"
+        ],
+        "record_count": 3,
+        "cross_domain_value": "Medium - notable cross-domain relevance"
+      },
+      {
+        "type": "topic",
+        "tag": "financial",
+        "agents": [
+          "Market_Intelligence",
+          "Financial_Intelligence"
+        ],
+        "record_count": 4,
+        "cross_domain_value": "Medium - notable cross-domain relevance"
+      },
+      {
+        "type": "topic",
+        "tag": "regulatory",
+        "agents": [
+          "Market_Intelligence",
+          "Regulatory_Intelligence"
+        ],
+        "record_count": 3,
+        "cross_domain_value": "Medium - notable cross-domain relevance"
+      },
+      {
+        "type": "topic",
+        "tag": "zoning",
+        "agents": [
+          "Market_Intelligence",
+          "Regulatory_Intelligence"
+        ],
+        "record_count": 2,
+        "cross_domain_value": "Medium - notable cross-domain relevance"
+      },
+      {
+        "type": "topic",
+        "tag": "opportunity",
+        "agents": [
+          "Market_Intelligence",
+          "Regulatory_Intelligence"
+        ],
+        "record_count": 2,
+        "cross_domain_value": "Medium - notable cross-domain relevance"
+      }
+    ],
+    "value_chain_connections": [
+      {
+        "type": "value_chain",
+        "name": "Development Pipeline",
+        "agents_involved": [
+          "Regulatory_Intelligence",
+          "Financial_Intelligence",
+          "Technology_Innovation_Intelligence",
+          "Market_Intelligence"
+        ],
+        "chain_strength": 1.0,
+        "insights": [
+          "Complete development intelligence from zoning to market",
+          "All critical development stages covered"
+        ]
+      },
+      {
+        "type": "value_chain",
+        "name": "Risk Management Chain",
+        "agents_involved": [
+          "Environmental_Intelligence",
+          "Regulatory_Intelligence",
+          "Financial_Intelligence",
+          "Market_Intelligence"
+        ],
+        "chain_strength": 1.0,
+        "insights": [
+          "Comprehensive risk assessment across domains",
+          "Enables proactive risk mitigation strategies"
+        ]
+      },
+      {
+        "type": "value_chain",
+        "name": "Innovation Impact Chain",
+        "agents_involved": [
+          "Technology_Innovation_Intelligence",
+          "Market_Intelligence",
+          "Neighborhood_Intelligence",
+          "Financial_Intelligence"
+        ],
+        "chain_strength": 1.0,
+        "insights": [
+          "Technology adoption driving neighborhood transformation",
+          "Innovation creating measurable value increases"
+        ]
+      }
+    ],
+    "risk_opportunity_pairs": [
+      {
+        "type": "risk_opportunity",
+        "risk": {
+          "agent": "Financial_Intelligence",
+          "title": "Investment Risk Matrix for Houston Development",
+          "domain": "investment_analysis"
+        },
+        "opportunity": {
+          "agent": "Market_Intelligence",
+          "title": "Opportunity Zone Tax Benefits",
+          "domain": "tax_implications"
+        },
+        "connection_strength": 0.6571428571428571
+      },
+      {
+        "type": "risk_opportunity",
+        "risk": {
+          "agent": "Financial_Intelligence",
+          "title": "Investment Risk Matrix for Houston Development",
+          "domain": "investment_analysis"
+        },
+        "opportunity": {
+          "agent": "Financial_Intelligence",
+          "title": "Mixed-Use Development ROI Model",
+          "domain": "financing_options"
+        },
+        "connection_strength": 0.7333333333333334
+      }
+    ]
+  }
+}

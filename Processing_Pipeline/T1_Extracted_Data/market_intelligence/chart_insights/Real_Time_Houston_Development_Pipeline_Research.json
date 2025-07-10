@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "folder_name": "Real-Time Houston Development Pipeline Research",
+    "extraction_timestamp": "2025-07-10T01:36:42.448890",
+    "file_count": 16,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "houston_permitting_timeline.png": {
+      "file_name": "houston_permitting_timeline.png",
+      "file_size": 231251,
+      "chart_type": "timeline",
+      "insights": {
+        "location": "houston",
+        "topic": "permit"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_development_projects.png": {
+      "file_name": "houston_development_projects.png",
+      "file_size": 226481,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston",
+        "topic": "development"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_development_scatter.png": {
+      "file_name": "houston_development_scatter.png",
+      "file_size": 195054,
+      "chart_type": "scatter_plot",
+      "insights": {
+        "location": "houston",
+        "topic": "development"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_permits_chart.png": {
+      "file_name": "houston_permits_chart.png",
+      "file_size": 189468,
+      "chart_type": "bar_chart",
+      "insights": {
+        "location": "houston",
+        "topic": "permit"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "report_type": "daily",
+  "generated_at": "2025-07-10T13:46:01.080857",
+  "period": {
+    "start": "2025-07-09T13:46:01.080857",
+    "end": "2025-07-10T13:46:01.080857"
+  },
+  "summary": {
+    "total_api_calls": 140,
+    "unique_users": 20,
+    "avg_response_time_ms": 119.16,
+    "error_rate_percent": 2.14,
+    "system_uptime_percent": 100.0,
+    "health_score": 100
+  },
+  "agent_breakdown": {
+    "Market_Intelligence": 35,
+    "Neighborhood_Intelligence": 26,
+    "Regulatory_Intelligence": 16,
+    "Master_Intelligence": 16,
+    "Financial_Intelligence": 16,
+    "Environmental_Intelligence": 16,
+    "Technology_Innovation": 15
+  },
+  "top_endpoints": [
+    {
+      "endpoint": "/api/v1/agents/market/query",
+      "count": 35
+    },
+    {
+      "endpoint": "/api/v1/agents/neighborhood/analysis",
+      "count": 26
+    },
+    {
+      "endpoint": "/api/v1/agents/environmental/risk",
+      "count": 16
+    },
+    {
+      "endpoint": "/api/v1/agents/financial/roi",
+      "count": 16
+    },
+    {
+      "endpoint": "/api/v1/agents/regulatory/zoning",
+      "count": 16
+    },
+    {
+      "endpoint": "/api/v1/search",
+      "count": 16
+    },
+    {
+      "endpoint": "/api/v1/agents/technology/innovation",
+      "count": 15
+    }
+  ],
+  "hourly_pattern": [
+    {
+      "hour": 13,
+      "count": 140
+    }
+  ],
+  "alerts_count": 0,
+  "performance_metrics": {
+    "avg_response_time": {
+      "average": 126.87,
+      "min": 54.48,
+      "max": 302.97,
+      "data_points": 7
+    },
+    "error_rate": {
+      "average": 2.38,
+      "min": 0.0,
+      "max": 16.67,
+      "data_points": 7
+    },
+    "throughput": {
+      "average": 1.97,
+      "min": 0.8,
+      "max": 3.8,
+      "data_points": 7
+    }
+  }
+}

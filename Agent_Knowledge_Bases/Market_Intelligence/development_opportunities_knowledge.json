@@ -1,0 +1,64 @@
+{
+  "0403a497ce80": {
+    "id": "0403a497ce80",
+    "timestamp": "2025-07-10T02:28:03.539777",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/neighborhood_analysis_t2.json",
+    "domain": "katy_area",
+    "category": "development_opportunities",
+    "subcategory": "",
+    "title": "Katy Area Development Pipeline",
+    "content": {
+      "summary": "Significant development opportunities in Katy expansion areas",
+      "key_findings": [
+        "2000+ acres available for development",
+        "New master-planned communities",
+        "Commercial development opportunities"
+      ],
+      "metrics": {
+        "available_acres": 2000,
+        "planned_units": 5000,
+        "commercial_sqft": 500000
+      }
+    },
+    "tags": [
+      "development",
+      "opportunities",
+      "katy"
+    ],
+    "relationships": [],
+    "confidence_score": 0.88,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "available_acres",
+        "value": 2000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:03.539777"
+      },
+      {
+        "type": "metric",
+        "name": "planned_units",
+        "value": 5000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:03.539777"
+      },
+      {
+        "type": "metric",
+        "name": "commercial_sqft",
+        "value": 500000,
+        "unit": "sqft",
+        "timestamp": "2025-07-10T02:28:03.539777"
+      }
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.7999999999999999,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:03.539777",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

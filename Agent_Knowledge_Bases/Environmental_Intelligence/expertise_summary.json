@@ -1,0 +1,38 @@
+{
+  "agent_name": "Environmental_Intelligence",
+  "generated_at": "2025-07-10T02:41:15.614341",
+  "total_insights": 8,
+  "categories": {
+    "risk_mitigation": 2,
+    "compliance_requirements": 2,
+    "risk_assessment": 3,
+    "environmental_metrics": 1
+  },
+  "top_insights": [
+    {
+      "title": "Environmental Compliance Checklist 2024",
+      "priority": 1.0,
+      "summary": "Comprehensive compliance requirements for Houston developments"
+    },
+    {
+      "title": "Investment Risk Matrix for Houston Development",
+      "priority": 0.972,
+      "summary": "Comprehensive risk assessment across investment types"
+    },
+    {
+      "title": "Environmental Compliance Checklist 2024",
+      "priority": 0.95,
+      "summary": "Comprehensive compliance requirements for Houston developments"
+    },
+    {
+      "title": "Updated Flood Risk Maps and Mitigation Strategies",
+      "priority": 0.926,
+      "summary": "New FEMA maps show reduced flood risk in key development areas"
+    },
+    {
+      "title": "Updated Flood Risk Assessment - West Houston",
+      "priority": 0.926,
+      "summary": "Revised flood maps show reduced risk in key development areas"
+    }
+  ]
+}

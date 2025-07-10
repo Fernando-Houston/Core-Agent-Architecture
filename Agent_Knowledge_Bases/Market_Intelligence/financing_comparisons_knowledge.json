@@ -1,0 +1,73 @@
+{
+  "94955c98c342": {
+    "id": "94955c98c342",
+    "timestamp": "2025-07-10T02:28:01.025510",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/financial_analysis_t2.json",
+    "domain": "lending_trends",
+    "category": "financing_comparisons",
+    "subcategory": "",
+    "title": "Current Lending Environment Analysis",
+    "content": {
+      "summary": "Favorable lending conditions for qualified developers",
+      "key_findings": [
+        "Construction loan rates 7.5-8.5%",
+        "Permanent financing 6.0-7.0%",
+        "LTV ratios up to 75% for strong projects"
+      ],
+      "metrics": {
+        "avg_construction_rate": 8.0,
+        "avg_permanent_rate": 6.5,
+        "typical_ltv": 70,
+        "typical_dscr": 1.25
+      }
+    },
+    "tags": [
+      "lending",
+      "financing",
+      "rates",
+      "financial"
+    ],
+    "relationships": [],
+    "confidence_score": 0.88,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "avg_construction_rate",
+        "value": 8.0,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:28:01.025510"
+      },
+      {
+        "type": "metric",
+        "name": "avg_permanent_rate",
+        "value": 6.5,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:28:01.025510"
+      },
+      {
+        "type": "metric",
+        "name": "typical_ltv",
+        "value": 70,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:01.025510"
+      },
+      {
+        "type": "metric",
+        "name": "typical_dscr",
+        "value": 1.25,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:01.025510"
+      }
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.7999999999999999,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:01.025510",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

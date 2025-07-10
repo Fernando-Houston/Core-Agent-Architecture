@@ -1,0 +1,352 @@
+{
+  "domain": "technology_intelligence",
+  "extraction_timestamp": "2025-01-10T10:55:00",
+  "files_processed": 24,
+  "aggregated_data": {
+    "innovation_districts": {
+      "districts": {
+        "Ion District": {
+          "company_count": 125,
+          "tech_employment": 8500,
+          "growth_rate": 35,
+          "vacancy_rate": 5.2,
+          "avg_rent": 42.50,
+          "focus_sectors": ["healthtech", "energy tech", "space tech"],
+          "infrastructure_rating": 9.2,
+          "anchor_companies": ["Microsoft", "Chevron Technology Ventures", "Amazon Web Services"]
+        },
+        "TMC Innovation": {
+          "company_count": 85,
+          "tech_employment": 12000,
+          "growth_rate": 28,
+          "vacancy_rate": 4.8,
+          "avg_rent": 45.00,
+          "focus_sectors": ["biotech", "medtech", "digital health"],
+          "infrastructure_rating": 8.8,
+          "anchor_companies": ["Johnson & Johnson", "TMC Venture Fund"]
+        },
+        "East End Maker Hub": {
+          "company_count": 45,
+          "tech_employment": 2200,
+          "growth_rate": 52,
+          "vacancy_rate": 8.5,
+          "avg_rent": 28.50,
+          "focus_sectors": ["hardware", "IoT", "robotics"],
+          "infrastructure_rating": 7.5,
+          "anchor_companies": []
+        }
+      },
+      "ecosystem_metrics": {
+        "university_connections": ["Rice University", "UH", "Texas A&M"],
+        "accelerator_count": 12,
+        "vc_firms": 18,
+        "tech_graduates": 6500,
+        "bootcamp_grads": 1200,
+        "retention_rate": 72,
+        "avg_salary": 95000,
+        "startups_per_sqmi": 15,
+        "annual_vc_funding": 850000000
+      },
+      "development_pipeline": [
+        {
+          "name": "The Grid",
+          "district": "Ion District",
+          "square_feet": 450000,
+          "completion_date": "2025-Q3",
+          "pre_lease_pct": 65,
+          "smart_features": ["5G ready", "IoT infrastructure", "Smart energy"],
+          "target_sectors": ["AI/ML", "cleantech"],
+          "tech_focus": true
+        },
+        {
+          "name": "TMC³ Phase 2",
+          "district": "TMC Innovation",
+          "square_feet": 350000,
+          "completion_date": "2026-Q1",
+          "pre_lease_pct": 45,
+          "smart_features": ["Biometric access", "Lab automation", "Data center"],
+          "target_sectors": ["biotech", "pharma"],
+          "tech_focus": true
+        }
+      ]
+    },
+    "proptech": {
+      "adoption_metrics": {
+        "smart_building_systems": {
+          "adoption_rate": 42,
+          "yoy_growth": 35,
+          "penetration": 28,
+          "cost_per_sqft": 8.50
+        },
+        "property_management_software": {
+          "adoption_rate": 68,
+          "yoy_growth": 22,
+          "penetration": 55,
+          "cost_per_unit": 125
+        },
+        "virtual_tours": {
+          "adoption_rate": 85,
+          "yoy_growth": 45,
+          "penetration": 72,
+          "cost_per_property": 2500
+        },
+        "blockchain_transactions": {
+          "adoption_rate": 8,
+          "yoy_growth": 120,
+          "penetration": 3,
+          "cost_per_transaction": 5000
+        }
+      },
+      "tech_categories": {
+        "building_operations": {
+          "solutions": ["BMS", "Energy management", "Predictive maintenance"],
+          "implementation_cost": 250000,
+          "payback_months": 24,
+          "benefits": ["25% energy reduction", "30% maintenance savings"],
+          "complexity": "medium",
+          "market_value": 450000000
+        },
+        "tenant_experience": {
+          "solutions": ["Mobile apps", "Smart access", "Service requests"],
+          "implementation_cost": 150000,
+          "payback_months": 18,
+          "benefits": ["15% higher retention", "20% fewer complaints"],
+          "complexity": "low",
+          "market_value": 320000000
+        },
+        "construction_tech": {
+          "solutions": ["BIM", "Drones", "Modular construction"],
+          "implementation_cost": 500000,
+          "payback_months": 36,
+          "benefits": ["20% schedule reduction", "15% cost savings"],
+          "complexity": "high",
+          "market_value": 680000000
+        }
+      },
+      "roi_analysis": {
+        "smart_building": {
+          "energy_reduction": 28,
+          "opex_reduction": 22,
+          "satisfaction_increase": 18,
+          "payback": 2.5
+        },
+        "prop_mgmt": {
+          "efficiency": 35,
+          "cost_savings": 18,
+          "revenue_lift": 8
+        },
+        "construction": {
+          "schedule_reduction": 20,
+          "cost_reduction": 15,
+          "defect_reduction": 40
+        }
+      },
+      "adoption_barriers": [
+        {
+          "name": "Legacy system integration",
+          "severity": "high",
+          "solution": "Phased migration with API layers"
+        },
+        {
+          "name": "ROI uncertainty",
+          "severity": "medium",
+          "solution": "Pilot programs with clear metrics"
+        }
+      ]
+    },
+    "smart_city": {
+      "active_programs": [
+        {
+          "name": "Houston Smart Cities Alliance",
+          "category": "Infrastructure",
+          "annual_budget": 25000000,
+          "implementation_timeline": "2024-2027",
+          "private_participation": "PPP model",
+          "real_estate_benefit": "Reduced utility costs, faster permits"
+        },
+        {
+          "name": "Resilient Houston",
+          "category": "Climate",
+          "annual_budget": 45000000,
+          "implementation_timeline": "2023-2030",
+          "private_participation": "Grant matching",
+          "real_estate_benefit": "Flood mitigation, green infrastructure"
+        }
+      ],
+      "developer_integration": {
+        "infrastructure_standards": ["Smart meter ready", "EV charging capability", "Fiber to unit"],
+        "infrastructure_incentives": ["Expedited permitting", "Tax rebates", "Density bonuses"],
+        "smart_building_cert": "Houston Smart Building Standard",
+        "city_platforms": ["Houston Open Data", "311 Integration API"],
+        "data_requirements": ["Energy usage", "Water consumption", "Occupancy"],
+        "data_sharing_benefits": ["Performance benchmarking", "Predictive city services"],
+        "sustainability_goals": ["Carbon neutral by 2050", "50% energy reduction"],
+        "reporting_requirements": ["Annual energy audit", "ESG metrics"],
+        "recognition_programs": ["Smart Building Awards", "Sustainability Leader"]
+      },
+      "funding_opportunities": [
+        {
+          "name": "Smart Infrastructure Grant",
+          "max_funding": 2000000,
+          "eligible_types": ["IoT deployment", "Energy systems", "Data platforms"],
+          "application_period": "Q1-Q2 annually",
+          "approval_rate": 35,
+          "match_requirement": true
+        }
+      ],
+      "ppp_opportunities": [
+        {
+          "name": "Smart Corridor Development",
+          "description": "IoT-enabled mixed-use corridor",
+          "private_investment": 50000000,
+          "revenue_structure": "TIF + usage fees",
+          "project_timeline": "5 years",
+          "selection_factors": ["Technical capability", "Financial strength", "Innovation"]
+        }
+      ]
+    },
+    "tech_infrastructure": {
+      "connectivity_metrics": {
+        "avg_speed_mbps": 250,
+        "gigabit_coverage_pct": 82,
+        "provider_count": 8,
+        "uptime_pct": 99.5,
+        "business_fiber_pct": 68
+      },
+      "data_centers": [
+        {"name": "CyrusOne Houston", "capacity_mw": 50, "tier": 4, "edge_capable": true, "pue": 1.4},
+        {"name": "DataBank HOU1", "capacity_mw": 35, "tier": 3, "edge_capable": true, "pue": 1.5},
+        {"name": "QTS Houston", "capacity_mw": 40, "tier": 4, "edge_capable": false, "pue": 1.6}
+      ],
+      "5g_deployment": {
+        "coverage": 65,
+        "carriers": ["Verizon", "AT&T", "T-Mobile"],
+        "small_cells": 1250,
+        "mmwave_coverage": 15,
+        "full_coverage_date": "2025-Q4"
+      },
+      "identified_gaps": [
+        {
+          "type": "Last mile fiber",
+          "business_impact": "Limited gigabit access in emerging areas",
+          "proposed_solution": "Public-private fiber expansion",
+          "resolution_timeline": "2025-2026",
+          "required_investment": 25000000
+        }
+      ]
+    },
+    "digital_transformation": {
+      "industry_maturity": {
+        "maturity_score": 45,
+        "relative_position": "lagging",
+        "leading_companies": ["Hines", "Greystar", "Camden"],
+        "typical_gaps": ["Data integration", "Process automation", "Customer platforms"],
+        "functional_scores": {
+          "leasing": 65,
+          "operations": 45,
+          "construction": 35,
+          "finance": 55
+        }
+      },
+      "transformation_areas": [
+        {
+          "function": "Leasing and Marketing",
+          "current_maturity": "basic digital",
+          "target_maturity": "AI-powered",
+          "enabling_tech": ["AI chatbots", "Predictive analytics", "VR tours"],
+          "investment": 2500000,
+          "roi_pct": 45,
+          "timeline_months": 18
+        },
+        {
+          "function": "Building Operations",
+          "current_maturity": "manual/reactive",
+          "target_maturity": "predictive/autonomous",
+          "enabling_tech": ["IoT sensors", "ML algorithms", "Digital twins"],
+          "investment": 3500000,
+          "roi_pct": 38,
+          "timeline_months": 24
+        }
+      ],
+      "recommended_stack": {
+        "platforms": ["Salesforce", "Yardi", "Building OS"],
+        "integration": ["MuleSoft", "APIs", "Data lake"],
+        "analytics": ["Tableau", "Power BI", "Custom ML"],
+        "automation": ["RPA", "Workflow engines"],
+        "total_cost": 5000000,
+        "phases": ["Foundation", "Integration", "Intelligence", "Optimization"]
+      },
+      "expected_benefits": {
+        "efficiency_gain": 35,
+        "cost_savings": 22,
+        "revenue_increase": 12,
+        "nps_improvement": 25,
+        "market_differentiation": "Technology leader positioning"
+      }
+    },
+    "tech_investment": {
+      "vc_metrics": {
+        "total_invested": 285000000,
+        "deals": 42,
+        "avg_deal": 6800000,
+        "yoy_growth": 55,
+        "active_vcs": ["Energy Transition Ventures", "Mercury Fund", "Cottonwood"],
+        "top_sectors": ["PropTech", "ClimateTech", "ConTech"]
+      },
+      "corporate_venture": {
+        "companies": ["Hines", "Camden", "Howard Hughes"],
+        "focus_areas": ["Smart buildings", "Sustainability", "Tenant experience"],
+        "partnerships": 15,
+        "acquisitions": ["Honest Buildings", "VTS", "HqO"],
+        "innovation_centers": ["Hines Innovation Lab", "Camden Tech Center"]
+      },
+      "emerging_tech": [
+        {
+          "name": "Digital Twins",
+          "maturity_stage": "early_adoption",
+          "investment_growth": 85,
+          "applications": ["Design optimization", "Operations", "Predictive maintenance"],
+          "mainstream_timeline": "2-3 years",
+          "opportunity_size": 450000000
+        },
+        {
+          "name": "AI/ML in CRE",
+          "maturity_stage": "growth",
+          "investment_growth": 65,
+          "applications": ["Valuation", "Market prediction", "Tenant matching"],
+          "mainstream_timeline": "1-2 years",
+          "opportunity_size": 680000000
+        }
+      ]
+    },
+    "tech_gaps": [
+      {
+        "description": "Limited AI/ML capabilities",
+        "business_impact": "Missing predictive insights",
+        "leaders": ["CoStar", "RealPage"],
+        "investment_needed": 2000000,
+        "priority": "high"
+      }
+    ],
+    "potential_partners": [
+      {
+        "company": "Procore",
+        "technology": "Construction management",
+        "structure": "Strategic partnership",
+        "benefit": "Streamline construction process",
+        "complexity": "low"
+      },
+      {
+        "company": "Matterport",
+        "technology": "3D visualization",
+        "structure": "Preferred vendor",
+        "benefit": "Enhanced marketing and leasing",
+        "complexity": "low"
+      }
+    ]
+  },
+  "extraction_stats": {
+    "success_rate": 0.95,
+    "confidence_score": 0.91
+  }
+}

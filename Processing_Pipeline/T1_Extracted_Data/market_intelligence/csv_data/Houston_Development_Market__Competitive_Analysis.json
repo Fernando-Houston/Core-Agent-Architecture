@@ -1,0 +1,631 @@
+{
+  "metadata": {
+    "folder_name": "Houston Development Market_ Competitive Analysis",
+    "extraction_timestamp": "2025-07-10T01:36:42.422015",
+    "file_count": 21,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "houston_residential_activity_by_area_2024.csv": {
+      "shape": [
+        15,
+        7
+      ],
+      "columns": [
+        "Area/Region",
+        "Active Builders",
+        "New Home Communities",
+        "Price Range (Low)",
+        "Price Range (High)",
+        "Top Builder",
+        "Key Communities"
+      ],
+      "data_types": {
+        "Area/Region": "object",
+        "Active Builders": "int64",
+        "New Home Communities": "int64",
+        "Price Range (Low)": "int64",
+        "Price Range (High)": "int64",
+        "Top Builder": "object",
+        "Key Communities": "object"
+      },
+      "null_counts": {
+        "Area/Region": 0,
+        "Active Builders": 0,
+        "New Home Communities": 0,
+        "Price Range (Low)": 0,
+        "Price Range (High)": 0,
+        "Top Builder": 0,
+        "Key Communities": 0
+      },
+      "summary_stats": {
+        "Active Builders": {
+          "count": 15.0,
+          "mean": 7.866666666666666,
+          "std": 3.24844285041017,
+          "min": 3.0,
+          "25%": 5.5,
+          "50%": 8.0,
+          "75%": 9.5,
+          "max": 15.0
+        },
+        "New Home Communities": {
+          "count": 15.0,
+          "mean": 29.266666666666666,
+          "std": 11.442194261758079,
+          "min": 12.0,
+          "25%": 20.5,
+          "50%": 28.0,
+          "75%": 36.5,
+          "max": 52.0
+        },
+        "Price Range (Low)": {
+          "count": 15.0,
+          "mean": 288666.6666666667,
+          "std": 32484.428504101703,
+          "min": 240000.0,
+          "25%": 265000.0,
+          "50%": 280000.0,
+          "75%": 315000.0,
+          "max": 350000.0
+        },
+        "Price Range (High)": {
+          "count": 15.0,
+          "mean": 595333.3333333334,
+          "std": 138814.71034988982,
+          "min": 400000.0,
+          "25%": 500000.0,
+          "50%": 580000.0,
+          "75%": 665000.0,
+          "max": 950000.0
+        }
+      },
+      "sample_data": [
+        {
+          "Area/Region": "Katy/Fulshear",
+          "Active Builders": 12,
+          "New Home Communities": 45,
+          "Price Range (Low)": 280000,
+          "Price Range (High)": 650000,
+          "Top Builder": "Perry Homes",
+          "Key Communities": "Elyson, Cross Creek Ranch, Fulshear Lakes"
+        },
+        {
+          "Area/Region": "The Woodlands/Conroe",
+          "Active Builders": 15,
+          "New Home Communities": 52,
+          "Price Range (Low)": 320000,
+          "Price Range (High)": 950000,
+          "Top Builder": "Toll Brothers",
+          "Key Communities": "Woodforest, Artavia, Harper's Preserve"
+        },
+        {
+          "Area/Region": "Cypress/Northwest",
+          "Active Builders": 10,
+          "New Home Communities": 38,
+          "Price Range (Low)": 250000,
+          "Price Range (High)": 520000,
+          "Top Builder": "D.R. Horton",
+          "Key Communities": "Bridgeland, Marvida, Tavola"
+        },
+        {
+          "Area/Region": "Sugar Land/Missouri City",
+          "Active Builders": 8,
+          "New Home Communities": 28,
+          "Price Range (Low)": 350000,
+          "Price Range (High)": 750000,
+          "Top Builder": "Village Builders",
+          "Key Communities": "Sienna, Riverstone, The George"
+        },
+        {
+          "Area/Region": "Pearland/Friendswood",
+          "Active Builders": 6,
+          "New Home Communities": 22,
+          "Price Range (Low)": 320000,
+          "Price Range (High)": 580000,
+          "Top Builder": "Lennar",
+          "Key Communities": "Meridiana, Shadow Creek Ranch"
+        }
+      ],
+      "key_metrics": {
+        "Price Range (Low)_median": 280000.0,
+        "Price Range (Low)_range": [
+          240000,
+          350000
+        ],
+        "Price Range (High)_median": 580000.0,
+        "Price Range (High)_range": [
+          400000,
+          950000
+        ]
+      }
+    },
+    "houston_development_trends_2024.csv": {
+      "shape": [
+        10,
+        5
+      ],
+      "columns": [
+        "Category",
+        "Key Metrics",
+        "Major Trends",
+        "Geographic Focus",
+        "Key Players"
+      ],
+      "data_types": {
+        "Category": "object",
+        "Key Metrics": "object",
+        "Major Trends": "object",
+        "Geographic Focus": "object",
+        "Key Players": "object"
+      },
+      "null_counts": {
+        "Category": 0,
+        "Key Metrics": 0,
+        "Major Trends": 0,
+        "Geographic Focus": 0,
+        "Key Players": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Category": "Residential Permits",
+          "Key Metrics": "Houston led nation with 46,269 permits in 2023",
+          "Major Trends": "Suburban expansion along Grand Parkway",
+          "Geographic Focus": "Katy, Cypress, The Woodlands, Montgomery County",
+          "Key Players": "D.R. Horton, Lennar, Perry Homes"
+        },
+        {
+          "Category": "Commercial Construction",
+          "Key Metrics": "$43.8B in contracts awarded in 2024 (+31% YoY)",
+          "Major Trends": "Industrial/warehouse sector dominance",
+          "Geographic Focus": "Energy Corridor, Northwest, East River",
+          "Key Players": "Hines, Midway, Skanska, Weitzman"
+        },
+        {
+          "Category": "Industrial Development",
+          "Key Metrics": "25.4M SF under construction, 3.8% vacancy",
+          "Major Trends": "Northwest Far submarket leading with 3.4M SF",
+          "Geographic Focus": "Grand Parkway, 290 Corridor, Waller County",
+          "Key Players": "Prologis, EastGroup, Duke Realty"
+        },
+        {
+          "Category": "Land Values",
+          "Key Metrics": "Median new home price: $357,365 (+19% premium)",
+          "Major Trends": "Flight to quality, smaller new homes",
+          "Geographic Focus": "Beyond Beltway 8, eastern Harris County",
+          "Key Players": "HAR data, HCAD assessments"
+        },
+        {
+          "Category": "Office Market",
+          "Key Metrics": "27% vacancy rate, 0.6M SF under construction",
+          "Major Trends": "Downtown vacancy challenges, flight to quality",
+          "Geographic Focus": "Downtown, Energy Corridor, Uptown",
+          "Key Players": "Transwestern, JLL, CBRE, Colliers"
+        }
+      ],
+      "key_metrics": {}
+    },
+    "houston_market_statistics_2024.csv": {
+      "shape": [
+        14,
+        3
+      ],
+      "columns": [
+        "Metric",
+        "Value",
+        "National Ranking"
+      ],
+      "data_types": {
+        "Metric": "object",
+        "Value": "object",
+        "National Ranking": "object"
+      },
+      "null_counts": {
+        "Metric": 0,
+        "Value": 0,
+        "National Ranking": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Metric": "Total Building Permits (2023)",
+          "Value": "46,269 permits",
+          "National Ranking": "#1 in US"
+        },
+        {
+          "Metric": "Total Construction Awards (2024)",
+          "Value": "$43.8 billion",
+          "National Ranking": "Top 3 metros"
+        },
+        {
+          "Metric": "Residential Permits (Jan 2025)",
+          "Value": "1,058 permits",
+          "National Ranking": "#1 in US"
+        },
+        {
+          "Metric": "Industrial Under Construction",
+          "Value": "25.4 million SF",
+          "National Ranking": "Top 3 metros"
+        },
+        {
+          "Metric": "Commercial Under Construction",
+          "Value": "54.2 million SF",
+          "National Ranking": "Top 5 metros"
+        }
+      ],
+      "key_metrics": {}
+    },
+    "houston_major_projects_2024.csv": {
+      "shape": [
+        15,
+        5
+      ],
+      "columns": [
+        "Project Name",
+        "Developer",
+        "Type",
+        "Investment",
+        "Status"
+      ],
+      "data_types": {
+        "Project Name": "object",
+        "Developer": "object",
+        "Type": "object",
+        "Investment": "object",
+        "Status": "object"
+      },
+      "null_counts": {
+        "Project Name": 0,
+        "Developer": 0,
+        "Type": 0,
+        "Investment": 0,
+        "Status": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Project Name": "East River",
+          "Developer": "Midway",
+          "Type": "Mixed-Use",
+          "Investment": "$2.5B",
+          "Status": "Under Construction"
+        },
+        {
+          "Project Name": "Texas Medical Center Innovation District",
+          "Developer": "Texas Medical Center",
+          "Type": "Medical/Research",
+          "Investment": "$1.5B+",
+          "Status": "Multiple phases"
+        },
+        {
+          "Project Name": "Bridgeland",
+          "Developer": "Howard Hughes Corporation",
+          "Type": "Master-Planned Community",
+          "Investment": "$1B+",
+          "Status": "Active development"
+        },
+        {
+          "Project Name": "Sunterra",
+          "Developer": "Land Tejas/Starwood Land",
+          "Type": "Master-Planned Community",
+          "Investment": "$500M+",
+          "Status": "Active sales"
+        },
+        {
+          "Project Name": "Manvel Town Center",
+          "Developer": "Weitzman",
+          "Type": "Retail/Commercial",
+          "Investment": "$300M+",
+          "Status": "Under construction"
+        }
+      ],
+      "key_metrics": {}
+    },
+    "houston_land_acquisition_strategies_2024.csv": {
+      "shape": [
+        15,
+        5
+      ],
+      "columns": [
+        "Developer/Strategy",
+        "Primary Strategy",
+        "Focus Areas",
+        "Recent Activity Scale",
+        "Key Trends"
+      ],
+      "data_types": {
+        "Developer/Strategy": "object",
+        "Primary Strategy": "object",
+        "Focus Areas": "object",
+        "Recent Activity Scale": "object",
+        "Key Trends": "object"
+      },
+      "null_counts": {
+        "Developer/Strategy": 0,
+        "Primary Strategy": 0,
+        "Focus Areas": 0,
+        "Recent Activity Scale": 0,
+        "Key Trends": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Developer/Strategy": "Starwood Land/Land Tejas",
+          "Primary Strategy": "Master-planned communities acquisition",
+          "Focus Areas": "Katy, Cypress, Montgomery County",
+          "Recent Activity Scale": "Large ($800M+ portfolio)",
+          "Key Trends": "Portfolio acquisitions from major developers"
+        },
+        {
+          "Developer/Strategy": "Hines",
+          "Primary Strategy": "Mixed-use urban development",
+          "Focus Areas": "Downtown, Energy Corridor, TMC",
+          "Recent Activity Scale": "Large ($2B+ projects)",
+          "Key Trends": "Transit-oriented development focus"
+        },
+        {
+          "Developer/Strategy": "Howard Hughes Corporation",
+          "Primary Strategy": "Large-scale master planning",
+          "Focus Areas": "Bridgeland, The Woodlands area",
+          "Recent Activity Scale": "Large (11,500+ acres)",
+          "Key Trends": "Long-term master planning approach"
+        },
+        {
+          "Developer/Strategy": "Johnson Development",
+          "Primary Strategy": "Suburban master communities",
+          "Focus Areas": "Fulshear, Missouri City, Conroe",
+          "Recent Activity Scale": "Large (20+ communities)",
+          "Key Trends": "Suburban amenity-rich communities"
+        },
+        {
+          "Developer/Strategy": "Midway",
+          "Primary Strategy": "Urban redevelopment/adaptive reuse",
+          "Focus Areas": "East River, CityCentre, Energy Corridor",
+          "Recent Activity Scale": "Large (Multi-billion projects)",
+          "Key Trends": "Urban core redevelopment/adaptive reuse"
+        }
+      ],
+      "key_metrics": {}
+    },
+    "houston_developers_2024.csv": {
+      "shape": [
+        15,
+        5
+      ],
+      "columns": [
+        "Developer",
+        "January 2025 Permits",
+        "Average Home Value ($)",
+        "Type",
+        "Major Projects 2024"
+      ],
+      "data_types": {
+        "Developer": "object",
+        "January 2025 Permits": "int64",
+        "Average Home Value ($)": "int64",
+        "Type": "object",
+        "Major Projects 2024": "object"
+      },
+      "null_counts": {
+        "Developer": 0,
+        "January 2025 Permits": 0,
+        "Average Home Value ($)": 0,
+        "Type": 0,
+        "Major Projects 2024": 0
+      },
+      "summary_stats": {
+        "January 2025 Permits": {
+          "count": 15.0,
+          "mean": 70.53333333333333,
+          "std": 117.85515727043132,
+          "min": 0.0,
+          "25%": 0.0,
+          "50%": 0.0,
+          "75%": 115.5,
+          "max": 326.0
+        },
+        "Average Home Value ($)": {
+          "count": 15.0,
+          "mean": 94182.73333333334,
+          "std": 139652.1469762161,
+          "min": 0.0,
+          "25%": 0.0,
+          "50%": 0.0,
+          "75%": 247724.0,
+          "max": 332542.0
+        }
+      },
+      "sample_data": [
+        {
+          "Developer": "D.R. Horton",
+          "January 2025 Permits": 326,
+          "Average Home Value ($)": 262482,
+          "Type": "Residential",
+          "Major Projects 2024": "Breckenridge Forest, City Gate, Park's Edge"
+        },
+        {
+          "Developer": "Lennar Homes",
+          "January 2025 Permits": 318,
+          "Average Home Value ($)": 244463,
+          "Type": "Residential",
+          "Major Projects 2024": "Flagstone, Piccolina, Tavola Collections"
+        },
+        {
+          "Developer": "Perry Homes",
+          "January 2025 Permits": 183,
+          "Average Home Value ($)": 322269,
+          "Type": "Residential",
+          "Major Projects 2024": "Artavia, Elyson, Sienna, Candela"
+        },
+        {
+          "Developer": "Century Communities",
+          "January 2025 Permits": 143,
+          "Average Home Value ($)": 250985,
+          "Type": "Residential",
+          "Major Projects 2024": "Laurel Farms, Mavera"
+        },
+        {
+          "Developer": "David Weekley Homes",
+          "January 2025 Permits": 88,
+          "Average Home Value ($)": 332542,
+          "Type": "Residential",
+          "Major Projects 2024": "Cross Creek Ranch, Briarley"
+        }
+      ],
+      "key_metrics": {
+        "January 2025 Permits_total": 1058,
+        "Average Home Value ($)_median": 0.0,
+        "Average Home Value ($)_range": [
+          0,
+          332542
+        ]
+      }
+    },
+    "houston_competitive_analysis_2024.csv": {
+      "shape": [
+        10,
+        4
+      ],
+      "columns": [
+        "Analysis Category",
+        "Key Findings",
+        "Competitive Implications",
+        "Strategic Recommendations"
+      ],
+      "data_types": {
+        "Analysis Category": "object",
+        "Key Findings": "object",
+        "Competitive Implications": "object",
+        "Strategic Recommendations": "object"
+      },
+      "null_counts": {
+        "Analysis Category": 0,
+        "Key Findings": 0,
+        "Competitive Implications": 0,
+        "Strategic Recommendations": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Analysis Category": "Market Leadership",
+          "Key Findings": "D.R. Horton and Lennar dominate residential with 644 permits combined",
+          "Competitive Implications": "Consolidation among top builders, scale advantages critical",
+          "Strategic Recommendations": "Focus on scale and operational efficiency"
+        },
+        {
+          "Analysis Category": "Geographic Expansion",
+          "Key Findings": "Grand Parkway corridor and Northwest Far submarket leading growth",
+          "Competitive Implications": "Early positioning in growth corridors provides competitive advantage",
+          "Strategic Recommendations": "Prioritize Grand Parkway and emerging suburban corridors"
+        },
+        {
+          "Analysis Category": "Development Strategy",
+          "Key Findings": "Shift toward master-planned communities and mixed-use developments",
+          "Competitive Implications": "Amenity-rich, walkable communities increasingly differentiated",
+          "Strategic Recommendations": "Invest in master-planning and mixed-use capabilities"
+        },
+        {
+          "Analysis Category": "Land Acquisition",
+          "Key Findings": "Large portfolio acquisitions ($800M+ deals) and strategic partnerships",
+          "Competitive Implications": "Financial capacity for large deals separates major from minor players",
+          "Strategic Recommendations": "Build financial capacity for portfolio acquisitions"
+        },
+        {
+          "Analysis Category": "Competitive Positioning",
+          "Key Findings": "Flight to quality in office, industrial/warehouse sector strength",
+          "Competitive Implications": "Quality and location trump quantity in current market",
+          "Strategic Recommendations": "Emphasize quality, amenities, and strategic locations"
+        }
+      ],
+      "key_metrics": {}
+    },
+    "houston_commercial_sectors_2024.csv": {
+      "shape": [
+        7,
+        5
+      ],
+      "columns": [
+        "Sector",
+        "Under Construction (Million SF)",
+        "Vacancy Rate (%)",
+        "Market Trend",
+        "Key Projects"
+      ],
+      "data_types": {
+        "Sector": "object",
+        "Under Construction (Million SF)": "float64",
+        "Vacancy Rate (%)": "float64",
+        "Market Trend": "object",
+        "Key Projects": "object"
+      },
+      "null_counts": {
+        "Sector": 0,
+        "Under Construction (Million SF)": 0,
+        "Vacancy Rate (%)": 0,
+        "Market Trend": 0,
+        "Key Projects": 0
+      },
+      "summary_stats": {
+        "Under Construction (Million SF)": {
+          "count": 7.0,
+          "mean": 7.771428571428571,
+          "std": 8.828309442868868,
+          "min": 0.6,
+          "25%": 1.9500000000000002,
+          "50%": 3.7,
+          "75%": 10.4,
+          "max": 25.4
+        },
+        "Vacancy Rate (%)": {
+          "count": 7.0,
+          "mean": 9.714285714285714,
+          "std": 8.18829012908649,
+          "min": 3.8,
+          "25%": 4.7,
+          "50%": 6.8,
+          "75%": 10.5,
+          "max": 27.0
+        }
+      },
+      "sample_data": [
+        {
+          "Sector": "Office",
+          "Under Construction (Million SF)": 0.6,
+          "Vacancy Rate (%)": 27.0,
+          "Market Trend": "Declining",
+          "Key Projects": "1550 on the Green, Texas Tower"
+        },
+        {
+          "Sector": "Retail",
+          "Under Construction (Million SF)": 3.7,
+          "Vacancy Rate (%)": 5.2,
+          "Market Trend": "Growing",
+          "Key Projects": "Manvel Town Center, Swift Building"
+        },
+        {
+          "Sector": "Industrial/Warehouse",
+          "Under Construction (Million SF)": 25.4,
+          "Vacancy Rate (%)": 3.8,
+          "Market Trend": "Strong Growth",
+          "Key Projects": "Kingsland Ranch, Tesla Megapack facility"
+        },
+        {
+          "Sector": "Multifamily",
+          "Under Construction (Million SF)": 8.5,
+          "Vacancy Rate (%)": 6.8,
+          "Market Trend": "Stable",
+          "Key Projects": "Pearl at Midlane, Lockwood development"
+        },
+        {
+          "Sector": "Mixed-Use",
+          "Under Construction (Million SF)": 12.3,
+          "Vacancy Rate (%)": 8.5,
+          "Market Trend": "Growing",
+          "Key Projects": "East River, GreenStreet, Ashford Yard"
+        }
+      ],
+      "key_metrics": {}
+    }
+  }
+}

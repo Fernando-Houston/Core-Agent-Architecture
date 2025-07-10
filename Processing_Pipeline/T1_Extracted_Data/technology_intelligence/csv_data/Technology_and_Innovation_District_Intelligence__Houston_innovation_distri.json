@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "folder_name": "Technology and Innovation District Intelligence _Houston innovation distri",
+    "extraction_timestamp": "2025-07-10T01:36:42.500893",
+    "file_count": 11,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "houston_districts_data.csv": {
+      "shape": [
+        6,
+        3
+      ],
+      "columns": [
+        "District/Area",
+        "Primary Focus",
+        "Key Metrics"
+      ],
+      "data_types": {
+        "District/Area": "object",
+        "Primary Focus": "object",
+        "Key Metrics": "object"
+      },
+      "null_counts": {
+        "District/Area": 0,
+        "Primary Focus": 0,
+        "Key Metrics": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "District/Area": "Ion District (Midtown)",
+          "Primary Focus": "Tech Innovation & Startups",
+          "Key Metrics": "16 acres, 266K sq ft anchor building"
+        },
+        {
+          "District/Area": "Texas Medical Center",
+          "Primary Focus": "Life Sciences & Healthcare",
+          "Key Metrics": "37-acre expansion, $1.6B+ investments"
+        },
+        {
+          "District/Area": "Energy Corridor",
+          "Primary Focus": "Energy & Commercial",
+          "Key Metrics": "25M sq ft office space, 100K jobs"
+        },
+        {
+          "District/Area": "Downtown Innovation Corridor",
+          "Primary Focus": "Tech Incubation",
+          "Key Metrics": "4-mile corridor, multiple facilities"
+        },
+        {
+          "District/Area": "TMC Helix Park",
+          "Primary Focus": "Life Sciences Research",
+          "Key Metrics": "37 acres, research focus"
+        }
+      ],
+      "key_metrics": {}
+    },
+    "houston_investment_data.csv": {
+      "shape": [
+        7,
+        4
+      ],
+      "columns": [
+        "Project/Initiative",
+        "Investment ($M)",
+        "Timeline",
+        "Sector"
+      ],
+      "data_types": {
+        "Project/Initiative": "object",
+        "Investment ($M)": "int64",
+        "Timeline": "object",
+        "Sector": "object"
+      },
+      "null_counts": {
+        "Project/Initiative": 0,
+        "Investment ($M)": 0,
+        "Timeline": 0,
+        "Sector": 0
+      },
+      "summary_stats": {
+        "Investment ($M)": {
+          "count": 7.0,
+          "mean": 1394.2857142857142,
+          "std": 1756.3585163898738,
+          "min": 100.0,
+          "25%": 260.0,
+          "50%": 500.0,
+          "75%": 1820.0,
+          "max": 5000.0
+        }
+      },
+      "sample_data": [
+        {
+          "Project/Initiative": "Memorial Hermann TMC Expansion",
+          "Investment ($M)": 270,
+          "Timeline": "2025-2027",
+          "Sector": "Healthcare"
+        },
+        {
+          "Project/Initiative": "Harris Health LBJ Hospital",
+          "Investment ($M)": 1600,
+          "Timeline": "2024-2028",
+          "Sector": "Healthcare"
+        },
+        {
+          "Project/Initiative": "TMC BioPort Campus",
+          "Investment ($M)": 5000,
+          "Timeline": "2025-2030",
+          "Sector": "Life Sciences"
+        },
+        {
+          "Project/Initiative": "Apple Manufacturing Facility",
+          "Investment ($M)": 500,
+          "Timeline": "2025-2026",
+          "Sector": "Technology"
+        },
+        {
+          "Project/Initiative": "Harris County Solar Grant",
+          "Investment ($M)": 250,
+          "Timeline": "2024-2025",
+          "Sector": "Energy"
+        }
+      ],
+      "key_metrics": {
+        "Investment ($M)_median": 500.0,
+        "Investment ($M)_range": [
+          100,
+          5000
+        ]
+      }
+    },
+    "houston_tech_metrics.csv": {
+      "shape": [
+        10,
+        3
+      ],
+      "columns": [
+        "Metric",
+        "Value",
+        "Category"
+      ],
+      "data_types": {
+        "Metric": "object",
+        "Value": "int64",
+        "Category": "object"
+      },
+      "null_counts": {
+        "Metric": 0,
+        "Value": 0,
+        "Category": 0
+      },
+      "summary_stats": {
+        "Value": {
+          "count": 10.0,
+          "mean": 52270.9,
+          "std": 85212.59522375003,
+          "min": 16.0,
+          "25%": 277.75,
+          "50%": 5365.5,
+          "75%": 77275.0,
+          "max": 230800.0
+        }
+      },
+      "sample_data": [
+        {
+          "Metric": "Tech Workers",
+          "Value": 230800,
+          "Category": "Workforce"
+        },
+        {
+          "Metric": "Tech Firms",
+          "Value": 9100,
+          "Category": "Companies"
+        },
+        {
+          "Metric": "Venture-Backed Startups",
+          "Value": 1000,
+          "Category": "Startups"
+        },
+        {
+          "Metric": "VC Funding 2022 ($M)",
+          "Value": 2040,
+          "Category": "Investment"
+        },
+        {
+          "Metric": "Tech Patents (2020-2024)",
+          "Value": 8691,
+          "Category": "Innovation"
+        }
+      ],
+      "key_metrics": {
+        "Value_median": 5365.5,
+        "Value_range": [
+          16,
+          230800
+        ]
+      }
+    }
+  }
+}

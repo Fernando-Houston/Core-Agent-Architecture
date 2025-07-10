@@ -1,0 +1,28 @@
+{
+  "agent_name": "Environmental_Intelligence",
+  "last_updated": "2025-07-10T02:39:31.426976",
+  "knowledge_files": [
+    "risk_mitigation_knowledge.json",
+    "compliance_requirements_knowledge.json",
+    "risk_assessment_knowledge.json",
+    "environmental_metrics_knowledge.json"
+  ],
+  "total_insights": 8,
+  "categories": [
+    "risk_mitigation",
+    "compliance_requirements",
+    "risk_assessment",
+    "environmental_metrics"
+  ],
+  "geographic_coverage": [
+    "West Houston",
+    "Cypress Creek",
+    "Brays Bayou",
+    "Houston",
+    "Energy Corridor"
+  ],
+  "temporal_coverage": [
+    "2024-2025",
+    "2024"
+  ]
+}

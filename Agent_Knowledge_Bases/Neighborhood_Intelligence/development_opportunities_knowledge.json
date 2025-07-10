@@ -1,0 +1,70 @@
+{
+  "e3955599eab9": {
+    "id": "e3955599eab9",
+    "timestamp": "2025-07-10T02:39:31.422285",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/neighborhood_analysis_t2.json",
+    "domain": "katy_area",
+    "category": "development_opportunities",
+    "subcategory": "",
+    "title": "Katy Area Development Pipeline",
+    "content": {
+      "summary": "Significant development opportunities in Katy expansion areas",
+      "key_findings": [
+        "2000+ acres available for development",
+        "New master-planned communities",
+        "Commercial development opportunities"
+      ],
+      "metrics": {
+        "available_acres": 2000,
+        "planned_units": 5000,
+        "commercial_sqft": 500000
+      },
+      "recommendations": [],
+      "raw_data": {}
+    },
+    "tags": [
+      "development",
+      "opportunities",
+      "katy",
+      "construction",
+      "project",
+      "pipeline"
+    ],
+    "geographic_scope": [
+      "Katy"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.876,
+    "confidence_score": 0.88,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "available_acres",
+        "value": 2000,
+        "unit": "acres",
+        "timestamp": "2025-07-10T02:39:31.422290"
+      },
+      {
+        "type": "metric",
+        "name": "planned_units",
+        "value": 5000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.422292"
+      },
+      {
+        "type": "metric",
+        "name": "commercial_sqft",
+        "value": 500000,
+        "unit": "sqft",
+        "timestamp": "2025-07-10T02:39:31.422293"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.422295",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "folder_name": "Environmental and Risk Intelligence",
+    "extraction_timestamp": "2025-07-10T01:36:42.493412",
+    "file_count": 13,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "harris_county_environmental_programs.csv": {
+      "shape": [
+        10,
+        4
+      ],
+      "columns": [
+        "Program/Initiative",
+        "Current Status",
+        "Key Impact",
+        "Timeline"
+      ],
+      "data_types": {
+        "Program/Initiative": "object",
+        "Current Status": "object",
+        "Key Impact": "object",
+        "Timeline": "object"
+      },
+      "null_counts": {
+        "Program/Initiative": 0,
+        "Current Status": 0,
+        "Key Impact": 0,
+        "Timeline": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Program/Initiative": "FEMA Flood Map Updates",
+          "Current Status": "Delayed to 2025",
+          "Key Impact": "Expanded flood zones expected",
+          "Timeline": "2025"
+        },
+        {
+          "Program/Initiative": "Harris County Climate Action Plan",
+          "Current Status": "Approved - 40% GHG reduction by 2030",
+          "Key Impact": "County operations carbon reduction",
+          "Timeline": "2023-2030"
+        },
+        {
+          "Program/Initiative": "Gulf Coast Protection District",
+          "Current Status": "Operational since 2021",
+          "Key Impact": "5-county coastal protection oversight",
+          "Timeline": "2021-ongoing"
+        },
+        {
+          "Program/Initiative": "Coastal Texas Project",
+          "Current Status": "Design phase initiated 2024",
+          "Key Impact": "$34.4B hurricane protection system",
+          "Timeline": "2024-2030s"
+        },
+        {
+          "Program/Initiative": "EPA Solar for All Grant",
+          "Current Status": "$249.7M awarded to Harris County coalition",
+          "Key Impact": "20%+ utility bill reductions",
+          "Timeline": "2024-2030"
+        }
+      ],
+      "key_metrics": {}
+    }
+  }
+}

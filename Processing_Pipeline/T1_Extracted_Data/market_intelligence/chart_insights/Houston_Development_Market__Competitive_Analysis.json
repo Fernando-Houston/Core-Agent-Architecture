@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "folder_name": "Houston Development Market_ Competitive Analysis",
+    "extraction_timestamp": "2025-07-10T01:36:42.422015",
+    "file_count": 21,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "houston_chart.png": {
+      "file_name": "houston_chart.png",
+      "file_size": 233813,
+      "chart_type": "bar_chart",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_developers_chart.png": {
+      "file_name": "houston_developers_chart.png",
+      "file_size": 170575,
+      "chart_type": "bar_chart",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_commercial_chart.png": {
+      "file_name": "houston_commercial_chart.png",
+      "file_size": 196141,
+      "chart_type": "bar_chart",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

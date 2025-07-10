@@ -1,0 +1,24 @@
+{
+  "generated_at": "2025-07-10T02:28:11.082311",
+  "agents": {
+    "Technology_Innovation_Intelligence": {
+      "record_count": 2
+    },
+    "Neighborhood_Intelligence": {
+      "record_count": 1
+    },
+    "Environmental_Intelligence": {
+      "record_count": 3
+    },
+    "Market_Intelligence": {
+      "record_count": 11
+    },
+    "Financial_Intelligence": {
+      "record_count": 5
+    },
+    "Regulatory_Intelligence": {
+      "record_count": 1
+    }
+  },
+  "total_records": 23
+}

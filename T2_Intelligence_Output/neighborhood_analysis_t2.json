@@ -1,0 +1,90 @@
+{
+  "analysis_id": "t2_neighborhood_001",
+  "timestamp": "2024-01-10T11:00:00Z",
+  "insights": [
+    {
+      "domain": "houston_heights",
+      "category": "investment_analysis",
+      "title": "Houston Heights Investment Score Analysis",
+      "content": {
+        "summary": "Heights shows strong investment potential with 85/100 score",
+        "key_findings": [
+          "15% annual appreciation over past 3 years",
+          "Strong demographic growth",
+          "Major infrastructure improvements planned"
+        ],
+        "metrics": {
+          "investment_score": 85,
+          "growth_rate": 15,
+          "median_income": 95000,
+          "development_projects": 12
+        }
+      },
+      "tags": ["investment", "neighborhood", "houston-heights"],
+      "confidence_score": 0.9
+    },
+    {
+      "domain": "katy_area",
+      "category": "development_opportunities",
+      "title": "Katy Area Development Pipeline",
+      "content": {
+        "summary": "Significant development opportunities in Katy expansion areas",
+        "key_findings": [
+          "2000+ acres available for development",
+          "New master-planned communities",
+          "Commercial development opportunities"
+        ],
+        "metrics": {
+          "available_acres": 2000,
+          "planned_units": 5000,
+          "commercial_sqft": 500000
+        }
+      },
+      "tags": ["development", "opportunities", "katy"],
+      "confidence_score": 0.88
+    },
+    {
+      "domain": "sugar_land",
+      "category": "market_analysis",
+      "title": "Sugar Land Price Trajectory Model",
+      "content": {
+        "summary": "Sugar Land residential prices projected to increase 12-18%",
+        "key_findings": [
+          "Current median price $425,000",
+          "3-year projection: $500,000-525,000",
+          "Low inventory driving appreciation"
+        ],
+        "metrics": {
+          "current_median": 425000,
+          "3_year_projection": 512500,
+          "annual_appreciation": 6.5,
+          "inventory_months": 1.8
+        }
+      },
+      "tags": ["pricing", "forecast", "sugar-land", "residential"],
+      "geographic_scope": ["Sugar Land", "Fort Bend County"],
+      "confidence_score": 0.87
+    },
+    {
+      "domain": "the_woodlands",
+      "category": "infrastructure_impact",
+      "title": "Woodlands Infrastructure Assessment",
+      "content": {
+        "summary": "World-class infrastructure supporting premium development",
+        "key_findings": [
+          "99% broadband coverage",
+          "Extensive trail and park system",
+          "Major highway expansion improving access"
+        ],
+        "metrics": {
+          "infrastructure_score": 95,
+          "transportation_rating": 90,
+          "utilities_rating": 98,
+          "connectivity_score": 99
+        }
+      },
+      "tags": ["infrastructure", "woodlands", "development-ready"],
+      "confidence_score": 0.93
+    }
+  ]
+}

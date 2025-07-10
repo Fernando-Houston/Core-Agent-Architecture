@@ -1,0 +1,102 @@
+{
+  "generated_at": "2025-07-10T02:41:15.615778",
+  "total_insights": 49,
+  "agents": {
+    "Technology_Innovation_Intelligence": {
+      "total_insights": 6,
+      "categories": [
+        "tech_investment",
+        "infrastructure_technology",
+        "tech_ecosystem",
+        "construction_innovation"
+      ],
+      "high_priority_count": 5
+    },
+    "Neighborhood_Intelligence": {
+      "total_insights": 6,
+      "categories": [
+        "investment_analysis",
+        "development_activity",
+        "development_opportunities",
+        "market_analysis",
+        "infrastructure_impact"
+      ],
+      "high_priority_count": 5
+    },
+    "Environmental_Intelligence": {
+      "total_insights": 8,
+      "categories": [
+        "risk_mitigation",
+        "compliance_requirements",
+        "risk_assessment",
+        "environmental_metrics"
+      ],
+      "high_priority_count": 6
+    },
+    "Market_Intelligence": {
+      "total_insights": 14,
+      "categories": [
+        "financing_comparisons",
+        "tech_investment",
+        "permit_process",
+        "development_activity",
+        "tax_strategies",
+        "development_opportunities",
+        "market_analysis",
+        "price_predictions",
+        "infrastructure_technology",
+        "zoning_changes",
+        "environmental_metrics",
+        "infrastructure_impact"
+      ],
+      "high_priority_count": 5
+    },
+    "Financial_Intelligence": {
+      "total_insights": 11,
+      "categories": [
+        "investment_analysis",
+        "financing_comparisons",
+        "tech_investment",
+        "roi_models",
+        "development_activity",
+        "tax_strategies",
+        "risk_assessment"
+      ],
+      "high_priority_count": 7
+    },
+    "Regulatory_Intelligence": {
+      "total_insights": 4,
+      "categories": [
+        "permit_process",
+        "zoning_changes",
+        "compliance_requirements"
+      ],
+      "high_priority_count": 3
+    }
+  },
+  "geographic_coverage": [
+    "Brays Bayou",
+    "Cypress Creek",
+    "East End",
+    "Energy Corridor",
+    "Fort Bend County",
+    "Greater Houston Area",
+    "Heights District",
+    "Houston",
+    "Houston Heights",
+    "Inner Loop",
+    "Ion District",
+    "Katy",
+    "Sugar Land",
+    "TMC",
+    "Transit Corridors",
+    "West Houston"
+  ],
+  "temporal_coverage": [
+    "2024",
+    "2024-2025",
+    "2025",
+    "2026"
+  ],
+  "high_priority_count": 31
+}

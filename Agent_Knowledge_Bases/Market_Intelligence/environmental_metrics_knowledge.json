@@ -1,0 +1,72 @@
+{
+  "469b73654834": {
+    "id": "469b73654834",
+    "timestamp": "2025-07-10T02:28:06.057347",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/regulatory_environmental_t2.json",
+    "domain": "air_quality",
+    "category": "environmental_metrics",
+    "subcategory": "",
+    "title": "Air Quality Impact on Development Values",
+    "content": {
+      "summary": "Air quality improvements driving property value increases",
+      "key_findings": [
+        "PM2.5 levels decreased 20% over 5 years",
+        "Properties in cleaner air zones command 5-8% premium",
+        "Green certifications increasingly valuable"
+      ],
+      "metrics": {
+        "pm25_reduction": 20,
+        "ozone_improvement": 15,
+        "property_premium_percent": 6.5,
+        "health_cost_savings": 1000
+      }
+    },
+    "tags": [
+      "air-quality",
+      "environmental",
+      "property-values"
+    ],
+    "relationships": [],
+    "confidence_score": 0.85,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "pm25_reduction",
+        "value": 20,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:06.057347"
+      },
+      {
+        "type": "metric",
+        "name": "ozone_improvement",
+        "value": 15,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:06.057347"
+      },
+      {
+        "type": "metric",
+        "name": "property_premium_percent",
+        "value": 6.5,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:28:06.057347"
+      },
+      {
+        "type": "metric",
+        "name": "health_cost_savings",
+        "value": 1000,
+        "unit": "USD",
+        "timestamp": "2025-07-10T02:28:06.057347"
+      }
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.7999999999999999,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:06.057347",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

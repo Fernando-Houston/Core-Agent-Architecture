@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "folder_name": "What role does STEM education play in Houston\u2019s economic expansion",
+    "extraction_timestamp": "2025-07-10T01:36:42.550006",
+    "file_count": 11,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "scatter_plot.png": {
+      "file_name": "scatter_plot.png",
+      "file_size": 209331,
+      "chart_type": "scatter_plot",
+      "insights": {},
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_stem_impact.png": {
+      "file_name": "houston_stem_impact.png",
+      "file_size": 245828,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_stem_pipeline.png": {
+      "file_name": "houston_stem_pipeline.png",
+      "file_size": 268916,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

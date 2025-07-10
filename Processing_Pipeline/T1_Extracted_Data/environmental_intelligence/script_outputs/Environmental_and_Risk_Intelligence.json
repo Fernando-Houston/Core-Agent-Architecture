@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "folder_name": "Environmental and Risk Intelligence",
+    "extraction_timestamp": "2025-07-10T01:36:42.493412",
+    "file_count": 13,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script_4.py": {
+      "imports": [
+        "import plotly.express as px\nimport plotly.graph_objects as go\nimport json\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "pie_chart"
+        ],
+        "color_scheme": [
+          "#1FB8CD",
+          "#5D878F",
+          "#13343B"
+        ],
+        "titles": [
+          "Coastal Texas Project Cost Breakdown"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.express as px\nimport pandas as pd\nimport json\n"
+      ],
+      "functions": [
+        "smart_abbreviate",
+        "create_positions"
+      ],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "scatter_plot"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#5D878F",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Harris County Environmental Timeline",
+          "Year"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script_1.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.io as pio\n"
+      ],
+      "functions": [
+        "format_amount"
+      ],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#5D878F",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Environmental Grants - Houston Region<br><sub>Major Environmental Investments</sub>",
+          "Amount ($M)",
+          "Program"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script_2.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.io as pio\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#5D878F",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Harris County PM2.5 Air Quality Progress",
+          "PM2.5 Level (\u00b5g/m\u00b3)",
+          "Measurement"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "script.py": {
+      "imports": [
+        "import pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "harris_county_environmental_programs.csv",
+        "Data saved to: harris_county_environmental_programs.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    },
+    "chart_script_3.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport json\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#B4413C",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Ozone Quality: 64% Improvement",
+          "Year",
+          "Days Above EPA"
+        ]
+      },
+      "analysis_methods": []
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "80c0653ab3de": {
+    "id": "80c0653ab3de",
+    "timestamp": "2025-07-10T02:28:06.056725",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/regulatory_environmental_t2.json",
+    "domain": "flood_risk_data",
+    "category": "risk_mitigation",
+    "subcategory": "",
+    "title": "Updated Flood Risk Maps and Mitigation Strategies",
+    "content": {
+      "summary": "New FEMA maps show reduced flood risk in key development areas",
+      "key_findings": [
+        "500 acres removed from 100-year floodplain",
+        "New detention requirements more flexible",
+        "Green infrastructure credits available"
+      ],
+      "metrics": {
+        "risk_reduction_percent": 35,
+        "insurance_savings_annual": 2500,
+        "mitigation_cost_per_acre": 50000,
+        "roi_on_mitigation": 3.5
+      }
+    },
+    "tags": [
+      "flood",
+      "risk",
+      "environmental",
+      "mitigation"
+    ],
+    "relationships": [],
+    "confidence_score": 0.88,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "risk_reduction_percent",
+        "value": 35,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:28:06.056725"
+      },
+      {
+        "type": "metric",
+        "name": "insurance_savings_annual",
+        "value": 2500,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:06.056725"
+      },
+      {
+        "type": "metric",
+        "name": "mitigation_cost_per_acre",
+        "value": 50000,
+        "unit": "USD",
+        "timestamp": "2025-07-10T02:28:06.056725"
+      },
+      {
+        "type": "metric",
+        "name": "roi_on_mitigation",
+        "value": 3.5,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:06.056725"
+      }
+    ],
+    "geographic_scope": [
+      "West Houston",
+      "Cypress Creek",
+      "Brays Bayou"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.7999999999999999,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:06.056725",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  },
+  "b06885d09da7": {
+    "id": "b06885d09da7",
+    "timestamp": "2025-07-10T02:39:31.425459",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/regulatory_environmental_t2.json",
+    "domain": "flood_risk_data",
+    "category": "risk_mitigation",
+    "subcategory": "",
+    "title": "Updated Flood Risk Maps and Mitigation Strategies",
+    "content": {
+      "summary": "New FEMA maps show reduced flood risk in key development areas",
+      "key_findings": [
+        "500 acres removed from 100-year floodplain",
+        "New detention requirements more flexible",
+        "Green infrastructure credits available"
+      ],
+      "metrics": {
+        "risk_reduction_percent": 35,
+        "insurance_savings_annual": 2500,
+        "mitigation_cost_per_acre": 50000,
+        "roi_on_mitigation": 3.5
+      },
+      "recommendations": [],
+      "raw_data": {}
+    },
+    "tags": [
+      "flood",
+      "risk",
+      "environmental",
+      "mitigation",
+      "assessment",
+      "analysis"
+    ],
+    "geographic_scope": [
+      "West Houston",
+      "Cypress Creek",
+      "Brays Bayou"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.926,
+    "confidence_score": 0.88,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "risk_reduction_percent",
+        "value": 35,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:39:31.425466"
+      },
+      {
+        "type": "metric",
+        "name": "insurance_savings_annual",
+        "value": 2500,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.425468"
+      },
+      {
+        "type": "metric",
+        "name": "mitigation_cost_per_acre",
+        "value": 50000,
+        "unit": "USD",
+        "timestamp": "2025-07-10T02:39:31.425469"
+      },
+      {
+        "type": "metric",
+        "name": "roi_on_mitigation",
+        "value": 3.5,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.425471"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.425472",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

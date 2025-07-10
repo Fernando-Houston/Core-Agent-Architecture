@@ -1,0 +1,1951 @@
+{
+  "generated_at": "2025-07-10T02:41:15.612582",
+  "total_relationships": 119,
+  "relationships": [
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "common_tags": [
+        "returns",
+        "financial",
+        "investment",
+        "roi"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "financial",
+        "returns",
+        "roi",
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "94955c98c342",
+        "agent": "Market_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "common_tags": [
+        "investment",
+        "roi",
+        "tech-sector",
+        "trends",
+        "commercial",
+        "financial",
+        "returns"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "26c2a0e4ffc4",
+        "agent": "Market_Intelligence",
+        "title": "Opportunity Zone Tax Benefits"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "5e0ba070c01c",
+        "agent": "Financial_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "common_tags": [
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "7163e4c3fb4e",
+        "agent": "Financial_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "common_tags": [
+        "returns",
+        "financial",
+        "investment",
+        "roi"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "73e3b50679bc",
+        "agent": "Financial_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "26e2891d2c71",
+        "agent": "Financial_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "common_tags": [
+        "investment",
+        "tech-sector",
+        "trends",
+        "commercial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "2fc6c392581d",
+        "agent": "Financial_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "common_tags": [
+        "investment",
+        "roi",
+        "tech-sector",
+        "trends",
+        "commercial",
+        "financial",
+        "returns"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "a7a89d971e5d",
+        "agent": "Financial_Intelligence",
+        "title": "Mixed-Use Development ROI Model"
+      },
+      "common_tags": [
+        "investment",
+        "roi",
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "16f3f69ce4b2",
+        "agent": "Financial_Intelligence",
+        "title": "Mixed-Use Development ROI Model"
+      },
+      "common_tags": [
+        "financial",
+        "returns",
+        "roi",
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "d2a6eab5336d",
+        "agent": "Financial_Intelligence",
+        "title": "Opportunity Zone Tax Benefits"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "200cfc25aaf2",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "investment",
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "5f2f28808f9c",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "financial",
+        "returns",
+        "roi",
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "45190ef620ed",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Smart City Infrastructure Deployment"
+      },
+      "target": {
+        "id": "3b498c628e43",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Woodlands Infrastructure Assessment"
+      },
+      "common_tags": [
+        "infrastructure"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "45190ef620ed",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Smart City Infrastructure Deployment"
+      },
+      "target": {
+        "id": "f9c03137011b",
+        "agent": "Market_Intelligence",
+        "title": "Smart City Infrastructure Deployment"
+      },
+      "common_tags": [
+        "infrastructure",
+        "smart-city",
+        "technology",
+        "5g"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "45190ef620ed",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "Smart City Infrastructure Deployment"
+      },
+      "target": {
+        "id": "aedb1667874f",
+        "agent": "Market_Intelligence",
+        "title": "Woodlands Infrastructure Assessment"
+      },
+      "common_tags": [
+        "infrastructure"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "6d90f6ffaff1",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "PropTech Adoption in Houston Development"
+      },
+      "target": {
+        "id": "3b498c628e43",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Woodlands Infrastructure Assessment"
+      },
+      "common_tags": [
+        "construction"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "6d90f6ffaff1",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "PropTech Adoption in Houston Development"
+      },
+      "target": {
+        "id": "e004c544df23",
+        "agent": "Regulatory_Intelligence",
+        "title": "Houston Zoning Reform Impact Analysis"
+      },
+      "common_tags": [
+        "construction"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "80c488785dfd",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "PropTech Adoption in Houston Development"
+      },
+      "target": {
+        "id": "3b498c628e43",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Woodlands Infrastructure Assessment"
+      },
+      "common_tags": [
+        "construction"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "80c488785dfd",
+        "agent": "Technology_Innovation_Intelligence",
+        "title": "PropTech Adoption in Houston Development"
+      },
+      "target": {
+        "id": "e004c544df23",
+        "agent": "Regulatory_Intelligence",
+        "title": "Houston Zoning Reform Impact Analysis"
+      },
+      "common_tags": [
+        "construction"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "returns",
+        "financial",
+        "investment",
+        "roi"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "94955c98c342",
+        "agent": "Market_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "common_tags": [
+        "returns",
+        "financial",
+        "investment",
+        "roi"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "48b4dea37eba",
+        "agent": "Market_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "common_tags": [
+        "houston-heights"
+      ],
+      "common_locations": [
+        "Houston Heights"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "26c2a0e4ffc4",
+        "agent": "Market_Intelligence",
+        "title": "Opportunity Zone Tax Benefits"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "5e0ba070c01c",
+        "agent": "Financial_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "common_tags": [
+        "investment",
+        "houston-heights",
+        "neighborhood"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "7163e4c3fb4e",
+        "agent": "Financial_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "common_tags": [
+        "investment",
+        "roi",
+        "neighborhood",
+        "houston-heights",
+        "financial",
+        "returns"
+      ],
+      "common_locations": [
+        "Houston",
+        "Houston Heights"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "73e3b50679bc",
+        "agent": "Financial_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "26e2891d2c71",
+        "agent": "Financial_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "common_tags": [
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "2fc6c392581d",
+        "agent": "Financial_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "common_tags": [
+        "returns",
+        "financial",
+        "investment",
+        "roi"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "a7a89d971e5d",
+        "agent": "Financial_Intelligence",
+        "title": "Mixed-Use Development ROI Model"
+      },
+      "common_tags": [
+        "investment",
+        "roi",
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "16f3f69ce4b2",
+        "agent": "Financial_Intelligence",
+        "title": "Mixed-Use Development ROI Model"
+      },
+      "common_tags": [
+        "financial",
+        "returns",
+        "roi",
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "48b4dea37eba",
+        "agent": "Financial_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "common_tags": [
+        "houston-heights"
+      ],
+      "common_locations": [
+        "Houston Heights"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "d2a6eab5336d",
+        "agent": "Financial_Intelligence",
+        "title": "Opportunity Zone Tax Benefits"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "200cfc25aaf2",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "investment",
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "7163e4c3fb4e",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "target": {
+        "id": "5f2f28808f9c",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "returns",
+        "financial",
+        "investment",
+        "roi"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "48b4dea37eba",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "target": {
+        "id": "48b4dea37eba",
+        "agent": "Market_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "common_tags": [
+        "mixed-use",
+        "houston-heights",
+        "pipeline",
+        "development"
+      ],
+      "common_locations": [
+        "Heights District",
+        "Houston Heights"
+      ]
+    },
+    {
+      "source": {
+        "id": "48b4dea37eba",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "target": {
+        "id": "7163e4c3fb4e",
+        "agent": "Financial_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "common_tags": [
+        "houston-heights"
+      ],
+      "common_locations": [
+        "Houston Heights"
+      ]
+    },
+    {
+      "source": {
+        "id": "48b4dea37eba",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "target": {
+        "id": "48b4dea37eba",
+        "agent": "Financial_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "common_tags": [
+        "mixed-use",
+        "houston-heights",
+        "pipeline",
+        "development"
+      ],
+      "common_locations": [
+        "Heights District",
+        "Houston Heights"
+      ]
+    },
+    {
+      "source": {
+        "id": "48b4dea37eba",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "target": {
+        "id": "e004c544df23",
+        "agent": "Regulatory_Intelligence",
+        "title": "Houston Zoning Reform Impact Analysis"
+      },
+      "common_tags": [
+        "pipeline",
+        "development"
+      ],
+      "common_locations": []
+    },
+    {
+      "source": {
+        "id": "c3f5c6ca4a5c",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "target": {
+        "id": "48b4dea37eba",
+        "agent": "Market_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "common_tags": [
+        "mixed-use",
+        "houston-heights",
+        "pipeline",
+        "development"
+      ],
+      "common_locations": [
+        "Heights District",
+        "Houston Heights"
+      ]
+    },
+    {
+      "source": {
+        "id": "c3f5c6ca4a5c",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "target": {
+        "id": "7163e4c3fb4e",
+        "agent": "Financial_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "common_tags": [
+        "houston-heights"
+      ],
+      "common_locations": [
+        "Houston Heights"
+      ]
+    },
+    {
+      "source": {
+        "id": "c3f5c6ca4a5c",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "target": {
+        "id": "48b4dea37eba",
+        "agent": "Financial_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "common_tags": [
+        "mixed-use",
+        "houston-heights",
+        "pipeline",
+        "development"
+      ],
+      "common_locations": [
+        "Heights District",
+        "Houston Heights"
+      ]
+    },
+    {
+      "source": {
+        "id": "c3f5c6ca4a5c",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "target": {
+        "id": "e004c544df23",
+        "agent": "Regulatory_Intelligence",
+        "title": "Houston Zoning Reform Impact Analysis"
+      },
+      "common_tags": [
+        "construction",
+        "project",
+        "pipeline",
+        "development"
+      ],
+      "common_locations": []
+    },
+    {
+      "source": {
+        "id": "e3955599eab9",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Katy Area Development Pipeline"
+      },
+      "target": {
+        "id": "48b4dea37eba",
+        "agent": "Market_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "common_tags": [
+        "pipeline",
+        "development"
+      ],
+      "common_locations": []
+    },
+    {
+      "source": {
+        "id": "e3955599eab9",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Katy Area Development Pipeline"
+      },
+      "target": {
+        "id": "0403a497ce80",
+        "agent": "Market_Intelligence",
+        "title": "Katy Area Development Pipeline"
+      },
+      "common_tags": [
+        "development",
+        "opportunities",
+        "katy"
+      ],
+      "common_locations": []
+    },
+    {
+      "source": {
+        "id": "e3955599eab9",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Katy Area Development Pipeline"
+      },
+      "target": {
+        "id": "48b4dea37eba",
+        "agent": "Financial_Intelligence",
+        "title": "Heights Mixed-Use Development Pipeline"
+      },
+      "common_tags": [
+        "pipeline",
+        "development"
+      ],
+      "common_locations": []
+    },
+    {
+      "source": {
+        "id": "e3955599eab9",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Katy Area Development Pipeline"
+      },
+      "target": {
+        "id": "e004c544df23",
+        "agent": "Regulatory_Intelligence",
+        "title": "Houston Zoning Reform Impact Analysis"
+      },
+      "common_tags": [
+        "construction",
+        "project",
+        "pipeline",
+        "development"
+      ],
+      "common_locations": []
+    },
+    {
+      "source": {
+        "id": "536d6a2911e2",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Sugar Land Price Trajectory Model"
+      },
+      "target": {
+        "id": "bdaf12ff1ce1",
+        "agent": "Market_Intelligence",
+        "title": "Sugar Land Price Trajectory Model"
+      },
+      "common_tags": [
+        "sugar-land",
+        "pricing",
+        "forecast",
+        "residential"
+      ],
+      "common_locations": [
+        "Sugar Land",
+        "Fort Bend County"
+      ]
+    },
+    {
+      "source": {
+        "id": "536d6a2911e2",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Sugar Land Price Trajectory Model"
+      },
+      "target": {
+        "id": "536d6a2911e2",
+        "agent": "Market_Intelligence",
+        "title": "Sugar Land Price Trajectory Model"
+      },
+      "common_tags": [
+        "sugar-land",
+        "pricing",
+        "forecast",
+        "residential"
+      ],
+      "common_locations": [
+        "Sugar Land",
+        "Fort Bend County"
+      ]
+    },
+    {
+      "source": {
+        "id": "536d6a2911e2",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Sugar Land Price Trajectory Model"
+      },
+      "target": {
+        "id": "92ef20bb5ebb",
+        "agent": "Market_Intelligence",
+        "title": "Houston Residential Price Forecast Q1 2024"
+      },
+      "common_tags": [
+        "pricing",
+        "forecast",
+        "residential"
+      ],
+      "common_locations": []
+    },
+    {
+      "source": {
+        "id": "536d6a2911e2",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Sugar Land Price Trajectory Model"
+      },
+      "target": {
+        "id": "f223247167fd",
+        "agent": "Market_Intelligence",
+        "title": "Houston Residential Price Forecast Q1 2024"
+      },
+      "common_tags": [
+        "pricing",
+        "forecast",
+        "residential"
+      ],
+      "common_locations": []
+    },
+    {
+      "source": {
+        "id": "3b498c628e43",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Woodlands Infrastructure Assessment"
+      },
+      "target": {
+        "id": "f9c03137011b",
+        "agent": "Market_Intelligence",
+        "title": "Smart City Infrastructure Deployment"
+      },
+      "common_tags": [
+        "infrastructure"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "3b498c628e43",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Woodlands Infrastructure Assessment"
+      },
+      "target": {
+        "id": "aedb1667874f",
+        "agent": "Market_Intelligence",
+        "title": "Woodlands Infrastructure Assessment"
+      },
+      "common_tags": [
+        "infrastructure",
+        "development-ready",
+        "woodlands"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "3b498c628e43",
+        "agent": "Neighborhood_Intelligence",
+        "title": "Woodlands Infrastructure Assessment"
+      },
+      "target": {
+        "id": "e004c544df23",
+        "agent": "Regulatory_Intelligence",
+        "title": "Houston Zoning Reform Impact Analysis"
+      },
+      "common_tags": [
+        "construction",
+        "project",
+        "pipeline"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "80c0653ab3de",
+        "agent": "Environmental_Intelligence",
+        "title": "Updated Flood Risk Maps and Mitigation Strategies"
+      },
+      "target": {
+        "id": "5f2f28808f9c",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "mitigation",
+        "risk"
+      ],
+      "common_locations": []
+    },
+    {
+      "source": {
+        "id": "b06885d09da7",
+        "agent": "Environmental_Intelligence",
+        "title": "Updated Flood Risk Maps and Mitigation Strategies"
+      },
+      "target": {
+        "id": "200cfc25aaf2",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "risk",
+        "analysis"
+      ],
+      "common_locations": []
+    },
+    {
+      "source": {
+        "id": "b06885d09da7",
+        "agent": "Environmental_Intelligence",
+        "title": "Updated Flood Risk Maps and Mitigation Strategies"
+      },
+      "target": {
+        "id": "5f2f28808f9c",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "mitigation",
+        "assessment",
+        "risk",
+        "analysis"
+      ],
+      "common_locations": []
+    },
+    {
+      "source": {
+        "id": "26fa2ae53253",
+        "agent": "Environmental_Intelligence",
+        "title": "Environmental Compliance Checklist 2024"
+      },
+      "target": {
+        "id": "469b73654834",
+        "agent": "Market_Intelligence",
+        "title": "Air Quality Impact on Development Values"
+      },
+      "common_tags": [
+        "environmental"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "26fa2ae53253",
+        "agent": "Environmental_Intelligence",
+        "title": "Environmental Compliance Checklist 2024"
+      },
+      "target": {
+        "id": "a394b1f5dec1",
+        "agent": "Regulatory_Intelligence",
+        "title": "Environmental Compliance Checklist 2024"
+      },
+      "common_tags": [
+        "regulations",
+        "environmental",
+        "compliance"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "a394b1f5dec1",
+        "agent": "Environmental_Intelligence",
+        "title": "Environmental Compliance Checklist 2024"
+      },
+      "target": {
+        "id": "469b73654834",
+        "agent": "Market_Intelligence",
+        "title": "Air Quality Impact on Development Values"
+      },
+      "common_tags": [
+        "environmental"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "a394b1f5dec1",
+        "agent": "Environmental_Intelligence",
+        "title": "Environmental Compliance Checklist 2024"
+      },
+      "target": {
+        "id": "a394b1f5dec1",
+        "agent": "Regulatory_Intelligence",
+        "title": "Environmental Compliance Checklist 2024"
+      },
+      "common_tags": [
+        "regulations",
+        "environmental",
+        "compliance"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "a13d7d52a7e1",
+        "agent": "Environmental_Intelligence",
+        "title": "Updated Flood Risk Assessment - West Houston"
+      },
+      "target": {
+        "id": "5f2f28808f9c",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "mitigation",
+        "assessment",
+        "analysis"
+      ],
+      "common_locations": []
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "94955c98c342",
+        "agent": "Market_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "common_tags": [
+        "financial",
+        "returns",
+        "roi",
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "26c2a0e4ffc4",
+        "agent": "Market_Intelligence",
+        "title": "Opportunity Zone Tax Benefits"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "5e0ba070c01c",
+        "agent": "Financial_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "common_tags": [
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "7163e4c3fb4e",
+        "agent": "Financial_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "common_tags": [
+        "returns",
+        "financial",
+        "investment",
+        "roi"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "73e3b50679bc",
+        "agent": "Financial_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "26e2891d2c71",
+        "agent": "Financial_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "common_tags": [
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "2fc6c392581d",
+        "agent": "Financial_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "common_tags": [
+        "financial",
+        "returns",
+        "roi",
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "a7a89d971e5d",
+        "agent": "Financial_Intelligence",
+        "title": "Mixed-Use Development ROI Model"
+      },
+      "common_tags": [
+        "investment",
+        "roi",
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "16f3f69ce4b2",
+        "agent": "Financial_Intelligence",
+        "title": "Mixed-Use Development ROI Model"
+      },
+      "common_tags": [
+        "financial",
+        "returns",
+        "roi",
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "d2a6eab5336d",
+        "agent": "Financial_Intelligence",
+        "title": "Opportunity Zone Tax Benefits"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "200cfc25aaf2",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "investment",
+        "risk",
+        "financial",
+        "analysis"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "5f2f28808f9c",
+        "agent": "Environmental_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "target": {
+        "id": "5f2f28808f9c",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "investment",
+        "roi",
+        "assessment",
+        "risk",
+        "financial",
+        "mitigation",
+        "returns",
+        "analysis"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "da355c95a845",
+        "agent": "Environmental_Intelligence",
+        "title": "Air Quality Impact on Development Values"
+      },
+      "target": {
+        "id": "469b73654834",
+        "agent": "Market_Intelligence",
+        "title": "Air Quality Impact on Development Values"
+      },
+      "common_tags": [
+        "air-quality",
+        "environmental",
+        "property-values"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "da355c95a845",
+        "agent": "Environmental_Intelligence",
+        "title": "Air Quality Impact on Development Values"
+      },
+      "target": {
+        "id": "a394b1f5dec1",
+        "agent": "Regulatory_Intelligence",
+        "title": "Environmental Compliance Checklist 2024"
+      },
+      "common_tags": [
+        "environmental"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "94955c98c342",
+        "agent": "Market_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "target": {
+        "id": "7163e4c3fb4e",
+        "agent": "Financial_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "94955c98c342",
+        "agent": "Market_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "target": {
+        "id": "73e3b50679bc",
+        "agent": "Financial_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "common_tags": [
+        "lending",
+        "rates",
+        "financing",
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "94955c98c342",
+        "agent": "Market_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "target": {
+        "id": "2fc6c392581d",
+        "agent": "Financial_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "94955c98c342",
+        "agent": "Market_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "target": {
+        "id": "a7a89d971e5d",
+        "agent": "Financial_Intelligence",
+        "title": "Mixed-Use Development ROI Model"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "94955c98c342",
+        "agent": "Market_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "target": {
+        "id": "16f3f69ce4b2",
+        "agent": "Financial_Intelligence",
+        "title": "Mixed-Use Development ROI Model"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "94955c98c342",
+        "agent": "Market_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "target": {
+        "id": "d2a6eab5336d",
+        "agent": "Financial_Intelligence",
+        "title": "Opportunity Zone Tax Benefits"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "94955c98c342",
+        "agent": "Market_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "target": {
+        "id": "200cfc25aaf2",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "94955c98c342",
+        "agent": "Market_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "target": {
+        "id": "5f2f28808f9c",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "5e0ba070c01c",
+        "agent": "Financial_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "common_tags": [
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "7163e4c3fb4e",
+        "agent": "Financial_Intelligence",
+        "title": "Houston Heights Investment Score Analysis"
+      },
+      "common_tags": [
+        "returns",
+        "financial",
+        "investment",
+        "roi"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "73e3b50679bc",
+        "agent": "Financial_Intelligence",
+        "title": "Current Lending Environment Analysis"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "26e2891d2c71",
+        "agent": "Financial_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "common_tags": [
+        "investment",
+        "tech-sector",
+        "trends",
+        "commercial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "2fc6c392581d",
+        "agent": "Financial_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "common_tags": [
+        "investment",
+        "roi",
+        "tech-sector",
+        "trends",
+        "commercial",
+        "financial",
+        "returns"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "a7a89d971e5d",
+        "agent": "Financial_Intelligence",
+        "title": "Mixed-Use Development ROI Model"
+      },
+      "common_tags": [
+        "investment",
+        "roi",
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "16f3f69ce4b2",
+        "agent": "Financial_Intelligence",
+        "title": "Mixed-Use Development ROI Model"
+      },
+      "common_tags": [
+        "financial",
+        "returns",
+        "roi",
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "d2a6eab5336d",
+        "agent": "Financial_Intelligence",
+        "title": "Opportunity Zone Tax Benefits"
+      },
+      "common_tags": [
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "200cfc25aaf2",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "investment",
+        "financial"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "2fc6c392581d",
+        "agent": "Market_Intelligence",
+        "title": "Tech Sector Real Estate Investment Trends"
+      },
+      "target": {
+        "id": "5f2f28808f9c",
+        "agent": "Financial_Intelligence",
+        "title": "Investment Risk Matrix for Houston Development"
+      },
+      "common_tags": [
+        "financial",
+        "returns",
+        "roi",
+        "investment"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "c988fbcd5953",
+        "agent": "Market_Intelligence",
+        "title": "Expedited Permit Program Guidelines"
+      },
+      "target": {
+        "id": "a387619fa0bc",
+        "agent": "Regulatory_Intelligence",
+        "title": "Expedited Permit Program Guidelines"
+      },
+      "common_tags": [
+        "expedited",
+        "process",
+        "permits",
+        "regulatory"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    },
+    {
+      "source": {
+        "id": "c988fbcd5953",
+        "agent": "Market_Intelligence",
+        "title": "Expedited Permit Program Guidelines"
+      },
+      "target": {
+        "id": "6ce626f5a6e2",
+        "agent": "Regulatory_Intelligence",
+        "title": "Houston Zoning Reform Impact Analysis"
+      },
+      "common_tags": [
+        "regulatory"
+      ],
+      "common_locations": [
+        "Houston"
+      ]
+    }
+  ]
+}

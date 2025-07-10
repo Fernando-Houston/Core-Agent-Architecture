@@ -1,0 +1,150 @@
+{
+  "26e2891d2c71": {
+    "id": "26e2891d2c71",
+    "timestamp": "2025-07-10T02:28:08.573344",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/technology_innovation_t2.json",
+    "domain": "investment_flows",
+    "category": "tech_investment",
+    "subcategory": "",
+    "title": "Tech Sector Real Estate Investment Trends",
+    "content": {
+      "summary": "Tech companies driving new real estate demand patterns",
+      "key_findings": [
+        "Tech firms leasing 2M sqft annually",
+        "Flex space demand up 40%",
+        "Tech worker housing demand concentrated in urban cores"
+      ],
+      "metrics": {
+        "tech_lease_volume_sqft": 2000000,
+        "flex_space_growth": 40,
+        "avg_rent_premium": 15,
+        "absorption_rate": 92
+      }
+    },
+    "tags": [
+      "investment",
+      "tech-sector",
+      "commercial",
+      "trends"
+    ],
+    "relationships": [],
+    "confidence_score": 0.86,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "tech_lease_volume_sqft",
+        "value": 2000000,
+        "unit": "sqft",
+        "timestamp": "2025-07-10T02:28:08.573344"
+      },
+      {
+        "type": "metric",
+        "name": "flex_space_growth",
+        "value": 40,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:08.573344"
+      },
+      {
+        "type": "metric",
+        "name": "avg_rent_premium",
+        "value": 15,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:08.573344"
+      },
+      {
+        "type": "metric",
+        "name": "absorption_rate",
+        "value": 92,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:28:08.573344"
+      }
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.7999999999999999,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:08.573344",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  },
+  "2fc6c392581d": {
+    "id": "2fc6c392581d",
+    "timestamp": "2025-07-10T02:39:31.428790",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/technology_innovation_t2.json",
+    "domain": "investment_flows",
+    "category": "tech_investment",
+    "subcategory": "",
+    "title": "Tech Sector Real Estate Investment Trends",
+    "content": {
+      "summary": "Tech companies driving new real estate demand patterns",
+      "key_findings": [
+        "Tech firms leasing 2M sqft annually",
+        "Flex space demand up 40%",
+        "Tech worker housing demand concentrated in urban cores"
+      ],
+      "metrics": {
+        "tech_lease_volume_sqft": 2000000,
+        "flex_space_growth": 40,
+        "avg_rent_premium": 15,
+        "absorption_rate": 92
+      },
+      "recommendations": [],
+      "raw_data": {}
+    },
+    "tags": [
+      "investment",
+      "tech-sector",
+      "commercial",
+      "trends",
+      "financial",
+      "roi",
+      "returns"
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.972,
+    "confidence_score": 0.86,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "tech_lease_volume_sqft",
+        "value": 2000000,
+        "unit": "sqft",
+        "timestamp": "2025-07-10T02:39:31.428795"
+      },
+      {
+        "type": "metric",
+        "name": "flex_space_growth",
+        "value": 40,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:39:31.428797"
+      },
+      {
+        "type": "metric",
+        "name": "avg_rent_premium",
+        "value": 15,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.428798"
+      },
+      {
+        "type": "metric",
+        "name": "absorption_rate",
+        "value": 92,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:39:31.428800"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.428801",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

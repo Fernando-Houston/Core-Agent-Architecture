@@ -1,0 +1,173 @@
+{
+  "a7a89d971e5d": {
+    "id": "a7a89d971e5d",
+    "timestamp": "2025-07-10T02:28:01.024848",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/financial_analysis_t2.json",
+    "domain": "financing_options",
+    "category": "roi_models",
+    "subcategory": "",
+    "title": "Mixed-Use Development ROI Model",
+    "content": {
+      "summary": "Comprehensive ROI model for mixed-use developments",
+      "key_findings": [
+        "18-22% projected returns",
+        "3-year break-even period",
+        "Multiple financing options available"
+      ],
+      "metrics": {
+        "projected_roi": 20,
+        "break_even_months": 36,
+        "initial_investment": 5000000,
+        "npv": 2500000,
+        "irr": 18.5
+      },
+      "recommendations": [
+        "Pursue mixed-use developments in high-growth areas",
+        "Structure deals with 70/30 debt-equity ratio",
+        "Consider opportunity zone benefits"
+      ]
+    },
+    "tags": [
+      "roi",
+      "financial",
+      "mixed-use",
+      "investment"
+    ],
+    "relationships": [],
+    "confidence_score": 0.85,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "projected_roi",
+        "value": 20,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:01.024848"
+      },
+      {
+        "type": "metric",
+        "name": "break_even_months",
+        "value": 36,
+        "unit": "time",
+        "timestamp": "2025-07-10T02:28:01.024848"
+      },
+      {
+        "type": "metric",
+        "name": "initial_investment",
+        "value": 5000000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:01.024848"
+      },
+      {
+        "type": "metric",
+        "name": "npv",
+        "value": 2500000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:01.024848"
+      },
+      {
+        "type": "metric",
+        "name": "irr",
+        "value": 18.5,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:01.024848"
+      }
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.95,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:01.024848",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  },
+  "16f3f69ce4b2": {
+    "id": "16f3f69ce4b2",
+    "timestamp": "2025-07-10T02:39:31.418346",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/financial_analysis_t2.json",
+    "domain": "financing_options",
+    "category": "roi_models",
+    "subcategory": "",
+    "title": "Mixed-Use Development ROI Model",
+    "content": {
+      "summary": "Comprehensive ROI model for mixed-use developments",
+      "key_findings": [
+        "18-22% projected returns",
+        "3-year break-even period",
+        "Multiple financing options available"
+      ],
+      "metrics": {
+        "projected_roi": 20,
+        "break_even_months": 36,
+        "initial_investment": 5000000,
+        "npv": 2500000,
+        "irr": 18.5
+      },
+      "recommendations": [
+        "Pursue mixed-use developments in high-growth areas",
+        "Structure deals with 70/30 debt-equity ratio",
+        "Consider opportunity zone benefits"
+      ],
+      "raw_data": {}
+    },
+    "tags": [
+      "roi",
+      "financial",
+      "mixed-use",
+      "investment",
+      "returns"
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 1.0,
+    "confidence_score": 0.85,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "projected_roi",
+        "value": 20,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.418353"
+      },
+      {
+        "type": "metric",
+        "name": "break_even_months",
+        "value": 36,
+        "unit": "time",
+        "timestamp": "2025-07-10T02:39:31.418355"
+      },
+      {
+        "type": "metric",
+        "name": "initial_investment",
+        "value": 5000000,
+        "unit": "USD",
+        "timestamp": "2025-07-10T02:39:31.418356"
+      },
+      {
+        "type": "metric",
+        "name": "npv",
+        "value": 2500000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.418358"
+      },
+      {
+        "type": "metric",
+        "name": "irr",
+        "value": 18.5,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.418359"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.418360",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

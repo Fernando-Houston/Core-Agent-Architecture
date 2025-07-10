@@ -1,0 +1,39 @@
+{
+  "agent_name": "Neighborhood_Intelligence",
+  "generated_at": "2025-07-10T02:41:15.614028",
+  "total_insights": 6,
+  "categories": {
+    "investment_analysis": 1,
+    "development_activity": 2,
+    "development_opportunities": 1,
+    "market_analysis": 1,
+    "infrastructure_impact": 1
+  },
+  "top_insights": [
+    {
+      "title": "Woodlands Infrastructure Assessment",
+      "priority": 0.886,
+      "summary": "World-class infrastructure supporting premium development"
+    },
+    {
+      "title": "Heights Mixed-Use Development Pipeline",
+      "priority": 0.884,
+      "summary": "5 major mixed-use projects in pipeline for Houston Heights"
+    },
+    {
+      "title": "Houston Heights Investment Score Analysis",
+      "priority": 0.88,
+      "summary": "Heights shows strong investment potential with 85/100 score"
+    },
+    {
+      "title": "Katy Area Development Pipeline",
+      "priority": 0.876,
+      "summary": "Significant development opportunities in Katy expansion areas"
+    },
+    {
+      "title": "Sugar Land Price Trajectory Model",
+      "priority": 0.874,
+      "summary": "Sugar Land residential prices projected to increase 12-18%"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "folder_name": "Zoning and Regulatory Intelligence",
+    "extraction_timestamp": "2025-07-10T01:36:42.486711",
+    "file_count": 8,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script.py": {
+      "imports": [
+        "import pandas as pd\nimport plotly.graph_objects as go\nimport plotly.express as px\nfrom datetime import datetime\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#944454",
+          "#B4413C",
+          "#1FB8CD",
+          "#D2BA4C",
+          "#5D878F",
+          "#FFC185",
+          "#964325",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Harris County Regulatory Changes",
+          "Regulation",
+          "Status"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script_1.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.express as px\nimport pandas as pd\nfrom datetime import datetime\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "scatter_plot"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#5D878F",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Harris County & Houston Regulatory Timeline",
+          "Date"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "script.py": {
+      "imports": [
+        "import pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "regulatory_changes_2024_2025.csv",
+        "Data saved to regulatory_changes_2024_2025.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    }
+  }
+}

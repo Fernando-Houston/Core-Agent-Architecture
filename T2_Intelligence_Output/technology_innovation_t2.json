@@ -1,0 +1,96 @@
+{
+  "analysis_id": "t2_tech_001",
+  "timestamp": "2024-01-10T12:30:00Z",
+  "insights": [
+    {
+      "domain": "Innovation_districts",
+      "category": "tech_ecosystem",
+      "title": "Houston Innovation District Performance Metrics",
+      "content": {
+        "summary": "Innovation districts driving significant economic growth",
+        "key_findings": [
+          "Ion District attracted 50+ startups in 2023",
+          "TMC Innovation creating 30,000 biotech jobs",
+          "Energy transition hub emerging in East End"
+        ],
+        "metrics": {
+          "startup_density_per_sqmi": 125,
+          "job_creation_annual": 5000,
+          "venture_funding_millions": 850,
+          "space_absorption_rate": 95
+        }
+      },
+      "tags": ["innovation", "technology", "economic-growth", "startups"],
+      "geographic_scope": ["Ion District", "TMC", "East End"],
+      "confidence_score": 0.90
+    },
+    {
+      "domain": "smart_city_initiatives",
+      "category": "infrastructure_technology",
+      "title": "Smart City Infrastructure Deployment",
+      "content": {
+        "summary": "Houston's smart city initiatives enhancing property values",
+        "key_findings": [
+          "Smart traffic systems reduce commute times 25%",
+          "IoT sensors improve flood response",
+          "5G coverage expanding to 80% by 2025"
+        ],
+        "metrics": {
+          "smart_intersections": 500,
+          "iot_sensors_deployed": 10000,
+          "5g_coverage_percent": 65,
+          "efficiency_improvement": 30
+        }
+      },
+      "tags": ["smart-city", "infrastructure", "technology", "5g"],
+      "confidence_score": 0.88
+    },
+    {
+      "domain": "development_technologies",
+      "category": "construction_innovation",
+      "title": "PropTech Adoption in Houston Development",
+      "content": {
+        "summary": "Technology adoption transforming development processes",
+        "key_findings": [
+          "BIM adoption at 75% for major projects",
+          "Modular construction reducing costs 20%",
+          "AI-powered design optimization standard"
+        ],
+        "metrics": {
+          "tech_adoption_rate": 75,
+          "cost_reduction_percent": 20,
+          "timeline_reduction_percent": 30,
+          "roi_on_tech": 250
+        },
+        "recommendations": [
+          "Invest in BIM and digital twin technologies",
+          "Explore modular construction for multifamily",
+          "Implement AI for site selection and design"
+        ]
+      },
+      "tags": ["proptech", "construction", "innovation", "efficiency"],
+      "confidence_score": 0.87
+    },
+    {
+      "domain": "investment_flows",
+      "category": "tech_investment",
+      "title": "Tech Sector Real Estate Investment Trends",
+      "content": {
+        "summary": "Tech companies driving new real estate demand patterns",
+        "key_findings": [
+          "Tech firms leasing 2M sqft annually",
+          "Flex space demand up 40%",
+          "Tech worker housing demand concentrated in urban cores"
+        ],
+        "metrics": {
+          "tech_lease_volume_sqft": 2000000,
+          "flex_space_growth": 40,
+          "avg_rent_premium": 15,
+          "absorption_rate": 92
+        }
+      },
+      "tags": ["investment", "tech-sector", "commercial", "trends"],
+      "confidence_score": 0.86
+    }
+  ]
+}

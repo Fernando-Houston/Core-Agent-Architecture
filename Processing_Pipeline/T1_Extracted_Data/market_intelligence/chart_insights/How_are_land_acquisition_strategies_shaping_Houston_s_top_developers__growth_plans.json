@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "folder_name": "How are land acquisition strategies shaping Houston_s top developers_ growth plans",
+    "extraction_timestamp": "2025-07-10T01:36:42.519741",
+    "file_count": 7,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "houston_development_chart.png": {
+      "file_name": "houston_development_chart.png",
+      "file_size": 203867,
+      "chart_type": "bar_chart",
+      "insights": {
+        "location": "houston",
+        "topic": "development"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_land_deals.png": {
+      "file_name": "houston_land_deals.png",
+      "file_size": 225283,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_acquisition_strategy.png": {
+      "file_name": "houston_acquisition_strategy.png",
+      "file_size": 179374,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

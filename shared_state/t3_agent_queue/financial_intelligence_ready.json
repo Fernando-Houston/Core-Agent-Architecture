@@ -1,0 +1,18 @@
+{
+  "domain": "financial_intelligence",
+  "analysis_file": "/Users/fernandox/Desktop/Core Agent Architecture/shared_state/t2_analysis/financial_intelligence_analysis_20250710_020633.json",
+  "timestamp": "2025-07-10T02:06:33.913186",
+  "confidence": 0.934,
+  "key_metrics": {
+    "avg_market_roi": 20.716666666666665,
+    "max_market_roi": 24.8,
+    "avg_lending_rate": 8.3375,
+    "construction_loan_rate": 7.25,
+    "total_investment_volume": 3850000000,
+    "foreign_investment_pct": 10,
+    "avg_price_to_rent": 17.8,
+    "multifamily_equity_multiple": 2.89
+  },
+  "priority": "high",
+  "status": "ready_for_agent_population"
+}

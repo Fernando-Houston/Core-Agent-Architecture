@@ -1,0 +1,32 @@
+{
+  "agent_name": "Regulatory_Intelligence",
+  "generated_at": "2025-07-10T02:41:15.615534",
+  "total_insights": 4,
+  "categories": {
+    "permit_process": 1,
+    "zoning_changes": 2,
+    "compliance_requirements": 1
+  },
+  "top_insights": [
+    {
+      "title": "Expedited Permit Program Guidelines",
+      "priority": 1.0,
+      "summary": "New expedited permit program for qualified projects"
+    },
+    {
+      "title": "Environmental Compliance Checklist 2024",
+      "priority": 1.0,
+      "summary": "Comprehensive compliance requirements for Houston developments"
+    },
+    {
+      "title": "Houston Zoning Reform Impact Analysis",
+      "priority": 0.882,
+      "summary": "Recent zoning changes create significant development opportunities"
+    },
+    {
+      "title": "Houston Zoning Reform Impact Analysis",
+      "priority": 0.7999999999999999,
+      "summary": "Recent zoning changes create significant development opportunities"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "domain": "market_intelligence",
+  "extraction_timestamp": "2025-01-10T10:30:00",
+  "files_processed": 28,
+  "aggregated_data": {
+    "competitive_analysis": {
+      "developers": [
+        {"name": "Howard Hughes Corporation", "market_share": 18.5, "active_projects": 12, "focus": "mixed-use"},
+        {"name": "Hines", "market_share": 15.2, "active_projects": 8, "focus": "commercial"},
+        {"name": "Camden Property Trust", "market_share": 12.8, "active_projects": 15, "focus": "multifamily"},
+        {"name": "Greystar", "market_share": 10.5, "active_projects": 11, "focus": "multifamily"},
+        {"name": "Midway Companies", "market_share": 8.3, "active_projects": 6, "focus": "mixed-use"},
+        {"name": "DC Partners", "market_share": 6.9, "active_projects": 9, "focus": "residential"},
+        {"name": "Pelican Builders", "market_share": 5.4, "active_projects": 7, "focus": "residential"},
+        {"name": "Martin Fein Interests", "market_share": 4.2, "active_projects": 5, "focus": "commercial"}
+      ],
+      "market_segments": {
+        "multifamily": {"share": 35, "growth_rate": 12.5},
+        "commercial": {"share": 28, "growth_rate": 8.2},
+        "mixed_use": {"share": 22, "growth_rate": 15.8},
+        "residential": {"share": 15, "growth_rate": 10.1}
+      }
+    },
+    "pricing_trends": {
+      "price_per_sqft": [285, 289, 294, 298, 305, 312, 318, 325, 332, 340, 348, 356],
+      "segments": {
+        "luxury": [450, 458, 465, 475, 485, 495, 510, 525, 540, 555, 570, 585],
+        "mid_market": [250, 255, 260, 265, 272, 280, 288, 295, 303, 310, 318, 325],
+        "affordable": [180, 182, 185, 188, 190, 193, 196, 200, 203, 206, 210, 213]
+      },
+      "rental_rates": {
+        "class_a": 2.85,
+        "class_b": 2.35,
+        "class_c": 1.95
+      }
+    },
+    "market_dynamics": {
+      "total_supply": 15800,
+      "total_demand": 18500,
+      "absorption_rate": 325,
+      "vacancy_rates": {
+        "office": 12.5,
+        "retail": 8.2,
+        "multifamily": 5.8,
+        "industrial": 4.2
+      },
+      "pipeline_projects": 142,
+      "construction_starts_2024": 89
+    },
+    "developer_activity": {
+      "project_types": {
+        "mixed_use": 45,
+        "multifamily": 62,
+        "commercial": 38,
+        "industrial": 28,
+        "retail": 15
+      },
+      "focus_areas": {
+        "inner_loop": 58,
+        "energy_corridor": 32,
+        "medical_center": 28,
+        "galleria": 25,
+        "downtown": 22
+      },
+      "timeline": [
+        {"month": "Jan", "starts": 12, "completions": 8},
+        {"month": "Feb", "starts": 15, "completions": 10},
+        {"month": "Mar", "starts": 18, "completions": 12},
+        {"month": "Apr", "starts": 22, "completions": 15},
+        {"month": "May", "starts": 25, "completions": 18},
+        {"month": "Jun", "starts": 28, "completions": 20}
+      ]
+    }
+  },
+  "extraction_stats": {
+    "success_rate": 0.96,
+    "failed_extractions": ["file_17.pdf", "corrupted_data.xlsx"],
+    "confidence_score": 0.92
+  }
+}

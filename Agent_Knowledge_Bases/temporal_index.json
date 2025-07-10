@@ -1,0 +1,319 @@
+{
+  "generated_at": "2025-07-10T02:41:15.608310",
+  "periods": {
+    "2024": {
+      "total_insights": 3,
+      "insights": [
+        {
+          "agent": "Environmental_Intelligence",
+          "insight_id": "a394b1f5dec1",
+          "title": "Environmental Compliance Checklist 2024",
+          "priority": 1.0
+        },
+        {
+          "agent": "Regulatory_Intelligence",
+          "insight_id": "a394b1f5dec1",
+          "title": "Environmental Compliance Checklist 2024",
+          "priority": 1.0
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "f223247167fd",
+          "title": "Houston Residential Price Forecast Q1 2024",
+          "priority": 0.87
+        }
+      ]
+    },
+    "2024-2025": {
+      "total_insights": 44,
+      "insights": [
+        {
+          "agent": "Technology_Innovation_Intelligence",
+          "insight_id": "80c488785dfd",
+          "title": "PropTech Adoption in Houston Development",
+          "priority": 1.0
+        },
+        {
+          "agent": "Financial_Intelligence",
+          "insight_id": "16f3f69ce4b2",
+          "title": "Mixed-Use Development ROI Model",
+          "priority": 1.0
+        },
+        {
+          "agent": "Regulatory_Intelligence",
+          "insight_id": "a387619fa0bc",
+          "title": "Expedited Permit Program Guidelines",
+          "priority": 1.0
+        },
+        {
+          "agent": "Technology_Innovation_Intelligence",
+          "insight_id": "2fc6c392581d",
+          "title": "Tech Sector Real Estate Investment Trends",
+          "priority": 0.972
+        },
+        {
+          "agent": "Environmental_Intelligence",
+          "insight_id": "5f2f28808f9c",
+          "title": "Investment Risk Matrix for Houston Development",
+          "priority": 0.972
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "2fc6c392581d",
+          "title": "Tech Sector Real Estate Investment Trends",
+          "priority": 0.972
+        },
+        {
+          "agent": "Financial_Intelligence",
+          "insight_id": "2fc6c392581d",
+          "title": "Tech Sector Real Estate Investment Trends",
+          "priority": 0.972
+        },
+        {
+          "agent": "Financial_Intelligence",
+          "insight_id": "5f2f28808f9c",
+          "title": "Investment Risk Matrix for Houston Development",
+          "priority": 0.972
+        },
+        {
+          "agent": "Technology_Innovation_Intelligence",
+          "insight_id": "6d90f6ffaff1",
+          "title": "PropTech Adoption in Houston Development",
+          "priority": 0.95
+        },
+        {
+          "agent": "Environmental_Intelligence",
+          "insight_id": "26fa2ae53253",
+          "title": "Environmental Compliance Checklist 2024",
+          "priority": 0.95
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "c988fbcd5953",
+          "title": "Expedited Permit Program Guidelines",
+          "priority": 0.95
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "26c2a0e4ffc4",
+          "title": "Opportunity Zone Tax Benefits",
+          "priority": 0.95
+        },
+        {
+          "agent": "Financial_Intelligence",
+          "insight_id": "a7a89d971e5d",
+          "title": "Mixed-Use Development ROI Model",
+          "priority": 0.95
+        },
+        {
+          "agent": "Environmental_Intelligence",
+          "insight_id": "b06885d09da7",
+          "title": "Updated Flood Risk Maps and Mitigation Strategies",
+          "priority": 0.926
+        },
+        {
+          "agent": "Environmental_Intelligence",
+          "insight_id": "a13d7d52a7e1",
+          "title": "Updated Flood Risk Assessment - West Houston",
+          "priority": 0.926
+        },
+        {
+          "agent": "Neighborhood_Intelligence",
+          "insight_id": "3b498c628e43",
+          "title": "Woodlands Infrastructure Assessment",
+          "priority": 0.886
+        },
+        {
+          "agent": "Neighborhood_Intelligence",
+          "insight_id": "c3f5c6ca4a5c",
+          "title": "Heights Mixed-Use Development Pipeline",
+          "priority": 0.884
+        },
+        {
+          "agent": "Regulatory_Intelligence",
+          "insight_id": "e004c544df23",
+          "title": "Houston Zoning Reform Impact Analysis",
+          "priority": 0.882
+        },
+        {
+          "agent": "Technology_Innovation_Intelligence",
+          "insight_id": "7c8c18a4b64f",
+          "title": "Houston Innovation District Performance Metrics",
+          "priority": 0.88
+        },
+        {
+          "agent": "Neighborhood_Intelligence",
+          "insight_id": "7163e4c3fb4e",
+          "title": "Houston Heights Investment Score Analysis",
+          "priority": 0.88
+        },
+        {
+          "agent": "Financial_Intelligence",
+          "insight_id": "7163e4c3fb4e",
+          "title": "Houston Heights Investment Score Analysis",
+          "priority": 0.88
+        },
+        {
+          "agent": "Neighborhood_Intelligence",
+          "insight_id": "e3955599eab9",
+          "title": "Katy Area Development Pipeline",
+          "priority": 0.876
+        },
+        {
+          "agent": "Financial_Intelligence",
+          "insight_id": "73e3b50679bc",
+          "title": "Current Lending Environment Analysis",
+          "priority": 0.876
+        },
+        {
+          "agent": "Neighborhood_Intelligence",
+          "insight_id": "536d6a2911e2",
+          "title": "Sugar Land Price Trajectory Model",
+          "priority": 0.874
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "536d6a2911e2",
+          "title": "Sugar Land Price Trajectory Model",
+          "priority": 0.874
+        },
+        {
+          "agent": "Environmental_Intelligence",
+          "insight_id": "da355c95a845",
+          "title": "Air Quality Impact on Development Values",
+          "priority": 0.87
+        },
+        {
+          "agent": "Technology_Innovation_Intelligence",
+          "insight_id": "4d8170db344d",
+          "title": "Houston Innovation District Performance Metrics",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Neighborhood_Intelligence",
+          "insight_id": "48b4dea37eba",
+          "title": "Heights Mixed-Use Development Pipeline",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Environmental_Intelligence",
+          "insight_id": "80c0653ab3de",
+          "title": "Updated Flood Risk Maps and Mitigation Strategies",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Environmental_Intelligence",
+          "insight_id": "599e28a81bfe",
+          "title": "Updated Flood Risk Assessment - West Houston",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "94955c98c342",
+          "title": "Current Lending Environment Analysis",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "48b4dea37eba",
+          "title": "Heights Mixed-Use Development Pipeline",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "0403a497ce80",
+          "title": "Katy Area Development Pipeline",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "bdaf12ff1ce1",
+          "title": "Sugar Land Price Trajectory Model",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "92ef20bb5ebb",
+          "title": "Houston Residential Price Forecast Q1 2024",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "f9c03137011b",
+          "title": "Smart City Infrastructure Deployment",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "6ce626f5a6e2",
+          "title": "Houston Zoning Reform Impact Analysis",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "469b73654834",
+          "title": "Air Quality Impact on Development Values",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Market_Intelligence",
+          "insight_id": "aedb1667874f",
+          "title": "Woodlands Infrastructure Assessment",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Financial_Intelligence",
+          "insight_id": "5e0ba070c01c",
+          "title": "Houston Heights Investment Score Analysis",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Financial_Intelligence",
+          "insight_id": "26e2891d2c71",
+          "title": "Tech Sector Real Estate Investment Trends",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Financial_Intelligence",
+          "insight_id": "48b4dea37eba",
+          "title": "Heights Mixed-Use Development Pipeline",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Financial_Intelligence",
+          "insight_id": "200cfc25aaf2",
+          "title": "Investment Risk Matrix for Houston Development",
+          "priority": 0.7999999999999999
+        },
+        {
+          "agent": "Regulatory_Intelligence",
+          "insight_id": "6ce626f5a6e2",
+          "title": "Houston Zoning Reform Impact Analysis",
+          "priority": 0.7999999999999999
+        }
+      ]
+    },
+    "2025": {
+      "total_insights": 1,
+      "insights": [
+        {
+          "agent": "Technology_Innovation_Intelligence",
+          "insight_id": "45190ef620ed",
+          "title": "Smart City Infrastructure Deployment",
+          "priority": 0.876
+        }
+      ]
+    },
+    "2026": {
+      "total_insights": 1,
+      "insights": [
+        {
+          "agent": "Financial_Intelligence",
+          "insight_id": "d2a6eab5336d",
+          "title": "Opportunity Zone Tax Benefits",
+          "priority": 1.0
+        }
+      ]
+    }
+  }
+}

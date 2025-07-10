@@ -1,0 +1,220 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Houston Development Intelligence Knowledge Base Schema",
+  "description": "Schema for structured intelligence records in agent knowledge bases",
+  "version": "1.0",
+  
+  "definitions": {
+    "IntelligenceRecord": {
+      "type": "object",
+      "required": ["id", "timestamp", "domain", "category", "title", "content"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the intelligence record",
+          "pattern": "^[a-f0-9]{12}$"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of record creation"
+        },
+        "source_file": {
+          "type": "string",
+          "description": "Path to source file from T2 analysis"
+        },
+        "domain": {
+          "type": "string",
+          "enum": [
+            "competitive_analysis",
+            "market_forecasts",
+            "pricing_trends",
+            "development_pipeline",
+            "houston_heights",
+            "katy_area",
+            "sugar_land",
+            "the_woodlands",
+            "other_neighborhoods",
+            "financing_options",
+            "investment_analysis",
+            "lending_trends",
+            "tax_implications",
+            "air_quality",
+            "coastal_protection",
+            "environmental_regulations",
+            "flood_risk_data",
+            "compliance_tracking",
+            "permit_requirements",
+            "planning_commission",
+            "zoning_data",
+            "Innovation_districts",
+            "development_technologies",
+            "investment_flows",
+            "smart_city_initiatives"
+          ]
+        },
+        "category": {
+          "type": "string",
+          "description": "High-level category of intelligence"
+        },
+        "subcategory": {
+          "type": "string",
+          "description": "Specific subcategory for detailed classification"
+        },
+        "title": {
+          "type": "string",
+          "description": "Human-readable title of the intelligence insight"
+        },
+        "content": {
+          "type": "object",
+          "description": "Structured content of the intelligence",
+          "properties": {
+            "summary": {
+              "type": "string",
+              "description": "Executive summary of the intelligence"
+            },
+            "key_findings": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "List of key findings or insights"
+            },
+            "metrics": {
+              "type": "object",
+              "description": "Quantitative metrics and data points",
+              "additionalProperties": true
+            },
+            "recommendations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Actionable recommendations based on intelligence"
+            },
+            "raw_data": {
+              "type": "object",
+              "description": "Original data supporting the intelligence",
+              "additionalProperties": true
+            }
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Searchable tags for discovery and filtering"
+        },
+        "relationships": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Related entities, projects, or concepts"
+        },
+        "confidence_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Confidence level of the intelligence (0-1)"
+        },
+        "data_points": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {"type": "string"},
+              "value": {},
+              "unit": {"type": "string"},
+              "timestamp": {"type": "string", "format": "date-time"},
+              "source": {"type": "string"}
+            }
+          },
+          "description": "Individual data points supporting the intelligence"
+        },
+        "geographic_scope": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Geographic areas covered by this intelligence"
+        },
+        "temporal_relevance": {
+          "type": "string",
+          "description": "Time period for which this intelligence is relevant"
+        },
+        "cross_references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "IDs of related intelligence records"
+        }
+      }
+    },
+    
+    "AgentKnowledgeBase": {
+      "type": "object",
+      "properties": {
+        "agent_name": {
+          "type": "string",
+          "enum": [
+            "Market Intelligence",
+            "Neighborhood Intelligence",
+            "Financial Intelligence",
+            "Environmental Intelligence",
+            "Regulatory Intelligence",
+            "Technology & Innovation Intelligence"
+          ]
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "schema_version": {
+          "type": "string"
+        },
+        "total_records": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "intelligence_records": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/IntelligenceRecord"
+          }
+        }
+      }
+    },
+    
+    "CrossDomainMapping": {
+      "type": "object",
+      "properties": {
+        "source_agent": {
+          "type": "string"
+        },
+        "target_agent": {
+          "type": "string"
+        },
+        "shared_records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "record_id": {"type": "string"},
+              "reason": {"type": "string"},
+              "relevance_score": {"type": "number"}
+            }
+          }
+        }
+      }
+    }
+  }
+}

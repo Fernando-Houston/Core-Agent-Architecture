@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "folder_name": "Neighborhood-Level Market Intelligence ",
+    "extraction_timestamp": "2025-07-10T01:36:42.442422",
+    "file_count": 13,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "permit_chart.png": {
+      "file_name": "permit_chart.png",
+      "file_size": 148544,
+      "chart_type": "bar_chart",
+      "insights": {
+        "topic": "permit"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_home_prices.png": {
+      "file_name": "houston_home_prices.png",
+      "file_size": 208702,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston",
+        "topic": "price"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "harris_county_market_performance.png": {
+      "file_name": "harris_county_market_performance.png",
+      "file_size": 195577,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "harris_county"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_zip_performance_2024.png": {
+      "file_name": "houston_zip_performance_2024.png",
+      "file_size": 228672,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston",
+        "year": "2024"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

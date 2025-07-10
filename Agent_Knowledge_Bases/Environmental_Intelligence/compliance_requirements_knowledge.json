@@ -1,0 +1,138 @@
+{
+  "26fa2ae53253": {
+    "id": "26fa2ae53253",
+    "timestamp": "2025-07-10T02:28:06.057105",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/regulatory_environmental_t2.json",
+    "domain": "environmental_regulations",
+    "category": "compliance_requirements",
+    "subcategory": "",
+    "title": "Environmental Compliance Checklist 2024",
+    "content": {
+      "summary": "Comprehensive compliance requirements for Houston developments",
+      "key_findings": [
+        "Phase I ESA required for all commercial projects",
+        "Stormwater management plans mandatory",
+        "Tree preservation ordinance in effect"
+      ],
+      "metrics": {
+        "compliance_cost_average": 75000,
+        "timeline_impact_days": 45,
+        "violation_penalty_max": 500000
+      },
+      "recommendations": [
+        "Conduct early environmental assessments",
+        "Budget 2-3% for environmental compliance",
+        "Engage environmental consultants pre-acquisition"
+      ]
+    },
+    "tags": [
+      "environmental",
+      "compliance",
+      "regulations"
+    ],
+    "relationships": [],
+    "confidence_score": 0.92,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "compliance_cost_average",
+        "value": 75000,
+        "unit": "USD",
+        "timestamp": "2025-07-10T02:28:06.057105"
+      },
+      {
+        "type": "metric",
+        "name": "timeline_impact_days",
+        "value": 45,
+        "unit": "time",
+        "timestamp": "2025-07-10T02:28:06.057105"
+      },
+      {
+        "type": "metric",
+        "name": "violation_penalty_max",
+        "value": 500000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:06.057105"
+      }
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.95,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:06.057105",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  },
+  "a394b1f5dec1": {
+    "id": "a394b1f5dec1",
+    "timestamp": "2025-07-10T02:39:31.425972",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/regulatory_environmental_t2.json",
+    "domain": "environmental_regulations",
+    "category": "compliance_requirements",
+    "subcategory": "",
+    "title": "Environmental Compliance Checklist 2024",
+    "content": {
+      "summary": "Comprehensive compliance requirements for Houston developments",
+      "key_findings": [
+        "Phase I ESA required for all commercial projects",
+        "Stormwater management plans mandatory",
+        "Tree preservation ordinance in effect"
+      ],
+      "metrics": {
+        "compliance_cost_average": 75000,
+        "timeline_impact_days": 45,
+        "violation_penalty_max": 500000
+      },
+      "recommendations": [
+        "Conduct early environmental assessments",
+        "Budget 2-3% for environmental compliance",
+        "Engage environmental consultants pre-acquisition"
+      ],
+      "raw_data": {}
+    },
+    "tags": [
+      "environmental",
+      "compliance",
+      "regulations"
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024",
+    "priority_score": 1.0,
+    "confidence_score": 0.92,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "compliance_cost_average",
+        "value": 75000,
+        "unit": "USD",
+        "timestamp": "2025-07-10T02:39:31.425977"
+      },
+      {
+        "type": "metric",
+        "name": "timeline_impact_days",
+        "value": 45,
+        "unit": "time",
+        "timestamp": "2025-07-10T02:39:31.425979"
+      },
+      {
+        "type": "metric",
+        "name": "violation_penalty_max",
+        "value": 500000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.425981"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.425982",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "generated_at": "2025-07-10T02:29:38.946536",
+  "insights": [
+    {
+      "type": "geographic_concentration",
+      "title": "Multi-domain activity in Houston",
+      "description": "16 intelligence records across 5 domains",
+      "implications": [
+        "5 different intelligence domains active in Houston",
+        "Houston shows tech-driven market growth potential",
+        "Environmental factors may impact Houston development"
+      ],
+      "priority": "high"
+    },
+    {
+      "type": "geographic_concentration",
+      "title": "Multi-domain activity in Houston Heights",
+      "description": "3 intelligence records across 3 domains",
+      "implications": [
+        "3 different intelligence domains active in Houston Heights"
+      ],
+      "priority": "medium"
+    },
+    {
+      "type": "geographic_concentration",
+      "title": "Multi-domain activity in Heights District",
+      "description": "3 intelligence records across 3 domains",
+      "implications": [
+        "3 different intelligence domains active in Heights District"
+      ],
+      "priority": "medium"
+    },
+    {
+      "type": "value_chain",
+      "title": "Development Pipeline",
+      "description": "Connected intelligence across 4 agents",
+      "implications": [
+        "Complete development intelligence from zoning to market",
+        "All critical development stages covered"
+      ],
+      "priority": "high"
+    },
+    {
+      "type": "value_chain",
+      "title": "Risk Management Chain",
+      "description": "Connected intelligence across 4 agents",
+      "implications": [
+        "Comprehensive risk assessment across domains",
+        "Enables proactive risk mitigation strategies"
+      ],
+      "priority": "high"
+    },
+    {
+      "type": "value_chain",
+      "title": "Innovation Impact Chain",
+      "description": "Connected intelligence across 4 agents",
+      "implications": [
+        "Technology adoption driving neighborhood transformation",
+        "Innovation creating measurable value increases"
+      ],
+      "priority": "high"
+    },
+    {
+      "type": "risk_opportunity_pair",
+      "title": "Risk mitigation opportunity identified",
+      "description": "Investment Risk Matrix for Houston Development can be addressed by Mixed-Use Development ROI Model",
+      "implications": [
+        "Cross-domain solution spanning Financial_Intelligence and Financial_Intelligence",
+        "Integrated approach recommended"
+      ],
+      "priority": "high"
+    }
+  ],
+  "summary": {
+    "total_insights": 7,
+    "high_priority": 5,
+    "insight_types": [
+      "value_chain",
+      "risk_opportunity_pair",
+      "geographic_concentration"
+    ]
+  }
+}

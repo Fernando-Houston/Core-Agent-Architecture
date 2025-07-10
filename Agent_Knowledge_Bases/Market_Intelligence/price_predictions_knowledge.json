@@ -1,0 +1,133 @@
+{
+  "92ef20bb5ebb": {
+    "id": "92ef20bb5ebb",
+    "timestamp": "2025-07-10T02:25:53.487120",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/sample_t2_analysis.json",
+    "domain": "market_forecasts",
+    "category": "price_predictions",
+    "subcategory": "residential",
+    "title": "Houston Residential Price Forecast Q1 2024",
+    "content": {
+      "summary": "Residential prices expected to increase 3-5% in Q1 2024",
+      "key_findings": [
+        "Strong demand from tech sector employees",
+        "Limited inventory in premium neighborhoods",
+        "Interest rates stabilizing"
+      ],
+      "metrics": {
+        "median_price_increase": 4.2,
+        "inventory_months": 2.1,
+        "demand_index": 8.5
+      }
+    },
+    "tags": [
+      "residential",
+      "pricing",
+      "forecast",
+      "q1-2024"
+    ],
+    "relationships": [],
+    "confidence_score": 0.85,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "median_price_increase",
+        "value": 4.2,
+        "unit": "USD",
+        "timestamp": "2025-07-10T02:25:53.487120"
+      },
+      {
+        "type": "metric",
+        "name": "inventory_months",
+        "value": 2.1,
+        "unit": "time",
+        "timestamp": "2025-07-10T02:25:53.487120"
+      },
+      {
+        "type": "metric",
+        "name": "demand_index",
+        "value": 8.5,
+        "unit": "index",
+        "timestamp": "2025-07-10T02:25:53.487120"
+      }
+    ],
+    "geographic_scope": [
+      "Houston",
+      "Greater Houston Area"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.7999999999999999,
+    "metadata": {
+      "processing_date": "2025-07-10T02:25:53.487120",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  },
+  "f223247167fd": {
+    "id": "f223247167fd",
+    "timestamp": "2025-07-10T02:39:31.415167",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/sample_t2_analysis.json",
+    "domain": "market_forecasts",
+    "category": "price_predictions",
+    "subcategory": "residential",
+    "title": "Houston Residential Price Forecast Q1 2024",
+    "content": {
+      "summary": "Residential prices expected to increase 3-5% in Q1 2024",
+      "key_findings": [
+        "Strong demand from tech sector employees",
+        "Limited inventory in premium neighborhoods",
+        "Interest rates stabilizing"
+      ],
+      "metrics": {
+        "median_price_increase": 4.2,
+        "inventory_months": 2.1,
+        "demand_index": 8.5
+      },
+      "recommendations": [],
+      "raw_data": {}
+    },
+    "tags": [
+      "residential",
+      "pricing",
+      "forecast",
+      "q1-2024"
+    ],
+    "geographic_scope": [
+      "Houston",
+      "Greater Houston Area"
+    ],
+    "temporal_relevance": "2024",
+    "priority_score": 0.87,
+    "confidence_score": 0.85,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "median_price_increase",
+        "value": 4.2,
+        "unit": "USD",
+        "timestamp": "2025-07-10T02:39:31.415180"
+      },
+      {
+        "type": "metric",
+        "name": "inventory_months",
+        "value": 2.1,
+        "unit": "time",
+        "timestamp": "2025-07-10T02:39:31.415183"
+      },
+      {
+        "type": "metric",
+        "name": "demand_index",
+        "value": 8.5,
+        "unit": "index",
+        "timestamp": "2025-07-10T02:39:31.415185"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.415186",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

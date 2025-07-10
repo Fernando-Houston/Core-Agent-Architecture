@@ -1,0 +1,412 @@
+{
+  "domain": "environmental",
+  "timestamp": "2025-07-10T02:46:31.753370",
+  "confidence_score": 0.904,
+  "analysis": {
+    "key_findings": [
+      "5 areas identified with high flood risk requiring mitigation",
+      "Air quality nonattainment status requires enhanced emission controls",
+      "Green certifications can increase asset value by 15-20%",
+      "Environmental investments show 41.5% ROI",
+      "Climate adaptation measures essential for long-term asset resilience"
+    ],
+    "detailed_insights": {
+      "flood_risk_assessment": {
+        "high_risk_areas": [
+          {
+            "area": "EaDo",
+            "flood_100_year": 35,
+            "flood_500_year": 45,
+            "risk_level": "high",
+            "development_feasibility": "challenging_requires_mitigation",
+            "estimated_insurance_cost": 3500
+          },
+          {
+            "area": "Clear Lake",
+            "coastal_surge_risk": 85,
+            "risk_level": "critical",
+            "development_feasibility": "restricted",
+            "special_requirements": [
+              "hurricane_resistant_design",
+              "elevated_foundation"
+            ]
+          },
+          {
+            "area": "Galveston Bay",
+            "coastal_surge_risk": 95,
+            "risk_level": "critical",
+            "development_feasibility": "restricted",
+            "special_requirements": [
+              "hurricane_resistant_design",
+              "elevated_foundation"
+            ]
+          },
+          {
+            "area": "Kemah",
+            "coastal_surge_risk": 90,
+            "risk_level": "critical",
+            "development_feasibility": "restricted",
+            "special_requirements": [
+              "hurricane_resistant_design",
+              "elevated_foundation"
+            ]
+          },
+          {
+            "area": "Seabrook",
+            "coastal_surge_risk": 88,
+            "risk_level": "critical",
+            "development_feasibility": "restricted",
+            "special_requirements": [
+              "hurricane_resistant_design",
+              "elevated_foundation"
+            ]
+          }
+        ],
+        "moderate_risk_areas": [
+          {
+            "area": "Downtown",
+            "flood_100_year": 15,
+            "flood_500_year": 25,
+            "risk_level": "moderate",
+            "development_feasibility": "feasible_with_precautions",
+            "estimated_insurance_cost": 1200
+          },
+          {
+            "area": "Medical Center",
+            "flood_100_year": 22,
+            "flood_500_year": 35,
+            "risk_level": "moderate",
+            "development_feasibility": "feasible_with_precautions",
+            "estimated_insurance_cost": 2200
+          },
+          {
+            "area": "Midtown",
+            "flood_100_year": 12,
+            "flood_500_year": 20,
+            "risk_level": "moderate",
+            "development_feasibility": "feasible_with_precautions",
+            "estimated_insurance_cost": 1200
+          }
+        ],
+        "low_risk_areas": [
+          {
+            "area": "Energy Corridor",
+            "flood_100_year": 8,
+            "flood_500_year": 15,
+            "risk_level": "low",
+            "development_feasibility": "favorable",
+            "estimated_insurance_cost": 1200
+          },
+          {
+            "area": "Galleria",
+            "flood_100_year": 5,
+            "flood_500_year": 10,
+            "risk_level": "low",
+            "development_feasibility": "favorable",
+            "estimated_insurance_cost": 450
+          }
+        ],
+        "development_restrictions": {
+          "Medical Center": {
+            "elevation_required": true,
+            "min_elevation_ft": 2,
+            "detention_required": true,
+            "special_permits": [
+              "FEMA",
+              "Chapter 19"
+            ]
+          },
+          "EaDo": {
+            "elevation_required": true,
+            "min_elevation_ft": 3,
+            "detention_required": true,
+            "special_permits": [
+              "FEMA",
+              "Chapter 19"
+            ]
+          }
+        },
+        "insurance_implications": {}
+      },
+      "environmental_compliance": {
+        "air_quality_compliance": {
+          "status": "moderate_nonattainment",
+          "ozone_exceedance_days": 45,
+          "pm25_level": 12.5,
+          "requirements": [
+            "Low-NOx equipment required",
+            "Construction emission controls",
+            "Annual emissions reporting",
+            "Offset requirements for major sources"
+          ],
+          "annual_compliance_cost": 25000
+        },
+        "water_quality_compliance": {
+          "bayou_health": 65,
+          "violations": 28,
+          "wetland_areas": [
+            "Buffalo Bayou",
+            "White Oak Bayou",
+            "Brays Bayou"
+          ],
+          "stormwater_management_required": true,
+          "estimated_cost": 185000
+        },
+        "brownfield_opportunities": {
+          "available_sites": 8,
+          "tax_incentives": "Federal and state tax credits available",
+          "cleanup_grants": "EPA assessment and cleanup grants eligible",
+          "development_potential": "high",
+          "estimated_roi_boost": 15
+        },
+        "permitting_requirements": [],
+        "compliance_costs": {}
+      },
+      "mitigation_strategies": [
+        {
+          "strategy": "Elevation: base_flood_plus_1ft",
+          "cost_per_unit": 45000,
+          "flood_insurance_savings": 2500,
+          "risk_reduction": 30,
+          "payback_period_years": 18.0,
+          "recommendation": "Recommended"
+        },
+        {
+          "strategy": "Elevation: base_flood_plus_2ft",
+          "cost_per_unit": 65000,
+          "flood_insurance_savings": 3500,
+          "risk_reduction": 60,
+          "payback_period_years": 18.571428571428573,
+          "recommendation": "Highly recommended"
+        },
+        {
+          "strategy": "Elevation: base_flood_plus_3ft",
+          "cost_per_unit": 85000,
+          "flood_insurance_savings": 4200,
+          "risk_reduction": 85,
+          "payback_period_years": 20.238095238095237,
+          "recommendation": "Highly recommended"
+        },
+        {
+          "strategy": "Green Infrastructure Package",
+          "components": [
+            "bioswales",
+            "permeable_pavement",
+            "detention_ponds"
+          ],
+          "cost_per_acre": 26300.0,
+          "benefits": [
+            "Reduce runoff by 40%",
+            "LEED points",
+            "Lower detention requirements"
+          ],
+          "regulatory_credits": "Chapter 19 compliance credits",
+          "recommendation": "Essential for sustainable development"
+        }
+      ],
+      "sustainability_opportunities": {
+        "green_certifications": {
+          "market_penetration": 280,
+          "premium_potential": {
+            "platinum": "8-12% rent premium",
+            "gold": "5-8% rent premium",
+            "silver": "3-5% rent premium"
+          },
+          "fastest_growing": "Gold certifications (+25% YoY)",
+          "roi_impact": "15-20% higher asset value"
+        },
+        "renewable_energy": {
+          "current_installations": 342,
+          "growth_rate": "35% annually",
+          "payback_period": "5-7 years with incentives",
+          "incentives": [
+            "30% federal tax credit",
+            "Net metering available",
+            "Property tax exemption"
+          ],
+          "recommended_capacity": "Minimum 100kW for commercial properties"
+        },
+        "market_advantages": {
+          "tenant_preference": "72% of tenants prefer green buildings",
+          "occupancy_premium": "+3.7% occupancy rate",
+          "operating_cost_reduction": "20-30% lower operating costs",
+          "exit_cap_rate_compression": "25-50 basis points"
+        },
+        "incentives": [
+          {
+            "program": "C-PACE Financing",
+            "benefit": "Low-cost, long-term financing for efficiency upgrades",
+            "eligibility": "Commercial properties >50,000 sqft"
+          },
+          {
+            "program": "Texas HERO Program",
+            "benefit": "Property tax financing for renewable energy",
+            "eligibility": "All property types"
+          },
+          {
+            "program": "Energy Star Rebates",
+            "benefit": "Up to $100,000 in utility rebates",
+            "eligibility": "Energy Star certified buildings"
+          }
+        ]
+      },
+      "climate_resilience": {
+        "climate_risks": {
+          "temperature_increase": 2.8,
+          "extreme_heat_days": 42,
+          "rainfall_intensity": "+15%",
+          "hurricane_risk": "18% Cat 3+",
+          "drought_frequency": "1_in_5_years"
+        },
+        "adaptation_priorities": [
+          {
+            "priority": "Cooling systems",
+            "rationale": "Extreme heat mitigation",
+            "cost_impact": "+15% HVAC capacity needed"
+          },
+          {
+            "priority": "Enhanced drainage",
+            "rationale": "Increased rainfall intensity",
+            "cost_impact": "+20% stormwater infrastructure"
+          }
+        ],
+        "resilient_design_features": [
+          {
+            "feature": "Hurricane-resistant windows",
+            "cost_premium": "5-8%",
+            "benefit": "Reduced insurance 15%"
+          },
+          {
+            "feature": "Backup power systems",
+            "cost_premium": "3-5%",
+            "benefit": "Operational continuity"
+          },
+          {
+            "feature": "Elevated utilities",
+            "cost_premium": "2-3%",
+            "benefit": "Flood protection"
+          },
+          {
+            "feature": "Cool roof technology",
+            "cost_premium": "1-2%",
+            "benefit": "20% cooling reduction"
+          }
+        ],
+        "long_term_viability": {}
+      },
+      "cost_benefit_analysis": {
+        "total_environmental_investment": 795000,
+        "annual_benefits": 330000,
+        "environmental_roi": 41.5,
+        "payback_period_years": 2.4,
+        "10_year_npv": 1752600.0,
+        "recommendation": "Environmental investments show strong positive ROI"
+      },
+      "regulatory_landscape": {
+        "current_requirements": {
+          "detention": true,
+          "max_impervious": "65%",
+          "green_space": "15% minimum",
+          "permits_required": [
+            "air_quality",
+            "stormwater",
+            "wastewater",
+            "wetland_fill",
+            "bayou_crossing"
+          ]
+        },
+        "upcoming_changes": [
+          {
+            "regulation": "Enhanced flood regulations",
+            "timeline": "Q2 2025",
+            "impact": "Additional 1ft elevation requirement",
+            "preparation": "Design to new standards now to avoid redesign"
+          },
+          {
+            "regulation": "Energy benchmarking mandate",
+            "timeline": "2026",
+            "impact": "Required energy reporting for buildings >50k sqft",
+            "preparation": "Install energy monitoring systems"
+          }
+        ],
+        "compliance_timeline": {},
+        "strategic_recommendations": [
+          "Exceed current standards to future-proof developments",
+          "Integrate compliance into design phase to reduce costs",
+          "Pursue voluntary certifications for market advantage"
+        ]
+      }
+    },
+    "opportunities": [
+      {
+        "type": "brownfield_development",
+        "potential": "high",
+        "description": "8 brownfield sites with tax incentives",
+        "financial_benefit": "15% ROI boost from incentives",
+        "action": "Partner with EPA for assessment grants and tax credits"
+      },
+      {
+        "type": "green_certification",
+        "potential": "high",
+        "description": "Green buildings command premium rents and occupancy",
+        "financial_benefit": "5-8% rent premium, 3.7% higher occupancy",
+        "action": "Target LEED Gold for optimal cost-benefit ratio"
+      },
+      {
+        "type": "solar_investment",
+        "potential": "medium",
+        "description": "Solar installations with 30% federal tax credit",
+        "financial_benefit": "5-7 year payback, hedge against energy costs",
+        "action": "Install solar on all suitable roof space"
+      },
+      {
+        "type": "resilient_design",
+        "potential": "high",
+        "description": "Climate-resilient buildings attract institutional investors",
+        "financial_benefit": "25-50 bps cap rate compression",
+        "action": "Incorporate resilient design features in all new developments"
+      }
+    ],
+    "risks": [
+      {
+        "type": "flood_risk",
+        "severity": "high",
+        "description": "5 areas in high flood risk zones",
+        "financial_impact": "Insurance costs 5-10x higher, development restrictions",
+        "mitigation": "Require elevation, enhanced drainage, and flood insurance"
+      },
+      {
+        "type": "compliance_violations",
+        "severity": "medium",
+        "description": "History of stormwater violations indicates systemic issues",
+        "financial_impact": "$250k+ in fines and remediation costs",
+        "mitigation": "Implement comprehensive stormwater management program"
+      }
+    ],
+    "recommendations": [
+      "Avoid development in high flood risk areas or budget for substantial mitigation",
+      "Invest in comprehensive environmental features for strong ROI",
+      "Design to future regulatory standards to avoid costly retrofits",
+      "Pursue LEED Gold certification as standard for all new developments",
+      "Integrate climate adaptation into base building design"
+    ],
+    "metrics": {
+      "high_flood_risk_areas": 5,
+      "air_quality_exceedances": 45,
+      "water_quality_violations": 28,
+      "leed_buildings": 280,
+      "solar_installations": 342,
+      "environmental_roi": 41.5,
+      "payback_period_years": 2.4,
+      "temp_increase_2050": 2.8,
+      "hurricane_risk_pct": 0
+    }
+  },
+  "cross_domain_connections": [
+    {
+      "connected_domain": "regulatory",
+      "connection_type": "compliance_incentives",
+      "insight": "Green certifications unlock regulatory incentives"
+    }
+  ]
+}

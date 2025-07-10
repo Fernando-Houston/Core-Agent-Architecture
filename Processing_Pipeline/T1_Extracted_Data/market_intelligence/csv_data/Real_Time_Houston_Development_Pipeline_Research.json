@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "folder_name": "Real-Time Houston Development Pipeline Research",
+    "extraction_timestamp": "2025-07-10T01:36:42.448890",
+    "file_count": 16,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "houston_construction_permits.csv": {
+      "shape": [
+        3,
+        5
+      ],
+      "columns": [
+        "Month",
+        "Houston Metro Permits",
+        "Construction Value",
+        "Average Value",
+        "Leading Counties"
+      ],
+      "data_types": {
+        "Month": "object",
+        "Houston Metro Permits": "int64",
+        "Construction Value": "object",
+        "Average Value": "object",
+        "Leading Counties": "object"
+      },
+      "null_counts": {
+        "Month": 0,
+        "Houston Metro Permits": 0,
+        "Construction Value": 0,
+        "Average Value": 0,
+        "Leading Counties": 0
+      },
+      "summary_stats": {
+        "Houston Metro Permits": {
+          "count": 3.0,
+          "mean": 22323.0,
+          "std": 26730.143452664073,
+          "min": 3118.0,
+          "25%": 7059.0,
+          "50%": 11000.0,
+          "75%": 31925.5,
+          "max": 52851.0
+        }
+      },
+      "sample_data": [
+        {
+          "Month": "May 2025",
+          "Houston Metro Permits": 3118,
+          "Construction Value": "$923.7 million",
+          "Average Value": "$296,235",
+          "Leading Counties": "Harris (1,532), Montgomery (858)"
+        },
+        {
+          "Month": "Jan-Feb 2025",
+          "Houston Metro Permits": 11000,
+          "Construction Value": "$3.26 billion",
+          "Average Value": "$296,363",
+          "Leading Counties": "Harris, Montgomery, Fort Bend"
+        },
+        {
+          "Month": "2024 Total",
+          "Houston Metro Permits": 52851,
+          "Construction Value": "$15.6 billion",
+          "Average Value": "$295,000",
+          "Leading Counties": "Harris, Montgomery, Fort Bend"
+        }
+      ],
+      "key_metrics": {
+        "Houston Metro Permits_total": 66969
+      }
+    },
+    "houston_infrastructure_projects.csv": {
+      "shape": [
+        8,
+        6
+      ],
+      "columns": [
+        "Project",
+        "Investment",
+        "Timeline",
+        "Area",
+        "Status",
+        "Type"
+      ],
+      "data_types": {
+        "Project": "object",
+        "Investment": "object",
+        "Timeline": "object",
+        "Area": "object",
+        "Status": "object",
+        "Type": "object"
+      },
+      "null_counts": {
+        "Project": 0,
+        "Investment": 0,
+        "Timeline": 0,
+        "Area": 0,
+        "Status": 0,
+        "Type": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Project": "Spring Cypress Road Rehabilitation",
+          "Investment": "$6.5 million",
+          "Timeline": "2024-2026",
+          "Area": "Harris County Precinct 3",
+          "Status": "Under Construction",
+          "Type": "Road Infrastructure"
+        },
+        {
+          "Project": "Holderrieth Road Segment 2",
+          "Investment": "$31.2 million",
+          "Timeline": "2024-2026",
+          "Area": "Harris County Precinct 3",
+          "Status": "Under Construction",
+          "Type": "Road Infrastructure"
+        },
+        {
+          "Project": "METRORapid Gulfton Corridor",
+          "Investment": "$220 million",
+          "Timeline": "2024-2027",
+          "Area": "Southwest Houston",
+          "Status": "Planning",
+          "Type": "Public Transit"
+        },
+        {
+          "Project": "METRO Maintenance of Way Facility",
+          "Investment": "$30 million",
+          "Timeline": "2024-2026",
+          "Area": "Burnett Transit Center",
+          "Status": "Under Construction",
+          "Type": "Public Transit"
+        },
+        {
+          "Project": "Kuykendahl Road Expansion",
+          "Investment": "$12.5 million",
+          "Timeline": "2024-2025",
+          "Area": "Harris County Precinct 3",
+          "Status": "Under Construction",
+          "Type": "Road Infrastructure"
+        }
+      ],
+      "key_metrics": {}
+    },
+    "houston_zoning_changes.csv": {
+      "shape": [
+        6,
+        5
+      ],
+      "columns": [
+        "Initiative",
+        "Date",
+        "Description",
+        "Impact",
+        "Status"
+      ],
+      "data_types": {
+        "Initiative": "object",
+        "Date": "object",
+        "Description": "object",
+        "Impact": "object",
+        "Status": "object"
+      },
+      "null_counts": {
+        "Initiative": 0,
+        "Date": 0,
+        "Description": 0,
+        "Impact": 0,
+        "Status": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Initiative": "Affordable Housing Code Changes",
+          "Date": "September 2023",
+          "Description": "Allow more garage apartments, courtyard-style houses, and small multi-family buildings",
+          "Impact": "Boost affordable housing stock",
+          "Status": "Approved"
+        },
+        {
+          "Initiative": "Frontloader House Restrictions",
+          "Date": "September 2023",
+          "Description": "New limits on houses with short driveways, banned in 10 neighborhoods",
+          "Impact": "Address sidewalk blocking concerns",
+          "Status": "Approved"
+        },
+        {
+          "Initiative": "Sidewalk Ordinance Amendments",
+          "Date": "December 2024",
+          "Description": "Expanded exemption criteria for single-family residential construction",
+          "Impact": "Streamline development process",
+          "Status": "Approved"
+        },
+        {
+          "Initiative": "30-Day Permitting Pilot",
+          "Date": "July 2025",
+          "Description": "Goal to issue single-family residential permits within 30 days",
+          "Impact": "Reduce development delays",
+          "Status": "Launched"
+        },
+        {
+          "Initiative": "HouPermits System",
+          "Date": "Q1 2025",
+          "Description": "New electronic permitting system rollout",
+          "Impact": "Modernize permitting process",
+          "Status": "Implementation"
+        }
+      ],
+      "key_metrics": {}
+    },
+    "houston_development_projects.csv": {
+      "shape": [
+        10,
+        6
+      ],
+      "columns": [
+        "Project Name",
+        "Investment",
+        "Timeline",
+        "Status",
+        "Category",
+        "Description"
+      ],
+      "data_types": {
+        "Project Name": "object",
+        "Investment": "object",
+        "Timeline": "object",
+        "Status": "object",
+        "Category": "object",
+        "Description": "object"
+      },
+      "null_counts": {
+        "Project Name": 0,
+        "Investment": 0,
+        "Timeline": 0,
+        "Status": 0,
+        "Category": 0,
+        "Description": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Project Name": "Terminal B Transformation",
+          "Investment": "$2.55 billion",
+          "Timeline": "2024-2026",
+          "Status": "Under Construction",
+          "Category": "Transportation",
+          "Description": "Complete overhaul of IAH Terminal B with new gates, processor, and facilities"
+        },
+        {
+          "Project Name": "George R. Brown Convention Center",
+          "Investment": "$2.0 billion",
+          "Timeline": "2025-2028",
+          "Status": "Planning/Design",
+          "Category": "Entertainment",
+          "Description": "Major transformation including 700,000 sq ft building and Central Plaza"
+        },
+        {
+          "Project Name": "Harris Health LBJ Hospital",
+          "Investment": "$1.6 billion",
+          "Timeline": "2024-2028",
+          "Status": "Under Construction",
+          "Category": "Healthcare",
+          "Description": "12-story Level I trauma-capable facility with 390 private rooms"
+        },
+        {
+          "Project Name": "IAH Terminal Redevelopment",
+          "Investment": "$1.46 billion",
+          "Timeline": "2019-2025",
+          "Status": "Final Phase",
+          "Category": "Transportation",
+          "Description": "Terminal D-West Pier completed, International Central Processor ongoing"
+        },
+        {
+          "Project Name": "Park Eight Place",
+          "Investment": "$1.0 billion",
+          "Timeline": "2025-2028",
+          "Status": "Planning",
+          "Category": "Mixed-Use",
+          "Description": "70-acre mixed-use development on former Halliburton campus"
+        }
+      ],
+      "key_metrics": {}
+    }
+  }
+}

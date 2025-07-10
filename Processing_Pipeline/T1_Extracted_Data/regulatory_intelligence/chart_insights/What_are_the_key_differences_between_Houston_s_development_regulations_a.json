@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "folder_name": "What are the key differences between Houston_s development regulations a",
+    "extraction_timestamp": "2025-07-10T01:36:42.531118",
+    "file_count": 7,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "development_process_comparison.png": {
+      "file_name": "development_process_comparison.png",
+      "file_size": 186265,
+      "chart_type": "unknown",
+      "insights": {
+        "topic": "development"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_comparison.png": {
+      "file_name": "houston_comparison.png",
+      "file_size": 189962,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_zoning_comparison.png": {
+      "file_name": "houston_zoning_comparison.png",
+      "file_size": 222095,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

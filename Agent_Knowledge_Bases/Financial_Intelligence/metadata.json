@@ -1,0 +1,32 @@
+{
+  "agent_name": "Financial_Intelligence",
+  "last_updated": "2025-07-10T02:39:31.429573",
+  "knowledge_files": [
+    "investment_analysis_knowledge.json",
+    "financing_comparisons_knowledge.json",
+    "tech_investment_knowledge.json",
+    "roi_models_knowledge.json",
+    "development_activity_knowledge.json",
+    "tax_strategies_knowledge.json",
+    "risk_assessment_knowledge.json"
+  ],
+  "total_insights": 11,
+  "categories": [
+    "investment_analysis",
+    "financing_comparisons",
+    "tech_investment",
+    "roi_models",
+    "development_activity",
+    "tax_strategies",
+    "risk_assessment"
+  ],
+  "geographic_coverage": [
+    "Houston",
+    "Houston Heights",
+    "Heights District"
+  ],
+  "temporal_coverage": [
+    "2024-2025",
+    "2026"
+  ]
+}

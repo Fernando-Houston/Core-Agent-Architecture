@@ -1,0 +1,156 @@
+{
+  "6d90f6ffaff1": {
+    "id": "6d90f6ffaff1",
+    "timestamp": "2025-07-10T02:28:08.572555",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/technology_innovation_t2.json",
+    "domain": "development_technologies",
+    "category": "construction_innovation",
+    "subcategory": "",
+    "title": "PropTech Adoption in Houston Development",
+    "content": {
+      "summary": "Technology adoption transforming development processes",
+      "key_findings": [
+        "BIM adoption at 75% for major projects",
+        "Modular construction reducing costs 20%",
+        "AI-powered design optimization standard"
+      ],
+      "metrics": {
+        "tech_adoption_rate": 75,
+        "cost_reduction_percent": 20,
+        "timeline_reduction_percent": 30,
+        "roi_on_tech": 250
+      },
+      "recommendations": [
+        "Invest in BIM and digital twin technologies",
+        "Explore modular construction for multifamily",
+        "Implement AI for site selection and design"
+      ]
+    },
+    "tags": [
+      "proptech",
+      "construction",
+      "innovation",
+      "efficiency"
+    ],
+    "relationships": [],
+    "confidence_score": 0.87,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "tech_adoption_rate",
+        "value": 75,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:28:08.572555"
+      },
+      {
+        "type": "metric",
+        "name": "cost_reduction_percent",
+        "value": 20,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:28:08.572555"
+      },
+      {
+        "type": "metric",
+        "name": "timeline_reduction_percent",
+        "value": 30,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:28:08.572555"
+      },
+      {
+        "type": "metric",
+        "name": "roi_on_tech",
+        "value": 250,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:08.572555"
+      }
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.95,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:08.572555",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  },
+  "80c488785dfd": {
+    "id": "80c488785dfd",
+    "timestamp": "2025-07-10T02:39:31.428350",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/technology_innovation_t2.json",
+    "domain": "development_technologies",
+    "category": "construction_innovation",
+    "subcategory": "",
+    "title": "PropTech Adoption in Houston Development",
+    "content": {
+      "summary": "Technology adoption transforming development processes",
+      "key_findings": [
+        "BIM adoption at 75% for major projects",
+        "Modular construction reducing costs 20%",
+        "AI-powered design optimization standard"
+      ],
+      "metrics": {
+        "tech_adoption_rate": 75,
+        "cost_reduction_percent": 20,
+        "timeline_reduction_percent": 30,
+        "roi_on_tech": 250
+      },
+      "recommendations": [
+        "Invest in BIM and digital twin technologies",
+        "Explore modular construction for multifamily",
+        "Implement AI for site selection and design"
+      ],
+      "raw_data": {}
+    },
+    "tags": [
+      "proptech",
+      "construction",
+      "innovation",
+      "efficiency"
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 1.0,
+    "confidence_score": 0.87,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "tech_adoption_rate",
+        "value": 75,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:39:31.428355"
+      },
+      {
+        "type": "metric",
+        "name": "cost_reduction_percent",
+        "value": 20,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:39:31.428356"
+      },
+      {
+        "type": "metric",
+        "name": "timeline_reduction_percent",
+        "value": 30,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:39:31.428357"
+      },
+      {
+        "type": "metric",
+        "name": "roi_on_tech",
+        "value": 250,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.428359"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.428360",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

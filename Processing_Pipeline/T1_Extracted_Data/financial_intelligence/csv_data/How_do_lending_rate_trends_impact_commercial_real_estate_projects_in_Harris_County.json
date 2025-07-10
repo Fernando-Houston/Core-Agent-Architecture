@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "folder_name": "How do lending rate trends impact commercial real estate projects in Harris County",
+    "extraction_timestamp": "2025-07-10T01:36:42.524047",
+    "file_count": 10,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "harris_county_lending_rate_progression.csv": {
+      "shape": [
+        5,
+        6
+      ],
+      "columns": [
+        "Property Type",
+        "2022 Rate",
+        "2023 Rate",
+        "2024 Rate",
+        "2025 Rate",
+        "Rate Change (2022-2025)"
+      ],
+      "data_types": {
+        "Property Type": "object",
+        "2022 Rate": "object",
+        "2023 Rate": "object",
+        "2024 Rate": "object",
+        "2025 Rate": "object",
+        "Rate Change (2022-2025)": "object"
+      },
+      "null_counts": {
+        "Property Type": 0,
+        "2022 Rate": 0,
+        "2023 Rate": 0,
+        "2024 Rate": 0,
+        "2025 Rate": 0,
+        "Rate Change (2022-2025)": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Property Type": "Multifamily (>$6M)",
+          "2022 Rate": "3.5%",
+          "2023 Rate": "6.0%",
+          "2024 Rate": "5.8%",
+          "2025 Rate": "5.34%",
+          "Rate Change (2022-2025)": "+1.84%"
+        },
+        {
+          "Property Type": "Multifamily (<$6M)",
+          "2022 Rate": "4.0%",
+          "2023 Rate": "6.5%",
+          "2024 Rate": "6.2%",
+          "2025 Rate": "5.80%",
+          "Rate Change (2022-2025)": "+1.80%"
+        },
+        {
+          "Property Type": "Commercial/Office",
+          "2022 Rate": "4.2%",
+          "2023 Rate": "6.8%",
+          "2024 Rate": "6.6%",
+          "2025 Rate": "6.38%",
+          "Rate Change (2022-2025)": "+2.18%"
+        },
+        {
+          "Property Type": "Industrial",
+          "2022 Rate": "4.2%",
+          "2023 Rate": "6.8%",
+          "2024 Rate": "6.6%",
+          "2025 Rate": "6.38%",
+          "Rate Change (2022-2025)": "+2.18%"
+        },
+        {
+          "Property Type": "Bridge Loans",
+          "2022 Rate": "7.0%",
+          "2023 Rate": "8.5%",
+          "2024 Rate": "8.8%",
+          "2025 Rate": "9.00%",
+          "Rate Change (2022-2025)": "+2.00%"
+        }
+      ],
+      "key_metrics": {}
+    },
+    "harris_county_cre_lending_impacts.csv": {
+      "shape": [
+        16,
+        4
+      ],
+      "columns": [
+        "Impact Area",
+        "Metric",
+        "Current Status/Impact",
+        "Implication"
+      ],
+      "data_types": {
+        "Impact Area": "object",
+        "Metric": "object",
+        "Current Status/Impact": "object",
+        "Implication": "object"
+      },
+      "null_counts": {
+        "Impact Area": 0,
+        "Metric": 0,
+        "Current Status/Impact": 0,
+        "Implication": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Impact Area": "Lending Rates (Current)",
+          "Metric": "Multifamily (>$6M)",
+          "Current Status/Impact": "5.34%",
+          "Implication": "Most favorable CRE rates"
+        },
+        {
+          "Impact Area": "Lending Rates (Current)",
+          "Metric": "Multifamily (<$6M)",
+          "Current Status/Impact": "5.80%",
+          "Implication": "Competitive multifamily rates"
+        },
+        {
+          "Impact Area": "Lending Rates (Current)",
+          "Metric": "Commercial/Office/Retail",
+          "Current Status/Impact": "6.38%",
+          "Implication": "Higher rates limit development"
+        },
+        {
+          "Impact Area": "Lending Rates (Current)",
+          "Metric": "Industrial",
+          "Current Status/Impact": "6.38%",
+          "Implication": "Constrained industrial growth"
+        },
+        {
+          "Impact Area": "Lending Rates (Current)",
+          "Metric": "Bridge Loans",
+          "Current Status/Impact": "9.00%",
+          "Implication": "Expensive short-term financing"
+        }
+      ],
+      "key_metrics": {}
+    }
+  }
+}

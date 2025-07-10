@@ -1,0 +1,502 @@
+{
+  "domain": "financial",
+  "timestamp": "2025-07-10T02:46:31.752918",
+  "confidence_score": 0.934,
+  "analysis": {
+    "key_findings": [
+      "EaDo offers highest risk-adjusted returns with 24.8% ROI",
+      "Favorable lending environment with falling rates creates acquisition opportunities",
+      "Strong investment activity with $3.9B in capital flows",
+      "Traditional Bank Loan recommended with 85 score"
+    ],
+    "detailed_insights": {
+      "roi_analysis": {
+        "by_project_type": {
+          "multifamily": {
+            "avg_roi": 21.34,
+            "std_deviation": 1.83,
+            "sharpe_ratio": 8.94,
+            "risk_level": "low",
+            "percentile_25": 19.9,
+            "percentile_75": 22.75
+          },
+          "commercial": {
+            "avg_roi": 16.88,
+            "std_deviation": 1.68,
+            "sharpe_ratio": 7.07,
+            "risk_level": "low",
+            "percentile_25": 15.45,
+            "percentile_75": 18.32
+          },
+          "mixed_use": {
+            "avg_roi": 23.83,
+            "std_deviation": 1.8,
+            "sharpe_ratio": 10.45,
+            "risk_level": "low",
+            "percentile_25": 22.38,
+            "percentile_75": 25.1
+          },
+          "industrial": {
+            "avg_roi": 14.17,
+            "std_deviation": 0.9,
+            "sharpe_ratio": 10.2,
+            "risk_level": "low",
+            "percentile_25": 13.58,
+            "percentile_75": 14.88
+          }
+        },
+        "by_area": {
+          "The Heights": {
+            "avg_roi": 22.5,
+            "cap_rate": 5.8,
+            "payback_period": 4.2,
+            "irr": 17.61
+          },
+          "Montrose": {
+            "avg_roi": 20.8,
+            "cap_rate": 6.2,
+            "payback_period": 4.8,
+            "irr": 17.61
+          },
+          "River Oaks": {
+            "avg_roi": 16.5,
+            "cap_rate": 4.5,
+            "payback_period": 6.2,
+            "irr": 17.61
+          },
+          "EaDo": {
+            "avg_roi": 24.8,
+            "cap_rate": 6.8,
+            "payback_period": 3.8,
+            "irr": 17.61
+          },
+          "Midtown": {
+            "avg_roi": 21.5,
+            "cap_rate": 6.5,
+            "payback_period": 4.5,
+            "irr": 17.61
+          },
+          "Energy Corridor": {
+            "avg_roi": 18.2,
+            "cap_rate": 7.2,
+            "payback_period": 5.5,
+            "irr": 17.61
+          }
+        },
+        "top_performers": [
+          {
+            "location": "EaDo",
+            "roi": 24.8,
+            "irr": 17.61,
+            "risk_adjusted_return": 6.526315789473685
+          },
+          {
+            "location": "The Heights",
+            "roi": 22.5,
+            "irr": 17.61,
+            "risk_adjusted_return": 5.357142857142857
+          },
+          {
+            "location": "Midtown",
+            "roi": 21.5,
+            "irr": 17.61,
+            "risk_adjusted_return": 4.777777777777778
+          },
+          {
+            "location": "Montrose",
+            "roi": 20.8,
+            "irr": 17.61,
+            "risk_adjusted_return": 4.333333333333334
+          },
+          {
+            "location": "Energy Corridor",
+            "roi": 18.2,
+            "irr": 17.61,
+            "risk_adjusted_return": 3.309090909090909
+          }
+        ],
+        "risk_return_profiles": {}
+      },
+      "lending_trends": {
+        "current_rates": {
+          "construction_loans": 7.25,
+          "permanent_financing": 5.85,
+          "bridge_loans": 8.75,
+          "hard_money": 11.5
+        },
+        "lending_availability": {
+          "construction": {
+            "approval_rate": 68,
+            "avg_ltv": 65,
+            "avg_days_to_close": 45,
+            "availability_score": 61.5
+          },
+          "permanent": {
+            "approval_rate": 82,
+            "avg_ltv": 75,
+            "avg_days_to_close": 30,
+            "availability_score": 76.0
+          },
+          "bridge": {
+            "approval_rate": 75,
+            "avg_ltv": 70,
+            "avg_days_to_close": 21,
+            "availability_score": 77.0
+          }
+        },
+        "trend_direction": "falling",
+        "optimal_ltv_ratios": {
+          "stabilized_multifamily": 75,
+          "new_construction": 65,
+          "value_add": 70,
+          "land_acquisition": 50
+        },
+        "preferred_lenders": [
+          {
+            "name": "Wells Fargo",
+            "market_share": 18.5,
+            "focus": "multifamily"
+          },
+          {
+            "name": "JPMorgan Chase",
+            "market_share": 15.2,
+            "focus": "commercial"
+          },
+          {
+            "name": "Bank of America",
+            "market_share": 12.8,
+            "focus": "mixed"
+          },
+          {
+            "name": "Frost Bank",
+            "market_share": 10.5,
+            "focus": "local"
+          },
+          {
+            "name": "BBVA",
+            "market_share": 8.2,
+            "focus": "construction"
+          }
+        ]
+      },
+      "investment_patterns": {
+        "total_volume": 3850000000,
+        "by_investor_type": {
+          "institutional": {
+            "volume": 1540000000,
+            "deal_count": 42,
+            "avg_deal_size": 36666666.666666664,
+            "yoy_growth": 12.5
+          },
+          "private_equity": {
+            "volume": 1155000000,
+            "deal_count": 68,
+            "avg_deal_size": 16985294.11764706,
+            "yoy_growth": 18.2
+          },
+          "reit": {
+            "volume": 770000000,
+            "deal_count": 28,
+            "avg_deal_size": 27500000.0,
+            "yoy_growth": 8.5
+          },
+          "foreign": {
+            "volume": 385000000,
+            "deal_count": 15,
+            "avg_deal_size": 25666666.666666668,
+            "yoy_growth": 22.8
+          }
+        },
+        "geographic_distribution": {
+          "Downtown": {
+            "volume": 825000000,
+            "percentage": 28.1
+          },
+          "Galleria": {
+            "volume": 685000000,
+            "percentage": 23.3
+          },
+          "Energy Corridor": {
+            "volume": 520000000,
+            "percentage": 17.7
+          },
+          "Medical Center": {
+            "volume": 485000000,
+            "percentage": 16.5
+          },
+          "Inner Loop": {
+            "volume": 425000000,
+            "percentage": 14.5
+          }
+        },
+        "asset_class_preference": {
+          "multifamily": {
+            "allocation": 35,
+            "trend": "increasing"
+          },
+          "office": {
+            "allocation": 22,
+            "trend": "increasing"
+          },
+          "industrial": {
+            "allocation": 18,
+            "trend": "stable"
+          },
+          "retail": {
+            "allocation": 12,
+            "trend": "stable"
+          },
+          "mixed_use": {
+            "allocation": 13,
+            "trend": "stable"
+          }
+        },
+        "foreign_investment": {
+          "percentage": 10,
+          "top_countries": [
+            "Canada",
+            "Mexico",
+            "Singapore",
+            "UAE"
+          ],
+          "trend": "stable"
+        },
+        "trend_indicators": {}
+      },
+      "financing_options": [
+        {
+          "type": "Traditional Bank Loan",
+          "pros": [
+            "Low rates",
+            "Long-term stability",
+            "High LTV available"
+          ],
+          "cons": [
+            "Slower approval",
+            "Strict requirements"
+          ],
+          "best_for": "Stabilized properties with strong cash flow",
+          "cost": 5.85,
+          "ltv_range": "65-80%",
+          "recommendation_score": 85
+        },
+        {
+          "type": "Joint Venture Equity",
+          "pros": [
+            "No debt service",
+            "Shared risk",
+            "Access to expertise"
+          ],
+          "cons": [
+            "Diluted returns",
+            "Shared control"
+          ],
+          "best_for": "Large-scale or high-risk projects",
+          "cost": "20-30% equity participation",
+          "ltv_range": "N/A",
+          "recommendation_score": 75
+        },
+        {
+          "type": "Bridge Loan",
+          "pros": [
+            "Quick closing",
+            "Flexible terms",
+            "Less documentation"
+          ],
+          "cons": [
+            "Higher cost",
+            "Short term"
+          ],
+          "best_for": "Quick acquisitions and value-add projects",
+          "cost": 8.75,
+          "ltv_range": "65-75%",
+          "recommendation_score": 72
+        },
+        {
+          "type": "EB-5 Investment",
+          "pros": [
+            "Low cost (3-5%)",
+            "Long-term capital",
+            "No personal guarantees"
+          ],
+          "cons": [
+            "Complex process",
+            "Job creation requirements"
+          ],
+          "best_for": "Large projects in targeted employment areas",
+          "cost": "3-5%",
+          "ltv_range": "20-40% of total cost",
+          "recommendation_score": 68
+        }
+      ],
+      "market_valuations": {
+        "price_to_rent_ratios": {
+          "The Heights": {
+            "ratio": 17.0,
+            "valuation": "fair"
+          },
+          "Montrose": {
+            "ratio": 16.9,
+            "valuation": "fair"
+          },
+          "River Oaks": {
+            "ratio": 22.2,
+            "valuation": "overvalued"
+          },
+          "EaDo": {
+            "ratio": 16.2,
+            "valuation": "fair"
+          },
+          "Midtown": {
+            "ratio": 16.7,
+            "valuation": "fair"
+          }
+        },
+        "cap_rate_spreads": {
+          "multifamily": {
+            "cap_rate": 5.75,
+            "spread": 1.25,
+            "attractiveness": "tight"
+          },
+          "office": {
+            "cap_rate": 7.25,
+            "spread": 2.75,
+            "attractiveness": "neutral"
+          },
+          "retail": {
+            "cap_rate": 6.85,
+            "spread": 2.35,
+            "attractiveness": "neutral"
+          },
+          "industrial": {
+            "cap_rate": 6.5,
+            "spread": 2.0,
+            "attractiveness": "tight"
+          }
+        },
+        "valuation_indicators": {},
+        "market_efficiency": "fair_value"
+      },
+      "cash_flow_projections": {
+        "multifamily_300_units": {
+          "total_development_cost": 42075000,
+          "year_1": {
+            "revenue": 3861000.0,
+            "noi": 2509650.0,
+            "cash_flow": -12622500.0
+          },
+          "year_2": {
+            "revenue": 5583600.0,
+            "noi": 3629340.0
+          },
+          "stabilized_noi": 3629340.0,
+          "projected_value": 65988000.0,
+          "equity_multiple": 2.89
+        },
+        "mixed_use_development": {
+          "stabilized_revenue": 4720000.0,
+          "stabilized_noi": 2832000.0,
+          "projected_value": 47200000.0,
+          "development_timeline": "24-30 months"
+        },
+        "office_to_residential": {
+          "conversion_cost": 12500000,
+          "projected_units": 120,
+          "stabilized_revenue": 2376000,
+          "projected_noi": 1544400.0,
+          "conversion_timeline": "18-24 months"
+        }
+      },
+      "risk_adjusted_returns": {
+        "by_strategy": {
+          "core": {
+            "expected_return": 8,
+            "volatility": 5,
+            "sharpe_ratio": 0.7,
+            "risk_level": "low"
+          },
+          "value_add": {
+            "expected_return": 15,
+            "volatility": 12,
+            "sharpe_ratio": 0.88,
+            "risk_level": "medium"
+          },
+          "opportunistic": {
+            "expected_return": 20,
+            "volatility": 20,
+            "sharpe_ratio": 0.78,
+            "risk_level": "high"
+          },
+          "development": {
+            "expected_return": 25,
+            "volatility": 25,
+            "sharpe_ratio": 0.82,
+            "risk_level": "high"
+          }
+        },
+        "optimal_portfolio": {
+          "conservative": {
+            "core": 70,
+            "value_add": 20,
+            "opportunistic": 10
+          },
+          "moderate": {
+            "core": 40,
+            "value_add": 40,
+            "opportunistic": 20
+          },
+          "aggressive": {
+            "core": 20,
+            "value_add": 30,
+            "opportunistic": 30,
+            "development": 20
+          }
+        },
+        "risk_recommendations": []
+      }
+    },
+    "opportunities": [
+      {
+        "type": "high_roi_market",
+        "potential": "high",
+        "description": "EaDo showing 24.8% returns",
+        "action": "Focus development in EaDo for maximum returns"
+      },
+      {
+        "type": "high_roi_market",
+        "potential": "high",
+        "description": "The Heights showing 22.5% returns",
+        "action": "Focus development in The Heights for maximum returns"
+      },
+      {
+        "type": "multifamily_development",
+        "potential": "high",
+        "description": "Multifamily projects projecting 2.89x equity multiple",
+        "action": "Accelerate multifamily pipeline to capture strong fundamentals"
+      }
+    ],
+    "risks": [],
+    "recommendations": [
+      "Utilize Traditional Bank Loan for optimal capital structure",
+      "Focus on mixed_use projects with 10.45 Sharpe ratio",
+      "Adopt moderate portfolio allocation: 40% core, 40% value-add, 20% opportunistic"
+    ],
+    "metrics": {
+      "avg_market_roi": 20.716666666666665,
+      "max_market_roi": 24.8,
+      "avg_lending_rate": 8.3375,
+      "construction_loan_rate": 7.25,
+      "total_investment_volume": 3850000000,
+      "foreign_investment_pct": 10,
+      "avg_price_to_rent": 17.8,
+      "multifamily_equity_multiple": 2.89
+    }
+  },
+  "cross_domain_connections": [
+    {
+      "connected_domain": "technology",
+      "connection_type": "roi_enhancement",
+      "insight": "PropTech adoption enhances financial returns"
+    }
+  ]
+}

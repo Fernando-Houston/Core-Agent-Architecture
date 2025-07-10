@@ -1,0 +1,153 @@
+{
+  "4d8170db344d": {
+    "id": "4d8170db344d",
+    "timestamp": "2025-07-10T02:28:08.569848",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/technology_innovation_t2.json",
+    "domain": "Innovation_districts",
+    "category": "tech_ecosystem",
+    "subcategory": "",
+    "title": "Houston Innovation District Performance Metrics",
+    "content": {
+      "summary": "Innovation districts driving significant economic growth",
+      "key_findings": [
+        "Ion District attracted 50+ startups in 2023",
+        "TMC Innovation creating 30,000 biotech jobs",
+        "Energy transition hub emerging in East End"
+      ],
+      "metrics": {
+        "startup_density_per_sqmi": 125,
+        "job_creation_annual": 5000,
+        "venture_funding_millions": 850,
+        "space_absorption_rate": 95
+      }
+    },
+    "tags": [
+      "innovation",
+      "technology",
+      "economic-growth",
+      "startups"
+    ],
+    "relationships": [],
+    "confidence_score": 0.9,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "startup_density_per_sqmi",
+        "value": 125,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:08.569848"
+      },
+      {
+        "type": "metric",
+        "name": "job_creation_annual",
+        "value": 5000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:08.569848"
+      },
+      {
+        "type": "metric",
+        "name": "venture_funding_millions",
+        "value": 850,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:08.569848"
+      },
+      {
+        "type": "metric",
+        "name": "space_absorption_rate",
+        "value": 95,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:28:08.569848"
+      }
+    ],
+    "geographic_scope": [
+      "Ion District",
+      "TMC",
+      "East End"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.7999999999999999,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:08.569848",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  },
+  "7c8c18a4b64f": {
+    "id": "7c8c18a4b64f",
+    "timestamp": "2025-07-10T02:39:31.427347",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/technology_innovation_t2.json",
+    "domain": "Innovation_districts",
+    "category": "tech_ecosystem",
+    "subcategory": "",
+    "title": "Houston Innovation District Performance Metrics",
+    "content": {
+      "summary": "Innovation districts driving significant economic growth",
+      "key_findings": [
+        "Ion District attracted 50+ startups in 2023",
+        "TMC Innovation creating 30,000 biotech jobs",
+        "Energy transition hub emerging in East End"
+      ],
+      "metrics": {
+        "startup_density_per_sqmi": 125,
+        "job_creation_annual": 5000,
+        "venture_funding_millions": 850,
+        "space_absorption_rate": 95
+      },
+      "recommendations": [],
+      "raw_data": {}
+    },
+    "tags": [
+      "innovation",
+      "technology",
+      "economic-growth",
+      "startups",
+      "smart",
+      "digital"
+    ],
+    "geographic_scope": [
+      "Ion District",
+      "TMC",
+      "East End"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.88,
+    "confidence_score": 0.9,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "startup_density_per_sqmi",
+        "value": 125,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.427353"
+      },
+      {
+        "type": "metric",
+        "name": "job_creation_annual",
+        "value": 5000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.427355"
+      },
+      {
+        "type": "metric",
+        "name": "venture_funding_millions",
+        "value": 850,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.427357"
+      },
+      {
+        "type": "metric",
+        "name": "space_absorption_rate",
+        "value": 95,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:39:31.427358"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.427359",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

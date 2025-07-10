@@ -1,0 +1,24 @@
+{
+  "agent_name": "Regulatory_Intelligence",
+  "last_updated": "2025-07-10T02:39:31.426557",
+  "knowledge_files": [
+    "permit_process_knowledge.json",
+    "zoning_changes_knowledge.json",
+    "compliance_requirements_knowledge.json"
+  ],
+  "total_insights": 4,
+  "categories": [
+    "permit_process",
+    "zoning_changes",
+    "compliance_requirements"
+  ],
+  "geographic_coverage": [
+    "Houston",
+    "Inner Loop",
+    "Transit Corridors"
+  ],
+  "temporal_coverage": [
+    "2024-2025",
+    "2024"
+  ]
+}

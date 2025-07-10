@@ -1,0 +1,24 @@
+{
+  "session": "T1_Data_Extraction",
+  "timestamp": "2025-07-10T01:36:42.564011",
+  "latest_completion": {
+    "domain": "technology_intelligence",
+    "folder": "What role does STEM education play in Houston\u2019s economic expansion",
+    "completed_at": "2025-07-10T01:36:42.564018"
+  },
+  "progress": {
+    "progress_percentage": 100.0,
+    "files_processed": 167,
+    "success_count": 167,
+    "error_count": 0,
+    "success_rate": 100.0
+  },
+  "domains_with_data": [
+    "neighborhood_intelligence",
+    "environmental_intelligence",
+    "market_intelligence",
+    "financial_intelligence",
+    "technology_intelligence",
+    "regulatory_intelligence"
+  ]
+}

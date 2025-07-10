@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "folder_name": "Legal and Title Intelligence",
+    "extraction_timestamp": "2025-07-10T01:36:42.514168",
+    "file_count": 5,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script.py": {
+      "imports": [
+        "import plotly.express as px\nimport plotly.graph_objects as go\nimport pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#5D878F",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Houston Property Dev Legal Issues",
+          "Issue Category",
+          "Impact Level (%)"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "script.py": {
+      "imports": [
+        "import pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "\\nData saved to houston_property_legal_issues_2024.csv",
+        "houston_property_legal_issues_2024.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    }
+  }
+}

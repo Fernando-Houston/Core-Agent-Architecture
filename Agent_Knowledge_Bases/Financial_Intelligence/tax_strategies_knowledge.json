@@ -1,0 +1,72 @@
+{
+  "d2a6eab5336d": {
+    "id": "d2a6eab5336d",
+    "timestamp": "2025-07-10T02:39:31.419247",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/financial_analysis_t2.json",
+    "domain": "tax_implications",
+    "category": "tax_strategies",
+    "subcategory": "",
+    "title": "Opportunity Zone Tax Benefits",
+    "content": {
+      "summary": "Tax optimization through opportunity zone investments",
+      "key_findings": [
+        "Capital gains deferral until 2026",
+        "10% basis increase after 5 years",
+        "Tax-free appreciation after 10 years"
+      ],
+      "metrics": {
+        "tax_savings_5yr": 150000,
+        "tax_savings_10yr": 500000,
+        "effective_tax_rate": 15
+      },
+      "recommendations": [
+        "Structure investments through qualified opportunity funds",
+        "Focus on long-term hold strategies",
+        "Combine with other tax incentives"
+      ],
+      "raw_data": {}
+    },
+    "tags": [
+      "tax",
+      "opportunity-zone",
+      "incentives",
+      "financial"
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2026",
+    "priority_score": 1.0,
+    "confidence_score": 0.92,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "tax_savings_5yr",
+        "value": 150000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.419253"
+      },
+      {
+        "type": "metric",
+        "name": "tax_savings_10yr",
+        "value": 500000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.419254"
+      },
+      {
+        "type": "metric",
+        "name": "effective_tax_rate",
+        "value": 15,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:39:31.419256"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.419257",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

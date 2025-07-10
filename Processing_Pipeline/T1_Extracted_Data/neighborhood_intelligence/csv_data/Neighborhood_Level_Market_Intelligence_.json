@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "folder_name": "Neighborhood-Level Market Intelligence ",
+    "extraction_timestamp": "2025-07-10T01:36:42.442422",
+    "file_count": 13,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "houston_market_intelligence_2024.csv": {
+      "shape": [
+        14,
+        6
+      ],
+      "columns": [
+        "Neighborhood/Area",
+        "Median_Price_2024",
+        "Price_Per_SqFt",
+        "YoY_Change_2024",
+        "Market_Status",
+        "Investment_Appeal"
+      ],
+      "data_types": {
+        "Neighborhood/Area": "object",
+        "Median_Price_2024": "object",
+        "Price_Per_SqFt": "object",
+        "YoY_Change_2024": "object",
+        "Market_Status": "object",
+        "Investment_Appeal": "object"
+      },
+      "null_counts": {
+        "Neighborhood/Area": 0,
+        "Median_Price_2024": 3,
+        "Price_Per_SqFt": 3,
+        "YoY_Change_2024": 0,
+        "Market_Status": 0,
+        "Investment_Appeal": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Neighborhood/Area": "Katy (77493)",
+          "Median_Price_2024": "$374,268",
+          "Price_Per_SqFt": "$167",
+          "YoY_Change_2024": "+0.5%",
+          "Market_Status": "#1 Hottest US Market",
+          "Investment_Appeal": "Rental Demand"
+        },
+        {
+          "Neighborhood/Area": "Cypress (77433)",
+          "Median_Price_2024": "$629,489",
+          "Price_Per_SqFt": "$193",
+          "YoY_Change_2024": "+12.4%",
+          "Market_Status": "#2 Hottest US Market",
+          "Investment_Appeal": "Fast Sales"
+        },
+        {
+          "Neighborhood/Area": "The Woodlands (77381/77382)",
+          "Median_Price_2024": "$640,000",
+          "Price_Per_SqFt": "$228",
+          "YoY_Change_2024": "+8.0%",
+          "Market_Status": "Strong Growth",
+          "Investment_Appeal": "Family Market"
+        },
+        {
+          "Neighborhood/Area": "Spring Branch",
+          "Median_Price_2024": "$485,000",
+          "Price_Per_SqFt": "$226",
+          "YoY_Change_2024": "+18.3%",
+          "Market_Status": "High Appreciation",
+          "Investment_Appeal": "Development ROI"
+        },
+        {
+          "Neighborhood/Area": "Katy Heights",
+          "Median_Price_2024": "$285,105",
+          "Price_Per_SqFt": "$166",
+          "YoY_Change_2024": "-3.9%",
+          "Market_Status": "Affordable Entry",
+          "Investment_Appeal": "First-Time Buyers"
+        }
+      ],
+      "key_metrics": {}
+    }
+  }
+}

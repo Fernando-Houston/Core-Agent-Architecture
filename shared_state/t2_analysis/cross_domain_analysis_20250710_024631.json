@@ -1,0 +1,132 @@
+{
+  "strategic_intersections": [],
+  "compound_opportunities": [],
+  "risk_correlations": {
+    "correlated_risks": [
+      {
+        "primary_risk": "Flood exposure",
+        "affected_domains": {
+          "financial": "Higher insurance costs, reduced financing options",
+          "market": "Limited buyer pool, longer sales cycles",
+          "regulatory": "Additional compliance requirements",
+          "neighborhood": "Slower appreciation in flood zones"
+        },
+        "mitigation": "Comprehensive flood mitigation across all projects",
+        "cost_impact": "$500K-1M per project"
+      },
+      {
+        "primary_risk": "Regulatory compliance complexity",
+        "affected_domains": {
+          "financial": "Increased development costs by 15-20%",
+          "technology": "Need for compliance automation tools",
+          "market": "Slower project delivery affects competitiveness"
+        },
+        "mitigation": "Invest in regulatory expertise and technology",
+        "cost_impact": "$250K annually + systems"
+      }
+    ],
+    "risk_mitigation_synergies": [],
+    "compound_risk_areas": []
+  },
+  "value_creation_matrix": {
+    "high_value_combinations": [
+      {
+        "combination": "Tech-Enhanced Returns",
+        "domains": [
+          "technology",
+          "financial"
+        ],
+        "score": 88,
+        "opportunity": "Leverage PropTech for 30%+ ROI enhancement"
+      },
+      {
+        "combination": "Green Premium Locations",
+        "domains": [
+          "environmental",
+          "neighborhood"
+        ],
+        "score": 89,
+        "opportunity": "Green buildings in top neighborhoods for premium positioning"
+      },
+      {
+        "combination": "Zoning Arbitrage",
+        "domains": [
+          "regulatory",
+          "market"
+        ],
+        "score": 86,
+        "opportunity": "Rezoning in supply-constrained markets for 40%+ appreciation"
+      },
+      {
+        "combination": "ROI Hotspots",
+        "domains": [
+          "financial",
+          "neighborhood"
+        ],
+        "score": 88,
+        "opportunity": "Target high-ROI neighborhoods with proven returns"
+      },
+      {
+        "combination": "Smart Sustainable",
+        "domains": [
+          "technology",
+          "environmental"
+        ],
+        "score": 89,
+        "opportunity": "Smart sustainable buildings for operational excellence"
+      },
+      {
+        "combination": "Incentivized Green",
+        "domains": [
+          "regulatory",
+          "environmental"
+        ],
+        "score": 89,
+        "opportunity": "Stack green incentives for project viability"
+      }
+    ],
+    "value_scores": {
+      "Tech-Enhanced Returns": 88,
+      "Green Premium Locations": 89,
+      "Zoning Arbitrage": 86,
+      "ROI Hotspots": 88,
+      "Smart Sustainable": 89,
+      "Incentivized Green": 89
+    },
+    "optimization_priorities": [
+      {
+        "priority": 1,
+        "focus": "Green Premium Locations",
+        "score": 89
+      },
+      {
+        "priority": 2,
+        "focus": "Smart Sustainable",
+        "score": 89
+      },
+      {
+        "priority": 3,
+        "focus": "Incentivized Green",
+        "score": 89
+      },
+      {
+        "priority": 4,
+        "focus": "Tech-Enhanced Returns",
+        "score": 88
+      },
+      {
+        "priority": 5,
+        "focus": "ROI Hotspots",
+        "score": 88
+      }
+    ]
+  },
+  "integrated_recommendations": [
+    "Focus on EaDo and Ion District for tech-oriented mixed-use developments combining 24.8% ROI, innovation ecosystem, and transit improvements",
+    "Implement smart building systems with LEED Gold certification to capture 28% energy savings, 5-8% rent premium, and regulatory incentives",
+    "Stack multiple incentive programs (380 agreements, TIRZ, green incentives) to enhance project returns by 20-30%",
+    "Deploy IoT flood sensors and predictive analytics in flood-prone areas to reduce insurance costs by 30%",
+    "Build regulatory and technology expertise as competitive differentiators in Houston's concentrated developer market"
+  ],
+  "synergy_scores": {}
+}

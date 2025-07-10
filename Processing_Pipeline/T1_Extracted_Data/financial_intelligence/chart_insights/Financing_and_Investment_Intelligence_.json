@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "folder_name": "Financing and Investment Intelligence ",
+    "extraction_timestamp": "2025-07-10T01:36:42.460229",
+    "file_count": 7,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "harris_county_opportunity_zones.png": {
+      "file_name": "harris_county_opportunity_zones.png",
+      "file_size": 160975,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "harris_county"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "harris_county_tax_abatement.png": {
+      "file_name": "harris_county_tax_abatement.png",
+      "file_size": 180631,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "harris_county"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "cre_lending_rates.png": {
+      "file_name": "cre_lending_rates.png",
+      "file_size": 247994,
+      "chart_type": "unknown",
+      "insights": {
+        "topic": "lending"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "folder_name": "Economic and Demographic Intelligence _Houston population growth projections by",
+    "extraction_timestamp": "2025-07-10T01:36:42.465425",
+    "file_count": 17,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "houston_housing_scatter.png": {
+      "file_name": "houston_housing_scatter.png",
+      "file_size": 235055,
+      "chart_type": "scatter_plot",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_tech_chart.png": {
+      "file_name": "houston_tech_chart.png",
+      "file_size": 316181,
+      "chart_type": "bar_chart",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_population_growth_chart.png": {
+      "file_name": "houston_population_growth_chart.png",
+      "file_size": 277650,
+      "chart_type": "bar_chart",
+      "insights": {
+        "location": "houston",
+        "topic": "growth"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_job_growth_chart.png": {
+      "file_name": "houston_job_growth_chart.png",
+      "file_size": 328525,
+      "chart_type": "bar_chart",
+      "insights": {
+        "location": "houston",
+        "topic": "growth"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_vacancy_rates.png": {
+      "file_name": "houston_vacancy_rates.png",
+      "file_size": 268219,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

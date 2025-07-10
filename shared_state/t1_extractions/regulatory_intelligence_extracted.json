@@ -1,0 +1,309 @@
+{
+  "domain": "regulatory_intelligence",
+  "extraction_timestamp": "2025-01-10T10:50:00",
+  "files_processed": 31,
+  "aggregated_data": {
+    "zoning_analysis": {
+      "rezoning_activity": {
+        "Midtown": {
+          "from_zoning": "C-1",
+          "to_zoning": "MU-1",
+          "approval_rate": 75,
+          "avg_days": 180,
+          "current_value_psf": 120,
+          "target_value_psf": 185,
+          "highest_value_use": "mixed-use high-rise"
+        },
+        "East Downtown": {
+          "from_zoning": "I-1",
+          "to_zoning": "MU-2",
+          "approval_rate": 82,
+          "avg_days": 150,
+          "current_value_psf": 85,
+          "target_value_psf": 165,
+          "highest_value_use": "residential with ground retail"
+        },
+        "Near Northside": {
+          "from_zoning": "R-3",
+          "to_zoning": "MU-1",
+          "approval_rate": 68,
+          "avg_days": 210,
+          "current_value_psf": 65,
+          "target_value_psf": 110,
+          "highest_value_use": "townhome development"
+        }
+      },
+      "by_right_zones": {
+        "TMC-1": {
+          "permitted_uses": ["medical", "research", "hotel", "residential"],
+          "max_far": 8.0,
+          "max_height": 400,
+          "setbacks": {"front": 15, "side": 10, "rear": 20},
+          "development_potential": 85
+        },
+        "UC-1": {
+          "permitted_uses": ["mixed-use", "residential", "office", "retail"],
+          "max_far": 6.0,
+          "max_height": 300,
+          "setbacks": {"front": 10, "side": 5, "rear": 15},
+          "development_potential": 78
+        }
+      },
+      "overlay_districts": {
+        "Transit Corridor": {
+          "incentives": ["reduced parking", "height bonus", "expedited review"],
+          "parking_reduction": 50,
+          "height_bonus": 20,
+          "fast_track": true
+        },
+        "Historic District": {
+          "incentives": ["tax credits", "grants", "facade easements"],
+          "parking_reduction": 25,
+          "height_bonus": 0,
+          "fast_track": false
+        }
+      },
+      "density_bonus_programs": [
+        {
+          "name": "Affordable Housing Bonus",
+          "max_bonus": 35,
+          "requirements": ["15% affordable units", "30-year covenant"],
+          "compliance_cost": 250000
+        },
+        {
+          "name": "Green Building Bonus",
+          "max_bonus": 20,
+          "requirements": ["LEED Gold", "Energy Star"],
+          "compliance_cost": 180000
+        }
+      ],
+      "arbitrage_opportunities": {
+        "Washington Avenue": {
+          "arbitrage_type": "land use transition",
+          "value_difference": 45,
+          "complexity": "medium",
+          "execution_months": 18
+        }
+      }
+    },
+    "permitting": {
+      "average_timelines": {
+        "building_permit": {
+          "standard": 120,
+          "expedited": 45,
+          "approval_rate": 78,
+          "revision_rate": 35,
+          "base_cost": 25000
+        },
+        "site_plan": {
+          "standard": 90,
+          "expedited": 30,
+          "approval_rate": 82,
+          "revision_rate": 28,
+          "base_cost": 15000
+        },
+        "subdivision_plat": {
+          "standard": 150,
+          "expedited": 60,
+          "approval_rate": 71,
+          "revision_rate": 42,
+          "base_cost": 35000
+        }
+      },
+      "expedited_programs": [
+        {
+          "name": "Green Building Fast Track",
+          "requirements": ["LEED certification", "Complete application"],
+          "time_reduction": 50,
+          "premium_cost": 10000
+        },
+        {
+          "name": "Affordable Housing Express",
+          "requirements": ["20% affordable units", "Pre-application meeting"],
+          "time_reduction": 40,
+          "premium_cost": 5000
+        }
+      ],
+      "delay_analysis": {
+        "incomplete_submissions": {
+          "frequency": 45,
+          "avg_delay": 21,
+          "prevention_strategy": "Use checklist and pre-review",
+          "cost_per_day": 2500
+        },
+        "code_violations": {
+          "frequency": 28,
+          "avg_delay": 35,
+          "prevention_strategy": "Third-party code review",
+          "cost_per_day": 3000
+        },
+        "neighbor_opposition": {
+          "frequency": 22,
+          "avg_delay": 60,
+          "prevention_strategy": "Early community engagement",
+          "cost_per_day": 2000
+        }
+      }
+    },
+    "regulatory_changes": {
+      "recent_changes": [
+        {
+          "name": "Chapter 19 Drainage Update",
+          "effective_date": "2024-07-01",
+          "category": "environmental",
+          "impact_description": "Increased detention requirements by 25%",
+          "mandatory": true,
+          "compliance_cost": 150000
+        },
+        {
+          "name": "Energy Code 2023",
+          "effective_date": "2024-01-01",
+          "category": "building",
+          "impact_description": "15% more stringent energy efficiency",
+          "mandatory": true,
+          "compliance_cost": 75000
+        }
+      ],
+      "proposed_changes": [
+        {
+          "name": "Inclusionary Zoning",
+          "expected_date": "2025-Q3",
+          "passage_probability": 65,
+          "impact_level": "high",
+          "prep_time_months": 6,
+          "early_adopter_benefit": "Grandfathering provisions"
+        },
+        {
+          "name": "Net Zero Energy Mandate",
+          "expected_date": "2026-Q1",
+          "passage_probability": 55,
+          "impact_level": "high",
+          "prep_time_months": 12,
+          "early_adopter_benefit": "Tax incentives and recognition",
+          "prep_cost": 250000
+        }
+      ],
+      "regulatory_trends": {
+        "overall_direction": "increasing_regulation",
+        "focus_areas": ["sustainability", "affordability", "resilience"],
+        "enforcement_trend": "increasing",
+        "cost_trend": "increasing"
+      }
+    },
+    "compliance": {
+      "key_requirements": {
+        "accessibility": {
+          "current": "ADA 2010",
+          "projected": "Enhanced universal design",
+          "early_benefit": "Market differentiation",
+          "cost": 50000,
+          "market_differentiation": true
+        },
+        "energy_efficiency": {
+          "current": "IECC 2021",
+          "projected": "IECC 2024 + local amendments",
+          "early_benefit": "Utility rebates",
+          "cost": 100000,
+          "market_differentiation": true
+        }
+      },
+      "high_risk_areas": [
+        {
+          "area": "stormwater_management",
+          "violation_rate": 35,
+          "avg_penalty": 50000,
+          "best_practice": "Hire specialized consultant",
+          "prevention_cost": 25000
+        },
+        {
+          "area": "tree_preservation",
+          "violation_rate": 28,
+          "avg_penalty": 25000,
+          "best_practice": "Early arborist consultation",
+          "prevention_cost": 10000
+        }
+      ]
+    },
+    "incentive_programs": {
+      "tax_incentives": [
+        {
+          "name": "380 Agreement",
+          "benefit_description": "Property tax rebate up to 75%",
+          "estimated_value": 2500000,
+          "eligibility": ["$10M+ investment", "50+ jobs", "Target industry"],
+          "term_years": 10,
+          "deadline": "Rolling",
+          "approval_rate": 65
+        },
+        {
+          "name": "Historic Tax Credit",
+          "benefit_description": "20% federal + 25% state credit",
+          "estimated_value": 850000,
+          "eligibility": ["Historic designation", "Approved renovation"],
+          "term_years": 5,
+          "deadline": "Annual",
+          "approval_rate": 78
+        }
+      ],
+      "development_incentives": [
+        {
+          "name": "TIRZ Funding",
+          "benefit_type": "Infrastructure reimbursement",
+          "max_benefit": 5000000,
+          "requirements": ["Within TIRZ boundary", "Public benefit"],
+          "eligible_areas": ["Downtown", "Midtown", "Upper Kirby"],
+          "min_investment": 25000000,
+          "job_creation": 0,
+          "clawback": true
+        }
+      ],
+      "grant_programs": [
+        {
+          "name": "Brownfield Cleanup Grant",
+          "max_grant": 500000,
+          "match_requirement": 20,
+          "eligible_expenses": ["Assessment", "Remediation", "Monitoring"],
+          "application_period": "Q1 annually",
+          "competitive": true,
+          "selection_criteria": ["Environmental impact", "Community benefit", "Feasibility"]
+        }
+      ]
+    },
+    "regulatory_risks": {
+      "risk_areas": {
+        "environmental_compliance": {
+          "risk_score": 8,
+          "main_issue": "Complex permitting and monitoring",
+          "violations_ytd": 45,
+          "avg_fine": 75000,
+          "complexity": "high"
+        },
+        "building_code": {
+          "risk_score": 6,
+          "main_issue": "Frequent code updates",
+          "violations_ytd": 128,
+          "avg_fine": 15000,
+          "complexity": "medium"
+        }
+      },
+      "enforcement_data": {
+        "inspections_per_project": 12,
+        "violation_rate": 32,
+        "fine_trend": "increasing",
+        "enforcement_priorities": ["Life safety", "Stormwater", "Tree preservation"],
+        "typical_cure_period": 30
+      },
+      "penalty_data": {
+        "avg_fine": 35000,
+        "max_fine": 500000,
+        "stop_work_rate": 15,
+        "criminal_referrals": 2,
+        "public_disclosure": true
+      }
+    }
+  },
+  "extraction_stats": {
+    "success_rate": 0.94,
+    "confidence_score": 0.92
+  }
+}

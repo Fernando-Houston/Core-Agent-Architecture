@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "folder_name": "What are the key indicators of development ROI in Katy Heights",
+    "extraction_timestamp": "2025-07-10T01:36:42.534902",
+    "file_count": 10,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script.py": {
+      "imports": [
+        "import plotly.express as px\nimport plotly.graph_objects as go\nimport pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "pie_chart"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Katy Heights Dev Cost Breakdown"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script_1.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport pandas as pd\nimport json\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#1FB8CD"
+        ],
+        "titles": [
+          "Price/Sq Ft History (2017-2024)",
+          "Year",
+          "Price/Sq Ft ($)"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script_2.py": {
+      "imports": [
+        "import plotly.express as px\nimport plotly.graph_objects as go\nimport pandas as pd\nimport numpy as np\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "scatter_plot"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD"
+        ],
+        "titles": [
+          "Katy Heights ROI Indicators",
+          "Year",
+          "Price per sqft"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "script.py": {
+      "imports": [
+        "import pandas as pd\nimport numpy as np\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "katy_heights_roi_indicators.csv",
+        "katy_heights_price_history.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    }
+  }
+}

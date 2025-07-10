@@ -1,0 +1,73 @@
+{
+  "f9c03137011b": {
+    "id": "f9c03137011b",
+    "timestamp": "2025-07-10T02:28:08.571373",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/technology_innovation_t2.json",
+    "domain": "smart_city_initiatives",
+    "category": "infrastructure_technology",
+    "subcategory": "",
+    "title": "Smart City Infrastructure Deployment",
+    "content": {
+      "summary": "Houston's smart city initiatives enhancing property values",
+      "key_findings": [
+        "Smart traffic systems reduce commute times 25%",
+        "IoT sensors improve flood response",
+        "5G coverage expanding to 80% by 2025"
+      ],
+      "metrics": {
+        "smart_intersections": 500,
+        "iot_sensors_deployed": 10000,
+        "5g_coverage_percent": 65,
+        "efficiency_improvement": 30
+      }
+    },
+    "tags": [
+      "smart-city",
+      "infrastructure",
+      "technology",
+      "5g"
+    ],
+    "relationships": [],
+    "confidence_score": 0.88,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "smart_intersections",
+        "value": 500,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:08.571373"
+      },
+      {
+        "type": "metric",
+        "name": "iot_sensors_deployed",
+        "value": 10000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:08.571373"
+      },
+      {
+        "type": "metric",
+        "name": "5g_coverage_percent",
+        "value": 65,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:28:08.571373"
+      },
+      {
+        "type": "metric",
+        "name": "efficiency_improvement",
+        "value": 30,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:08.571373"
+      }
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.7999999999999999,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:08.571373",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

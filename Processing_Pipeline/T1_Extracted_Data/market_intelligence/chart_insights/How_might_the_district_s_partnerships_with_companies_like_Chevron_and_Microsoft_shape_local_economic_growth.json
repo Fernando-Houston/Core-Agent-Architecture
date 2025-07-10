@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "folder_name": "How might the district_s partnerships with companies like Chevron and Microsoft shape local economic growth",
+    "extraction_timestamp": "2025-07-10T01:36:42.546193",
+    "file_count": 5,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "corporate_partnership_flow.png": {
+      "file_name": "corporate_partnership_flow.png",
+      "file_size": 232894,
+      "chart_type": "unknown",
+      "insights": {},
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_economic_impact.png": {
+      "file_name": "houston_economic_impact.png",
+      "file_size": 240006,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

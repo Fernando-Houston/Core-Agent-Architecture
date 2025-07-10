@@ -1,0 +1,78 @@
+{
+  "3b498c628e43": {
+    "id": "3b498c628e43",
+    "timestamp": "2025-07-10T02:39:31.423718",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/neighborhood_analysis_t2.json",
+    "domain": "the_woodlands",
+    "category": "infrastructure_impact",
+    "subcategory": "",
+    "title": "Woodlands Infrastructure Assessment",
+    "content": {
+      "summary": "World-class infrastructure supporting premium development",
+      "key_findings": [
+        "99% broadband coverage",
+        "Extensive trail and park system",
+        "Major highway expansion improving access"
+      ],
+      "metrics": {
+        "infrastructure_score": 95,
+        "transportation_rating": 90,
+        "utilities_rating": 98,
+        "connectivity_score": 99
+      },
+      "recommendations": [],
+      "raw_data": {}
+    },
+    "tags": [
+      "infrastructure",
+      "woodlands",
+      "development-ready",
+      "construction",
+      "project",
+      "pipeline"
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.886,
+    "confidence_score": 0.93,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "infrastructure_score",
+        "value": 95,
+        "unit": "index",
+        "timestamp": "2025-07-10T02:39:31.423725"
+      },
+      {
+        "type": "metric",
+        "name": "transportation_rating",
+        "value": 90,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.423726"
+      },
+      {
+        "type": "metric",
+        "name": "utilities_rating",
+        "value": 98,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.423728"
+      },
+      {
+        "type": "metric",
+        "name": "connectivity_score",
+        "value": 99,
+        "unit": "index",
+        "timestamp": "2025-07-10T02:39:31.423729"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.423731",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

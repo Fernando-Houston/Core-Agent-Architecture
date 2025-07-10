@@ -1,0 +1,357 @@
+#!/usr/bin/env python3
+"""
+Houston Intelligence Platform API
+Provides RESTful API endpoints for accessing the Houston Development Intelligence system
+"""
+
+from flask import Flask, request, jsonify, make_response
+from flask_cors import CORS
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+from flask_caching import Cache
+import json
+from pathlib import Path
+import datetime
+from typing import Dict, List, Optional, Any
+import logging
+from functools import wraps
+import time
+
+# Import our master intelligence agent
+from master_intelligence_agent import MasterIntelligenceAgent
+from houston_intelligence_endpoints import houston_endpoints, init_endpoints
+
+# Initialize Flask app
+app = Flask(__name__)
+CORS(app, origins=['http://localhost:*', 'https://*.houston-intelligence.com'])
+
+# Configure rate limiting
+limiter = Limiter(
+    app=app,
+    key_func=get_remote_address,
+    default_limits=["200 per day", "50 per hour"]
+)
+
+# Configure caching
+cache = Cache(app, config={
+    'CACHE_TYPE': 'simple',
+    'CACHE_DEFAULT_TIMEOUT': 300  # 5 minutes
+})
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+# Initialize Master Intelligence Agent
+intelligence_agent = MasterIntelligenceAgent()
+
+# API version
+API_VERSION = "v1"
+
+# Register specialized endpoints blueprint
+app.register_blueprint(houston_endpoints)
+init_endpoints(cache)
+
+def log_request(f):
+    """Decorator to log API requests"""
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        start_time = time.time()
+        logger.info(f"Request: {request.method} {request.path} from {request.remote_addr}")
+        
+        response = f(*args, **kwargs)
+        
+        duration = time.time() - start_time
+        logger.info(f"Response: {response.status_code} in {duration:.2f}s")
+        
+        return response
+    return decorated_function
+
+@app.route('/health', methods=['GET'])
+def health_check():
+    """Health check endpoint"""
+    return jsonify({
+        'status': 'healthy',
+        'timestamp': datetime.datetime.now().isoformat(),
+        'version': API_VERSION
+    })
+
+@app.route(f'/api/{API_VERSION}/query', methods=['POST'])
+@limiter.limit("10 per minute")
+@log_request
+def query_intelligence():
+    """
+    Main query endpoint for Houston Intelligence Platform
+    Accepts natural language queries and returns structured intelligence
+    """
+    try:
+        data = request.get_json()
+        
+        if not data or 'query' not in data:
+            return jsonify({
+                'error': 'Missing query parameter',
+                'status': 'error'
+            }), 400
+        
+        query = data['query']
+        context = data.get('context', {})
+        
+        # Process query through Master Intelligence Agent
+        response = intelligence_agent.process_query(query, context)
+        
+        return jsonify({
+            'status': 'success',
+            'query': query,
+            'response': response,
+            'timestamp': datetime.datetime.now().isoformat()
+        })
+        
+    except Exception as e:
+        logger.error(f"Error processing query: {str(e)}")
+        return jsonify({
+            'error': 'Internal server error',
+            'status': 'error'
+        }), 500
+
+@app.route(f'/api/{API_VERSION}/agents', methods=['GET'])
+@cache.cached(timeout=3600)  # Cache for 1 hour
+@log_request
+def list_agents():
+    """List all available intelligence agents and their capabilities"""
+    agents = []
+    
+    for agent_name, agent_path in intelligence_agent.agent_registry.items():
+        capabilities_file = agent_path / 'capabilities.json'
+        capabilities = {}
+        
+        if capabilities_file.exists():
+            with open(capabilities_file, 'r') as f:
+                capabilities = json.load(f)
+        
+        agents.append({
+            'name': agent_name,
+            'description': capabilities.get('description', ''),
+            'data_sources': capabilities.get('data_sources', []),
+            'query_types': capabilities.get('query_types', [])
+        })
+    
+    return jsonify({
+        'status': 'success',
+        'agents': agents,
+        'total': len(agents)
+    })
+
+@app.route(f'/api/{API_VERSION}/agent/<agent_name>', methods=['GET'])
+@cache.cached(timeout=600)  # Cache for 10 minutes
+@log_request
+def get_agent_details(agent_name):
+    """Get detailed information about a specific agent"""
+    if agent_name not in intelligence_agent.agent_registry:
+        return jsonify({
+            'error': f'Agent {agent_name} not found',
+            'status': 'error'
+        }), 404
+    
+    agent_path = intelligence_agent.agent_registry[agent_name]
+    
+    # Get capabilities
+    capabilities_file = agent_path / 'capabilities.json'
+    capabilities = {}
+    if capabilities_file.exists():
+        with open(capabilities_file, 'r') as f:
+            capabilities = json.load(f)
+    
+    # Get knowledge base info
+    knowledge_files = list(agent_path.glob('knowledge_*.json'))
+    knowledge_summary = {
+        'total_files': len(knowledge_files),
+        'last_updated': None
+    }
+    
+    if knowledge_files:
+        latest_file = max(knowledge_files, key=lambda p: p.stat().st_mtime)
+        knowledge_summary['last_updated'] = datetime.datetime.fromtimestamp(
+            latest_file.stat().st_mtime
+        ).isoformat()
+    
+    return jsonify({
+        'status': 'success',
+        'agent': {
+            'name': agent_name,
+            'capabilities': capabilities,
+            'knowledge_summary': knowledge_summary
+        }
+    })
+
+@app.route(f'/api/{API_VERSION}/insights/latest', methods=['GET'])
+@cache.cached(timeout=300)  # Cache for 5 minutes
+@log_request
+def get_latest_insights():
+    """Get the latest insights across all agents"""
+    insights = []
+    
+    # Look for recent insights in each agent folder
+    for agent_name, agent_path in intelligence_agent.agent_registry.items():
+        insights_file = agent_path / 'latest_insights.json'
+        
+        if insights_file.exists():
+            with open(insights_file, 'r') as f:
+                agent_insights = json.load(f)
+                
+                for insight in agent_insights.get('insights', []):
+                    insights.append({
+                        'agent': agent_name,
+                        'type': insight.get('type'),
+                        'title': insight.get('title'),
+                        'summary': insight.get('summary'),
+                        'timestamp': insight.get('timestamp'),
+                        'confidence': insight.get('confidence', 0.8)
+                    })
+    
+    # Sort by timestamp (most recent first)
+    insights.sort(key=lambda x: x.get('timestamp', ''), reverse=True)
+    
+    return jsonify({
+        'status': 'success',
+        'insights': insights[:20],  # Return top 20 most recent
+        'total': len(insights)
+    })
+
+@app.route(f'/api/{API_VERSION}/search', methods=['POST'])
+@limiter.limit("20 per minute")
+@log_request
+def search_intelligence():
+    """Search across all intelligence data"""
+    try:
+        data = request.get_json()
+        
+        if not data or 'keywords' not in data:
+            return jsonify({
+                'error': 'Missing keywords parameter',
+                'status': 'error'
+            }), 400
+        
+        keywords = data['keywords']
+        filters = data.get('filters', {})
+        
+        # Perform search across agents
+        results = []
+        
+        for agent_name, agent_path in intelligence_agent.agent_registry.items():
+            # Skip if agent filter is applied and doesn't match
+            if filters.get('agents') and agent_name not in filters['agents']:
+                continue
+            
+            # Search in knowledge files
+            for knowledge_file in agent_path.glob('knowledge_*.json'):
+                with open(knowledge_file, 'r') as f:
+                    content = f.read().lower()
+                    
+                    # Simple keyword matching (can be enhanced)
+                    if any(keyword.lower() in content for keyword in keywords):
+                        with open(knowledge_file, 'r') as f:
+                            knowledge_data = json.load(f)
+                            
+                        results.append({
+                            'agent': agent_name,
+                            'file': knowledge_file.name,
+                            'type': knowledge_data.get('type', 'unknown'),
+                            'preview': knowledge_data.get('summary', '')[:200] + '...',
+                            'timestamp': datetime.datetime.fromtimestamp(
+                                knowledge_file.stat().st_mtime
+                            ).isoformat()
+                        })
+        
+        return jsonify({
+            'status': 'success',
+            'keywords': keywords,
+            'results': results[:50],  # Limit to 50 results
+            'total': len(results)
+        })
+        
+    except Exception as e:
+        logger.error(f"Error in search: {str(e)}")
+        return jsonify({
+            'error': 'Internal server error',
+            'status': 'error'
+        }), 500
+
+@app.route(f'/api/{API_VERSION}/stats', methods=['GET'])
+@cache.cached(timeout=600)  # Cache for 10 minutes
+@log_request
+def get_platform_stats():
+    """Get platform statistics and metrics"""
+    stats = {
+        'total_agents': len(intelligence_agent.agent_registry),
+        'data_sources': 0,
+        'knowledge_files': 0,
+        'last_refresh': None,
+        'coverage': {
+            'permits': 0,
+            'developments': 0,
+            'neighborhoods': 0,
+            'regulations': 0
+        }
+    }
+    
+    # Count knowledge files and get last update
+    latest_update = None
+    
+    for agent_name, agent_path in intelligence_agent.agent_registry.items():
+        knowledge_files = list(agent_path.glob('knowledge_*.json'))
+        stats['knowledge_files'] += len(knowledge_files)
+        
+        if knowledge_files:
+            latest_file = max(knowledge_files, key=lambda p: p.stat().st_mtime)
+            file_time = datetime.datetime.fromtimestamp(latest_file.stat().st_mtime)
+            
+            if not latest_update or file_time > latest_update:
+                latest_update = file_time
+    
+    if latest_update:
+        stats['last_refresh'] = latest_update.isoformat()
+    
+    # Count data sources
+    data_processing_path = Path('Data Processing')
+    if data_processing_path.exists():
+        stats['data_sources'] = len([p for p in data_processing_path.iterdir() if p.is_dir()])
+    
+    return jsonify({
+        'status': 'success',
+        'stats': stats,
+        'timestamp': datetime.datetime.now().isoformat()
+    })
+
+@app.errorhandler(404)
+def not_found(error):
+    return jsonify({
+        'error': 'Endpoint not found',
+        'status': 'error'
+    }), 404
+
+@app.errorhandler(429)
+def rate_limit_exceeded(error):
+    return jsonify({
+        'error': 'Rate limit exceeded',
+        'status': 'error',
+        'message': str(error.description)
+    }), 429
+
+@app.errorhandler(500)
+def internal_error(error):
+    logger.error(f"Internal server error: {str(error)}")
+    return jsonify({
+        'error': 'Internal server error',
+        'status': 'error'
+    }), 500
+
+if __name__ == '__main__':
+    # Development server
+    app.run(
+        host='0.0.0.0',
+        port=5000,
+        debug=True
+    )

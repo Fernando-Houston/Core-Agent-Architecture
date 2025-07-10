@@ -1,0 +1,100 @@
+{
+  "analysis_id": "t2_financial_001",
+  "timestamp": "2024-01-10T11:30:00Z",
+  "insights": [
+    {
+      "domain": "financing_options",
+      "category": "roi_models",
+      "title": "Mixed-Use Development ROI Model",
+      "content": {
+        "summary": "Comprehensive ROI model for mixed-use developments",
+        "key_findings": [
+          "18-22% projected returns",
+          "3-year break-even period",
+          "Multiple financing options available"
+        ],
+        "metrics": {
+          "projected_roi": 20,
+          "break_even_months": 36,
+          "initial_investment": 5000000,
+          "npv": 2500000,
+          "irr": 18.5
+        },
+        "recommendations": [
+          "Pursue mixed-use developments in high-growth areas",
+          "Structure deals with 70/30 debt-equity ratio",
+          "Consider opportunity zone benefits"
+        ]
+      },
+      "tags": ["roi", "financial", "mixed-use", "investment"],
+      "confidence_score": 0.85
+    },
+    {
+      "domain": "tax_implications",
+      "category": "tax_strategies",
+      "title": "Opportunity Zone Tax Benefits",
+      "content": {
+        "summary": "Tax optimization through opportunity zone investments",
+        "key_findings": [
+          "Capital gains deferral until 2026",
+          "10% basis increase after 5 years",
+          "Tax-free appreciation after 10 years"
+        ],
+        "metrics": {
+          "tax_savings_5yr": 150000,
+          "tax_savings_10yr": 500000,
+          "effective_tax_rate": 15
+        },
+        "recommendations": [
+          "Structure investments through qualified opportunity funds",
+          "Focus on long-term hold strategies",
+          "Combine with other tax incentives"
+        ]
+      },
+      "tags": ["tax", "opportunity-zone", "incentives", "financial"],
+      "confidence_score": 0.92
+    },
+    {
+      "domain": "lending_trends",
+      "category": "financing_comparisons",
+      "title": "Current Lending Environment Analysis",
+      "content": {
+        "summary": "Favorable lending conditions for qualified developers",
+        "key_findings": [
+          "Construction loan rates 7.5-8.5%",
+          "Permanent financing 6.0-7.0%",
+          "LTV ratios up to 75% for strong projects"
+        ],
+        "metrics": {
+          "avg_construction_rate": 8.0,
+          "avg_permanent_rate": 6.5,
+          "typical_ltv": 70,
+          "typical_dscr": 1.25
+        }
+      },
+      "tags": ["lending", "financing", "rates", "financial"],
+      "confidence_score": 0.88
+    },
+    {
+      "domain": "investment_analysis",
+      "category": "risk_assessment",
+      "title": "Investment Risk Matrix for Houston Development",
+      "content": {
+        "summary": "Comprehensive risk assessment across investment types",
+        "key_findings": [
+          "Lowest risk: Class A multifamily in established areas",
+          "Moderate risk: Mixed-use in emerging neighborhoods",
+          "Higher risk: Speculative commercial development"
+        ],
+        "metrics": {
+          "multifamily_risk_score": 3.5,
+          "mixed_use_risk_score": 5.5,
+          "commercial_risk_score": 7.0,
+          "risk_scale_max": 10
+        }
+      },
+      "tags": ["risk", "investment", "analysis", "financial"],
+      "confidence_score": 0.86
+    }
+  ]
+}

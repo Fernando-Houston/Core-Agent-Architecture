@@ -1,0 +1,18 @@
+{
+  "domain": "neighborhood_intelligence",
+  "analysis_file": "/Users/fernandox/Desktop/Core Agent Architecture/shared_state/t2_analysis/neighborhood_intelligence_analysis_20250710_020633.json",
+  "timestamp": "2025-07-10T02:06:33.909855",
+  "confidence": 0.908,
+  "key_metrics": {
+    "top_area_score": 58.55,
+    "avg_top5_score": 53.272000000000006,
+    "avg_yoy_price_change": 35.56233821168966,
+    "max_yoy_price_change": 79.28571428571428,
+    "avg_months_inventory": 3.107891517874509,
+    "min_months_inventory": 1.5,
+    "avg_projected_roi": 19.552125506072876,
+    "max_projected_roi": 30
+  },
+  "priority": "high",
+  "status": "ready_for_agent_population"
+}

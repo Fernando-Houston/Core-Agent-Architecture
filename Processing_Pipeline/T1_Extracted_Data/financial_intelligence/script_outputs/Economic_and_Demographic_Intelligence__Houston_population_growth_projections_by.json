@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "folder_name": "Economic and Demographic Intelligence _Houston population growth projections by",
+    "extraction_timestamp": "2025-07-10T01:36:42.465425",
+    "file_count": 17,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script_4.py": {
+      "imports": [
+        "import pandas as pd\nimport plotly.express as px\nimport plotly.graph_objects as go\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "houston_housing_market_data.csv"
+      ],
+      "visualizations": {
+        "chart_types": [
+          "scatter_plot"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#D2BA4C",
+          "#DB4545"
+        ],
+        "titles": [
+          "Houston Housing vs Growth 2025"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script.py": {
+      "imports": [
+        "import pandas as pd\nimport plotly.express as px\nimport plotly.graph_objects as go\n"
+      ],
+      "functions": [
+        "get_color"
+      ],
+      "data_sources": [
+        "houston_population_growth_by_area.csv"
+      ],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#B4413C",
+          "#ECEBD5",
+          "#D2BA4C"
+        ],
+        "titles": [
+          "Houston Pop Growth by Area (2020-25)",
+          "Growth Rate (%)",
+          "Area"
+        ]
+      },
+      "analysis_methods": [
+        "ranking_analysis"
+      ]
+    },
+    "chart_script_1.py": {
+      "imports": [
+        "import pandas as pd\nimport plotly.express as px\nimport plotly.graph_objects as go\n"
+      ],
+      "functions": [
+        "get_color_category",
+        "get_category_label"
+      ],
+      "data_sources": [
+        "houston_job_growth_by_sector.csv"
+      ],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#4472c4",
+          "#1f4e79",
+          "#7f7f7f",
+          "#8db4e2"
+        ],
+        "titles": [
+          "Houston Job Growth by Sector (2024-2025)",
+          "Sector",
+          "New Jobs Added"
+        ]
+      },
+      "analysis_methods": [
+        "ranking_analysis",
+        "aggregation_analysis"
+      ]
+    },
+    "chart_script_2.py": {
+      "imports": [
+        "import pandas as pd\nimport plotly.express as px\nimport plotly.graph_objects as go\n"
+      ],
+      "functions": [
+        "get_color"
+      ],
+      "data_sources": [
+        "houston_commercial_real_estate_data.csv"
+      ],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#B4413C",
+          "#D2BA4C",
+          "#5D878F",
+          "#FFC185",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Houston CRE Vacancy Rates (2025)",
+          "Vacancy Rate%",
+          "Submarket"
+        ]
+      },
+      "analysis_methods": [
+        "ranking_analysis"
+      ]
+    },
+    "script.py": {
+      "imports": [
+        "import pandas as pd\nimport json\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "houston_commercial_real_estate_data.csv",
+        "houston_housing_market_data.csv",
+        "- houston_housing_market_data.csv",
+        "houston_tech_sector_impact.csv",
+        "- houston_commercial_real_estate_data.csv",
+        "houston_job_growth_by_sector.csv",
+        "- houston_population_growth_by_area.csv",
+        "- houston_job_growth_by_sector.csv",
+        "houston_population_growth_by_area.csv",
+        "- houston_tech_sector_impact.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    },
+    "chart_script_3.py": {
+      "imports": [
+        "import pandas as pd\nimport plotly.graph_objects as go\nimport plotly.express as px\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "houston_tech_sector_impact.csv"
+      ],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD"
+        ],
+        "titles": [
+          "Houston Tech Sector Growth: 2020 vs 2025",
+          "Metrics",
+          "Value"
+        ]
+      },
+      "analysis_methods": []
+    }
+  }
+}

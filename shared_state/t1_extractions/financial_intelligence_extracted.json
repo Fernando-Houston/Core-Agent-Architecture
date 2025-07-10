@@ -1,0 +1,113 @@
+{
+  "domain": "financial_intelligence",
+  "extraction_timestamp": "2025-01-10T10:40:00",
+  "files_processed": 19,
+  "aggregated_data": {
+    "project_returns": {
+      "by_type": {
+        "multifamily": [18.5, 22.3, 19.8, 24.1, 21.5, 20.2, 23.8, 19.2, 22.9, 21.1],
+        "commercial": [15.2, 18.5, 14.8, 19.2, 16.5, 17.8, 14.2, 18.9, 16.2, 17.5],
+        "mixed_use": [20.5, 24.8, 22.1, 26.5, 23.2, 25.8, 21.9, 24.5, 23.8, 25.2],
+        "industrial": [12.5, 14.2, 13.8, 15.5, 14.1, 13.2, 14.8, 15.2, 13.5, 14.9]
+      },
+      "by_area": {
+        "The Heights": {"avg_return": 22.5, "cap_rate": 5.8, "payback_years": 4.2},
+        "Montrose": {"avg_return": 20.8, "cap_rate": 6.2, "payback_years": 4.8},
+        "River Oaks": {"avg_return": 16.5, "cap_rate": 4.5, "payback_years": 6.2},
+        "EaDo": {"avg_return": 24.8, "cap_rate": 6.8, "payback_years": 3.8},
+        "Midtown": {"avg_return": 21.5, "cap_rate": 6.5, "payback_years": 4.5},
+        "Energy Corridor": {"avg_return": 18.2, "cap_rate": 7.2, "payback_years": 5.5}
+      }
+    },
+    "lending_metrics": {
+      "interest_rates": {
+        "construction": 7.25,
+        "permanent": 5.85,
+        "bridge": 8.75,
+        "hard_money": 11.5
+      },
+      "rate_history": [6.5, 6.75, 7.0, 7.25, 7.0, 6.85, 6.5, 6.25, 5.85],
+      "availability": {
+        "construction": {
+          "approval_rate": 68,
+          "avg_ltv": 65,
+          "days_to_close": 45
+        },
+        "permanent": {
+          "approval_rate": 82,
+          "avg_ltv": 75,
+          "days_to_close": 30
+        },
+        "bridge": {
+          "approval_rate": 75,
+          "avg_ltv": 70,
+          "days_to_close": 21
+        }
+      },
+      "active_lenders": [
+        {"name": "Wells Fargo", "market_share": 18.5, "focus": "multifamily"},
+        {"name": "JPMorgan Chase", "market_share": 15.2, "focus": "commercial"},
+        {"name": "Bank of America", "market_share": 12.8, "focus": "mixed"},
+        {"name": "Frost Bank", "market_share": 10.5, "focus": "local"},
+        {"name": "BBVA", "market_share": 8.2, "focus": "construction"}
+      ]
+    },
+    "investment_activity": {
+      "total_volume_ytd": 3850000000,
+      "by_investor_type": {
+        "institutional": {"volume": 1540000000, "deals": 42, "yoy_growth": 12.5},
+        "private_equity": {"volume": 1155000000, "deals": 68, "yoy_growth": 18.2},
+        "reit": {"volume": 770000000, "deals": 28, "yoy_growth": 8.5},
+        "foreign": {"volume": 385000000, "deals": 15, "yoy_growth": 22.8}
+      },
+      "by_area": {
+        "Downtown": 825000000,
+        "Galleria": 685000000,
+        "Energy Corridor": 520000000,
+        "Medical Center": 485000000,
+        "Inner Loop": 425000000
+      },
+      "by_asset_class": {
+        "multifamily": 35,
+        "office": 22,
+        "industrial": 18,
+        "retail": 12,
+        "mixed_use": 13
+      },
+      "foreign_percentage": 10,
+      "top_foreign_sources": ["Canada", "Mexico", "Singapore", "UAE"]
+    },
+    "valuations": {
+      "by_area": {
+        "The Heights": {"avg_price": 450000, "avg_rent": 2200},
+        "Montrose": {"avg_price": 425000, "avg_rent": 2100},
+        "River Oaks": {"avg_price": 1200000, "avg_rent": 4500},
+        "EaDo": {"avg_price": 380000, "avg_rent": 1950},
+        "Midtown": {"avg_price": 410000, "avg_rent": 2050}
+      },
+      "cap_rates": {
+        "multifamily": 5.75,
+        "office": 7.25,
+        "retail": 6.85,
+        "industrial": 6.5
+      }
+    },
+    "construction_costs": {
+      "multifamily": 165,
+      "office": 225,
+      "retail": 185,
+      "industrial": 95
+    },
+    "avg_rent": {
+      "multifamily": 1650,
+      "office": 32.50,
+      "retail": 38.75,
+      "industrial": 8.25
+    },
+    "equity_availability": "high"
+  },
+  "extraction_stats": {
+    "success_rate": 0.97,
+    "confidence_score": 0.93
+  }
+}

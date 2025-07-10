@@ -1,0 +1,38 @@
+{
+  "agent_name": "Technology_Innovation_Intelligence",
+  "generated_at": "2025-07-10T02:41:15.613681",
+  "total_insights": 6,
+  "categories": {
+    "tech_investment": 1,
+    "infrastructure_technology": 1,
+    "tech_ecosystem": 2,
+    "construction_innovation": 2
+  },
+  "top_insights": [
+    {
+      "title": "PropTech Adoption in Houston Development",
+      "priority": 1.0,
+      "summary": "Technology adoption transforming development processes"
+    },
+    {
+      "title": "Tech Sector Real Estate Investment Trends",
+      "priority": 0.972,
+      "summary": "Tech companies driving new real estate demand patterns"
+    },
+    {
+      "title": "PropTech Adoption in Houston Development",
+      "priority": 0.95,
+      "summary": "Technology adoption transforming development processes"
+    },
+    {
+      "title": "Houston Innovation District Performance Metrics",
+      "priority": 0.88,
+      "summary": "Innovation districts driving significant economic growth"
+    },
+    {
+      "title": "Smart City Infrastructure Deployment",
+      "priority": 0.876,
+      "summary": "Houston's smart city initiatives enhancing property values"
+    }
+  ]
+}

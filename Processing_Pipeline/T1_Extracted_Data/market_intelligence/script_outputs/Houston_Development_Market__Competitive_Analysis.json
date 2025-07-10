@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "folder_name": "Houston Development Market_ Competitive Analysis",
+    "extraction_timestamp": "2025-07-10T01:36:42.422015",
+    "file_count": 21,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script.py": {
+      "imports": [
+        "import pandas as pd\nimport plotly.graph_objects as go\nimport plotly.io as pio\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "houston_developers_2024.csv"
+      ],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#1FB8CD",
+          "#D2BA4C",
+          "#5D878F",
+          "#FFC185",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Top 5 Houston Devs - Jan 2025",
+          "Permits",
+          "Developer"
+        ]
+      },
+      "analysis_methods": [
+        "ranking_analysis"
+      ]
+    },
+    "chart_script_1.py": {
+      "imports": [
+        "import pandas as pd\nimport plotly.express as px\nimport plotly.graph_objects as go\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "houston_commercial_sectors_2024.csv"
+      ],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#1FB8CD",
+          "#D2BA4C",
+          "#5D878F",
+          "#FFC185",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Houston Commercial Development 2024-25",
+          "Sector",
+          "Constr (M SF)"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "script_4.py": {
+      "imports": [],
+      "functions": [],
+      "data_sources": [
+        "\\nData saved to houston_major_projects_2024.csv",
+        "\\nData saved to houston_development_trends_2024.csv",
+        "houston_development_trends_2024.csv",
+        "houston_major_projects_2024.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    },
+    "script_5.py": {
+      "imports": [],
+      "functions": [],
+      "data_sources": [
+        "\\nData saved to houston_market_statistics_2024.csv",
+        "houston_competitive_analysis_2024.csv",
+        "houston_market_statistics_2024.csv",
+        "\\nData saved to houston_competitive_analysis_2024.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    },
+    "script_1.py": {
+      "imports": [],
+      "functions": [],
+      "data_sources": [
+        "\\nData saved to houston_commercial_sectors_2024.csv",
+        "houston_commercial_sectors_2024.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    },
+    "script_2.py": {
+      "imports": [],
+      "functions": [],
+      "data_sources": [
+        "houston_land_acquisition_strategies_2024.csv",
+        "\\nData saved to houston_land_acquisition_strategies_2024.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    },
+    "script_3.py": {
+      "imports": [],
+      "functions": [],
+      "data_sources": [
+        "\\nData saved to houston_residential_activity_by_area_2024.csv",
+        "houston_residential_activity_by_area_2024.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": [
+        "statistical_summary",
+        "totaling"
+      ]
+    },
+    "chart_script_2.py": {
+      "imports": [
+        "import pandas as pd\nimport plotly.graph_objects as go\nimport plotly.express as px\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "houston_residential_activity_by_area_2024.csv"
+      ],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#944454",
+          "#B4413C",
+          "#1FB8CD",
+          "#D2BA4C",
+          "#5D878F",
+          "#13343B",
+          "#DB4545",
+          "#FFC185",
+          "#964325",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Houston Dev Activity by Area (2024)",
+          "New Home Comm",
+          "Area/Region"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "script.py": {
+      "imports": [
+        "import pandas as pd\nimport numpy as np\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "\\nData saved to houston_developers_2024.csv",
+        "houston_developers_2024.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    }
+  }
+}

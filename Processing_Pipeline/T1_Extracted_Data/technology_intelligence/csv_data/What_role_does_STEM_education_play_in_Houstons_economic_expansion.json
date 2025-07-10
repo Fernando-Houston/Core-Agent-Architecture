@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "folder_name": "What role does STEM education play in Houston\u2019s economic expansion",
+    "extraction_timestamp": "2025-07-10T01:36:42.550006",
+    "file_count": 11,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "houston_stem_pipeline.csv": {
+      "shape": [
+        6,
+        4
+      ],
+      "columns": [
+        "Education_Level",
+        "Students_Served",
+        "Annual_Investment_Millions",
+        "Employment_Rate"
+      ],
+      "data_types": {
+        "Education_Level": "object",
+        "Students_Served": "int64",
+        "Annual_Investment_Millions": "float64",
+        "Employment_Rate": "float64"
+      },
+      "null_counts": {
+        "Education_Level": 0,
+        "Students_Served": 0,
+        "Annual_Investment_Millions": 0,
+        "Employment_Rate": 1
+      },
+      "summary_stats": {
+        "Students_Served": {
+          "count": 6.0,
+          "mean": 11500.0,
+          "std": 7874.007874011811,
+          "min": 3500.0,
+          "25%": 5875.0,
+          "50%": 10250.0,
+          "75%": 14250.0,
+          "max": 25000.0
+        },
+        "Annual_Investment_Millions": {
+          "count": 6.0,
+          "mean": 60.833333333333336,
+          "std": 36.251436753136645,
+          "min": 25.0,
+          "25%": 33.75,
+          "50%": 52.5,
+          "75%": 78.75,
+          "max": 120.0
+        },
+        "Employment_Rate": {
+          "count": 5.0,
+          "mean": 0.884,
+          "std": 0.05224940191045254,
+          "min": 0.82,
+          "25%": 0.85,
+          "50%": 0.88,
+          "75%": 0.92,
+          "max": 0.95
+        }
+      },
+      "sample_data": [
+        {
+          "Education_Level": "K-12 STEM Programs",
+          "Students_Served": 25000,
+          "Annual_Investment_Millions": 45.0,
+          "Employment_Rate": NaN
+        },
+        {
+          "Education_Level": "Community College STEM",
+          "Students_Served": 8500,
+          "Annual_Investment_Millions": 25.0,
+          "Employment_Rate": 0.85
+        },
+        {
+          "Education_Level": "University STEM Undergrad",
+          "Students_Served": 12000,
+          "Annual_Investment_Millions": 120.0,
+          "Employment_Rate": 0.92
+        },
+        {
+          "Education_Level": "University STEM Graduate",
+          "Students_Served": 3500,
+          "Annual_Investment_Millions": 85.0,
+          "Employment_Rate": 0.95
+        },
+        {
+          "Education_Level": "Industry Training Programs",
+          "Students_Served": 5000,
+          "Annual_Investment_Millions": 60.0,
+          "Employment_Rate": 0.88
+        }
+      ],
+      "key_metrics": {}
+    },
+    "houston_stem_economic_impact.csv": {
+      "shape": [
+        11,
+        4
+      ],
+      "columns": [
+        "Category",
+        "Value",
+        "Unit",
+        "Source"
+      ],
+      "data_types": {
+        "Category": "object",
+        "Value": "float64",
+        "Unit": "object",
+        "Source": "object"
+      },
+      "null_counts": {
+        "Category": 0,
+        "Value": 0,
+        "Unit": 0,
+        "Source": 0
+      },
+      "summary_stats": {
+        "Value": {
+          "count": 11.0,
+          "mean": 132.82545454545456,
+          "std": 214.3734590085086,
+          "min": 3.6,
+          "25%": 5.65,
+          "50%": 32.0,
+          "75%": 143.2,
+          "max": 715.38
+        }
+      },
+      "sample_data": [
+        {
+          "Category": "University of Houston Total Economic Impact",
+          "Value": 6.4,
+          "Unit": "Billion USD",
+          "Source": "UH Economic Impact Report"
+        },
+        {
+          "Category": "Rice University Graduate Starting Salaries (STEM)",
+          "Value": 106.4,
+          "Unit": "Thousand USD",
+          "Source": "Rice University Employment Data"
+        },
+        {
+          "Category": "Houston Tech Industry GDP Contribution",
+          "Value": 29.2,
+          "Unit": "Billion USD",
+          "Source": "Houston Tech Report 2022"
+        },
+        {
+          "Category": "Texas STEM Job Growth (2018-2028)",
+          "Value": 715.38,
+          "Unit": "Thousand Jobs",
+          "Source": "Texas Workforce Commission"
+        },
+        {
+          "Category": "Houston STEM Workforce Size",
+          "Value": 300.0,
+          "Unit": "Thousand Workers",
+          "Source": "Greater Houston Partnership"
+        }
+      ],
+      "key_metrics": {
+        "Value_median": 32.0,
+        "Value_range": [
+          3.6,
+          715.38
+        ]
+      }
+    },
+    "houston_stem_employers.csv": {
+      "shape": [
+        12,
+        4
+      ],
+      "columns": [
+        "Company",
+        "STEM_Jobs",
+        "Sector",
+        "Average_Salary"
+      ],
+      "data_types": {
+        "Company": "object",
+        "STEM_Jobs": "int64",
+        "Sector": "object",
+        "Average_Salary": "int64"
+      },
+      "null_counts": {
+        "Company": 0,
+        "STEM_Jobs": 0,
+        "Sector": 0,
+        "Average_Salary": 0
+      },
+      "summary_stats": {
+        "STEM_Jobs": {
+          "count": 12.0,
+          "mean": 8266.666666666666,
+          "std": 4759.5517996270755,
+          "min": 2500.0,
+          "25%": 4750.0,
+          "50%": 7750.0,
+          "75%": 10125.0,
+          "max": 18000.0
+        },
+        "Average_Salary": {
+          "count": 12.0,
+          "mean": 107083.33333333333,
+          "std": 17686.45261381168,
+          "min": 75000.0,
+          "25%": 93750.0,
+          "50%": 111000.0,
+          "75%": 118500.0,
+          "max": 135000.0
+        }
+      },
+      "sample_data": [
+        {
+          "Company": "ExxonMobil",
+          "STEM_Jobs": 12000,
+          "Sector": "Energy",
+          "Average_Salary": 125000
+        },
+        {
+          "Company": "Chevron",
+          "STEM_Jobs": 8500,
+          "Sector": "Energy",
+          "Average_Salary": 118000
+        },
+        {
+          "Company": "HP Enterprise",
+          "STEM_Jobs": 15000,
+          "Sector": "Technology",
+          "Average_Salary": 135000
+        },
+        {
+          "Company": "BMC Software",
+          "STEM_Jobs": 5000,
+          "Sector": "Technology",
+          "Average_Salary": 110000
+        },
+        {
+          "Company": "NASA Johnson Space Center",
+          "STEM_Jobs": 3200,
+          "Sector": "Aerospace",
+          "Average_Salary": 95000
+        }
+      ],
+      "key_metrics": {}
+    }
+  }
+}

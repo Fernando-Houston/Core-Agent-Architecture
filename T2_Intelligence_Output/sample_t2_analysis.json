@@ -1,0 +1,72 @@
+{
+  "analysis_id": "t2_sample_001",
+  "timestamp": "2024-01-10T10:00:00Z",
+  "insights": [
+    {
+      "domain": "market_forecasts",
+      "category": "price_predictions",
+      "subcategory": "residential",
+      "title": "Houston Residential Price Forecast Q1 2024",
+      "content": {
+        "summary": "Residential prices expected to increase 3-5% in Q1 2024",
+        "key_findings": [
+          "Strong demand from tech sector employees",
+          "Limited inventory in premium neighborhoods",
+          "Interest rates stabilizing"
+        ],
+        "metrics": {
+          "median_price_increase": 4.2,
+          "inventory_months": 2.1,
+          "demand_index": 8.5
+        }
+      },
+      "tags": ["residential", "pricing", "forecast", "q1-2024"],
+      "geographic_scope": ["Houston", "Greater Houston Area"],
+      "confidence_score": 0.85
+    },
+    {
+      "domain": "houston_heights",
+      "category": "development_activity",
+      "subcategory": "mixed_use",
+      "title": "Heights Mixed-Use Development Pipeline",
+      "content": {
+        "summary": "5 major mixed-use projects in pipeline for Houston Heights",
+        "key_findings": [
+          "$250M total investment planned",
+          "Focus on walkable retail and residential",
+          "Strong pre-leasing activity"
+        ],
+        "metrics": {
+          "total_units": 850,
+          "retail_sqft": 125000,
+          "completion_timeline": "2024-2025"
+        }
+      },
+      "tags": ["mixed-use", "development", "houston-heights", "pipeline"],
+      "geographic_scope": ["Houston Heights", "Heights District"],
+      "confidence_score": 0.92
+    },
+    {
+      "domain": "flood_risk_data",
+      "category": "risk_assessment",
+      "subcategory": "flood_zones",
+      "title": "Updated Flood Risk Assessment - West Houston",
+      "content": {
+        "summary": "Revised flood maps show reduced risk in key development areas",
+        "key_findings": [
+          "New drainage infrastructure reducing 100-year flood zones",
+          "Insurance rates expected to decrease",
+          "Opens 500 acres for development"
+        ],
+        "metrics": {
+          "risk_reduction": 35,
+          "affected_acres": 500,
+          "insurance_savings": 25
+        }
+      },
+      "tags": ["flood-risk", "environmental", "west-houston", "infrastructure"],
+      "geographic_scope": ["West Houston", "Energy Corridor"],
+      "confidence_score": 0.88
+    }
+  ]
+}

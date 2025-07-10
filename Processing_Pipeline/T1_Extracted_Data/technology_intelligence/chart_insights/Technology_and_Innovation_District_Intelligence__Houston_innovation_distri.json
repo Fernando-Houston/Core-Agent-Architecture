@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "folder_name": "Technology and Innovation District Intelligence _Houston innovation distri",
+    "extraction_timestamp": "2025-07-10T01:36:42.500893",
+    "file_count": 11,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "generated_image.png": {
+      "file_name": "generated_image.png",
+      "file_size": 2726975,
+      "chart_type": "unknown",
+      "insights": {},
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_investments.png": {
+      "file_name": "houston_investments.png",
+      "file_size": 209079,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston",
+        "topic": "investment"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "houston_tech_ecosystem.png": {
+      "file_name": "houston_tech_ecosystem.png",
+      "file_size": 260475,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

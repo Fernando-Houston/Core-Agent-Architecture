@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "folder_name": "How do lending rate trends impact commercial real estate projects in Harris County",
+    "extraction_timestamp": "2025-07-10T01:36:42.524047",
+    "file_count": 10,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.express as px\nimport json\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "scatter_plot"
+        ],
+        "color_scheme": [
+          "#B4413C",
+          "#1FB8CD",
+          "#D2BA4C",
+          "#5D878F",
+          "#FFC185",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Harris County Commercial Lending Rates",
+          "Year",
+          "Interest Rate (%)"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script_1.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.express as px\nimport pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#B4413C",
+          "#1FB8CD"
+        ],
+        "titles": [
+          "Harris County CRE Market Impact",
+          "Market Segment",
+          "Change (%)"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script_2.py": {
+      "imports": [
+        "import pandas as pd\nimport plotly.graph_objects as go\nimport plotly.express as px\nimport numpy as np\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "scatter_plot"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#5D878F",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Economic Indicators vs RE Market",
+          "Interest Rate (%)",
+          "Market Index"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "script.py": {
+      "imports": [
+        "import pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "harris_county_cre_lending_impacts.csv",
+        "harris_county_lending_rate_progression.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    }
+  }
+}

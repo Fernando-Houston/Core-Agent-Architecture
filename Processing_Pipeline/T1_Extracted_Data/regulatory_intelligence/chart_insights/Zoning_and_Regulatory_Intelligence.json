@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "folder_name": "Zoning and Regulatory Intelligence",
+    "extraction_timestamp": "2025-07-10T01:36:42.486711",
+    "file_count": 8,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "regulatory_changes.png": {
+      "file_name": "regulatory_changes.png",
+      "file_size": 211703,
+      "chart_type": "unknown",
+      "insights": {},
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "regulatory_timeline.png": {
+      "file_name": "regulatory_timeline.png",
+      "file_size": 233439,
+      "chart_type": "timeline",
+      "insights": {},
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

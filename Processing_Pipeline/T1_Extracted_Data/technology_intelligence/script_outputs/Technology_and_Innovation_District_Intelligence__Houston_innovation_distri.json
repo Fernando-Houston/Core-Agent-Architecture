@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "folder_name": "Technology and Innovation District Intelligence _Houston innovation distri",
+    "extraction_timestamp": "2025-07-10T01:36:42.500893",
+    "file_count": 11,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script.py": {
+      "imports": [
+        "import plotly.express as px\nimport plotly.graph_objects as go\nimport pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#B4413C",
+          "#1FB8CD",
+          "#D2BA4C",
+          "#5D878F",
+          "#FFC185",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Houston Major Investment Projects",
+          "Investment ($M)",
+          "Projects"
+        ]
+      },
+      "analysis_methods": [
+        "ranking_analysis"
+      ]
+    },
+    "chart_script_1.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.express as px\nimport pandas as pd\n"
+      ],
+      "functions": [
+        "format_value_with_unit"
+      ],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Houston Tech Ecosystem Metrics",
+          "Metrics",
+          "Value (Log Scale)"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "script.py": {
+      "imports": [
+        "import pandas as pd\nimport json\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "houston_districts_data.csv",
+        "houston_investment_data.csv",
+        "houston_tech_metrics.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    }
+  }
+}

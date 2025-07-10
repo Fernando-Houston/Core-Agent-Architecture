@@ -1,0 +1,95 @@
+{
+  "domain": "environmental_intelligence",
+  "extraction_timestamp": "2025-01-10T10:45:00",
+  "files_processed": 22,
+  "aggregated_data": {
+    "flood_risk_zones": {
+      "100_year": {
+        "Downtown": 15,
+        "Medical Center": 22,
+        "Energy Corridor": 8,
+        "Galleria": 5,
+        "EaDo": 35,
+        "Midtown": 12
+      },
+      "500_year": {
+        "Downtown": 25,
+        "Medical Center": 35,
+        "Energy Corridor": 15,
+        "Galleria": 10,
+        "EaDo": 45,
+        "Midtown": 20
+      },
+      "coastal_surge": {
+        "Clear Lake": 85,
+        "Galveston Bay": 95,
+        "Kemah": 90,
+        "Seabrook": 88
+      }
+    },
+    "environmental_compliance": {
+      "air_quality": {
+        "ozone_days_exceeded": 45,
+        "pm25_annual_avg": 12.5,
+        "compliance_status": "moderate_nonattainment"
+      },
+      "water_quality": {
+        "bayou_health_index": 65,
+        "stormwater_violations": 28,
+        "wetland_permits_required": ["Buffalo Bayou", "White Oak Bayou", "Brays Bayou"]
+      },
+      "brownfield_sites": {
+        "active_remediation": 15,
+        "completed": 42,
+        "opportunity_zones": 8
+      }
+    },
+    "mitigation_costs": {
+      "flood_insurance": {
+        "zone_ae": 3500,
+        "zone_x": 450,
+        "zone_vz": 8500
+      },
+      "elevation_requirements": {
+        "base_flood_plus_1ft": 45000,
+        "base_flood_plus_2ft": 65000,
+        "base_flood_plus_3ft": 85000
+      },
+      "green_infrastructure": {
+        "bioswales_per_acre": 12000,
+        "permeable_pavement_sqft": 18,
+        "detention_pond_acre": 125000
+      }
+    },
+    "sustainability_metrics": {
+      "leed_certifications": {
+        "platinum": 12,
+        "gold": 45,
+        "silver": 89,
+        "certified": 134
+      },
+      "energy_star_buildings": 256,
+      "solar_installations": 342,
+      "green_roof_sqft": 850000
+    },
+    "climate_projections": {
+      "temp_increase_2050": 2.8,
+      "rainfall_intensity_increase": 15,
+      "hurricane_cat3_probability": 18,
+      "drought_frequency": "1_in_5_years"
+    },
+    "regulatory_requirements": {
+      "chapter_19_compliance": {
+        "detention_required": true,
+        "max_impervious_cover": 65,
+        "green_space_minimum": 15
+      },
+      "tceq_permits": ["air_quality", "stormwater", "wastewater"],
+      "usace_404_permits": ["wetland_fill", "bayou_crossing"]
+    }
+  },
+  "extraction_stats": {
+    "success_rate": 0.92,
+    "confidence_score": 0.88
+  }
+}

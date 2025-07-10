@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "folder_name": "Legal and Title Intelligence",
+    "extraction_timestamp": "2025-07-10T01:36:42.514168",
+    "file_count": 5,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "houston_property_legal_issues_2024.csv": {
+      "shape": [
+        17,
+        7
+      ],
+      "columns": [
+        "Issue_Category",
+        "Specific_Issue",
+        "Frequency_Level",
+        "Impact_on_Development",
+        "Primary_Authority",
+        "Typical_Resolution_Time",
+        "2024_Trend"
+      ],
+      "data_types": {
+        "Issue_Category": "object",
+        "Specific_Issue": "object",
+        "Frequency_Level": "object",
+        "Impact_on_Development": "object",
+        "Primary_Authority": "object",
+        "Typical_Resolution_Time": "object",
+        "2024_Trend": "object"
+      },
+      "null_counts": {
+        "Issue_Category": 0,
+        "Specific_Issue": 0,
+        "Frequency_Level": 0,
+        "Impact_on_Development": 0,
+        "Primary_Authority": 0,
+        "Typical_Resolution_Time": 0,
+        "2024_Trend": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Issue_Category": "Title Issues",
+          "Specific_Issue": "Mortgage Liens",
+          "Frequency_Level": "Very High",
+          "Impact_on_Development": "Critical - Can halt transactions",
+          "Primary_Authority": "County Clerk/Courts",
+          "Typical_Resolution_Time": "2-6 months",
+          "2024_Trend": "Increasing"
+        },
+        {
+          "Issue_Category": "Title Issues",
+          "Specific_Issue": "Tax Liens",
+          "Frequency_Level": "High",
+          "Impact_on_Development": "Critical - Financial liability",
+          "Primary_Authority": "Tax Assessor/Courts",
+          "Typical_Resolution_Time": "3-12 months",
+          "2024_Trend": "Stable"
+        },
+        {
+          "Issue_Category": "Title Issues",
+          "Specific_Issue": "Boundary Disputes",
+          "Frequency_Level": "High",
+          "Impact_on_Development": "High - Delays and costs",
+          "Primary_Authority": "Surveyor/Courts",
+          "Typical_Resolution_Time": "6-18 months",
+          "2024_Trend": "Increasing"
+        },
+        {
+          "Issue_Category": "Title Issues",
+          "Specific_Issue": "Defective Deeds",
+          "Frequency_Level": "Medium",
+          "Impact_on_Development": "High - Transaction delays",
+          "Primary_Authority": "County Clerk/Title Company",
+          "Typical_Resolution_Time": "1-3 months",
+          "2024_Trend": "Stable"
+        },
+        {
+          "Issue_Category": "Title Issues",
+          "Specific_Issue": "Missing Heirs",
+          "Frequency_Level": "Medium",
+          "Impact_on_Development": "Medium - Due diligence issues",
+          "Primary_Authority": "Probate Court/Estate Attorney",
+          "Typical_Resolution_Time": "6-24 months",
+          "2024_Trend": "Stable"
+        }
+      ],
+      "key_metrics": {}
+    }
+  }
+}

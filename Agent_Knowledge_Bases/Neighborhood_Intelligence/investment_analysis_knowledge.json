@@ -1,0 +1,79 @@
+{
+  "7163e4c3fb4e": {
+    "id": "7163e4c3fb4e",
+    "timestamp": "2025-07-10T02:39:31.421405",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/neighborhood_analysis_t2.json",
+    "domain": "houston_heights",
+    "category": "investment_analysis",
+    "subcategory": "",
+    "title": "Houston Heights Investment Score Analysis",
+    "content": {
+      "summary": "Heights shows strong investment potential with 85/100 score",
+      "key_findings": [
+        "15% annual appreciation over past 3 years",
+        "Strong demographic growth",
+        "Major infrastructure improvements planned"
+      ],
+      "metrics": {
+        "investment_score": 85,
+        "growth_rate": 15,
+        "median_income": 95000,
+        "development_projects": 12
+      },
+      "recommendations": [],
+      "raw_data": {}
+    },
+    "tags": [
+      "investment",
+      "neighborhood",
+      "houston-heights",
+      "financial",
+      "roi",
+      "returns"
+    ],
+    "geographic_scope": [
+      "Houston",
+      "Houston Heights"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.88,
+    "confidence_score": 0.9,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "investment_score",
+        "value": 85,
+        "unit": "USD",
+        "timestamp": "2025-07-10T02:39:31.421410"
+      },
+      {
+        "type": "metric",
+        "name": "growth_rate",
+        "value": 15,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:39:31.421412"
+      },
+      {
+        "type": "metric",
+        "name": "median_income",
+        "value": 95000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.421413"
+      },
+      {
+        "type": "metric",
+        "name": "development_projects",
+        "value": 12,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.421415"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.421416",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

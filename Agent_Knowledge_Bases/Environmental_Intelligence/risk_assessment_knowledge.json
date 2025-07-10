@@ -1,0 +1,214 @@
+{
+  "599e28a81bfe": {
+    "id": "599e28a81bfe",
+    "timestamp": "2025-07-10T02:25:53.487763",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/sample_t2_analysis.json",
+    "domain": "flood_risk_data",
+    "category": "risk_assessment",
+    "subcategory": "flood_zones",
+    "title": "Updated Flood Risk Assessment - West Houston",
+    "content": {
+      "summary": "Revised flood maps show reduced risk in key development areas",
+      "key_findings": [
+        "New drainage infrastructure reducing 100-year flood zones",
+        "Insurance rates expected to decrease",
+        "Opens 500 acres for development"
+      ],
+      "metrics": {
+        "risk_reduction": 35,
+        "affected_acres": 500,
+        "insurance_savings": 25
+      }
+    },
+    "tags": [
+      "flood-risk",
+      "environmental",
+      "west-houston",
+      "infrastructure"
+    ],
+    "relationships": [],
+    "confidence_score": 0.88,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "risk_reduction",
+        "value": 35,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:25:53.487763"
+      },
+      {
+        "type": "metric",
+        "name": "affected_acres",
+        "value": 500,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:25:53.487763"
+      },
+      {
+        "type": "metric",
+        "name": "insurance_savings",
+        "value": 25,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:25:53.487763"
+      }
+    ],
+    "geographic_scope": [
+      "West Houston",
+      "Energy Corridor"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.7999999999999999,
+    "metadata": {
+      "processing_date": "2025-07-10T02:25:53.487763",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  },
+  "a13d7d52a7e1": {
+    "id": "a13d7d52a7e1",
+    "timestamp": "2025-07-10T02:39:31.417666",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/sample_t2_analysis.json",
+    "domain": "flood_risk_data",
+    "category": "risk_assessment",
+    "subcategory": "flood_zones",
+    "title": "Updated Flood Risk Assessment - West Houston",
+    "content": {
+      "summary": "Revised flood maps show reduced risk in key development areas",
+      "key_findings": [
+        "New drainage infrastructure reducing 100-year flood zones",
+        "Insurance rates expected to decrease",
+        "Opens 500 acres for development"
+      ],
+      "metrics": {
+        "risk_reduction": 35,
+        "affected_acres": 500,
+        "insurance_savings": 25
+      },
+      "recommendations": [],
+      "raw_data": {}
+    },
+    "tags": [
+      "flood-risk",
+      "environmental",
+      "west-houston",
+      "infrastructure",
+      "assessment",
+      "mitigation",
+      "analysis"
+    ],
+    "geographic_scope": [
+      "West Houston",
+      "Energy Corridor"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.926,
+    "confidence_score": 0.88,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "risk_reduction",
+        "value": 35,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.417674"
+      },
+      {
+        "type": "metric",
+        "name": "affected_acres",
+        "value": 500,
+        "unit": "acres",
+        "timestamp": "2025-07-10T02:39:31.417676"
+      },
+      {
+        "type": "metric",
+        "name": "insurance_savings",
+        "value": 25,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.417678"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.417679",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  },
+  "5f2f28808f9c": {
+    "id": "5f2f28808f9c",
+    "timestamp": "2025-07-10T02:39:31.420364",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/financial_analysis_t2.json",
+    "domain": "investment_analysis",
+    "category": "risk_assessment",
+    "subcategory": "",
+    "title": "Investment Risk Matrix for Houston Development",
+    "content": {
+      "summary": "Comprehensive risk assessment across investment types",
+      "key_findings": [
+        "Lowest risk: Class A multifamily in established areas",
+        "Moderate risk: Mixed-use in emerging neighborhoods",
+        "Higher risk: Speculative commercial development"
+      ],
+      "metrics": {
+        "multifamily_risk_score": 3.5,
+        "mixed_use_risk_score": 5.5,
+        "commercial_risk_score": 7.0,
+        "risk_scale_max": 10
+      },
+      "recommendations": [],
+      "raw_data": {}
+    },
+    "tags": [
+      "risk",
+      "investment",
+      "analysis",
+      "financial",
+      "roi",
+      "returns",
+      "assessment",
+      "mitigation"
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.972,
+    "confidence_score": 0.86,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "multifamily_risk_score",
+        "value": 3.5,
+        "unit": "index",
+        "timestamp": "2025-07-10T02:39:31.420371"
+      },
+      {
+        "type": "metric",
+        "name": "mixed_use_risk_score",
+        "value": 5.5,
+        "unit": "index",
+        "timestamp": "2025-07-10T02:39:31.420373"
+      },
+      {
+        "type": "metric",
+        "name": "commercial_risk_score",
+        "value": 7.0,
+        "unit": "index",
+        "timestamp": "2025-07-10T02:39:31.420374"
+      },
+      {
+        "type": "metric",
+        "name": "risk_scale_max",
+        "value": 10,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.420376"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.420377",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

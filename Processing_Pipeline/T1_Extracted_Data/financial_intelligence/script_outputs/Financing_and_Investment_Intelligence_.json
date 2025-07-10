@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "folder_name": "Financing and Investment Intelligence ",
+    "extraction_timestamp": "2025-07-10T01:36:42.460229",
+    "file_count": 7,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#1FB8CD"
+        ],
+        "titles": [
+          "TX CRE Lending Rates - July 2025",
+          "Loan Type",
+          "Rate (%)"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script_1.py": {
+      "imports": [
+        "import plotly.express as px\nimport plotly.graph_objects as go\nimport pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "pie_chart"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD"
+        ],
+        "titles": [
+          "Harris County Opportunity Zones"
+        ]
+      },
+      "analysis_methods": [
+        "totaling"
+      ]
+    },
+    "chart_script_2.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.express as px\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#1FB8CD"
+        ],
+        "titles": [
+          "Harris County Tax Abatement Benefits",
+          "Abatement %",
+          "Program Type"
+        ]
+      },
+      "analysis_methods": []
+    }
+  }
+}

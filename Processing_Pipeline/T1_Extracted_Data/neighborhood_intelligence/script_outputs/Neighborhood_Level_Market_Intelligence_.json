@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "folder_name": "Neighborhood-Level Market Intelligence ",
+    "extraction_timestamp": "2025-07-10T01:36:42.442422",
+    "file_count": 13,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.express as px\nimport pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Top Houston ZIP Codes 2024",
+          "ZIP Code",
+          "Performance Value"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script_1.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD"
+        ],
+        "titles": [
+          "Top 5 Counties Permits 2024",
+          "Permits",
+          "County"
+        ]
+      },
+      "analysis_methods": [
+        "ranking_analysis"
+      ]
+    },
+    "script_1.py": {
+      "imports": [
+        "import pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [
+        "houston_market_intelligence_2024.csv"
+      ],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    },
+    "script_2.py": {
+      "imports": [],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    },
+    "chart_script_2.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.io as pio\nfrom datetime import datetime\nimport pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "scatter_plot"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD"
+        ],
+        "titles": [
+          "Harris County Market Performance",
+          "Date",
+          "Median Price ($k)"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "script.py": {
+      "imports": [],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [],
+        "color_scheme": [],
+        "titles": []
+      },
+      "analysis_methods": []
+    },
+    "chart_script_3.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.express as px\nimport pandas as pd\n"
+      ],
+      "functions": [
+        "assign_color"
+      ],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#1FB8CD",
+          "#D2BA4C",
+          "#5D878F",
+          "#FFC185",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Median Price",
+          "Neighborhood",
+          "Houston Home Prices 2024"
+        ]
+      },
+      "analysis_methods": []
+    }
+  }
+}

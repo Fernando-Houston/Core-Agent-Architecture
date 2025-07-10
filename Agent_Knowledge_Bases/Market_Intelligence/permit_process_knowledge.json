@@ -1,0 +1,78 @@
+{
+  "c988fbcd5953": {
+    "id": "c988fbcd5953",
+    "timestamp": "2025-07-10T02:28:06.055835",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/regulatory_environmental_t2.json",
+    "domain": "permit_requirements",
+    "category": "permit_process",
+    "subcategory": "",
+    "title": "Expedited Permit Program Guidelines",
+    "content": {
+      "summary": "New expedited permit program for qualified projects",
+      "key_findings": [
+        "30-day review for qualifying projects",
+        "Green building projects get priority",
+        "Digital submission reduces errors by 40%"
+      ],
+      "metrics": {
+        "standard_timeline_days": 120,
+        "expedited_timeline_days": 30,
+        "cost_savings": 50000,
+        "success_rate": 85
+      },
+      "recommendations": [
+        "Prepare complete submission packages",
+        "Engage pre-application meetings",
+        "Use certified expeditors for complex projects"
+      ]
+    },
+    "tags": [
+      "permits",
+      "regulatory",
+      "expedited",
+      "process"
+    ],
+    "relationships": [],
+    "confidence_score": 0.89,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "standard_timeline_days",
+        "value": 120,
+        "unit": "time",
+        "timestamp": "2025-07-10T02:28:06.055835"
+      },
+      {
+        "type": "metric",
+        "name": "expedited_timeline_days",
+        "value": 30,
+        "unit": "time",
+        "timestamp": "2025-07-10T02:28:06.055835"
+      },
+      {
+        "type": "metric",
+        "name": "cost_savings",
+        "value": 50000,
+        "unit": "USD",
+        "timestamp": "2025-07-10T02:28:06.055835"
+      },
+      {
+        "type": "metric",
+        "name": "success_rate",
+        "value": 85,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:28:06.055835"
+      }
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.95,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:06.055835",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

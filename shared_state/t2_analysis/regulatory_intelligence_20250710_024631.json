@@ -1,0 +1,527 @@
+{
+  "domain": "regulatory",
+  "timestamp": "2025-07-10T02:46:31.753738",
+  "confidence_score": 0.908,
+  "analysis": {
+    "key_findings": [
+      "East Downtown rezoning opportunity offers 94.1% value uplift",
+      "Fast track permits can reduce timeline by 50%",
+      "$8,350,000 in development incentives available",
+      "2 high-impact regulatory changes expected",
+      "First-mover advantages available in upcoming regulatory changes"
+    ],
+    "detailed_insights": {
+      "zoning_opportunities": {
+        "rezoning_candidates": [
+          {
+            "area": "Midtown",
+            "current_zoning": "C-1",
+            "target_zoning": "MU-1",
+            "approval_probability": 75,
+            "typical_timeline": 180,
+            "value_uplift": 54.2,
+            "recommended_use": "mixed-use high-rise"
+          },
+          {
+            "area": "East Downtown",
+            "current_zoning": "I-1",
+            "target_zoning": "MU-2",
+            "approval_probability": 82,
+            "typical_timeline": 150,
+            "value_uplift": 94.1,
+            "recommended_use": "residential with ground retail"
+          },
+          {
+            "area": "Near Northside",
+            "current_zoning": "R-3",
+            "target_zoning": "MU-1",
+            "approval_probability": 68,
+            "typical_timeline": 210,
+            "value_uplift": 69.2,
+            "recommended_use": "townhome development"
+          }
+        ],
+        "by_right_development": [
+          {
+            "zone": "TMC-1",
+            "allowed_uses": [
+              "medical",
+              "research",
+              "hotel",
+              "residential"
+            ],
+            "max_density": 8.0,
+            "height_limit": 400,
+            "setback_requirements": {
+              "front": 15,
+              "side": 10,
+              "rear": 20
+            },
+            "development_score": 85
+          },
+          {
+            "zone": "UC-1",
+            "allowed_uses": [
+              "mixed-use",
+              "residential",
+              "office",
+              "retail"
+            ],
+            "max_density": 6.0,
+            "height_limit": 300,
+            "setback_requirements": {
+              "front": 10,
+              "side": 5,
+              "rear": 15
+            },
+            "development_score": 78
+          }
+        ],
+        "overlay_districts": {
+          "Transit Corridor": {
+            "incentives": [
+              "reduced parking",
+              "height bonus",
+              "expedited review"
+            ],
+            "reduced_parking": 50,
+            "height_bonus": 20,
+            "expedited_permitting": true,
+            "estimated_value": 2350000
+          },
+          "Historic District": {
+            "incentives": [
+              "tax credits",
+              "grants",
+              "facade easements"
+            ],
+            "reduced_parking": 25,
+            "height_bonus": 0,
+            "expedited_permitting": false,
+            "estimated_value": 625000
+          }
+        },
+        "density_bonuses": [
+          {
+            "program": "Affordable Housing Bonus",
+            "bonus_percentage": 35,
+            "requirements": [
+              "15% affordable units",
+              "30-year covenant"
+            ],
+            "cost_benefit": {
+              "bonus_value": 7000000,
+              "requirement_cost": 250000,
+              "net_benefit": 6750000,
+              "roi_pct": 2700.0
+            },
+            "recommendation": "pursue"
+          },
+          {
+            "program": "Green Building Bonus",
+            "bonus_percentage": 20,
+            "requirements": [
+              "LEED Gold",
+              "Energy Star"
+            ],
+            "cost_benefit": {
+              "bonus_value": 4000000,
+              "requirement_cost": 180000,
+              "net_benefit": 3820000,
+              "roi_pct": 2122.2
+            },
+            "recommendation": "evaluate"
+          }
+        ],
+        "mixed_use_potential": []
+      },
+      "permit_optimization": {
+        "approval_times": {
+          "building_permit": {
+            "standard_days": 120,
+            "expedited_days": 45,
+            "approval_rate": 78,
+            "revision_probability": 35,
+            "cost": 25000
+          },
+          "site_plan": {
+            "standard_days": 90,
+            "expedited_days": 30,
+            "approval_rate": 82,
+            "revision_probability": 28,
+            "cost": 15000
+          },
+          "subdivision_plat": {
+            "standard_days": 150,
+            "expedited_days": 60,
+            "approval_rate": 71,
+            "revision_probability": 42,
+            "cost": 35000
+          }
+        },
+        "fast_track_options": [
+          {
+            "program": "Green Building Fast Track",
+            "eligibility": [
+              "LEED certification",
+              "Complete application"
+            ],
+            "time_savings_pct": 50,
+            "additional_cost": 10000,
+            "roi": 4400.0,
+            "recommended": true
+          },
+          {
+            "program": "Affordable Housing Express",
+            "eligibility": [
+              "20% affordable units",
+              "Pre-application meeting"
+            ],
+            "time_savings_pct": 40,
+            "additional_cost": 5000,
+            "roi": 7100.0,
+            "recommended": false
+          }
+        ],
+        "common_delays": [
+          {
+            "factor": "incomplete_submissions",
+            "frequency_pct": 45,
+            "avg_delay_days": 21,
+            "mitigation": "Use checklist and pre-review",
+            "cost_impact": 52500
+          },
+          {
+            "factor": "code_violations",
+            "frequency_pct": 28,
+            "avg_delay_days": 35,
+            "mitigation": "Third-party code review",
+            "cost_impact": 105000
+          },
+          {
+            "factor": "neighbor_opposition",
+            "frequency_pct": 22,
+            "avg_delay_days": 60,
+            "mitigation": "Early community engagement",
+            "cost_impact": 120000
+          }
+        ],
+        "optimization_strategies": [
+          {
+            "strategy": "Pre-application meetings",
+            "benefit": "30% reduction in revisions",
+            "cost": 5000,
+            "implementation": "Schedule 60 days before submission"
+          },
+          {
+            "strategy": "Third-party review",
+            "benefit": "40-50% time reduction",
+            "cost": 15000,
+            "implementation": "Use city-approved consultants"
+          },
+          {
+            "strategy": "Phased permitting",
+            "benefit": "Start construction 3-6 months earlier",
+            "cost": 8000,
+            "implementation": "Submit foundation permits separately"
+          }
+        ],
+        "cost_analysis": {}
+      },
+      "regulatory_changes": {
+        "recent_changes": [
+          {
+            "regulation": "Chapter 19 Drainage Update",
+            "effective_date": "2024-07-01",
+            "category": "environmental",
+            "impact": "Increased detention requirements by 25%",
+            "compliance_required": true,
+            "adaptation_cost": 150000
+          },
+          {
+            "regulation": "Energy Code 2023",
+            "effective_date": "2024-01-01",
+            "category": "building",
+            "impact": "15% more stringent energy efficiency",
+            "compliance_required": true,
+            "adaptation_cost": 75000
+          }
+        ],
+        "upcoming_changes": [
+          {
+            "proposal": "Inclusionary Zoning",
+            "timeline": "2025-Q3",
+            "probability_pct": 65,
+            "impact_level": "high",
+            "preparation_needed": 6,
+            "early_compliance_benefit": "Grandfathering provisions"
+          },
+          {
+            "proposal": "Net Zero Energy Mandate",
+            "timeline": "2026-Q1",
+            "probability_pct": 55,
+            "impact_level": "high",
+            "preparation_needed": 12,
+            "early_compliance_benefit": "Tax incentives and recognition"
+          }
+        ],
+        "trend_analysis": {
+          "direction": "increasing_regulation",
+          "focus_areas": [
+            "sustainability",
+            "affordability",
+            "resilience"
+          ],
+          "enforcement_intensity": "increasing",
+          "business_impact": "increasing"
+        },
+        "impact_assessment": {},
+        "preparation_strategies": []
+      },
+      "compliance_strategies": {
+        "proactive_compliance": [
+          {
+            "requirement": "accessibility",
+            "current_standard": "ADA 2010",
+            "future_standard": "Enhanced universal design",
+            "early_adoption_benefit": "Market differentiation",
+            "implementation_cost": 50000,
+            "competitive_advantage": true
+          },
+          {
+            "requirement": "energy_efficiency",
+            "current_standard": "IECC 2021",
+            "future_standard": "IECC 2024 + local amendments",
+            "early_adoption_benefit": "Utility rebates",
+            "implementation_cost": 100000,
+            "competitive_advantage": true
+          }
+        ],
+        "cost_optimization": {
+          "bundled_submissions": "Save 20% on permit fees",
+          "annual_permits": "Reduce per-project costs by 30%",
+          "self_certification": "Cut inspection time by 50%",
+          "digital_submissions": "Reduce processing time by 25%"
+        },
+        "risk_mitigation": [
+          {
+            "risk_area": "stormwater_management",
+            "violation_probability": 35,
+            "typical_penalty": 50000,
+            "mitigation_strategy": "Hire specialized consultant",
+            "compliance_cost": 25000,
+            "roi": 0.7
+          },
+          {
+            "risk_area": "tree_preservation",
+            "violation_probability": 28,
+            "typical_penalty": 25000,
+            "mitigation_strategy": "Early arborist consultation",
+            "compliance_cost": 10000,
+            "roi": 0.7
+          }
+        ],
+        "competitive_advantages": []
+      },
+      "development_incentives": [
+        {
+          "type": "development_incentive",
+          "program": "TIRZ Funding",
+          "benefit": "Infrastructure reimbursement",
+          "value": 5000000,
+          "requirements": [
+            "Within TIRZ boundary",
+            "Public benefit"
+          ],
+          "geographic_limits": [
+            "Downtown",
+            "Midtown",
+            "Upper Kirby"
+          ],
+          "project_minimums": 25000000,
+          "job_requirements": 0,
+          "clawback_provisions": true
+        },
+        {
+          "type": "tax_incentive",
+          "program": "380 Agreement",
+          "benefit": "Property tax rebate up to 75%",
+          "value": 2500000,
+          "requirements": [
+            "$10M+ investment",
+            "50+ jobs",
+            "Target industry"
+          ],
+          "duration": 10,
+          "application_deadline": "Rolling",
+          "success_rate": 65,
+          "recommended": true
+        },
+        {
+          "type": "tax_incentive",
+          "program": "Historic Tax Credit",
+          "benefit": "20% federal + 25% state credit",
+          "value": 850000,
+          "requirements": [
+            "Historic designation",
+            "Approved renovation"
+          ],
+          "duration": 5,
+          "application_deadline": "Annual",
+          "success_rate": 78,
+          "recommended": true
+        }
+      ],
+      "risk_assessment": {
+        "high_risk_areas": [
+          {
+            "area": "environmental_compliance",
+            "risk_score": 8,
+            "primary_concern": "Complex permitting and monitoring",
+            "recent_violations": 45,
+            "avg_penalty": 75000,
+            "compliance_complexity": "high"
+          }
+        ],
+        "enforcement_trends": {
+          "inspection_frequency": 12,
+          "violation_rate": 32,
+          "fine_trend": "increasing",
+          "focus_areas": [
+            "Life safety",
+            "Stormwater",
+            "Tree preservation"
+          ],
+          "grace_period": 30
+        },
+        "penalty_analysis": {
+          "avg_fine_per_violation": 35000,
+          "max_fine_observed": 500000,
+          "stop_work_probability": 15,
+          "criminal_prosecution_risk": true,
+          "reputation_impact": true
+        },
+        "mitigation_priorities": []
+      },
+      "strategic_positioning": {
+        "competitive_advantages": [
+          {
+            "advantage": "Expedited permitting track record",
+            "benefit": "30% faster project delivery",
+            "requirement": "95%+ permit approval rate",
+            "market_value": "Premium pricing justified"
+          },
+          {
+            "advantage": "Green building expertise",
+            "benefit": "Access to sustainability incentives",
+            "requirement": "LEED AP on staff",
+            "market_value": "Institutional investor preference"
+          }
+        ],
+        "first_mover_opportunities": [
+          {
+            "opportunity": "Inclusionary Zoning",
+            "timeline": "2025-Q3",
+            "first_mover_benefit": "Grandfathering provisions",
+            "investment_required": 0,
+            "competitive_moat": "medium"
+          },
+          {
+            "opportunity": "Net Zero Energy Mandate",
+            "timeline": "2026-Q1",
+            "first_mover_benefit": "Tax incentives and recognition",
+            "investment_required": 250000,
+            "competitive_moat": "medium"
+          }
+        ],
+        "regulatory_arbitrage": [
+          {
+            "location": "Washington Avenue",
+            "opportunity": "land use transition",
+            "value_delta": 45,
+            "execution_complexity": "medium",
+            "timeline": 18
+          }
+        ],
+        "partnership_opportunities": []
+      }
+    },
+    "opportunities": [
+      {
+        "type": "rezoning_arbitrage",
+        "potential": "high",
+        "description": "Midtown rezoning to MU-1",
+        "value_creation": "54.2% land value increase",
+        "action": "File rezoning application (approval probability 75%)"
+      },
+      {
+        "type": "rezoning_arbitrage",
+        "potential": "high",
+        "description": "East Downtown rezoning to MU-2",
+        "value_creation": "94.1% land value increase",
+        "action": "File rezoning application (approval probability 82%)"
+      },
+      {
+        "type": "density_bonus",
+        "potential": "high",
+        "description": "Affordable Housing Bonus offers 35% density increase",
+        "value_creation": "2700.0% ROI",
+        "action": "Incorporate affordable housing to qualify for bonus"
+      },
+      {
+        "type": "density_bonus",
+        "potential": "high",
+        "description": "Green Building Bonus offers 20% density increase",
+        "value_creation": "2122.2% ROI",
+        "action": "Incorporate affordable housing to qualify for bonus"
+      },
+      {
+        "type": "financial_incentive",
+        "potential": "high",
+        "description": "TIRZ Funding",
+        "value_creation": "$5,000,000",
+        "action": "Apply by next cycle"
+      }
+    ],
+    "risks": [
+      {
+        "type": "compliance_risk",
+        "severity": "high",
+        "description": "environmental_compliance compliance complexity with 45 recent violations",
+        "financial_impact": "Average penalty $75,000",
+        "mitigation": "Implement comprehensive compliance program with regular audits"
+      },
+      {
+        "type": "regulatory_burden",
+        "severity": "medium",
+        "description": "Increasing regulatory complexity and enforcement intensity",
+        "financial_impact": "15-20% increase in compliance costs projected",
+        "mitigation": "Build regulatory expertise and automate compliance processes"
+      },
+      {
+        "type": "permit_delays",
+        "severity": "medium",
+        "description": "Common permit delays averaging 30-60 days",
+        "financial_impact": "$277,500 average delay cost",
+        "mitigation": "Use pre-application meetings and third-party review"
+      }
+    ],
+    "recommendations": [
+      "Pursue strategic rezoning in high-uplift areas with >60% approval probability",
+      "Utilize fast-track permitting for 40%+ timeline reduction on eligible projects",
+      "Stack multiple incentive programs to maximize project returns",
+      "Establish dedicated compliance team to manage regulatory complexity",
+      "Build regulatory expertise as competitive differentiator"
+    ],
+    "metrics": {
+      "avg_rezoning_uplift": 72.5,
+      "rezoning_approval_rate": 75.0,
+      "avg_permit_days": 120.0,
+      "max_fast_track_savings": 50,
+      "total_incentives_available": 8350000,
+      "violation_rate": 32,
+      "avg_penalty": 35000
+    }
+  },
+  "cross_domain_connections": []
+}

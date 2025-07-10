@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "folder_name": "Environmental and Risk Intelligence",
+    "extraction_timestamp": "2025-07-10T01:36:42.493412",
+    "file_count": 13,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "ozone_improvement_chart.png": {
+      "file_name": "ozone_improvement_chart.png",
+      "file_size": 162259,
+      "chart_type": "bar_chart",
+      "insights": {},
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "harris_county_timeline.png": {
+      "file_name": "harris_county_timeline.png",
+      "file_size": 206544,
+      "chart_type": "timeline",
+      "insights": {
+        "location": "harris_county"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "coastal_project_pie.png": {
+      "file_name": "coastal_project_pie.png",
+      "file_size": 170332,
+      "chart_type": "pie_chart",
+      "insights": {},
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "harris_county_pm25_chart.png": {
+      "file_name": "harris_county_pm25_chart.png",
+      "file_size": 183221,
+      "chart_type": "bar_chart",
+      "insights": {
+        "location": "harris_county"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    },
+    "environmental_grants_chart.png": {
+      "file_name": "environmental_grants_chart.png",
+      "file_size": 199200,
+      "chart_type": "bar_chart",
+      "insights": {},
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

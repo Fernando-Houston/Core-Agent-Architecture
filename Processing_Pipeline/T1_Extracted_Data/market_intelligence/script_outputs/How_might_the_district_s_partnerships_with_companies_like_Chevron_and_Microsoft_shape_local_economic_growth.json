@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "folder_name": "How might the district_s partnerships with companies like Chevron and Microsoft shape local economic growth",
+    "extraction_timestamp": "2025-07-10T01:36:42.546193",
+    "file_count": 5,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.io as pio\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "scatter_plot"
+        ],
+        "color_scheme": [
+          "#944454",
+          "#B4413C",
+          "#1FB8CD",
+          "#D2BA4C",
+          "#5D878F",
+          "#13343B",
+          "#FFC185",
+          "#964325",
+          "#ECEBD5"
+        ],
+        "titles": []
+      },
+      "analysis_methods": []
+    },
+    "chart_script_1.py": {
+      "imports": [
+        "import plotly.graph_objects as go\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Houston Innovation District Impact<br><sub>Total regional economic impact of innovation district activities</sub>",
+          "Impact Category",
+          "Value (Jobs in 1000s, Output in $M)"
+        ]
+      },
+      "analysis_methods": []
+    }
+  }
+}

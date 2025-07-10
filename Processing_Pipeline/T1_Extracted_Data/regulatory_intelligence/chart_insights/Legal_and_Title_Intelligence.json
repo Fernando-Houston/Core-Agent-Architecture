@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "folder_name": "Legal and Title Intelligence",
+    "extraction_timestamp": "2025-07-10T01:36:42.514168",
+    "file_count": 5,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "houston_legal_issues.png": {
+      "file_name": "houston_legal_issues.png",
+      "file_size": 192952,
+      "chart_type": "unknown",
+      "insights": {
+        "location": "houston"
+      },
+      "requires_ocr": true,
+      "ocr_placeholder": "Chart data extraction pending OCR implementation"
+    }
+  }
+}

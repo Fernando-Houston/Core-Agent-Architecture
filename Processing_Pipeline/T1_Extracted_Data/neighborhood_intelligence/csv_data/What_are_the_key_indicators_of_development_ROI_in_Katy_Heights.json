@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "folder_name": "What are the key indicators of development ROI in Katy Heights",
+    "extraction_timestamp": "2025-07-10T01:36:42.534902",
+    "file_count": 10,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "katy_heights_roi_indicators.csv": {
+      "shape": [
+        15,
+        4
+      ],
+      "columns": [
+        "ROI_Indicator",
+        "Current_Value",
+        "Metric_Type",
+        "Source_Period"
+      ],
+      "data_types": {
+        "ROI_Indicator": "object",
+        "Current_Value": "float64",
+        "Metric_Type": "object",
+        "Source_Period": "object"
+      },
+      "null_counts": {
+        "ROI_Indicator": 0,
+        "Current_Value": 4,
+        "Metric_Type": 0,
+        "Source_Period": 0
+      },
+      "summary_stats": {
+        "Current_Value": {
+          "count": 11.0,
+          "mean": 53732.60727272728,
+          "std": 108537.463041123,
+          "min": 2.12,
+          "25%": 207.78,
+          "50%": 1972.0,
+          "75%": 18300.0,
+          "max": 285105.0
+        }
+      },
+      "sample_data": [
+        {
+          "ROI_Indicator": "Median Property Value",
+          "Current_Value": 285105.0,
+          "Metric_Type": "USD",
+          "Source_Period": "2024"
+        },
+        {
+          "ROI_Indicator": "Median Appraised Value",
+          "Current_Value": 259515.0,
+          "Metric_Type": "USD",
+          "Source_Period": "2024"
+        },
+        {
+          "ROI_Indicator": "Price per Square Foot",
+          "Current_Value": 165.56,
+          "Metric_Type": "USD/sq ft",
+          "Source_Period": "2024"
+        },
+        {
+          "ROI_Indicator": "Property Value Range",
+          "Current_Value": NaN,
+          "Metric_Type": "USD",
+          "Source_Period": "2024"
+        },
+        {
+          "ROI_Indicator": "Median Lot Size (sq ft)",
+          "Current_Value": 7800.0,
+          "Metric_Type": "sq ft",
+          "Source_Period": "2024"
+        }
+      ],
+      "key_metrics": {
+        "Current_Value_median": 1972.0,
+        "Current_Value_range": [
+          2.12,
+          285105.0
+        ]
+      }
+    },
+    "katy_heights_price_history.csv": {
+      "shape": [
+        8,
+        4
+      ],
+      "columns": [
+        "Year",
+        "Price_per_sqft",
+        "Units_Sold",
+        "YoY_Growth"
+      ],
+      "data_types": {
+        "Year": "int64",
+        "Price_per_sqft": "float64",
+        "Units_Sold": "int64",
+        "YoY_Growth": "float64"
+      },
+      "null_counts": {
+        "Year": 0,
+        "Price_per_sqft": 0,
+        "Units_Sold": 0,
+        "YoY_Growth": 1
+      },
+      "summary_stats": {
+        "Year": {
+          "count": 8.0,
+          "mean": 2020.5,
+          "std": 2.449489742783178,
+          "min": 2017.0,
+          "25%": 2018.75,
+          "50%": 2020.5,
+          "75%": 2022.25,
+          "max": 2024.0
+        },
+        "Price_per_sqft": {
+          "count": 8.0,
+          "mean": 126.04375000000002,
+          "std": 38.166243476027724,
+          "min": 65.62,
+          "25%": 99.14,
+          "50%": 127.495,
+          "75%": 159.0725,
+          "max": 172.27
+        },
+        "Units_Sold": {
+          "count": 8.0,
+          "mean": 7.0,
+          "std": 2.9277002188455996,
+          "min": 3.0,
+          "25%": 4.75,
+          "50%": 7.0,
+          "75%": 9.25,
+          "max": 11.0
+        },
+        "YoY_Growth": {
+          "count": 7.0,
+          "mean": 14.741305786419819,
+          "std": 12.944885168944731,
+          "min": -3.8950484704243338,
+          "25%": 10.410539759061288,
+          "50%": 11.576408682306516,
+          "75%": 17.83710229237404,
+          "max": 39.0124961901859
+        }
+      },
+      "sample_data": [
+        {
+          "Year": 2017,
+          "Price_per_sqft": 65.62,
+          "Units_Sold": 3,
+          "YoY_Growth": NaN
+        },
+        {
+          "Year": 2018,
+          "Price_per_sqft": 91.22,
+          "Units_Sold": 4,
+          "YoY_Growth": 39.0124961901859
+        },
+        {
+          "Year": 2019,
+          "Price_per_sqft": 101.78,
+          "Units_Sold": 5,
+          "YoY_Growth": 11.576408682306516
+        },
+        {
+          "Year": 2020,
+          "Price_per_sqft": 120.83,
+          "Units_Sold": 6,
+          "YoY_Growth": 18.7168402436628
+        },
+        {
+          "Year": 2021,
+          "Price_per_sqft": 134.16,
+          "Units_Sold": 11,
+          "YoY_Growth": 11.032028469750887
+        }
+      ],
+      "key_metrics": {
+        "Price_per_sqft_median": 127.495,
+        "Price_per_sqft_range": [
+          65.62,
+          172.27
+        ],
+        "YoY_Growth_avg": 14.741305786419819,
+        "YoY_Growth_max": 39.0124961901859
+      }
+    }
+  }
+}

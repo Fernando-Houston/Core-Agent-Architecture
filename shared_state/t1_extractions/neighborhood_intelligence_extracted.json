@@ -1,0 +1,213 @@
+{
+  "domain": "neighborhood_intelligence",
+  "extraction_timestamp": "2025-01-10T10:35:00",
+  "files_processed": 42,
+  "aggregated_data": {
+    "neighborhoods": {
+      "The Heights": {
+        "price_growth": 15.2,
+        "inventory": 45,
+        "dom": 22,
+        "median_income": 95000,
+        "pop_growth": 4.2,
+        "school_rating": 8.5,
+        "transit_score": 7.8
+      },
+      "Montrose": {
+        "price_growth": 12.8,
+        "inventory": 38,
+        "dom": 18,
+        "median_income": 88000,
+        "pop_growth": 3.8,
+        "school_rating": 7.9,
+        "transit_score": 8.5
+      },
+      "River Oaks": {
+        "price_growth": 8.5,
+        "inventory": 85,
+        "dom": 65,
+        "median_income": 250000,
+        "pop_growth": 1.2,
+        "school_rating": 9.5,
+        "transit_score": 6.2
+      },
+      "EaDo": {
+        "price_growth": 18.5,
+        "inventory": 25,
+        "dom": 15,
+        "median_income": 72000,
+        "pop_growth": 6.8,
+        "school_rating": 7.2,
+        "transit_score": 8.9
+      },
+      "Midtown": {
+        "price_growth": 14.2,
+        "inventory": 32,
+        "dom": 20,
+        "median_income": 82000,
+        "pop_growth": 5.2,
+        "school_rating": 7.5,
+        "transit_score": 9.2
+      },
+      "Memorial": {
+        "price_growth": 10.5,
+        "inventory": 62,
+        "dom": 45,
+        "median_income": 185000,
+        "pop_growth": 2.5,
+        "school_rating": 9.2,
+        "transit_score": 5.8
+      },
+      "The Woodlands": {
+        "price_growth": 11.8,
+        "inventory": 55,
+        "dom": 35,
+        "median_income": 120000,
+        "pop_growth": 3.5,
+        "school_rating": 9.0,
+        "transit_score": 4.5
+      },
+      "Sugar Land": {
+        "price_growth": 9.2,
+        "inventory": 48,
+        "dom": 32,
+        "median_income": 105000,
+        "pop_growth": 2.8,
+        "school_rating": 8.8,
+        "transit_score": 5.2
+      },
+      "Katy": {
+        "price_growth": 13.5,
+        "inventory": 42,
+        "dom": 28,
+        "median_income": 92000,
+        "pop_growth": 4.5,
+        "school_rating": 8.7,
+        "transit_score": 4.8
+      },
+      "Pearland": {
+        "price_growth": 10.8,
+        "inventory": 52,
+        "dom": 30,
+        "median_income": 98000,
+        "pop_growth": 3.2,
+        "school_rating": 8.4,
+        "transit_score": 5.5
+      }
+    },
+    "price_trends": {
+      "The Heights": [420, 428, 435, 445, 458, 472, 485, 498, 512, 528, 545, 564],
+      "Montrose": [380, 385, 392, 400, 410, 422, 435, 448, 462, 475, 490, 505],
+      "River Oaks": [850, 860, 870, 882, 895, 908, 920, 932, 945, 958, 970, 982],
+      "EaDo": [280, 290, 302, 318, 335, 355, 375, 398, 422, 448, 475, 502],
+      "Midtown": [340, 348, 358, 370, 382, 395, 410, 425, 442, 458, 475, 492],
+      "Memorial": [580, 590, 600, 612, 625, 638, 650, 665, 680, 695, 710, 725],
+      "The Woodlands": [320, 325, 332, 340, 348, 358, 368, 378, 390, 402, 415, 428],
+      "Sugar Land": [290, 294, 298, 303, 308, 314, 320, 327, 334, 342, 350, 358],
+      "Katy": [260, 265, 272, 280, 288, 298, 308, 318, 330, 342, 355, 368],
+      "Pearland": [270, 274, 278, 283, 288, 294, 300, 307, 314, 322, 330, 338]
+    },
+    "inventory": {
+      "The Heights": {"active_listings": 145, "monthly_sales": 65},
+      "Montrose": {"active_listings": 98, "monthly_sales": 52},
+      "River Oaks": {"active_listings": 68, "monthly_sales": 12},
+      "EaDo": {"active_listings": 42, "monthly_sales": 28},
+      "Midtown": {"active_listings": 75, "monthly_sales": 38},
+      "Memorial": {"active_listings": 112, "monthly_sales": 25},
+      "The Woodlands": {"active_listings": 285, "monthly_sales": 82},
+      "Sugar Land": {"active_listings": 195, "monthly_sales": 55},
+      "Katy": {"active_listings": 225, "monthly_sales": 78},
+      "Pearland": {"active_listings": 165, "monthly_sales": 48}
+    },
+    "development_activity": {
+      "The Heights": {
+        "building_permits": 85,
+        "new_construction": 62,
+        "commercial_development": 18,
+        "residential": 55,
+        "commercial": 15,
+        "mixed_use": 12
+      },
+      "EaDo": {
+        "building_permits": 125,
+        "new_construction": 98,
+        "commercial_development": 35,
+        "residential": 65,
+        "commercial": 25,
+        "mixed_use": 28,
+        "tech_companies": 8,
+        "transit_projects": 2
+      },
+      "Midtown": {
+        "building_permits": 95,
+        "new_construction": 72,
+        "commercial_development": 28,
+        "residential": 48,
+        "commercial": 22,
+        "mixed_use": 20,
+        "retail_development": 15000
+      }
+    },
+    "demographics": {
+      "The Heights": {
+        "median_income": 95000,
+        "pop_growth_rate": 4.2,
+        "median_age": 32,
+        "avg_household_size": 2.3
+      },
+      "Montrose": {
+        "median_income": 88000,
+        "pop_growth_rate": 3.8,
+        "median_age": 29,
+        "avg_household_size": 1.8
+      },
+      "River Oaks": {
+        "median_income": 250000,
+        "pop_growth_rate": 1.2,
+        "median_age": 48,
+        "avg_household_size": 2.8
+      },
+      "EaDo": {
+        "median_income": 72000,
+        "pop_growth_rate": 6.8,
+        "median_age": 28,
+        "avg_household_size": 1.9
+      },
+      "Memorial": {
+        "median_income": 185000,
+        "pop_growth_rate": 2.5,
+        "median_age": 42,
+        "avg_household_size": 3.2
+      },
+      "The Woodlands": {
+        "median_income": 120000,
+        "pop_growth_rate": 3.5,
+        "median_age": 38,
+        "avg_household_size": 3.1
+      }
+    },
+    "infrastructure": {
+      "EaDo": {
+        "transit_access": 8.9,
+        "school_rating": 7.2,
+        "amenity_score": 85,
+        "new_transit": "Purple Line Extension - Q4 2025"
+      },
+      "Midtown": {
+        "transit_access": 9.2,
+        "school_rating": 7.5,
+        "amenity_score": 92
+      },
+      "The Heights": {
+        "transit_access": 7.8,
+        "school_rating": 8.5,
+        "amenity_score": 88,
+        "new_transit": "BRT Line - Q2 2026"
+      }
+    }
+  },
+  "extraction_stats": {
+    "success_rate": 0.94,
+    "confidence_score": 0.91
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "metadata": {
+    "folder_name": "Economic and Demographic Intelligence _Houston population growth projections by",
+    "extraction_timestamp": "2025-07-10T01:36:42.465425",
+    "file_count": 17,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "houston_tech_sector_impact.csv": {
+      "shape": [
+        10,
+        4
+      ],
+      "columns": [
+        "Metric",
+        "2020_Value",
+        "2025_Value",
+        "Growth_Rate"
+      ],
+      "data_types": {
+        "Metric": "object",
+        "2020_Value": "int64",
+        "2025_Value": "int64",
+        "Growth_Rate": "float64"
+      },
+      "null_counts": {
+        "Metric": 0,
+        "2020_Value": 0,
+        "2025_Value": 0,
+        "Growth_Rate": 0
+      },
+      "summary_stats": {
+        "2020_Value": {
+          "count": 10.0,
+          "mean": 280848.9,
+          "std": 782469.6497038435,
+          "min": 0.0,
+          "25%": 74.75,
+          "50%": 3350.0,
+          "75%": 72875.0,
+          "max": 2500000.0
+        },
+        "2025_Value": {
+          "count": 10.0,
+          "mean": 355829.5,
+          "std": 1002182.6406267527,
+          "min": 8.0,
+          "25%": 211.5,
+          "50%": 4000.0,
+          "75%": 84672.75,
+          "max": 3200000.0
+        },
+        "Growth_Rate": {
+          "count": 10.0,
+          "mean": 40.230000000000004,
+          "std": 45.704681257929025,
+          "min": 14.0,
+          "25%": 15.5,
+          "50%": 26.5,
+          "75%": 33.275000000000006,
+          "max": 164.1
+        }
+      },
+      "sample_data": [
+        {
+          "Metric": "Tech Companies",
+          "2020_Value": 3500,
+          "2025_Value": 4000,
+          "Growth_Rate": 14.3
+        },
+        {
+          "Metric": "Tech Jobs",
+          "2020_Value": 200000,
+          "2025_Value": 230800,
+          "Growth_Rate": 15.4
+        },
+        {
+          "Metric": "Tech Startups",
+          "2020_Value": 3200,
+          "2025_Value": 4000,
+          "Growth_Rate": 25.0
+        },
+        {
+          "Metric": "VC Funding (millions)",
+          "2020_Value": 284,
+          "2025_Value": 750,
+          "Growth_Rate": 164.1
+        },
+        {
+          "Metric": "Tech Patents",
+          "2020_Value": 6500,
+          "2025_Value": 8691,
+          "Growth_Rate": 33.7
+        }
+      ],
+      "key_metrics": {
+        "2020_Value_median": 3350.0,
+        "2020_Value_range": [
+          0,
+          2500000
+        ],
+        "2025_Value_median": 4000.0,
+        "2025_Value_range": [
+          8,
+          3200000
+        ],
+        "Growth_Rate_avg": 40.230000000000004,
+        "Growth_Rate_max": 164.1
+      }
+    },
+    "houston_population_growth_by_area.csv": {
+      "shape": [
+        15,
+        5
+      ],
+      "columns": [
+        "Area",
+        "2020_Population",
+        "2025_Population",
+        "Growth_Rate_2020_2025",
+        "Annual_Growth_Rate"
+      ],
+      "data_types": {
+        "Area": "object",
+        "2020_Population": "int64",
+        "2025_Population": "int64",
+        "Growth_Rate_2020_2025": "float64",
+        "Annual_Growth_Rate": "float64"
+      },
+      "null_counts": {
+        "Area": 0,
+        "2020_Population": 0,
+        "2025_Population": 0,
+        "Growth_Rate_2020_2025": 0,
+        "Annual_Growth_Rate": 0
+      },
+      "summary_stats": {
+        "2020_Population": {
+          "count": 15.0,
+          "mean": 620935.9333333333,
+          "std": 1283517.6536472763,
+          "min": 9995.0,
+          "25%": 51103.5,
+          "50%": 91628.0,
+          "75%": 401040.0,
+          "max": 4731122.0
+        },
+        "2025_Population": {
+          "count": 15.0,
+          "mean": 656769.8666666667,
+          "std": 1330951.1203383768,
+          "min": 12000.0,
+          "25%": 59091.0,
+          "50%": 108272.0,
+          "75%": 460677.0,
+          "max": 4942701.0
+        },
+        "Growth_Rate_2020_2025": {
+          "count": 15.0,
+          "mean": 24.945333333333334,
+          "std": 55.528259969479464,
+          "min": 0.63,
+          "25%": 5.745,
+          "50%": 11.43,
+          "75%": 16.735,
+          "max": 224.58
+        },
+        "Annual_Growth_Rate": {
+          "count": 15.0,
+          "mean": 4.989333333333334,
+          "std": 11.106637955144963,
+          "min": 0.13,
+          "25%": 1.15,
+          "50%": 2.29,
+          "75%": 3.3499999999999996,
+          "max": 44.92
+        }
+      },
+      "sample_data": [
+        {
+          "Area": "City of Houston",
+          "2020_Population": 2304580,
+          "2025_Population": 2319119,
+          "Growth_Rate_2020_2025": 0.63,
+          "Annual_Growth_Rate": 0.13
+        },
+        {
+          "Area": "Harris County",
+          "2020_Population": 4731122,
+          "2025_Population": 4942701,
+          "Growth_Rate_2020_2025": 4.47,
+          "Annual_Growth_Rate": 0.89
+        },
+        {
+          "Area": "Fort Bend County",
+          "2020_Population": 822779,
+          "2025_Population": 916778,
+          "Growth_Rate_2020_2025": 11.43,
+          "Annual_Growth_Rate": 2.29
+        },
+        {
+          "Area": "Montgomery County",
+          "2020_Population": 620443,
+          "2025_Population": 711354,
+          "Growth_Rate_2020_2025": 14.64,
+          "Annual_Growth_Rate": 2.93
+        },
+        {
+          "Area": "Waller County",
+          "2020_Population": 56794,
+          "2025_Population": 63553,
+          "Growth_Rate_2020_2025": 11.9,
+          "Annual_Growth_Rate": 2.38
+        }
+      ],
+      "key_metrics": {
+        "Growth_Rate_2020_2025_avg": 24.945333333333334,
+        "Growth_Rate_2020_2025_max": 224.58,
+        "Annual_Growth_Rate_avg": 4.989333333333334,
+        "Annual_Growth_Rate_max": 44.92
+      }
+    },
+    "houston_job_growth_by_sector.csv": {
+      "shape": [
+        14,
+        5
+      ],
+      "columns": [
+        "Sector",
+        "2024_Jobs",
+        "2025_Projected_Jobs",
+        "Job_Growth_2024_2025",
+        "Growth_Rate_Percent"
+      ],
+      "data_types": {
+        "Sector": "object",
+        "2024_Jobs": "int64",
+        "2025_Projected_Jobs": "int64",
+        "Job_Growth_2024_2025": "int64",
+        "Growth_Rate_Percent": "float64"
+      },
+      "null_counts": {
+        "Sector": 0,
+        "2024_Jobs": 0,
+        "2025_Projected_Jobs": 0,
+        "Job_Growth_2024_2025": 0,
+        "Growth_Rate_Percent": 0
+      },
+      "summary_stats": {
+        "2024_Jobs": {
+          "count": 14.0,
+          "mean": 246235.7142857143,
+          "std": 85844.00527560583,
+          "min": 125000.0,
+          "25%": 177500.0,
+          "50%": 235150.0,
+          "75%": 292500.0,
+          "max": 412000.0
+        },
+        "2025_Projected_Jobs": {
+          "count": 14.0,
+          "mean": 251071.42857142858,
+          "std": 87934.90099605966,
+          "min": 127000.0,
+          "25%": 180250.0,
+          "50%": 243500.0,
+          "75%": 295300.0,
+          "max": 421700.0
+        },
+        "Job_Growth_2024_2025": {
+          "count": 14.0,
+          "mean": 4835.714285714285,
+          "std": 3901.5987143057814,
+          "min": 2000.0,
+          "25%": 2050.0,
+          "50%": 2950.0,
+          "75%": 6550.0,
+          "max": 14200.0
+        },
+        "Growth_Rate_Percent": {
+          "count": 14.0,
+          "mean": 1.9092857142857145,
+          "std": 1.3798353540896118,
+          "min": 0.68,
+          "25%": 1.1125,
+          "50%": 1.655,
+          "75%": 1.82,
+          "max": 6.15
+        }
+      },
+      "sample_data": [
+        {
+          "Sector": "Healthcare",
+          "2024_Jobs": 412000,
+          "2025_Projected_Jobs": 421700,
+          "Job_Growth_2024_2025": 9700,
+          "Growth_Rate_Percent": 2.35
+        },
+        {
+          "Sector": "Construction",
+          "2024_Jobs": 315000,
+          "2025_Projected_Jobs": 325000,
+          "Job_Growth_2024_2025": 10000,
+          "Growth_Rate_Percent": 3.17
+        },
+        {
+          "Sector": "Professional Services",
+          "2024_Jobs": 385000,
+          "2025_Projected_Jobs": 392000,
+          "Job_Growth_2024_2025": 7000,
+          "Growth_Rate_Percent": 1.82
+        },
+        {
+          "Sector": "Government",
+          "2024_Jobs": 275000,
+          "2025_Projected_Jobs": 277200,
+          "Job_Growth_2024_2025": 2200,
+          "Growth_Rate_Percent": 0.8
+        },
+        {
+          "Sector": "Restaurants & Bars",
+          "2024_Jobs": 285000,
+          "2025_Projected_Jobs": 290200,
+          "Job_Growth_2024_2025": 5200,
+          "Growth_Rate_Percent": 1.82
+        }
+      ],
+      "key_metrics": {
+        "Job_Growth_2024_2025_avg": 4835.714285714285,
+        "Job_Growth_2024_2025_max": 14200,
+        "Growth_Rate_Percent_avg": 1.9092857142857145,
+        "Growth_Rate_Percent_max": 6.15
+      }
+    },
+    "houston_housing_market_data.csv": {
+      "shape": [
+        15,
+        5
+      ],
+      "columns": [
+        "Area",
+        "Median_Home_Price_2024",
+        "Median_Home_Price_2025",
+        "Price_Change_Percent",
+        "Housing_Demand_Level"
+      ],
+      "data_types": {
+        "Area": "object",
+        "Median_Home_Price_2024": "int64",
+        "Median_Home_Price_2025": "int64",
+        "Price_Change_Percent": "float64",
+        "Housing_Demand_Level": "object"
+      },
+      "null_counts": {
+        "Area": 0,
+        "Median_Home_Price_2024": 0,
+        "Median_Home_Price_2025": 0,
+        "Price_Change_Percent": 0,
+        "Housing_Demand_Level": 0
+      },
+      "summary_stats": {
+        "Median_Home_Price_2024": {
+          "count": 15.0,
+          "mean": 553333.3333333334,
+          "std": 255039.67945250814,
+          "min": 320000.0,
+          "25%": 400000.0,
+          "50%": 475000.0,
+          "75%": 575000.0,
+          "max": 1250000.0
+        },
+        "Median_Home_Price_2025": {
+          "count": 15.0,
+          "mean": 569000.0,
+          "std": 261719.58821827392,
+          "min": 335000.0,
+          "25%": 410000.0,
+          "50%": 485000.0,
+          "75%": 595000.0,
+          "max": 1285000.0
+        },
+        "Price_Change_Percent": {
+          "count": 15.0,
+          "mean": 2.8800000000000003,
+          "std": 0.8270429251254133,
+          "min": 2.06,
+          "25%": 2.38,
+          "50%": 2.63,
+          "75%": 3.0,
+          "max": 4.69
+        }
+      },
+      "sample_data": [
+        {
+          "Area": "Inner Loop",
+          "Median_Home_Price_2024": 485000,
+          "Median_Home_Price_2025": 495000,
+          "Price_Change_Percent": 2.06,
+          "Housing_Demand_Level": "Very High"
+        },
+        {
+          "Area": "Energy Corridor",
+          "Median_Home_Price_2024": 415000,
+          "Median_Home_Price_2025": 425000,
+          "Price_Change_Percent": 2.41,
+          "Housing_Demand_Level": "High"
+        },
+        {
+          "Area": "Katy",
+          "Median_Home_Price_2024": 385000,
+          "Median_Home_Price_2025": 395000,
+          "Price_Change_Percent": 2.6,
+          "Housing_Demand_Level": "Very High"
+        },
+        {
+          "Area": "Cypress",
+          "Median_Home_Price_2024": 320000,
+          "Median_Home_Price_2025": 335000,
+          "Price_Change_Percent": 4.69,
+          "Housing_Demand_Level": "High"
+        },
+        {
+          "Area": "The Woodlands",
+          "Median_Home_Price_2024": 475000,
+          "Median_Home_Price_2025": 485000,
+          "Price_Change_Percent": 2.11,
+          "Housing_Demand_Level": "Very High"
+        }
+      ],
+      "key_metrics": {
+        "Median_Home_Price_2024_median": 475000.0,
+        "Median_Home_Price_2024_range": [
+          320000,
+          1250000
+        ],
+        "Median_Home_Price_2025_median": 485000.0,
+        "Median_Home_Price_2025_range": [
+          335000,
+          1285000
+        ],
+        "Price_Change_Percent_avg": 2.8800000000000003,
+        "Price_Change_Percent_max": 4.69
+      }
+    },
+    "houston_commercial_real_estate_data.csv": {
+      "shape": [
+        14,
+        6
+      ],
+      "columns": [
+        "Submarket",
+        "Office_Space_SF",
+        "Vacancy_Rate_Percent",
+        "Average_Rent_PSF",
+        "Net_Absorption_2024",
+        "Primary_Industries"
+      ],
+      "data_types": {
+        "Submarket": "object",
+        "Office_Space_SF": "int64",
+        "Vacancy_Rate_Percent": "float64",
+        "Average_Rent_PSF": "float64",
+        "Net_Absorption_2024": "int64",
+        "Primary_Industries": "object"
+      },
+      "null_counts": {
+        "Submarket": 0,
+        "Office_Space_SF": 0,
+        "Vacancy_Rate_Percent": 0,
+        "Average_Rent_PSF": 0,
+        "Net_Absorption_2024": 0,
+        "Primary_Industries": 0
+      },
+      "summary_stats": {
+        "Office_Space_SF": {
+          "count": 14.0,
+          "mean": 18285714.285714287,
+          "std": 11704230.474021392,
+          "min": 5000000.0,
+          "25%": 9000000.0,
+          "50%": 15500000.0,
+          "75%": 24250000.0,
+          "max": 45000000.0
+        },
+        "Vacancy_Rate_Percent": {
+          "count": 14.0,
+          "mean": 23.492857142857144,
+          "std": 6.168588454134667,
+          "min": 13.1,
+          "25%": 19.125,
+          "50%": 23.200000000000003,
+          "75%": 27.075,
+          "max": 35.2
+        },
+        "Average_Rent_PSF": {
+          "count": 14.0,
+          "mean": 28.607142857142858,
+          "std": 4.040080784743388,
+          "min": 22.8,
+          "25%": 24.925,
+          "50%": 29.075,
+          "75%": 31.6625,
+          "max": 35.2
+        },
+        "Net_Absorption_2024": {
+          "count": 14.0,
+          "mean": 18571.428571428572,
+          "std": 92537.48869072908,
+          "min": -125000.0,
+          "25%": -42500.0,
+          "50%": 20000.0,
+          "75%": 60000.0,
+          "max": 235000.0
+        }
+      },
+      "sample_data": [
+        {
+          "Submarket": "Energy Corridor",
+          "Office_Space_SF": 25000000,
+          "Vacancy_Rate_Percent": 24.3,
+          "Average_Rent_PSF": 28.75,
+          "Net_Absorption_2024": 235000,
+          "Primary_Industries": "Energy/Oil & Gas"
+        },
+        {
+          "Submarket": "Downtown CBD",
+          "Office_Space_SF": 45000000,
+          "Vacancy_Rate_Percent": 32.0,
+          "Average_Rent_PSF": 32.5,
+          "Net_Absorption_2024": -125000,
+          "Primary_Industries": "Financial Services"
+        },
+        {
+          "Submarket": "Galleria",
+          "Office_Space_SF": 35000000,
+          "Vacancy_Rate_Percent": 28.5,
+          "Average_Rent_PSF": 35.2,
+          "Net_Absorption_2024": -85000,
+          "Primary_Industries": "Mixed/Corporate"
+        },
+        {
+          "Submarket": "Westchase",
+          "Office_Space_SF": 18000000,
+          "Vacancy_Rate_Percent": 22.1,
+          "Average_Rent_PSF": 26.8,
+          "Net_Absorption_2024": 45000,
+          "Primary_Industries": "Technology"
+        },
+        {
+          "Submarket": "Greenway Plaza",
+          "Office_Space_SF": 22000000,
+          "Vacancy_Rate_Percent": 25.8,
+          "Average_Rent_PSF": 29.4,
+          "Net_Absorption_2024": -35000,
+          "Primary_Industries": "Professional Services"
+        }
+      ],
+      "key_metrics": {}
+    }
+  }
+}

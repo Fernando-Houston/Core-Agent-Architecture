@@ -1,0 +1,47 @@
+{
+  "agent_name": "Market_Intelligence",
+  "last_updated": "2025-07-10T02:39:31.428987",
+  "knowledge_files": [
+    "financing_comparisons_knowledge.json",
+    "tech_investment_knowledge.json",
+    "permit_process_knowledge.json",
+    "development_activity_knowledge.json",
+    "tax_strategies_knowledge.json",
+    "development_opportunities_knowledge.json",
+    "market_analysis_knowledge.json",
+    "price_predictions_knowledge.json",
+    "infrastructure_technology_knowledge.json",
+    "zoning_changes_knowledge.json",
+    "environmental_metrics_knowledge.json",
+    "infrastructure_impact_knowledge.json"
+  ],
+  "total_insights": 14,
+  "categories": [
+    "financing_comparisons",
+    "tech_investment",
+    "permit_process",
+    "development_activity",
+    "tax_strategies",
+    "development_opportunities",
+    "market_analysis",
+    "price_predictions",
+    "infrastructure_technology",
+    "zoning_changes",
+    "environmental_metrics",
+    "infrastructure_impact"
+  ],
+  "geographic_coverage": [
+    "Houston",
+    "Houston Heights",
+    "Heights District",
+    "Sugar Land",
+    "Fort Bend County",
+    "Greater Houston Area",
+    "Inner Loop",
+    "Transit Corridors"
+  ],
+  "temporal_coverage": [
+    "2024-2025",
+    "2024"
+  ]
+}

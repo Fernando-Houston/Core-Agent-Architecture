@@ -1,0 +1,41 @@
+{
+  "agent_name": "Financial_Intelligence",
+  "generated_at": "2025-07-10T02:41:15.615149",
+  "total_insights": 11,
+  "categories": {
+    "investment_analysis": 2,
+    "financing_comparisons": 1,
+    "tech_investment": 2,
+    "roi_models": 2,
+    "development_activity": 1,
+    "tax_strategies": 1,
+    "risk_assessment": 2
+  },
+  "top_insights": [
+    {
+      "title": "Mixed-Use Development ROI Model",
+      "priority": 1.0,
+      "summary": "Comprehensive ROI model for mixed-use developments"
+    },
+    {
+      "title": "Opportunity Zone Tax Benefits",
+      "priority": 1.0,
+      "summary": "Tax optimization through opportunity zone investments"
+    },
+    {
+      "title": "Tech Sector Real Estate Investment Trends",
+      "priority": 0.972,
+      "summary": "Tech companies driving new real estate demand patterns"
+    },
+    {
+      "title": "Investment Risk Matrix for Houston Development",
+      "priority": 0.972,
+      "summary": "Comprehensive risk assessment across investment types"
+    },
+    {
+      "title": "Mixed-Use Development ROI Model",
+      "priority": 0.95,
+      "summary": "Comprehensive ROI model for mixed-use developments"
+    }
+  ]
+}

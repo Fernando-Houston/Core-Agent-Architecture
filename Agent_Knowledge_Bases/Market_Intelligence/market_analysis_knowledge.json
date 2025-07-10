@@ -1,0 +1,149 @@
+{
+  "bdaf12ff1ce1": {
+    "id": "bdaf12ff1ce1",
+    "timestamp": "2025-07-10T02:28:03.540598",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/neighborhood_analysis_t2.json",
+    "domain": "sugar_land",
+    "category": "market_analysis",
+    "subcategory": "",
+    "title": "Sugar Land Price Trajectory Model",
+    "content": {
+      "summary": "Sugar Land residential prices projected to increase 12-18%",
+      "key_findings": [
+        "Current median price $425,000",
+        "3-year projection: $500,000-525,000",
+        "Low inventory driving appreciation"
+      ],
+      "metrics": {
+        "current_median": 425000,
+        "3_year_projection": 512500,
+        "annual_appreciation": 6.5,
+        "inventory_months": 1.8
+      }
+    },
+    "tags": [
+      "pricing",
+      "forecast",
+      "sugar-land",
+      "residential"
+    ],
+    "relationships": [],
+    "confidence_score": 0.87,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "current_median",
+        "value": 425000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:03.540598"
+      },
+      {
+        "type": "metric",
+        "name": "3_year_projection",
+        "value": 512500,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:03.540598"
+      },
+      {
+        "type": "metric",
+        "name": "annual_appreciation",
+        "value": 6.5,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:03.540598"
+      },
+      {
+        "type": "metric",
+        "name": "inventory_months",
+        "value": 1.8,
+        "unit": "time",
+        "timestamp": "2025-07-10T02:28:03.540598"
+      }
+    ],
+    "geographic_scope": [
+      "Sugar Land",
+      "Fort Bend County"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.7999999999999999,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:03.540598",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  },
+  "536d6a2911e2": {
+    "id": "536d6a2911e2",
+    "timestamp": "2025-07-10T02:39:31.422706",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/neighborhood_analysis_t2.json",
+    "domain": "sugar_land",
+    "category": "market_analysis",
+    "subcategory": "",
+    "title": "Sugar Land Price Trajectory Model",
+    "content": {
+      "summary": "Sugar Land residential prices projected to increase 12-18%",
+      "key_findings": [
+        "Current median price $425,000",
+        "3-year projection: $500,000-525,000",
+        "Low inventory driving appreciation"
+      ],
+      "metrics": {
+        "current_median": 425000,
+        "3_year_projection": 512500,
+        "annual_appreciation": 6.5,
+        "inventory_months": 1.8
+      },
+      "recommendations": [],
+      "raw_data": {}
+    },
+    "tags": [
+      "pricing",
+      "forecast",
+      "sugar-land",
+      "residential"
+    ],
+    "geographic_scope": [
+      "Sugar Land",
+      "Fort Bend County"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.874,
+    "confidence_score": 0.87,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "current_median",
+        "value": 425000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.422711"
+      },
+      {
+        "type": "metric",
+        "name": "3_year_projection",
+        "value": 512500,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.422713"
+      },
+      {
+        "type": "metric",
+        "name": "annual_appreciation",
+        "value": 6.5,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.422715"
+      },
+      {
+        "type": "metric",
+        "name": "inventory_months",
+        "value": 1.8,
+        "unit": "time",
+        "timestamp": "2025-07-10T02:39:31.422716"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.422717",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

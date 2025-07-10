@@ -1,0 +1,122 @@
+{
+  "analysis_id": "t2_reg_env_001",
+  "timestamp": "2024-01-10T12:00:00Z",
+  "insights": [
+    {
+      "domain": "zoning_data",
+      "category": "zoning_changes",
+      "title": "Houston Zoning Reform Impact Analysis",
+      "content": {
+        "summary": "Recent zoning changes create significant development opportunities",
+        "key_findings": [
+          "Density bonuses up to 50% in transit corridors",
+          "Mixed-use now permitted in 30% more areas",
+          "Streamlined approval process reduces timeline by 3-6 months"
+        ],
+        "metrics": {
+          "affected_acres": 15000,
+          "density_increase": 50,
+          "approval_time_reduction": 4.5,
+          "value_creation_potential": 2000000000
+        }
+      },
+      "tags": ["zoning", "regulatory", "development", "opportunity"],
+      "geographic_scope": ["Houston", "Inner Loop", "Transit Corridors"],
+      "confidence_score": 0.91
+    },
+    {
+      "domain": "permit_requirements",
+      "category": "permit_process",
+      "title": "Expedited Permit Program Guidelines",
+      "content": {
+        "summary": "New expedited permit program for qualified projects",
+        "key_findings": [
+          "30-day review for qualifying projects",
+          "Green building projects get priority",
+          "Digital submission reduces errors by 40%"
+        ],
+        "metrics": {
+          "standard_timeline_days": 120,
+          "expedited_timeline_days": 30,
+          "cost_savings": 50000,
+          "success_rate": 85
+        },
+        "recommendations": [
+          "Prepare complete submission packages",
+          "Engage pre-application meetings",
+          "Use certified expeditors for complex projects"
+        ]
+      },
+      "tags": ["permits", "regulatory", "expedited", "process"],
+      "confidence_score": 0.89
+    },
+    {
+      "domain": "flood_risk_data",
+      "category": "risk_mitigation",
+      "title": "Updated Flood Risk Maps and Mitigation Strategies",
+      "content": {
+        "summary": "New FEMA maps show reduced flood risk in key development areas",
+        "key_findings": [
+          "500 acres removed from 100-year floodplain",
+          "New detention requirements more flexible",
+          "Green infrastructure credits available"
+        ],
+        "metrics": {
+          "risk_reduction_percent": 35,
+          "insurance_savings_annual": 2500,
+          "mitigation_cost_per_acre": 50000,
+          "roi_on_mitigation": 3.5
+        }
+      },
+      "tags": ["flood", "risk", "environmental", "mitigation"],
+      "geographic_scope": ["West Houston", "Cypress Creek", "Brays Bayou"],
+      "confidence_score": 0.88
+    },
+    {
+      "domain": "environmental_regulations",
+      "category": "compliance_requirements",
+      "title": "Environmental Compliance Checklist 2024",
+      "content": {
+        "summary": "Comprehensive compliance requirements for Houston developments",
+        "key_findings": [
+          "Phase I ESA required for all commercial projects",
+          "Stormwater management plans mandatory",
+          "Tree preservation ordinance in effect"
+        ],
+        "metrics": {
+          "compliance_cost_average": 75000,
+          "timeline_impact_days": 45,
+          "violation_penalty_max": 500000
+        },
+        "recommendations": [
+          "Conduct early environmental assessments",
+          "Budget 2-3% for environmental compliance",
+          "Engage environmental consultants pre-acquisition"
+        ]
+      },
+      "tags": ["environmental", "compliance", "regulations"],
+      "confidence_score": 0.92
+    },
+    {
+      "domain": "air_quality",
+      "category": "environmental_metrics",
+      "title": "Air Quality Impact on Development Values",
+      "content": {
+        "summary": "Air quality improvements driving property value increases",
+        "key_findings": [
+          "PM2.5 levels decreased 20% over 5 years",
+          "Properties in cleaner air zones command 5-8% premium",
+          "Green certifications increasingly valuable"
+        ],
+        "metrics": {
+          "pm25_reduction": 20,
+          "ozone_improvement": 15,
+          "property_premium_percent": 6.5,
+          "health_cost_savings": 1000
+        }
+      },
+      "tags": ["air-quality", "environmental", "property-values"],
+      "confidence_score": 0.85
+    }
+  ]
+}

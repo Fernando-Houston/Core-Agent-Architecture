@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "folder_name": "What technological advancements are being used to improve Harris County flood",
+    "extraction_timestamp": "2025-07-10T01:36:42.544570",
+    "file_count": 6,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "chart_script.py": {
+      "imports": [
+        "import plotly.graph_objects as go\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "scatter_plot"
+        ],
+        "color_scheme": [
+          "#B4413C",
+          "#1FB8CD",
+          "#D2BA4C",
+          "#5D878F",
+          "#FFC185",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Harris County Flood Tech Evolution",
+          "Year"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script_1.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport json\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#5D878F",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "Harris County Flood Tech Systems",
+          "Tech Systems",
+          "Count"
+        ]
+      },
+      "analysis_methods": []
+    },
+    "chart_script_2.py": {
+      "imports": [
+        "import plotly.graph_objects as go\nimport plotly.express as px\nimport pandas as pd\n"
+      ],
+      "functions": [],
+      "data_sources": [],
+      "visualizations": {
+        "chart_types": [
+          "bar_chart"
+        ],
+        "color_scheme": [
+          "#FFC185",
+          "#1FB8CD",
+          "#5D878F",
+          "#ECEBD5"
+        ],
+        "titles": [
+          "AI Flood Prediction System Accuracy",
+          "Accuracy (%)",
+          "System"
+        ]
+      },
+      "analysis_methods": [
+        "ranking_analysis"
+      ]
+    }
+  }
+}

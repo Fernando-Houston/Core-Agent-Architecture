@@ -1,0 +1,75 @@
+{
+  "6ce626f5a6e2": {
+    "id": "6ce626f5a6e2",
+    "timestamp": "2025-07-10T02:28:06.053270",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/regulatory_environmental_t2.json",
+    "domain": "zoning_data",
+    "category": "zoning_changes",
+    "subcategory": "",
+    "title": "Houston Zoning Reform Impact Analysis",
+    "content": {
+      "summary": "Recent zoning changes create significant development opportunities",
+      "key_findings": [
+        "Density bonuses up to 50% in transit corridors",
+        "Mixed-use now permitted in 30% more areas",
+        "Streamlined approval process reduces timeline by 3-6 months"
+      ],
+      "metrics": {
+        "affected_acres": 15000,
+        "density_increase": 50,
+        "approval_time_reduction": 4.5,
+        "value_creation_potential": 2000000000
+      }
+    },
+    "tags": [
+      "zoning",
+      "regulatory",
+      "development",
+      "opportunity"
+    ],
+    "relationships": [],
+    "confidence_score": 0.91,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "affected_acres",
+        "value": 15000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:06.053270"
+      },
+      {
+        "type": "metric",
+        "name": "density_increase",
+        "value": 50,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:06.053270"
+      },
+      {
+        "type": "metric",
+        "name": "approval_time_reduction",
+        "value": 4.5,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:06.053270"
+      },
+      {
+        "type": "metric",
+        "name": "value_creation_potential",
+        "value": 2000000000,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:28:06.053270"
+      }
+    ],
+    "geographic_scope": [
+      "Houston",
+      "Inner Loop",
+      "Transit Corridors"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.7999999999999999,
+    "metadata": {
+      "processing_date": "2025-07-10T02:28:06.053270",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "agent_name": "Neighborhood_Intelligence",
+  "last_updated": "2025-07-10T02:39:31.423926",
+  "knowledge_files": [
+    "investment_analysis_knowledge.json",
+    "development_activity_knowledge.json",
+    "development_opportunities_knowledge.json",
+    "market_analysis_knowledge.json",
+    "infrastructure_impact_knowledge.json"
+  ],
+  "total_insights": 6,
+  "categories": [
+    "investment_analysis",
+    "development_activity",
+    "development_opportunities",
+    "market_analysis",
+    "infrastructure_impact"
+  ],
+  "geographic_coverage": [
+    "Houston",
+    "Houston Heights",
+    "Heights District",
+    "Katy",
+    "Sugar Land",
+    "Fort Bend County"
+  ],
+  "temporal_coverage": [
+    "2024-2025"
+  ]
+}

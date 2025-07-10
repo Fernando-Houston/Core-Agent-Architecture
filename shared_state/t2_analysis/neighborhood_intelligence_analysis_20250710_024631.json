@@ -1,0 +1,531 @@
+{
+  "domain": "neighborhood_intelligence",
+  "timestamp": "2025-07-10T02:46:31.746323",
+  "confidence_score": 0.908,
+  "key_findings": [
+    "EaDo leads with 58.5 score and B grade",
+    "EaDo showing strongest momentum with 79.3% YoY growth",
+    "3 neighborhoods have critically low inventory (<2 months)",
+    "1 emerging hotspots identified with high development activity",
+    "Top opportunity: EaDo with 30.0% projected ROI"
+  ],
+  "insights": {
+    "area_rankings": [
+      {
+        "neighborhood": "EaDo",
+        "overall_score": 58.55,
+        "price_growth": 18.5,
+        "inventory_level": 25,
+        "days_on_market": 15,
+        "investment_grade": "B",
+        "key_strengths": [
+          "Strong price appreciation",
+          "Quick sales",
+          "Great transit access"
+        ]
+      },
+      {
+        "neighborhood": "Midtown",
+        "overall_score": 53.959999999999994,
+        "price_growth": 14.2,
+        "inventory_level": 32,
+        "days_on_market": 20,
+        "investment_grade": "B",
+        "key_strengths": [
+          "Strong price appreciation",
+          "Quick sales",
+          "Great transit access"
+        ]
+      },
+      {
+        "neighborhood": "The Heights",
+        "overall_score": 51.71,
+        "price_growth": 15.2,
+        "inventory_level": 45,
+        "days_on_market": 22,
+        "investment_grade": "B",
+        "key_strengths": [
+          "Strong price appreciation",
+          "Quick sales",
+          "Excellent schools",
+          "Great transit access"
+        ]
+      },
+      {
+        "neighborhood": "Montrose",
+        "overall_score": 51.540000000000006,
+        "price_growth": 12.8,
+        "inventory_level": 38,
+        "days_on_market": 18,
+        "investment_grade": "B",
+        "key_strengths": [
+          "Strong price appreciation",
+          "Quick sales",
+          "Great transit access"
+        ]
+      },
+      {
+        "neighborhood": "Katy",
+        "overall_score": 50.6,
+        "price_growth": 13.5,
+        "inventory_level": 42,
+        "days_on_market": 28,
+        "investment_grade": "B",
+        "key_strengths": [
+          "Strong price appreciation",
+          "Quick sales",
+          "Excellent schools"
+        ]
+      },
+      {
+        "neighborhood": "Pearland",
+        "overall_score": 46.34,
+        "price_growth": 10.8,
+        "inventory_level": 52,
+        "days_on_market": 30,
+        "investment_grade": "C",
+        "key_strengths": [
+          "Strong price appreciation",
+          "Excellent schools"
+        ]
+      },
+      {
+        "neighborhood": "Sugar Land",
+        "overall_score": 45.96,
+        "price_growth": 9.2,
+        "inventory_level": 48,
+        "days_on_market": 32,
+        "investment_grade": "C",
+        "key_strengths": [
+          "Excellent schools"
+        ]
+      },
+      {
+        "neighborhood": "The Woodlands",
+        "overall_score": 45.79,
+        "price_growth": 11.8,
+        "inventory_level": 55,
+        "days_on_market": 35,
+        "investment_grade": "C",
+        "key_strengths": [
+          "Strong price appreciation",
+          "Excellent schools"
+        ]
+      },
+      {
+        "neighborhood": "Memorial",
+        "overall_score": 40.5,
+        "price_growth": 10.5,
+        "inventory_level": 62,
+        "days_on_market": 45,
+        "investment_grade": "C",
+        "key_strengths": [
+          "Strong price appreciation",
+          "Excellent schools"
+        ]
+      },
+      {
+        "neighborhood": "River Oaks",
+        "overall_score": 29.35,
+        "price_growth": 8.5,
+        "inventory_level": 85,
+        "days_on_market": 65,
+        "investment_grade": "C",
+        "key_strengths": [
+          "Excellent schools"
+        ]
+      }
+    ],
+    "price_trends_by_area": {
+      "hottest_areas": [
+        {
+          "area": "EaDo",
+          "current_price": 502,
+          "yoy_change": 79.28571428571428,
+          "momentum": 0.48214285714285715,
+          "forecast_12m": 705.2
+        },
+        {
+          "area": "Katy",
+          "current_price": 368,
+          "yoy_change": 41.53846153846154,
+          "momentum": 0.30409356725146197,
+          "forecast_12m": 464.0
+        },
+        {
+          "area": "Midtown",
+          "current_price": 492,
+          "yoy_change": 44.70588235294118,
+          "momentum": 0.29694323144104806,
+          "forecast_12m": 623.2
+        },
+        {
+          "area": "The Heights",
+          "current_price": 564,
+          "yoy_change": 34.285714285714285,
+          "momentum": 0.2727272727272727,
+          "forecast_12m": 690.4
+        },
+        {
+          "area": "The Woodlands",
+          "current_price": 428,
+          "yoy_change": 33.75,
+          "momentum": 0.25870646766169153,
+          "forecast_12m": 524.0
+        },
+        {
+          "area": "Montrose",
+          "current_price": 505,
+          "yoy_change": 32.89473684210527,
+          "momentum": 0.25263157894736843,
+          "forecast_12m": 617.0
+        },
+        {
+          "area": "Pearland",
+          "current_price": 338,
+          "yoy_change": 25.185185185185183,
+          "momentum": 0.19875776397515527,
+          "forecast_12m": 398.8
+        },
+        {
+          "area": "Sugar Land",
+          "current_price": 358,
+          "yoy_change": 23.448275862068964,
+          "momentum": 0.1871345029239766,
+          "forecast_12m": 418.8
+        },
+        {
+          "area": "Memorial",
+          "current_price": 725,
+          "yoy_change": 25.0,
+          "momentum": 0.17266187050359713,
+          "forecast_12m": 845.0
+        },
+        {
+          "area": "River Oaks",
+          "current_price": 982,
+          "yoy_change": 15.529411764705884,
+          "momentum": 0.10020876826722339,
+          "forecast_12m": 1081.2
+        }
+      ],
+      "cooling_areas": [],
+      "stable_areas": [],
+      "price_predictions": {
+        "The Heights": 690.4,
+        "Montrose": 617.0,
+        "River Oaks": 1081.2,
+        "EaDo": 705.2,
+        "Midtown": 623.2,
+        "Memorial": 845.0,
+        "The Woodlands": 524.0,
+        "Sugar Land": 418.8,
+        "Katy": 464.0,
+        "Pearland": 398.8
+      }
+    },
+    "inventory_analysis": {
+      "current_levels": {
+        "The Heights": 145,
+        "Montrose": 98,
+        "River Oaks": 68,
+        "EaDo": 42,
+        "Midtown": 75,
+        "Memorial": 112,
+        "The Woodlands": 285,
+        "Sugar Land": 195,
+        "Katy": 225,
+        "Pearland": 165
+      },
+      "supply_demand_ratio": {
+        "The Heights": 2.230769230769231,
+        "Montrose": 1.8846153846153846,
+        "River Oaks": 5.666666666666667,
+        "EaDo": 1.5,
+        "Midtown": 1.9736842105263157,
+        "Memorial": 4.48,
+        "The Woodlands": 3.475609756097561,
+        "Sugar Land": 3.5454545454545454,
+        "Katy": 2.8846153846153846,
+        "Pearland": 3.4375
+      },
+      "months_of_inventory": {
+        "The Heights": 2.230769230769231,
+        "Montrose": 1.8846153846153846,
+        "River Oaks": 5.666666666666667,
+        "EaDo": 1.5,
+        "Midtown": 1.9736842105263157,
+        "Memorial": 4.48,
+        "The Woodlands": 3.475609756097561,
+        "Sugar Land": 3.5454545454545454,
+        "Katy": 2.8846153846153846,
+        "Pearland": 3.4375
+      },
+      "inventory_trends": {
+        "The Heights": "sellers_market",
+        "Montrose": "sellers_market",
+        "River Oaks": "balanced",
+        "EaDo": "sellers_market",
+        "Midtown": "sellers_market",
+        "Memorial": "balanced",
+        "The Woodlands": "balanced",
+        "Sugar Land": "balanced",
+        "Katy": "sellers_market",
+        "Pearland": "balanced"
+      }
+    },
+    "growth_patterns": {
+      "emerging_hotspots": [
+        {
+          "area": "EaDo",
+          "growth_score": 93.5,
+          "permit_activity": 125,
+          "new_construction": 98,
+          "development_type": "balanced"
+        }
+      ],
+      "mature_markets": [],
+      "transitioning_areas": [
+        {
+          "area": "The Heights",
+          "growth_score": 60.1,
+          "permit_activity": 85,
+          "new_construction": 62,
+          "development_type": "residential_focus"
+        },
+        {
+          "area": "Midtown",
+          "growth_score": 70.1,
+          "permit_activity": 95,
+          "new_construction": 72,
+          "development_type": "balanced"
+        }
+      ],
+      "growth_drivers": {
+        "The Heights": [],
+        "EaDo": [
+          "Tech sector growth",
+          "Transit improvements"
+        ],
+        "Midtown": [
+          "Retail expansion"
+        ]
+      }
+    },
+    "investment_opportunities": [
+      {
+        "area": "EaDo",
+        "opportunity_type": "emerging_growth",
+        "investment_thesis": "High growth activity (94 score) with 125 new permits",
+        "risk_level": "medium",
+        "projected_roi": 30,
+        "recommended_strategy": "Buy and develop",
+        "time_horizon": "3-5 years"
+      },
+      {
+        "area": "EaDo",
+        "opportunity_type": "supply_constrained",
+        "investment_thesis": "Low inventory (1.5 months) creating price pressure",
+        "risk_level": "low",
+        "projected_roi": 17.5,
+        "recommended_strategy": "Quick development and sale",
+        "time_horizon": "1-2 years"
+      },
+      {
+        "area": "Montrose",
+        "opportunity_type": "supply_constrained",
+        "investment_thesis": "Low inventory (1.9 months) creating price pressure",
+        "risk_level": "low",
+        "projected_roi": 15.576923076923077,
+        "recommended_strategy": "Quick development and sale",
+        "time_horizon": "1-2 years"
+      },
+      {
+        "area": "Midtown",
+        "opportunity_type": "supply_constrained",
+        "investment_thesis": "Low inventory (2.0 months) creating price pressure",
+        "risk_level": "low",
+        "projected_roi": 15.131578947368421,
+        "recommended_strategy": "Quick development and sale",
+        "time_horizon": "1-2 years"
+      }
+    ],
+    "demographic_insights": {
+      "high_income_areas": [
+        {
+          "area": "River Oaks",
+          "median_income": 250000,
+          "population_growth": 1.2,
+          "median_age": 48,
+          "household_size": 2.8
+        },
+        {
+          "area": "Memorial",
+          "median_income": 185000,
+          "population_growth": 2.5,
+          "median_age": 42,
+          "household_size": 3.2
+        },
+        {
+          "area": "The Woodlands",
+          "median_income": 120000,
+          "population_growth": 3.5,
+          "median_age": 38,
+          "household_size": 3.1
+        }
+      ],
+      "growing_population": [
+        {
+          "area": "The Heights",
+          "median_income": 95000,
+          "population_growth": 4.2,
+          "median_age": 32,
+          "household_size": 2.3
+        },
+        {
+          "area": "Montrose",
+          "median_income": 88000,
+          "population_growth": 3.8,
+          "median_age": 29,
+          "household_size": 1.8
+        },
+        {
+          "area": "EaDo",
+          "median_income": 72000,
+          "population_growth": 6.8,
+          "median_age": 28,
+          "household_size": 1.9
+        },
+        {
+          "area": "The Woodlands",
+          "median_income": 120000,
+          "population_growth": 3.5,
+          "median_age": 38,
+          "household_size": 3.1
+        }
+      ],
+      "young_professional_hubs": [
+        {
+          "area": "The Heights",
+          "median_income": 95000,
+          "population_growth": 4.2,
+          "median_age": 32,
+          "household_size": 2.3
+        },
+        {
+          "area": "Montrose",
+          "median_income": 88000,
+          "population_growth": 3.8,
+          "median_age": 29,
+          "household_size": 1.8
+        },
+        {
+          "area": "EaDo",
+          "median_income": 72000,
+          "population_growth": 6.8,
+          "median_age": 28,
+          "household_size": 1.9
+        }
+      ],
+      "family_neighborhoods": [
+        {
+          "area": "River Oaks",
+          "median_income": 250000,
+          "population_growth": 1.2,
+          "median_age": 48,
+          "household_size": 2.8
+        },
+        {
+          "area": "Memorial",
+          "median_income": 185000,
+          "population_growth": 2.5,
+          "median_age": 42,
+          "household_size": 3.2
+        },
+        {
+          "area": "The Woodlands",
+          "median_income": 120000,
+          "population_growth": 3.5,
+          "median_age": 38,
+          "household_size": 3.1
+        }
+      ]
+    },
+    "infrastructure_impact": {
+      "transit_improvements": [
+        {
+          "area": "EaDo",
+          "improvement": "Purple Line Extension - Q4 2025",
+          "impact": "High - expect 10-15% price appreciation"
+        },
+        {
+          "area": "The Heights",
+          "improvement": "BRT Line - Q2 2026",
+          "impact": "High - expect 10-15% price appreciation"
+        }
+      ],
+      "school_districts": [],
+      "commercial_development": [],
+      "overall_impact_scores": {
+        "EaDo": 81.4,
+        "Midtown": 85.20000000000002,
+        "The Heights": 82.80000000000001
+      }
+    }
+  },
+  "risks": [],
+  "opportunities": [
+    {
+      "type": "emerging_growth",
+      "potential": "high",
+      "description": "High growth activity (94 score) with 125 new permits",
+      "action": "Buy and develop",
+      "location": "EaDo"
+    },
+    {
+      "type": "supply_constrained",
+      "potential": "medium",
+      "description": "Low inventory (1.5 months) creating price pressure",
+      "action": "Quick development and sale",
+      "location": "EaDo"
+    },
+    {
+      "type": "supply_constrained",
+      "potential": "medium",
+      "description": "Low inventory (1.9 months) creating price pressure",
+      "action": "Quick development and sale",
+      "location": "Montrose"
+    },
+    {
+      "type": "infrastructure_catalyst",
+      "potential": "high",
+      "description": "New transit in EaDo: Purple Line Extension - Q4 2025",
+      "action": "Acquire properties near transit before appreciation",
+      "location": "EaDo"
+    },
+    {
+      "type": "infrastructure_catalyst",
+      "potential": "high",
+      "description": "New transit in The Heights: BRT Line - Q2 2026",
+      "action": "Acquire properties near transit before appreciation",
+      "location": "The Heights"
+    }
+  ],
+  "recommendations": [
+    "Prioritize development in top-ranked areas: EaDo, Midtown, The Heights",
+    "Fast-track projects in supply-constrained areas: The Heights, Montrose, EaDo",
+    "Lock in land acquisitions in high-momentum areas before further appreciation",
+    "Acquire properties near planned transit improvements for 10-15% appreciation"
+  ],
+  "metrics": {
+    "top_area_score": 58.55,
+    "avg_top5_score": 53.272000000000006,
+    "avg_yoy_price_change": 35.56233821168966,
+    "max_yoy_price_change": 79.28571428571428,
+    "avg_months_inventory": 3.107891517874509,
+    "min_months_inventory": 1.5,
+    "avg_projected_roi": 19.552125506072876,
+    "max_projected_roi": 30
+  },
+  "data_quality_score": 0.8466666666666667
+}

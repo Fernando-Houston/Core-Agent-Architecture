@@ -1,0 +1,75 @@
+{
+  "da355c95a845": {
+    "id": "da355c95a845",
+    "timestamp": "2025-07-10T02:39:31.426783",
+    "source_file": "/Users/fernandox/Desktop/Core Agent Architecture/T2_Intelligence_Output/regulatory_environmental_t2.json",
+    "domain": "air_quality",
+    "category": "environmental_metrics",
+    "subcategory": "",
+    "title": "Air Quality Impact on Development Values",
+    "content": {
+      "summary": "Air quality improvements driving property value increases",
+      "key_findings": [
+        "PM2.5 levels decreased 20% over 5 years",
+        "Properties in cleaner air zones command 5-8% premium",
+        "Green certifications increasingly valuable"
+      ],
+      "metrics": {
+        "pm25_reduction": 20,
+        "ozone_improvement": 15,
+        "property_premium_percent": 6.5,
+        "health_cost_savings": 1000
+      },
+      "recommendations": [],
+      "raw_data": {}
+    },
+    "tags": [
+      "air-quality",
+      "environmental",
+      "property-values"
+    ],
+    "geographic_scope": [
+      "Houston"
+    ],
+    "temporal_relevance": "2024-2025",
+    "priority_score": 0.87,
+    "confidence_score": 0.85,
+    "data_points": [
+      {
+        "type": "metric",
+        "name": "pm25_reduction",
+        "value": 20,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.426789"
+      },
+      {
+        "type": "metric",
+        "name": "ozone_improvement",
+        "value": 15,
+        "unit": "count",
+        "timestamp": "2025-07-10T02:39:31.426790"
+      },
+      {
+        "type": "metric",
+        "name": "property_premium_percent",
+        "value": 6.5,
+        "unit": "percentage",
+        "timestamp": "2025-07-10T02:39:31.426792"
+      },
+      {
+        "type": "metric",
+        "name": "health_cost_savings",
+        "value": 1000,
+        "unit": "USD",
+        "timestamp": "2025-07-10T02:39:31.426793"
+      }
+    ],
+    "relationships": [],
+    "cross_references": [],
+    "metadata": {
+      "processing_date": "2025-07-10T02:39:31.426794",
+      "version": "1.0",
+      "quality_score": 1.0
+    }
+  }
+}

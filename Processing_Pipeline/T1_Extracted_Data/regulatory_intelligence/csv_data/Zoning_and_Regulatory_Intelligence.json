@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "folder_name": "Zoning and Regulatory Intelligence",
+    "extraction_timestamp": "2025-07-10T01:36:42.486711",
+    "file_count": 8,
+    "extraction_success_rate": 1.0
+  },
+  "data": {
+    "regulatory_changes_2024_2025.csv": {
+      "shape": [
+        8,
+        5
+      ],
+      "columns": [
+        "Category",
+        "2024 Status",
+        "2025 Updates",
+        "Effective Date",
+        "Impact on Development"
+      ],
+      "data_types": {
+        "Category": "object",
+        "2024 Status": "object",
+        "2025 Updates": "object",
+        "Effective Date": "object",
+        "Impact on Development": "object"
+      },
+      "null_counts": {
+        "Category": 0,
+        "2024 Status": 0,
+        "2025 Updates": 0,
+        "Effective Date": 0,
+        "Impact on Development": 0
+      },
+      "summary_stats": {},
+      "sample_data": [
+        {
+          "Category": "Harris County Zoning Laws",
+          "2024 Status": "No traditional zoning; uses subdivision ordinances and deed restrictions",
+          "2025 Updates": "Continues with no zoning; relies on subdivision ordinances only",
+          "Effective Date": "Ongoing",
+          "Impact on Development": "Flexibility but reliance on deed restrictions; no comprehensive land use planning"
+        },
+        {
+          "Category": "Houston Building Codes",
+          "2024 Status": "2021 International Codes adopted January 1, 2024 (IBC, IRC, IFC, etc.)",
+          "2025 Updates": "Same 2021 codes remain in effect with Houston amendments",
+          "Effective Date": "January 1, 2024",
+          "Impact on Development": "Enhanced energy efficiency (8.9% savings), improved safety standards"
+        },
+        {
+          "Category": "FEMA Flood Maps",
+          "2024 Status": "Expected release early 2025; maps not updated since 2007",
+          "2025 Updates": "Delayed until 2026; 100-year floodplain expected to expand significantly",
+          "Effective Date": "Delayed to 2026",
+          "Impact on Development": "Continued uncertainty for flood insurance requirements and development planning"
+        },
+        {
+          "Category": "Texas Senate Bill 840",
+          "2024 Status": "Not enacted; cities maintained full zoning authority",
+          "2025 Updates": "Commercial-to-residential conversion by right; limits municipal restrictions",
+          "Effective Date": "September 1, 2025",
+          "Impact on Development": "Streamlined multifamily development in commercial zones; reduced municipal control"
+        },
+        {
+          "Category": "Houston Permitting Process",
+          "2024 Status": "Standard multi-month permit review process",
+          "2025 Updates": "30-day pilot program launched July 7 for single-family permits",
+          "Effective Date": "July 7, 2025",
+          "Impact on Development": "Faster single-family home permitting; improved developer confidence"
+        }
+      ],
+      "key_metrics": {}
+    }
+  }
+}

@@ -1,0 +1,18 @@
+Issue_Category,Specific_Issue,Frequency_Level,Impact_on_Development,Primary_Authority,Typical_Resolution_Time,2024_Trend
+Title Issues,Mortgage Liens,Very High,Critical - Can halt transactions,County Clerk/Courts,2-6 months,Increasing
+Title Issues,Tax Liens,High,Critical - Financial liability,Tax Assessor/Courts,3-12 months,Stable
+Title Issues,Boundary Disputes,High,High - Delays and costs,Surveyor/Courts,6-18 months,Increasing
+Title Issues,Defective Deeds,Medium,High - Transaction delays,County Clerk/Title Company,1-3 months,Stable
+Title Issues,Missing Heirs,Medium,Medium - Due diligence issues,Probate Court/Estate Attorney,6-24 months,Stable
+Deed Restrictions,City Enforcement Challenges,High,High - Development restrictions,City of Houston Legal Dept,3-12 months,Increasing
+Deed Restrictions,Private HOA Conflicts,Very High,Critical - Project modifications,HOA/Private Enforcement,6-18 months,Increasing
+Deed Restrictions,Amendment Processes,Medium,Medium - Planning delays,HOA/Community Vote,12-36 months,Stable
+Deed Restrictions,Compliance Monitoring,High,High - Ongoing compliance,City/HOA Monitoring,Ongoing,Increasing
+Eminent Domain,TxDOT Highway Projects,Medium,Critical - Property loss,TxDOT/State Courts,12-60 months,Stable
+Eminent Domain,Pipeline Development,High,High - Easement requirements,Railroad Commission/Federal,18-36 months,Increasing
+Eminent Domain,Texas Central Railway,Low,High - Route restrictions,Federal/State Courts,24-60 months,Decreasing
+Eminent Domain,Fair Compensation Disputes,Medium,High - Compensation disputes,Eminent Domain Courts,12-36 months,Stable
+Litigation Trends,Construction Contract Disputes,High,High - Project delays and costs,Civil Courts/Arbitration,6-24 months,Increasing
+Litigation Trends,Development Delays,Very High,Critical - Timeline and budget,Civil Courts/Mediation,12-36 months,Increasing
+Litigation Trends,Zoning Conflicts,Medium,Medium - Design limitations,City Planning/Courts,6-18 months,Stable
+Litigation Trends,Environmental Compliance,Medium,High - Regulatory compliance,EPA/TCEQ/Courts,12-48 months,Increasing
