@@ -45,14 +45,16 @@ def query_api(endpoint: str, method: str = "GET", data: Dict = None) -> Dict:
         if method == "GET":
             response = requests.get(url, timeout=5)
         else:
-            response = requests.post(url, json=data, timeout=10)
+            # Increase timeout for query endpoint which uses Replicate AI
+            timeout = 60 if endpoint == "query" else 10
+            response = requests.post(url, json=data, timeout=timeout)
         
         if response.status_code == 200:
             return response.json()
         else:
             return {"error": f"API Error: {response.status_code}"}
     except requests.exceptions.Timeout:
-        return {"error": "Request timeout"}
+        return {"error": "Request timeout - The AI model is taking longer than expected. Please try a simpler query or try again later."}
     except Exception as e:
         return {"error": f"Connection error: {str(e)}"}
 
@@ -168,7 +170,7 @@ with col1:
             st.write(user_input)
         
         with st.chat_message("assistant"):
-            with st.spinner("Analyzing..."):
+            with st.spinner("Analyzing... (this may take up to 60 seconds for complex queries)"):
                 response = process_query(user_input)
                 
                 if "response" in response:
