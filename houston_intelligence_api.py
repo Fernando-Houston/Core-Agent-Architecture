@@ -20,6 +20,7 @@ import os
 
 # Import our master intelligence agent
 from master_intelligence_agent import MasterIntelligenceAgent
+from houston_data_enhanced import HoustonDataAPI
 from houston_intelligence_endpoints import houston_endpoints, init_endpoints
 
 # Initialize Flask app

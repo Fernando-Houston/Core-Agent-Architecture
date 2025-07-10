@@ -36,3 +36,6 @@ flake8>=3.9.0
 # Optional: For actual Perplexity AI integration
 requests>=2.26.0
 # aiohttp>=3.8.0
+
+# Machine Learning for knowledge base search
+scikit-learn>=1.0.0
