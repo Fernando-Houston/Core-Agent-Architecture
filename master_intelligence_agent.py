@@ -15,7 +15,7 @@ from dataclasses import dataclass
 from enum import Enum
 from knowledge_base_loader import KnowledgeBaseLoader
 from perplexity_integration import PerplexityClient
-from houston_free_data import HoustonDataAPI
+from houston_data_enhanced import HoustonDataAPI
 import logging
 
 logger = logging.getLogger(__name__)
