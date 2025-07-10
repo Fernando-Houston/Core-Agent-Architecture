@@ -20,6 +20,11 @@ import os
 
 # Import our master intelligence agent
 from master_intelligence_agent import MasterIntelligenceAgent
+try:
+    from master_intelligence_agent_replicate import ReplicateEnhancedMasterAgent
+    REPLICATE_AVAILABLE = True
+except ImportError:
+    REPLICATE_AVAILABLE = False
 from houston_data_enhanced import HoustonDataAPI
 from houston_intelligence_endpoints import houston_endpoints, init_endpoints
 
@@ -48,8 +53,17 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Initialize Master Intelligence Agent
-intelligence_agent = MasterIntelligenceAgent()
-logger.info("Using Master Intelligence Agent")
+USE_REPLICATE = os.getenv('USE_REPLICATE', 'true').lower() == 'true'
+if USE_REPLICATE and REPLICATE_AVAILABLE:
+    try:
+        intelligence_agent = ReplicateEnhancedMasterAgent()
+        logger.info("🚀 Using Replicate-Enhanced Master Intelligence Agent")
+    except Exception as e:
+        logger.warning(f"Failed to initialize Replicate: {e}. Using standard agent.")
+        intelligence_agent = MasterIntelligenceAgent()
+else:
+    intelligence_agent = MasterIntelligenceAgent()
+    logger.info("Using Master Intelligence Agent")
 
 # API version
 API_VERSION = "v1"
