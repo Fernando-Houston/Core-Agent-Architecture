@@ -1,0 +1,15 @@
+{
+  "name": "Environmental Intelligence Agent",
+  "description": "Specialized agent for environmental intelligence analysis",
+  "data_sources": [
+    "Public records",
+    "Market data",
+    "Expert analysis"
+  ],
+  "query_types": [
+    "Analysis",
+    "Trends",
+    "Insights"
+  ],
+  "confidence_threshold": 0.8
+}

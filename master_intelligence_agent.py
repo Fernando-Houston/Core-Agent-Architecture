@@ -75,12 +75,12 @@ class MasterIntelligenceAgent:
         
         # Map agent IDs to their folder paths
         self.agent_registry = {
-            "market_intelligence": self.agents_path / "Market Intelligence Agent",
-            "neighborhood_intelligence": self.agents_path / "Neighborhood Intelligence Agent",
-            "financial_intelligence": self.agents_path / "Financial Intelligence Agent",
-            "environmental_intelligence": self.agents_path / "Environmental Intelligence Agent",
-            "regulatory_intelligence": self.agents_path / "Regulatory Intelligence Agent",
-            "technology_intelligence": self.agents_path / "Technology & Innovation Intelligence Agent"
+            "market_intelligence": self.agents_path / "Market Intelligence",
+            "neighborhood_intelligence": self.agents_path / "Neighborhood Intelligence",
+            "financial_intelligence": self.agents_path / "Financial Intelligence",
+            "environmental_intelligence": self.agents_path / "Environmental Intelligence",
+            "regulatory_intelligence": self.agents_path / "Regulatory Intelligence",
+            "technology_intelligence": self.agents_path / "Technology & Innovation Intelligence"
         }
         
         # Query intent patterns

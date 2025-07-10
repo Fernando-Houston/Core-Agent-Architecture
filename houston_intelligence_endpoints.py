@@ -31,7 +31,20 @@ def init_endpoints(app_cache):
 # Helper function to read agent knowledge
 def get_agent_knowledge(agent_name: str, knowledge_type: Optional[str] = None) -> List[Dict]:
     """Read knowledge files from specified agent"""
-    agent_path = Path(f'{agent_name}_Intelligence_Agent')
+    # Map agent names to actual folder paths
+    agent_folder_map = {
+        'Market': '6 Specialized Agents/Market Intelligence',
+        'Financial': '6 Specialized Agents/Financial Intelligence',
+        'Environmental': '6 Specialized Agents/Environmental Intelligence',
+        'Regulatory': '6 Specialized Agents/Regulatory Intelligence',
+        'Neighborhood': '6 Specialized Agents/Neighborhood Intelligence',
+        'Technology_Innovation': '6 Specialized Agents/Technology & Innovation Intelligence'
+    }
+    
+    if agent_name in agent_folder_map:
+        agent_path = Path(agent_folder_map[agent_name])
+    else:
+        agent_path = Path(f'6 Specialized Agents/{agent_name} Intelligence')
     if not agent_path.exists():
         return []
     

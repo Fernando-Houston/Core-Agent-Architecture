@@ -1,0 +1,15 @@
+{
+  "name": "Market Intelligence Agent",
+  "description": "Specialized agent for market intelligence analysis",
+  "data_sources": [
+    "Public records",
+    "Market data",
+    "Expert analysis"
+  ],
+  "query_types": [
+    "Analysis",
+    "Trends",
+    "Insights"
+  ],
+  "confidence_threshold": 0.8
+}
