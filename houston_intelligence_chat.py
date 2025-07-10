@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Houston Intelligence Platform - Interactive Chat Interface
-Quick testing interface with voice and text input
+Quick testing interface for Houston real estate intelligence
 """
 
 import streamlit as st
@@ -11,18 +11,9 @@ from datetime import datetime
 from typing import Dict, List
 import os
 
-# Optional imports for voice features
-try:
-    import speech_recognition as sr
-    SPEECH_AVAILABLE = True
-except ImportError:
-    SPEECH_AVAILABLE = False
-
-try:
-    import pyttsx3
-    TTS_AVAILABLE = True
-except ImportError:
-    TTS_AVAILABLE = False
+# Voice features disabled for cloud deployment
+SPEECH_AVAILABLE = False
+TTS_AVAILABLE = False
 
 # Configuration
 # Hardcoded for Streamlit deployment
