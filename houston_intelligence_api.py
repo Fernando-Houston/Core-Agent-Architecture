@@ -305,6 +305,32 @@ def search_intelligence():
             'status': 'error'
         }), 500
 
+@app.route(f'/api/{API_VERSION}/debug/knowledge-base', methods=['GET'])
+def debug_knowledge_base():
+    """Debug endpoint to check knowledge base status"""
+    kb_path = Path("Agent_Knowledge_Bases")
+    debug_info = {
+        "agent_knowledge_bases_exists": kb_path.exists(),
+        "current_working_directory": os.getcwd(),
+        "files_in_cwd": os.listdir("."),
+        "knowledge_base_structure": {}
+    }
+    
+    if kb_path.exists():
+        for folder in kb_path.iterdir():
+            if folder.is_dir():
+                json_files = list(folder.glob("*.json"))
+                debug_info["knowledge_base_structure"][folder.name] = {
+                    "file_count": len(json_files),
+                    "files": [f.name for f in json_files][:5]  # Show first 5 files
+                }
+    
+    # Also check 6 Specialized Agents path
+    agents_path = Path("6 Specialized Agents")
+    debug_info["six_specialized_agents_exists"] = agents_path.exists()
+    
+    return jsonify(debug_info)
+
 @app.route(f'/api/{API_VERSION}/stats', methods=['GET'])
 @cache.cached(timeout=600)  # Cache for 10 minutes
 @log_request
@@ -326,16 +352,30 @@ def get_platform_stats():
     # Count knowledge files and get last update
     latest_update = None
     
-    for agent_name, agent_path in intelligence_agent.agent_registry.items():
-        knowledge_files = list(agent_path.glob('knowledge_*.json'))
-        stats['knowledge_files'] += len(knowledge_files)
+    # Look in Agent_Knowledge_Bases instead of agent registry paths
+    kb_base_path = Path("Agent_Knowledge_Bases")
+    if kb_base_path.exists():
+        folder_mapping = {
+            "market_intelligence": "Market_Intelligence",
+            "neighborhood_intelligence": "Neighborhood_Intelligence",
+            "financial_intelligence": "Financial_Intelligence",
+            "environmental_intelligence": "Environmental_Intelligence",
+            "regulatory_intelligence": "Regulatory_Intelligence",
+            "technology_intelligence": "Technology_Innovation_Intelligence"
+        }
         
-        if knowledge_files:
-            latest_file = max(knowledge_files, key=lambda p: p.stat().st_mtime)
-            file_time = datetime.datetime.fromtimestamp(latest_file.stat().st_mtime)
-            
-            if not latest_update or file_time > latest_update:
-                latest_update = file_time
+        for agent_name in intelligence_agent.agent_registry.keys():
+            kb_folder = kb_base_path / folder_mapping.get(agent_name, agent_name)
+            if kb_folder.exists():
+                knowledge_files = list(kb_folder.glob('*.json'))
+                stats['knowledge_files'] += len(knowledge_files)
+                
+                if knowledge_files:
+                    latest_file = max(knowledge_files, key=lambda p: p.stat().st_mtime)
+                    file_time = datetime.datetime.fromtimestamp(latest_file.stat().st_mtime)
+                    
+                    if not latest_update or file_time > latest_update:
+                        latest_update = file_time
     
     if latest_update:
         stats['last_refresh'] = latest_update.isoformat()
