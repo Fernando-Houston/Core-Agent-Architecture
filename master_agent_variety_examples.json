@@ -1,0 +1,25 @@
+{
+  "test_results": [
+    {
+      "query": "What are the best neighborhoods for investment?",
+      "intent": "neighborhood_assessment",
+      "summary": "Analysis identifies East End, Houston Heights, and Third Ward as top investment neighborhoods. East End leads with 45% appreciation potential and $2B development pipeline. Heights offers stability with 12% annual returns and strong demand. Third Ward benefits from university proximity with 94% rental occupancy. Key indicators: East End Growth: 45%, Heights Avg Price/SqFt: $450, Flood Zone Coverage: 35%.",
+      "first_insight": "[Neighborhood Intelligence Agent] Top 5 investment neighborhoods by growth potential:",
+      "first_recommendation": "Pursue value-add properties in East End for 25-30% IRR potential"
+    },
+    {
+      "query": "Show me recent building permits in Houston",
+      "intent": "comprehensive_analysis",
+      "summary": "Houston permit activity surging with 2,847 residential permits issued last month (+12%). Commercial permits up 34% YoY indicating strong business confidence. Heights and Montrose lead with 412 combined permits. Average approval time improved to 45 days. Key indicators: Monthly Permits: 2,847, Inner Loop Premium: +35%, Avg Construction Rate: 7.25%.",
+      "first_insight": "[Market Intelligence Agent] Recent surge in residential permits: 2,847 issued last month",
+      "first_recommendation": "Design to LEED Gold for fast-track permitting (60 vs 120 days)"
+    },
+    {
+      "query": "What are the current real estate market trends?",
+      "intent": "market_analysis",
+      "summary": "Houston market trending toward mixed-use urban developments (+65% YoY) and suburban office conversions. Green certifications becoming standard for Class A properties. Tech sector driving Innovation District demand with 22% rent premiums for smart buildings. Key indicators: Mixed-Use Projects: 38, Inner Loop Premium: +35%.",
+      "first_insight": "[Market Intelligence Agent] Market trending toward mixed-use developments in urban cores",
+      "first_recommendation": null
+    }
+  ]
+}
