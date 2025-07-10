@@ -153,9 +153,45 @@ class KnowledgeBaseLoader:
             return results
             
         except Exception as e:
+            logger.warning(f"TF-IDF search failed for {agent_name}, using fallback: {str(e)}")
+            # Use fallback search
+            return self.search_knowledge_fallback(agent_name, query, top_k)
             logger.error(f"Error searching knowledge for {agent_name}: {str(e)}")
             return records[:top_k] if records else []
     
+    def search_knowledge_fallback(self, agent_name: str, query: str, top_k: int = 5) -> List[Dict[str, Any]]:
+        """Fallback search when TF-IDF fails - uses simple keyword matching"""
+        records = self.load_agent_knowledge(agent_name)
+        if not records:
+            return []
+        
+        query_lower = query.lower()
+        query_words = set(query_lower.split())
+        
+        # Score each record based on keyword matches
+        scored_records = []
+        for record in records:
+            # Create searchable text from record
+            text_parts = []
+            for field in ['title', 'content', 'insight', 'summary', 'location', 'neighborhood']:
+                if field in record:
+                    text_parts.append(str(record[field]))
+            
+            record_text = ' '.join(text_parts).lower()
+            record_words = set(record_text.split())
+            
+            # Calculate simple match score
+            matches = len(query_words.intersection(record_words))
+            if matches > 0:
+                score = matches / len(query_words)
+                scored_record = record.copy()
+                scored_record['relevance_score'] = score
+                scored_records.append((score, scored_record))
+        
+        # Sort by score and return top k
+        scored_records.sort(key=lambda x: x[0], reverse=True)
+        return [record for _, record in scored_records[:top_k]]
+
     def get_location_specific_knowledge(self, location: str, agent_name: Optional[str] = None) -> List[Dict[str, Any]]:
         """Get knowledge specific to a location"""
         results = []

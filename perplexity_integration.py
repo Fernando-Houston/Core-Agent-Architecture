@@ -105,6 +105,14 @@ class PerplexityClient:
         query = f"{area} real estate market trends, prices, inventory 2025"
         return self.search_houston_data(query, "market analysis")
 
+
+    def search_houston_real_estate(self, query: str) -> Dict:
+        """
+        Search Houston real estate data (wrapper for compatibility)
+        This method was referenced in master_intelligence_agent.py
+        """
+        return self.search_houston_data(query, "real estate")
+
 # Integration with daily refresh agent
 def integrate_with_refresh_agents():
     """
