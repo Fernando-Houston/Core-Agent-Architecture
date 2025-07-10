@@ -53,8 +53,12 @@ logger = logging.getLogger(__name__)
 USE_AI_ENHANCED = os.getenv('USE_AI_ENHANCED', 'true').lower() == 'true'
 if USE_AI_ENHANCED:
     try:
+        from master_intelligence_agent_ai import AIEnhancedMasterAgent
         intelligence_agent = AIEnhancedMasterAgent()
         logger.info("🚀 Using AI-Enhanced Master Intelligence Agent with Hugging Face models")
+    except ImportError as e:
+        logger.warning(f"AI modules not available: {e}. Using standard agent.")
+        intelligence_agent = MasterIntelligenceAgent()
     except Exception as e:
         logger.warning(f"Failed to load AI-enhanced agent: {e}. Falling back to standard agent.")
         intelligence_agent = MasterIntelligenceAgent()

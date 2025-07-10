@@ -1,0 +1,13 @@
+[phases.setup]
+nixPkgs = ["python311", "gcc", "stdenv.cc.cc.lib"]
+
+[phases.install]
+cmds = [
+    "pip install --upgrade pip",
+    "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu",
+    "pip install -r requirements.txt"
+]
+
+[variables]
+PIP_DEFAULT_TIMEOUT = "1000"
+PYTHONUNBUFFERED = "1"
