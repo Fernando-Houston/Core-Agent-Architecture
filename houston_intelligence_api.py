@@ -49,8 +49,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Initialize Master Intelligence Agent
-# Use AI-enhanced version if AI mode is enabled
-USE_AI_ENHANCED = os.getenv('USE_AI_ENHANCED', 'true').lower() == 'true'
+# Temporarily disable AI enhancement until we fix Railway build
+USE_AI_ENHANCED = os.getenv('USE_AI_ENHANCED', 'false').lower() == 'true'
 if USE_AI_ENHANCED:
     try:
         from master_intelligence_agent_ai import AIEnhancedMasterAgent
@@ -64,6 +64,7 @@ if USE_AI_ENHANCED:
         intelligence_agent = MasterIntelligenceAgent()
 else:
     intelligence_agent = MasterIntelligenceAgent()
+    logger.info("Using standard Master Intelligence Agent")
 
 # API version
 API_VERSION = "v1"
