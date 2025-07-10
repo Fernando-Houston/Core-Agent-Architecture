@@ -1,0 +1,17 @@
+# GitHub CLI Push Commands
+
+# 1. First authenticate with GitHub (if not already done):
+gh auth login
+
+# When prompted:
+# - Choose: GitHub.com
+# - Choose: HTTPS
+# - Authenticate with: Login with a web browser
+# - It will open your browser to authenticate
+
+# 2. Once authenticated, push your code:
+cd "/Users/fernandox/Desktop/Core Agent Architecture"
+git push -u origin main
+
+# That's it! Your code will be pushed to:
+# https://github.com/Fernando-Houston/Core-Agent-Architecture
