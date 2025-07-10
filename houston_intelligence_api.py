@@ -24,7 +24,7 @@ from houston_intelligence_endpoints import houston_endpoints, init_endpoints
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app, origins=['http://localhost:*', 'https://*.houston-intelligence.com'])
+CORS(app, origins=['*'])
 
 # Configure rate limiting
 limiter = Limiter(
