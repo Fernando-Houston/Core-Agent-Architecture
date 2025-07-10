@@ -35,18 +35,24 @@ if 'voice_enabled' not in st.session_state:
 
 def query_api(endpoint: str, method: str = "GET", data: Dict = None) -> Dict:
     """Query the Houston Intelligence API"""
-    url = f"{API_BASE_URL}/api/{API_VERSION}/{endpoint}"
+    # Special handling for health endpoint
+    if endpoint == "health":
+        url = f"{API_BASE_URL}/health"
+    else:
+        url = f"{API_BASE_URL}/api/{API_VERSION}/{endpoint}"
     
     try:
         if method == "GET":
-            response = requests.get(url)
+            response = requests.get(url, timeout=5)
         else:
-            response = requests.post(url, json=data)
+            response = requests.post(url, json=data, timeout=10)
         
         if response.status_code == 200:
             return response.json()
         else:
             return {"error": f"API Error: {response.status_code}"}
+    except requests.exceptions.Timeout:
+        return {"error": "Request timeout"}
     except Exception as e:
         return {"error": f"Connection error: {str(e)}"}
 
