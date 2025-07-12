@@ -20,6 +20,7 @@ import os
 
 # Import our master intelligence agent
 from master_intelligence_agent import MasterIntelligenceAgent
+from master_intelligence_agent_live import LiveMasterAgent
 try:
     from master_intelligence_agent_replicate import ReplicateEnhancedMasterAgent
     REPLICATE_AVAILABLE = True
@@ -52,9 +53,26 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Initialize Master Intelligence Agent
-USE_REPLICATE = os.getenv('USE_REPLICATE', 'true').lower() == 'true'
-if USE_REPLICATE and REPLICATE_AVAILABLE:
+# Initialize Master Intelligence Agent - Prioritize Live Agent
+USE_LIVE = os.getenv('USE_LIVE_AGENT', 'true').lower() == 'true'
+USE_REPLICATE = os.getenv('USE_REPLICATE', 'false').lower() == 'true'
+
+if USE_LIVE:
+    try:
+        intelligence_agent = LiveMasterAgent()
+        logger.info("🔥 Using Live Master Intelligence Agent with Perplexity")
+    except Exception as e:
+        logger.warning(f"Failed to initialize Live agent: {e}. Trying alternatives.")
+        if USE_REPLICATE and REPLICATE_AVAILABLE:
+            try:
+                intelligence_agent = ReplicateEnhancedMasterAgent()
+                logger.info("🚀 Using Replicate-Enhanced Master Intelligence Agent")
+            except Exception as e2:
+                logger.warning(f"Failed to initialize Replicate: {e2}. Using standard agent.")
+                intelligence_agent = MasterIntelligenceAgent()
+        else:
+            intelligence_agent = MasterIntelligenceAgent()
+elif USE_REPLICATE and REPLICATE_AVAILABLE:
     try:
         intelligence_agent = ReplicateEnhancedMasterAgent()
         logger.info("🚀 Using Replicate-Enhanced Master Intelligence Agent")
@@ -63,7 +81,7 @@ if USE_REPLICATE and REPLICATE_AVAILABLE:
         intelligence_agent = MasterIntelligenceAgent()
 else:
     intelligence_agent = MasterIntelligenceAgent()
-    logger.info("Using Master Intelligence Agent")
+    logger.info("Using Standard Master Intelligence Agent")
 
 # API version
 API_VERSION = "v1"
