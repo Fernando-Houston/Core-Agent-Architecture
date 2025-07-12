@@ -1,0 +1,156 @@
+{
+  "extraction_id": "t1-2025-01-10-12345",
+  "source": {
+    "agent_id": "t1-permit-extractor",
+    "data_source": "houston_permits_portal",
+    "extraction_method": "api"
+  },
+  "timestamp": "2025-01-10T10:30:00Z",
+  "domain": "permits",
+  "data": {
+    "permits": [
+      {
+        "permit_number": "BP-2025-00123",
+        "type": "residential",
+        "subtype": "new_construction",
+        "issue_date": "2025-01-05T09:00:00Z",
+        "estimated_value": 450000,
+        "neighborhood": "EaDo",
+        "address": "1234 Navigation Blvd",
+        "contractor": "Houston Builders LLC",
+        "square_feet": 3200
+      },
+      {
+        "permit_number": "BP-2025-00124",
+        "type": "commercial",
+        "subtype": "renovation",
+        "issue_date": "2025-01-05T10:30:00Z",
+        "estimated_value": 1200000,
+        "neighborhood": "Midtown",
+        "address": "2345 Main St",
+        "contractor": "Commercial Renovations Inc",
+        "square_feet": 8500
+      },
+      {
+        "permit_number": "BP-2025-00125",
+        "type": "residential",
+        "subtype": "renovation",
+        "issue_date": "2025-01-05T11:00:00Z",
+        "estimated_value": 85000,
+        "neighborhood": "Heights",
+        "address": "3456 Heights Blvd",
+        "contractor": "Home Improvements Co",
+        "square_feet": 2100
+      },
+      {
+        "permit_number": "BP-2025-00126",
+        "type": "residential",
+        "subtype": "new_construction",
+        "issue_date": "2025-01-06T08:30:00Z",
+        "estimated_value": 380000,
+        "neighborhood": "EaDo",
+        "address": "4567 St Emanuel St",
+        "contractor": "EaDo Developers",
+        "square_feet": 2800
+      },
+      {
+        "permit_number": "BP-2025-00127",
+        "type": "commercial",
+        "subtype": "new_construction",
+        "issue_date": "2025-01-06T14:00:00Z",
+        "estimated_value": 2500000,
+        "neighborhood": "Ion District",
+        "address": "5678 Innovation Way",
+        "contractor": "Tech Construction Group",
+        "square_feet": 15000
+      },
+      {
+        "permit_number": "BP-2025-00128",
+        "type": "residential",
+        "subtype": "addition",
+        "issue_date": "2025-01-07T09:15:00Z",
+        "estimated_value": 125000,
+        "neighborhood": "Montrose",
+        "address": "6789 Montrose Blvd",
+        "contractor": "Additions Plus",
+        "square_feet": 800
+      },
+      {
+        "permit_number": "BP-2025-00129",
+        "type": "residential",
+        "subtype": "new_construction",
+        "issue_date": "2025-01-07T10:45:00Z",
+        "estimated_value": 520000,
+        "neighborhood": "River Oaks",
+        "address": "7890 River Oaks Dr",
+        "contractor": "Luxury Homes LLC",
+        "square_feet": 4500
+      },
+      {
+        "permit_number": "BP-2025-00130",
+        "type": "commercial",
+        "subtype": "renovation",
+        "issue_date": "2025-01-08T08:00:00Z",
+        "estimated_value": 950000,
+        "neighborhood": "Downtown",
+        "address": "8901 Main Plaza",
+        "contractor": "Downtown Renovations",
+        "square_feet": 6000
+      },
+      {
+        "permit_number": "BP-2025-00131",
+        "type": "residential",
+        "subtype": "renovation",
+        "issue_date": "2025-01-08T13:30:00Z",
+        "estimated_value": 95000,
+        "neighborhood": "Third Ward",
+        "address": "9012 Emancipation Ave",
+        "contractor": "Community Builders",
+        "square_feet": 1800
+      },
+      {
+        "permit_number": "BP-2025-00132",
+        "type": "residential",
+        "subtype": "new_construction",
+        "issue_date": "2025-01-09T09:00:00Z",
+        "estimated_value": 425000,
+        "neighborhood": "Museum District",
+        "address": "1023 Museum Way",
+        "contractor": "Cultural Homes Inc",
+        "square_feet": 3100
+      },
+      {
+        "permit_number": "BP-2025-00133",
+        "type": "commercial",
+        "subtype": "new_construction",
+        "issue_date": "2025-01-09T11:00:00Z",
+        "estimated_value": 8500000,
+        "neighborhood": "TMC",
+        "address": "2034 Medical Center Dr",
+        "contractor": "Healthcare Construction Co",
+        "square_feet": 45000
+      },
+      {
+        "permit_number": "BP-2025-00134",
+        "type": "residential",
+        "subtype": "renovation",
+        "issue_date": "2025-01-09T14:30:00Z",
+        "estimated_value": 110000,
+        "neighborhood": "Garden Oaks",
+        "address": "3045 Garden Oaks Ln",
+        "contractor": "Garden Renovations",
+        "square_feet": 2200
+      }
+    ],
+    "summary": {
+      "total_permits": 12,
+      "date_range": "2025-01-05 to 2025-01-09",
+      "total_value": 17135000
+    }
+  },
+  "metadata": {
+    "processing_time_ms": 245,
+    "data_quality_score": 0.95,
+    "completeness": 1.0
+  }
+}

@@ -105,7 +105,7 @@ git push origin main
 
 3. **Set Environment Variables in Railway**
 ```
-PERPLEXITY_API_KEY=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
+PERPLEXITY_API_KEY=your-perplexity-api-key-here
 SECRET_KEY=generate-a-random-secret-key
 PORT=8080
 ```

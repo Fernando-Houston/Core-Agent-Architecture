@@ -1,0 +1,27 @@
+{
+  "view_id": "t3-2025-07-11-49be5-homeowners",
+  "segment": "homeowners",
+  "data": {
+    "priority_insights": [],
+    "recommendations": [],
+    "risk_factors": [],
+    "action_plan": {
+      "immediate_actions": [],
+      "short_term_goals": [],
+      "risk_mitigation": [],
+      "success_metrics": [
+        "Property value appreciation",
+        "Neighborhood improvement",
+        "Quality of life"
+      ]
+    },
+    "market_readiness": {
+      "score": 0.6,
+      "assessment": "Moderate",
+      "factors": [
+        "Market in expansion phase"
+      ]
+    }
+  },
+  "generated_at": "2025-07-11T04:00:14.931743"
+}

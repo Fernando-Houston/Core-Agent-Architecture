@@ -1,0 +1,58 @@
+{
+  "intelligence_id": "t4-2025-07-11-65417",
+  "source_file": "Data Processing Part 2/Generational Housing Shifts and Demographic Curren/Generational Housing Shifts and Demographic Curren.md",
+  "report_category": "General Market Intelligence",
+  "report_sources": [
+    "Generational Housing Shifts and Demographic Curren"
+  ],
+  "market_metrics": {
+    "financial_indicators": {},
+    "investment_opportunities": [
+      {
+        "description": "com/real-estate-blog/the-future-of-houston-emerging-suburban-trends-in-2024/\n\n[^4]: https://houston",
+        "keyword": "emerging",
+        "quantitative_metrics": [
+          "2024",
+          "4"
+        ]
+      },
+      {
+        "description": "com/2025-texas-commercial-real-estate-outlook-resilience-opportunity-and-innovation/\n\n[^85]: https://www",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "2025",
+          "85"
+        ]
+      }
+    ],
+    "market_forecasts": {},
+    "risk_factors": [
+      {
+        "type": "concern",
+        "description": "Meanwhile, **urban mid-rise condos in Midtown and the Museum District saw a 12 percent y/y decline in retiree purchases** amid concerns over HOA cost escalation[^32][^33]"
+      }
+    ]
+  },
+  "quantitative_data": {
+    "cap_rates": {},
+    "roi_projections": {},
+    "cost_estimates": {},
+    "demographic_trends": {}
+  },
+  "actionable_insights": [],
+  "confidence_score": 0.24,
+  "data_vintage": "2024-2025",
+  "timestamp": "2025-07-11T04:02:39.984925",
+  "processing_metadata": {
+    "processor": "T4-Data-Processor",
+    "version": "1.0.0",
+    "extraction_patterns_used": [
+      "cap_rate",
+      "roi",
+      "irr",
+      "price_psf",
+      "loan_rate",
+      "construction_cost"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "analysis_id": "t2-2024-01-15-demo3",
+  "analysis_type": "risk_assessment",
+  "timestamp": "2025-07-11T04:00:14.929460",
+  "metrics": {
+    "vacancy_rate": 7.8,
+    "default_rate": 2.1,
+    "environmental_risk": 0.35,
+    "regulatory_uncertainty": 0.25,
+    "market_correlation": 0.78
+  },
+  "key_findings": [
+    "Vacancy rates rising in certain submarkets",
+    "Environmental considerations for coastal properties",
+    "Regulatory changes pending for development zones"
+  ],
+  "market_signals": [
+    "caution_advised",
+    "risk_mitigation_needed"
+  ],
+  "confidence_score": 0.79,
+  "location": "West Houston"
+}

@@ -1,0 +1,133 @@
+{
+  "intelligence_id": "t4-2025-07-11-3baa3",
+  "source_file": "Data Processing Part 2/Capital Currents_ How Money Flowed into Houston Re/Capital Currents_ How Money Flowed into Houston Re.md",
+  "report_category": "General Market Intelligence",
+  "report_sources": [
+    "Capital Currents_ How Money Flowed into Houston Re"
+  ],
+  "market_metrics": {
+    "financial_indicators": {
+      "roi": [
+        {
+          "roi_percentage": 2024.0,
+          "context": "o now 10.3% real estate (\\$747 mn) with a 7.1% FY-2024 return, outperforming benchmark by 20 bps[^28].\n* **Teac"
+        }
+      ]
+    },
+    "investment_opportunities": [
+      {
+        "description": "Completed Opportunity-Zone deals topped \\$1",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "1"
+        ]
+      },
+      {
+        "description": "Opportunity-Zone Deliveries: From Plans to Product\n\nHouston saw **seven OZ projects reach completion** in 2024, delivering 1",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "2024",
+          "1"
+        ]
+      },
+      {
+        "description": "With the supply pipeline throttling back and debt markets thawing, Houston enters 2025 poised for a fresh upswing in deal flow\u2014albeit with sharper underwriting and a heavier tilt toward logistics, lower-cost multifamily and mixed-use nodes in the east\u2010side Opportunity Zones",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "2025"
+        ]
+      },
+      {
+        "description": "gov/opportunityzones/activeprojects",
+        "keyword": "opportunity",
+        "quantitative_metrics": []
+      },
+      {
+        "description": "gov/opportunityzones/leveragingfunds",
+        "keyword": "opportunity",
+        "quantitative_metrics": []
+      },
+      {
+        "description": "com/articles/investing-in-houstons-opportunity-zones-provides-big-tax-savings/\n\n[^56]: https://www",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "56"
+        ]
+      },
+      {
+        "description": "gov/opportunityzones/houstonOZ",
+        "keyword": "opportunity",
+        "quantitative_metrics": []
+      },
+      {
+        "description": "html\n\n[^57]: https://opportunityzones",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "57"
+        ]
+      },
+      {
+        "description": "gov/opportunityzones/faqs",
+        "keyword": "opportunity",
+        "quantitative_metrics": []
+      },
+      {
+        "description": "gov/opportunityzones/\n\n[^60]: https://lumicre",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "60"
+        ]
+      }
+    ],
+    "market_forecasts": {},
+    "risk_factors": [
+      {
+        "type": "volatility",
+        "description": "Pension-Fund Allocations: Quiet but Growing\n\nHouston-area retirement systems upped real-estate targets to buffer equity volatility:\n\n* **Houston Police Officers Pension System (HPOPS)**\n    * Added \\$15 million to Neuberger Berman Real Estate Secondary Opportunities II; total 2025 pacing \\$105 million[^27][^28]"
+      },
+      {
+        "type": "exposure",
+        "description": "* New strategic asset-allocation (effective Sept 2024) reduces office exposure, reallocates to specialty housing and infrastructure[^30]"
+      },
+      {
+        "type": "exposure",
+        "description": "* **Canada Pension Plan Investment Board (Houston exposure)**\n    * Sold three legacy Houston office towers but injected US\\$300 million follow-on equity into Encino Acquisition Partners and co-led an \\$800 million U"
+      },
+      {
+        "type": "risk",
+        "description": "## Conclusion\n\nThe 2024 investment cycle reset Houston pricing yet reaffirmed its core appeal: **port-driven industrial demand, outsized population growth, and a policy toolkit (OZ, Chapter 380, TIRZ) that narrows risk for long-term capital**"
+      },
+      {
+        "type": "risk",
+        "description": "org/news/dont-let-blackstone-use-your-money-to-put-texas-tenants-at-risk-advocates-tell-investors/\n\n[^95]: https://www"
+      }
+    ]
+  },
+  "quantitative_data": {
+    "cap_rates": {},
+    "roi_projections": [
+      {
+        "roi_percentage": 2024.0,
+        "context": "o now 10.3% real estate (\\$747 mn) with a 7.1% FY-2024 return, outperforming benchmark by 20 bps[^28].\n* **Teac"
+      }
+    ],
+    "cost_estimates": {},
+    "demographic_trends": {}
+  },
+  "actionable_insights": [],
+  "confidence_score": 0.64,
+  "data_vintage": "2024-2025",
+  "timestamp": "2025-07-11T04:02:40.004835",
+  "processing_metadata": {
+    "processor": "T4-Data-Processor",
+    "version": "1.0.0",
+    "extraction_patterns_used": [
+      "cap_rate",
+      "roi",
+      "irr",
+      "price_psf",
+      "loan_rate",
+      "construction_cost"
+    ]
+  }
+}

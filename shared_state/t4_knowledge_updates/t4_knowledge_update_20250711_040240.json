@@ -1,0 +1,81 @@
+{
+  "update_id": "t4-update-20250711",
+  "source": "T4-Market-Intelligence",
+  "timestamp": "2025-07-11T04:02:40.042796",
+  "knowledge_updates": {
+    "1_Quantitative_Financial_Houston_Agent": {
+      "new_metrics": {
+        "average_construction_loan_spread": 330.0
+      },
+      "market_data": {
+        "data_vintage": "2024-2025",
+        "cap_rates": [],
+        "construction_pipeline": 0
+      }
+    },
+    "2_Market_Analysis_Houston_Agent": {
+      "market_summary": {
+        "overall": "Houston's 2024-2025 real estate market shows robust fundamentals with institutional capital deployment offsetting construction cost pressures"
+      },
+      "opportunities": [
+        {
+          "description": "com/blog_122070_the-future-of-houston----emerging-suburban-trends-in-2024\n\n[^51]: https://housingforhouston",
+          "keyword": "emerging",
+          "quantitative_metrics": [
+            "122070",
+            "2024",
+            "51"
+          ]
+        },
+        {
+          "description": "org/houston/regional-stories/2024-review-empowering-emerging-developers-and-advancing-affordable-housing-reflecting-2024/\n\n[^55]: https://www",
+          "keyword": "emerging",
+          "quantitative_metrics": [
+            "2024",
+            "2024",
+            "55"
+          ]
+        },
+        {
+          "description": "Synthesis: How Policy Shapes the Deal Sheet\n\n| Driver | Direct Cost Impact | Key Upside for Early Movers |\n| :-- | :-- | :-- |\n| Detention inflation (0",
+          "keyword": "upside",
+          "quantitative_metrics": [
+            "0"
+          ]
+        },
+        {
+          "description": "com/real-estate-blog/the-future-of-houston-emerging-suburban-trends-in-2024/\n\n[^4]: https://houston",
+          "keyword": "emerging",
+          "quantitative_metrics": [
+            "2024",
+            "4"
+          ]
+        },
+        {
+          "description": "com/2025-texas-commercial-real-estate-outlook-resilience-opportunity-and-innovation/\n\n[^85]: https://www",
+          "keyword": "opportunity",
+          "quantitative_metrics": [
+            "2025",
+            "85"
+          ]
+        }
+      ],
+      "recommendations": [
+        "Focus on industrial/logistics assets near Port Houston and major highways for e-commerce growth capture"
+      ]
+    },
+    "3_Environmental_Houston_Agent": {
+      "climate_risks": [
+        {
+          "type": "risk",
+          "description": "nl/files/248034545/Risk_Analysis_-_2025_-_Son_-_Effectiveness_of_the_Ike_Dike_in_mitigating_coastal_flood_risk_under_multiple_climate_and_sea"
+        }
+      ],
+      "resilience_factors": [
+        "flood_mitigation",
+        "green_building",
+        "energy_efficiency"
+      ]
+    }
+  }
+}

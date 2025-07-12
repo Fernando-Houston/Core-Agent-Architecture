@@ -1,0 +1,2087 @@
+{
+  "processing_summary": {},
+  "intelligence_reports": [
+    {
+      "intelligence_id": "t4-2025-07-11-d73b3",
+      "source_file": "Data Processing Part 2/Houston Health-Care Real Estate Outlook (2024-2025/Houston Health-Care Real Estate Outlook (2024-2025.md",
+      "report_category": "General Market Intelligence",
+      "report_sources": [
+        "Houston Health-Care Real Estate Outlook (2024-2025"
+      ],
+      "market_metrics": {
+        "financial_indicators": {},
+        "investment_opportunities": [
+          {
+            "description": "com/blog_122070_the-future-of-houston----emerging-suburban-trends-in-2024\n\n[^51]: https://housingforhouston",
+            "keyword": "emerging",
+            "quantitative_metrics": [
+              "122070",
+              "2024",
+              "51"
+            ]
+          },
+          {
+            "description": "org/houston/regional-stories/2024-review-empowering-emerging-developers-and-advancing-affordable-housing-reflecting-2024/\n\n[^55]: https://www",
+            "keyword": "emerging",
+            "quantitative_metrics": [
+              "2024",
+              "2024",
+              "55"
+            ]
+          }
+        ],
+        "market_forecasts": {},
+        "risk_factors": [
+          {
+            "type": "risk",
+            "description": "6 billion trauma\u2010tower outside the Texas Medical Center (TMC), brisk suburban hospital builds, and an unprecedented wave of medical-office leasing**"
+          },
+          {
+            "type": "risk",
+            "description": "Expect construction inflation and labor shortages to favor CM-at-Risk contracts and phased shells"
+          }
+        ]
+      },
+      "quantitative_data": {
+        "cap_rates": {},
+        "roi_projections": {},
+        "cost_estimates": {},
+        "demographic_trends": {}
+      },
+      "actionable_insights": [],
+      "confidence_score": 0.24,
+      "data_vintage": "2024-2025",
+      "timestamp": "2025-07-11T04:02:39.957070",
+      "processing_metadata": {
+        "processor": "T4-Data-Processor",
+        "version": "1.0.0",
+        "extraction_patterns_used": [
+          "cap_rate",
+          "roi",
+          "irr",
+          "price_psf",
+          "loan_rate",
+          "construction_cost"
+        ]
+      }
+    },
+    {
+      "intelligence_id": "t4-2025-07-11-ff417",
+      "source_file": "Data Processing Part 2/Houston\u2019s 2024 Retail & Sports\u2010Driven Development/Houston\u2019s 2024 Retail & Sports\u2010Driven Development.md",
+      "report_category": "General Market Intelligence",
+      "report_sources": [
+        "Houston\u2019s 2024 Retail & Sports\u2010Driven Development"
+      ],
+      "market_metrics": {
+        "financial_indicators": {},
+        "investment_opportunities": [],
+        "market_forecasts": {},
+        "risk_factors": [
+          {
+            "type": "challenge",
+            "description": "3  West Oaks \\& Galleria Tweaks\n\n- Pacific Retail acquired West Oaks Mall for \\$15 million and is studying entertainment and healthcare insertions to revive a corridor challenged by Katy Mills and CityCentre competition[^3]"
+          }
+        ]
+      },
+      "quantitative_data": {
+        "cap_rates": {},
+        "roi_projections": {},
+        "cost_estimates": {},
+        "demographic_trends": {}
+      },
+      "actionable_insights": [],
+      "confidence_score": 0.09,
+      "data_vintage": "2024-2025",
+      "timestamp": "2025-07-11T04:02:39.963861",
+      "processing_metadata": {
+        "processor": "T4-Data-Processor",
+        "version": "1.0.0",
+        "extraction_patterns_used": [
+          "cap_rate",
+          "roi",
+          "irr",
+          "price_psf",
+          "loan_rate",
+          "construction_cost"
+        ]
+      }
+    },
+    {
+      "intelligence_id": "t4-2025-07-11-a4096",
+      "source_file": "Data Processing Part 2/Resilient Houston 2024-2025/Resilient Houston 2024-2025.md",
+      "report_category": "General Market Intelligence",
+      "report_sources": [
+        "Resilient Houston 2024-2025"
+      ],
+      "market_metrics": {
+        "financial_indicators": {},
+        "investment_opportunities": [
+          {
+            "description": "Synthesis: How Policy Shapes the Deal Sheet\n\n| Driver | Direct Cost Impact | Key Upside for Early Movers |\n| :-- | :-- | :-- |\n| Detention inflation (0",
+            "keyword": "upside",
+            "quantitative_metrics": [
+              "0"
+            ]
+          }
+        ],
+        "market_forecasts": {},
+        "risk_factors": [
+          {
+            "type": "risk",
+            "description": "nl/files/248034545/Risk_Analysis_-_2025_-_Son_-_Effectiveness_of_the_Ike_Dike_in_mitigating_coastal_flood_risk_under_multiple_climate_and_sea"
+          }
+        ]
+      },
+      "quantitative_data": {
+        "cap_rates": {},
+        "roi_projections": {},
+        "cost_estimates": {},
+        "demographic_trends": {}
+      },
+      "actionable_insights": [],
+      "confidence_score": 0.17,
+      "data_vintage": "2024-2025",
+      "timestamp": "2025-07-11T04:02:39.972159",
+      "processing_metadata": {
+        "processor": "T4-Data-Processor",
+        "version": "1.0.0",
+        "extraction_patterns_used": [
+          "cap_rate",
+          "roi",
+          "irr",
+          "price_psf",
+          "loan_rate",
+          "construction_cost"
+        ]
+      }
+    },
+    {
+      "intelligence_id": "t4-2025-07-11-d6e3f",
+      "source_file": "Data Processing Part 2/Houston\u2019s 2025 Infrastructure Pulse_ Power, Pipes,/Houston\u2019s 2025 Infrastructure Pulse_ Power, Pipes,.md",
+      "report_category": "Infrastructure",
+      "report_sources": [
+        "Houston\u2019s 2025 Infrastructure Pulse_ Power, Pipes,"
+      ],
+      "market_metrics": {
+        "financial_indicators": {},
+        "investment_opportunities": [],
+        "market_forecasts": {},
+        "risk_factors": [
+          {
+            "type": "risk",
+            "description": "Collectively these moves cut the probability of firm-load shed during an 18 \u00b0F system-wide cold snap to 12%, half the 2023 risk profile, according to ERCOT\u2019s 2024 State of the Grid report[^5]"
+          },
+          {
+            "type": "risk",
+            "description": "Deliveries begin 2026, allowing West Harris County Regional Water Authority members to slash aquifer withdrawals and curb land subsidence that elevates flooding risk[^21]"
+          },
+          {
+            "type": "volatility",
+            "description": "2  Incremental Expansions From the Permian to Houston\n\n* GCX Compression Expansion: +570 MMcf/d to Agua Dulce by mid-2026, relieving Waha price volatility and increasing molecules available for Houston-area industrial users[^28][^29]"
+          },
+          {
+            "type": "risk",
+            "description": "Synthesis and Forward Risks\n\nHouston\u2019s public and private sectors are on pace to invest more than \\$20 billion in energy, water and telecom infrastructure between 2023 and 2028\u2014roughly \\$2,400 per resident\u2014to future-proof the metro against climate, digital and demographic shocks[^33]"
+          },
+          {
+            "type": "challenge",
+            "description": "Yet challenges persist:\n\n* **Rate Pressure:** Electric and water impact fees are rising faster than CPI; CenterPoint surcharges plus City water tariff hikes could add \\$12-15 monthly to median utility bills by 2027[^1][^34]"
+          },
+          {
+            "type": "threat",
+            "description": "* **Supply-Chain Volatility:** Large-diameter pipe and pad-mount transformer lead times remain double pre-pandemic norms, threatening schedule cushions for remaining GHRI and pipeline scopes[^35][^36]"
+          },
+          {
+            "type": "headwind",
+            "description": "Despite these headwinds, the scale and speed of 2024-25 infrastructure upgrades mark a decisive shift from reactive post-storm patchwork to proactive, integrated capital planning"
+          },
+          {
+            "type": "risk",
+            "description": "com/post/texas-power-grid-despite-improvements-state-remains-risk-summer-outages-study-shows/16733362/\n\n[^42]: https://investors"
+          },
+          {
+            "type": "threat",
+            "description": "com/industry-news/centerpoint-energy-reaches-settlement-agreement-on-landmark-systemwide-resiliency-plan-to-strengthen-houston-electric-system-against-extreme-weather-threats-and-future-hazards/\n\n[^47]: https://www"
+          }
+        ]
+      },
+      "quantitative_data": {
+        "cap_rates": {},
+        "roi_projections": {},
+        "cost_estimates": {},
+        "demographic_trends": {}
+      },
+      "actionable_insights": [],
+      "confidence_score": 0.09,
+      "data_vintage": "2024-2025",
+      "timestamp": "2025-07-11T04:02:39.978285",
+      "processing_metadata": {
+        "processor": "T4-Data-Processor",
+        "version": "1.0.0",
+        "extraction_patterns_used": [
+          "cap_rate",
+          "roi",
+          "irr",
+          "price_psf",
+          "loan_rate",
+          "construction_cost"
+        ]
+      }
+    },
+    {
+      "intelligence_id": "t4-2025-07-11-65417",
+      "source_file": "Data Processing Part 2/Generational Housing Shifts and Demographic Curren/Generational Housing Shifts and Demographic Curren.md",
+      "report_category": "General Market Intelligence",
+      "report_sources": [
+        "Generational Housing Shifts and Demographic Curren"
+      ],
+      "market_metrics": {
+        "financial_indicators": {},
+        "investment_opportunities": [
+          {
+            "description": "com/real-estate-blog/the-future-of-houston-emerging-suburban-trends-in-2024/\n\n[^4]: https://houston",
+            "keyword": "emerging",
+            "quantitative_metrics": [
+              "2024",
+              "4"
+            ]
+          },
+          {
+            "description": "com/2025-texas-commercial-real-estate-outlook-resilience-opportunity-and-innovation/\n\n[^85]: https://www",
+            "keyword": "opportunity",
+            "quantitative_metrics": [
+              "2025",
+              "85"
+            ]
+          }
+        ],
+        "market_forecasts": {},
+        "risk_factors": [
+          {
+            "type": "concern",
+            "description": "Meanwhile, **urban mid-rise condos in Midtown and the Museum District saw a 12 percent y/y decline in retiree purchases** amid concerns over HOA cost escalation[^32][^33]"
+          }
+        ]
+      },
+      "quantitative_data": {
+        "cap_rates": {},
+        "roi_projections": {},
+        "cost_estimates": {},
+        "demographic_trends": {}
+      },
+      "actionable_insights": [],
+      "confidence_score": 0.24,
+      "data_vintage": "2024-2025",
+      "timestamp": "2025-07-11T04:02:39.984925",
+      "processing_metadata": {
+        "processor": "T4-Data-Processor",
+        "version": "1.0.0",
+        "extraction_patterns_used": [
+          "cap_rate",
+          "roi",
+          "irr",
+          "price_psf",
+          "loan_rate",
+          "construction_cost"
+        ]
+      }
+    },
+    {
+      "intelligence_id": "t4-2025-07-11-85e81",
+      "source_file": "Data Processing Part 2/2024\u20132025 Construction Finance & Delivery Outlook/2024\u20132025 Construction Finance & Delivery Outlook.md",
+      "report_category": "General Market Intelligence",
+      "report_sources": [
+        "2024\u20132025 Construction Finance & Delivery Outlook"
+      ],
+      "market_metrics": {
+        "financial_indicators": {
+          "loan_rates": [
+            {
+              "sofr_spread": 330.0,
+              "context": "amily, and mixed-use builds ended 2024 near 8.0% (SOFR + 330 bps), down 40 bps from the October 2023 peak but"
+            }
+          ]
+        },
+        "investment_opportunities": [],
+        "market_forecasts": {},
+        "risk_factors": [
+          {
+            "type": "risk",
+            "description": "2 Risk-Based Spreads\n\n| Property Type | Typical LTC | 2024Q4 All-in Rate* | Y/Y Change | Commentary |\n| :-- | :-- | :-- | :-- | :-- |\n| Industrial BTS | 70% | 7"
+          },
+          {
+            "type": "risk",
+            "description": "50% | +55 bps | Underwriting assumes ramp risk"
+          },
+          {
+            "type": "risk",
+            "description": "Construction-to-perm executions (\u201cone-time close\u201d) can trim 30\u201350 bps in fees and eliminate re-underwrite risk\u2014particularly appealing for owner-occupied medical and life-science space[^7]"
+          },
+          {
+            "type": "exposure",
+            "description": "2 Alternative Capital Sources\n\n- Regional-bank participation pools are resurfacing for deals under \\$40 million, easing single-bank exposure limits"
+          },
+          {
+            "type": "risk",
+            "description": "Labor Shortage and Schedule Risk\n\n### 5"
+          },
+          {
+            "type": "risk",
+            "description": "- Owners adopting escalation clauses tied to ENR CCI or Turner Index to share inflation risk"
+          },
+          {
+            "type": "threat",
+            "description": "**Labor Scarcity Is the Primary Schedule Threat"
+          },
+          {
+            "type": "volatility",
+            "description": "com/briefs/banks-drive-cre-lending-surge-in-q1-2025-despite-market-volatility/\n\n[^4]: https://ingrams"
+          },
+          {
+            "type": "challenge",
+            "description": "com/a-10b-challenge-2024-loan-maturities-in-texas-and-oklahoma/\n\n[^9]: https://www"
+          },
+          {
+            "type": "challenge",
+            "description": "com/houston-construction-challenges/\n\n[^17]: https://www"
+          }
+        ]
+      },
+      "quantitative_data": {
+        "cap_rates": {},
+        "roi_projections": {},
+        "cost_estimates": {},
+        "demographic_trends": {}
+      },
+      "actionable_insights": [
+        "Construction loans pricing at SOFR+330bps reflects current lending environment"
+      ],
+      "confidence_score": 0.28,
+      "data_vintage": "2024-2025",
+      "timestamp": "2025-07-11T04:02:39.991531",
+      "processing_metadata": {
+        "processor": "T4-Data-Processor",
+        "version": "1.0.0",
+        "extraction_patterns_used": [
+          "cap_rate",
+          "roi",
+          "irr",
+          "price_psf",
+          "loan_rate",
+          "construction_cost"
+        ]
+      }
+    },
+    {
+      "intelligence_id": "t4-2025-07-11-37ab1",
+      "source_file": "Data Processing Part 2/Building a Climate-Resilient Houston_ Flood, Heat,/Building a Climate-Resilient Houston_ Flood, Heat,.md",
+      "report_category": "General Market Intelligence",
+      "report_sources": [
+        "Building a Climate-Resilient Houston_ Flood, Heat,"
+      ],
+      "market_metrics": {
+        "financial_indicators": {},
+        "investment_opportunities": [
+          {
+            "description": "3  Emerging Private-Sector Standards\n\nLarge REITs such as Hines now specify roof solar reflectance \u2265 0",
+            "keyword": "emerging",
+            "quantitative_metrics": [
+              "3",
+              "0"
+            ]
+          },
+          {
+            "description": "Development Finance Under the New Resilience Regime\n\n| Cost Driver (2024\u201325) | Typical Impact on Pro-Forma | Mitigation/Opportunity | Sources |\n| :-- | :-- | :-- | :-- |\n| Higher on-site detention (0",
+            "keyword": "opportunity",
+            "quantitative_metrics": [
+              "2024",
+              "25",
+              "0"
+            ]
+          },
+          {
+            "description": "**On the Roof:** Cool surfaces and canopy mandates are no longer fringe ESG items; they are embedded in the 2024 construction code and backed by tax incentives, providing measurable NOI upside during record heat waves",
+            "keyword": "upside",
+            "quantitative_metrics": [
+              "2024"
+            ]
+          }
+        ],
+        "market_forecasts": {
+          "2024": 35.0
+        },
+        "risk_factors": [
+          {
+            "type": "risk",
+            "description": "2  What the Barrier Means for Development\n\n- Bond underwriters now discount storm-surge risk for Port Houston tank-farms by 20 basis-points when the GCPD match is appropriated, lowering borrowing costs for capital-intensive petrochem plants[^23]"
+          },
+          {
+            "type": "concern",
+            "description": "3  Ike Dike Alternatives and Gate Design Debates\n\nLocal pilots raised navigational concerns about the Corps\u2019 double-sector gate, prompting Texas A\\&M\u2019s Institute for a Disaster-Resilient Texas to study arch and barge-gate options in 2024[^25]"
+          },
+          {
+            "type": "risk",
+            "description": "Early simulations suggest a wider, single-sector gate could halve dredging costs without sacrificing surge performance\u2014an engineering decision that will influence both construction phasing and real-estate risk maps over the next decade"
+          },
+          {
+            "type": "uncertainty",
+            "description": "35 psf roof install | 10-yr GSI tax abatement; energy OPEX savings 10\u201315% | [^14][^16] |\n| Coastal barrier funding uncertainty | Equity hurdle-rate premium 100 bps on surge-exposed sites | Stage land options; track GCPD drawdown schedule | [^24][^28] |\n\n## 6"
+          },
+          {
+            "type": "risk",
+            "description": "Taken together, these measures represent a **structural re-pricing of location risk** across Greater Houston"
+          },
+          {
+            "type": "risk",
+            "description": "For stakeholders across the property spectrum, from single-family builders to global energy majors, understanding the shifting code base and infrastructure map is no longer optional\u2014it is the key to de-risking investments and sustaining Houston\u2019s momentum through the next century of storms, heat, and coastal change"
+          },
+          {
+            "type": "risk",
+            "description": "org/riskreduction/\n\n[^10]: https://www"
+          }
+        ]
+      },
+      "quantitative_data": {
+        "cap_rates": {},
+        "roi_projections": {},
+        "cost_estimates": {},
+        "demographic_trends": {}
+      },
+      "actionable_insights": [],
+      "confidence_score": 0.31,
+      "data_vintage": "2024-2025",
+      "timestamp": "2025-07-11T04:02:39.997268",
+      "processing_metadata": {
+        "processor": "T4-Data-Processor",
+        "version": "1.0.0",
+        "extraction_patterns_used": [
+          "cap_rate",
+          "roi",
+          "irr",
+          "price_psf",
+          "loan_rate",
+          "construction_cost"
+        ]
+      }
+    },
+    {
+      "intelligence_id": "t4-2025-07-11-3baa3",
+      "source_file": "Data Processing Part 2/Capital Currents_ How Money Flowed into Houston Re/Capital Currents_ How Money Flowed into Houston Re.md",
+      "report_category": "General Market Intelligence",
+      "report_sources": [
+        "Capital Currents_ How Money Flowed into Houston Re"
+      ],
+      "market_metrics": {
+        "financial_indicators": {
+          "roi": [
+            {
+              "roi_percentage": 2024.0,
+              "context": "o now 10.3% real estate (\\$747 mn) with a 7.1% FY-2024 return, outperforming benchmark by 20 bps[^28].\n* **Teac"
+            }
+          ]
+        },
+        "investment_opportunities": [
+          {
+            "description": "Completed Opportunity-Zone deals topped \\$1",
+            "keyword": "opportunity",
+            "quantitative_metrics": [
+              "1"
+            ]
+          },
+          {
+            "description": "Opportunity-Zone Deliveries: From Plans to Product\n\nHouston saw **seven OZ projects reach completion** in 2024, delivering 1",
+            "keyword": "opportunity",
+            "quantitative_metrics": [
+              "2024",
+              "1"
+            ]
+          },
+          {
+            "description": "With the supply pipeline throttling back and debt markets thawing, Houston enters 2025 poised for a fresh upswing in deal flow\u2014albeit with sharper underwriting and a heavier tilt toward logistics, lower-cost multifamily and mixed-use nodes in the east\u2010side Opportunity Zones",
+            "keyword": "opportunity",
+            "quantitative_metrics": [
+              "2025"
+            ]
+          },
+          {
+            "description": "gov/opportunityzones/activeprojects",
+            "keyword": "opportunity",
+            "quantitative_metrics": []
+          },
+          {
+            "description": "gov/opportunityzones/leveragingfunds",
+            "keyword": "opportunity",
+            "quantitative_metrics": []
+          },
+          {
+            "description": "com/articles/investing-in-houstons-opportunity-zones-provides-big-tax-savings/\n\n[^56]: https://www",
+            "keyword": "opportunity",
+            "quantitative_metrics": [
+              "56"
+            ]
+          },
+          {
+            "description": "gov/opportunityzones/houstonOZ",
+            "keyword": "opportunity",
+            "quantitative_metrics": []
+          },
+          {
+            "description": "html\n\n[^57]: https://opportunityzones",
+            "keyword": "opportunity",
+            "quantitative_metrics": [
+              "57"
+            ]
+          },
+          {
+            "description": "gov/opportunityzones/faqs",
+            "keyword": "opportunity",
+            "quantitative_metrics": []
+          },
+          {
+            "description": "gov/opportunityzones/\n\n[^60]: https://lumicre",
+            "keyword": "opportunity",
+            "quantitative_metrics": [
+              "60"
+            ]
+          }
+        ],
+        "market_forecasts": {},
+        "risk_factors": [
+          {
+            "type": "volatility",
+            "description": "Pension-Fund Allocations: Quiet but Growing\n\nHouston-area retirement systems upped real-estate targets to buffer equity volatility:\n\n* **Houston Police Officers Pension System (HPOPS)**\n    * Added \\$15 million to Neuberger Berman Real Estate Secondary Opportunities II; total 2025 pacing \\$105 million[^27][^28]"
+          },
+          {
+            "type": "exposure",
+            "description": "* New strategic asset-allocation (effective Sept 2024) reduces office exposure, reallocates to specialty housing and infrastructure[^30]"
+          },
+          {
+            "type": "exposure",
+            "description": "* **Canada Pension Plan Investment Board (Houston exposure)**\n    * Sold three legacy Houston office towers but injected US\\$300 million follow-on equity into Encino Acquisition Partners and co-led an \\$800 million U"
+          },
+          {
+            "type": "risk",
+            "description": "## Conclusion\n\nThe 2024 investment cycle reset Houston pricing yet reaffirmed its core appeal: **port-driven industrial demand, outsized population growth, and a policy toolkit (OZ, Chapter 380, TIRZ) that narrows risk for long-term capital**"
+          },
+          {
+            "type": "risk",
+            "description": "org/news/dont-let-blackstone-use-your-money-to-put-texas-tenants-at-risk-advocates-tell-investors/\n\n[^95]: https://www"
+          }
+        ]
+      },
+      "quantitative_data": {
+        "cap_rates": {},
+        "roi_projections": [
+          {
+            "roi_percentage": 2024.0,
+            "context": "o now 10.3% real estate (\\$747 mn) with a 7.1% FY-2024 return, outperforming benchmark by 20 bps[^28].\n* **Teac"
+          }
+        ],
+        "cost_estimates": {},
+        "demographic_trends": {}
+      },
+      "actionable_insights": [],
+      "confidence_score": 0.64,
+      "data_vintage": "2024-2025",
+      "timestamp": "2025-07-11T04:02:40.004835",
+      "processing_metadata": {
+        "processor": "T4-Data-Processor",
+        "version": "1.0.0",
+        "extraction_patterns_used": [
+          "cap_rate",
+          "roi",
+          "irr",
+          "price_psf",
+          "loan_rate",
+          "construction_cost"
+        ]
+      }
+    },
+    {
+      "intelligence_id": "t4-2025-07-11-21cfe",
+      "source_file": "Data Processing Part 2/Houston\u2019s 2024 Industrial Real Estate Landscape_ P/Houston\u2019s 2024 Industrial Real Estate Landscape_ P.md",
+      "report_category": "General Market Intelligence",
+      "report_sources": [
+        "Houston\u2019s 2024 Industrial Real Estate Landscape_ P"
+      ],
+      "market_metrics": {
+        "financial_indicators": {},
+        "investment_opportunities": [
+          {
+            "description": "For investors, the opportunity lies in port-proximate, rail-served land and in retrofitting older warehouses with higher power capacity",
+            "keyword": "opportunity",
+            "quantitative_metrics": []
+          }
+        ],
+        "market_forecasts": {},
+        "risk_factors": []
+      },
+      "quantitative_data": {
+        "cap_rates": {},
+        "roi_projections": {},
+        "cost_estimates": {},
+        "demographic_trends": {}
+      },
+      "actionable_insights": [],
+      "confidence_score": 0.17,
+      "data_vintage": "2024-2025",
+      "timestamp": "2025-07-11T04:02:40.016694",
+      "processing_metadata": {
+        "processor": "T4-Data-Processor",
+        "version": "1.0.0",
+        "extraction_patterns_used": [
+          "cap_rate",
+          "roi",
+          "irr",
+          "price_psf",
+          "loan_rate",
+          "construction_cost"
+        ]
+      }
+    },
+    {
+      "intelligence_id": "t4-2025-07-11-19286",
+      "source_file": "Data Processing Part 2/Greening Houston\u2019s Built Environment_ Incentives,/Greening Houston\u2019s Built Environment_ Incentives,.md",
+      "report_category": "General Market Intelligence",
+      "report_sources": [
+        "Greening Houston\u2019s Built Environment_ Incentives,"
+      ],
+      "market_metrics": {
+        "financial_indicators": {},
+        "investment_opportunities": [
+          {
+            "description": "Conversely, developments that ignore the emerging standards face slow permits, higher insurance, and eroding asset values",
+            "keyword": "emerging",
+            "quantitative_metrics": []
+          }
+        ],
+        "market_forecasts": {},
+        "risk_factors": [
+          {
+            "type": "risk",
+            "description": "** A 2025 state law lets licensed engineers perform plan review when the city fails to act within two business days, after which construction may start immediately\u2014further de-risking timelines[^22]"
+          },
+          {
+            "type": "risk",
+            "description": "Carbon-Neutrality Goals and Development Risk\n\n### 5"
+          },
+          {
+            "type": "risk",
+            "description": "** Carriers now discount premiums for projects that integrate bioretention and elevated mechanical rooms within 500-year floodplains\u2014an implicit carbon-risk price[^8]"
+          },
+          {
+            "type": "risk",
+            "description": "## Conclusion\n\nHouston has moved from aspirational green goals to a layered system of **carrots (tax abatements, C-PACE, 179D)** and **sticks (stricter 2021 codes, flood-risk disclosures, optional EV/solar appendices)** that shape every stage of real-estate development"
+          },
+          {
+            "type": "risk",
+            "description": "Projects that design for LEED or GSI, pre-wire for chargers, and integrate rooftop PV can now lower both construction financing costs and long-term operating expenses, while de-risking exposure to future carbon regulations"
+          }
+        ]
+      },
+      "quantitative_data": {
+        "cap_rates": {},
+        "roi_projections": {},
+        "cost_estimates": {},
+        "demographic_trends": {}
+      },
+      "actionable_insights": [],
+      "confidence_score": 0.17,
+      "data_vintage": "2024-2025",
+      "timestamp": "2025-07-11T04:02:40.023860",
+      "processing_metadata": {
+        "processor": "T4-Data-Processor",
+        "version": "1.0.0",
+        "extraction_patterns_used": [
+          "cap_rate",
+          "roi",
+          "irr",
+          "price_psf",
+          "loan_rate",
+          "construction_cost"
+        ]
+      }
+    },
+    {
+      "intelligence_id": "t4-2025-07-11-4e5e7",
+      "source_file": "Data Processing Part 2/Education, Enrollment, and Real Estate in Greater/Education, Enrollment, and Real Estate in Greater.md",
+      "report_category": "General Market Intelligence",
+      "report_sources": [
+        "Education, Enrollment, and Real Estate in Greater"
+      ],
+      "market_metrics": {
+        "financial_indicators": {},
+        "investment_opportunities": [],
+        "market_forecasts": {},
+        "risk_factors": [
+          {
+            "type": "risk",
+            "description": "1 Ranking Frameworks\n\nChildren at Risk\u2019s 2023-24 ranking uses STAAR proficiency, year-over-year growth, and college readiness to grade 1,502 Houston-area campuses[^3]"
+          },
+          {
+            "type": "risk",
+            "description": "Lamar CISD advanced six slots in Children at Risk\u2019s league table, buoyed by 28% five-year enrollment growth that allowed the district to open two STEM-focused high schools and keep class sizes under 24[^2]"
+          },
+          {
+            "type": "uncertainty",
+            "description": "3 Voucher Uncertainty\n\nAlthough the 2025 Legislature appears set to pass an education-savings-account program, Houston-area heads of school say they lack classroom surplus to absorb a sudden voucher wave and would need several years to expand physical plant[^17]"
+          },
+          {
+            "type": "risk",
+            "description": "com/post/children-risk-announces-annual-top-ranking-school-districts-2023-2024-year/15928040/\n\n[^4]: https://www"
+          },
+          {
+            "type": "concern",
+            "description": "com/news/local/2024/04/17/concern-brewing-in-two-of-houstons-upscale-neighborhoods-where-zoning-guidelines-suddenly-removed-from-two-top-schools/\n\n[^11]: https://www"
+          },
+          {
+            "type": "risk",
+            "description": "com/watch?v=dDoLK3rSRoA\n\n[^43]: https://childrenatrisk"
+          },
+          {
+            "type": "risk",
+            "description": "com/news/houston-texas/education/hisd/article/hisd-rankings-children-at-risk-20202418"
+          }
+        ]
+      },
+      "quantitative_data": {
+        "cap_rates": {},
+        "roi_projections": {},
+        "cost_estimates": {},
+        "demographic_trends": {}
+      },
+      "actionable_insights": [],
+      "confidence_score": 0.18,
+      "data_vintage": "2024-2025",
+      "timestamp": "2025-07-11T04:02:40.031923",
+      "processing_metadata": {
+        "processor": "T4-Data-Processor",
+        "version": "1.0.0",
+        "extraction_patterns_used": [
+          "cap_rate",
+          "roi",
+          "irr",
+          "price_psf",
+          "loan_rate",
+          "construction_cost"
+        ]
+      }
+    }
+  ],
+  "visualization_catalog": {
+    "catalog_id": "t4-viz-catalog-20250711",
+    "total_visualizations": 38,
+    "visualizations_by_type": {
+      "general": [
+        "t4-chart-d2acff22",
+        "t4-chart-a4fcbfb5",
+        "t4-chart-be92cf65",
+        "t4-chart-7bd8021e",
+        "t4-chart-c3e232d0",
+        "t4-chart-232a5b52",
+        "t4-chart-872bba47",
+        "t4-chart-73c81742",
+        "t4-chart-3f31c136",
+        "t4-chart-79815dc9",
+        "t4-chart-a5f71a6f",
+        "t4-chart-33aabed2",
+        "t4-chart-7def2af1",
+        "t4-chart-a310844c",
+        "t4-chart-8ab93c7f",
+        "t4-chart-51ad3c9f",
+        "t4-chart-5960fc0c",
+        "t4-chart-20ed6e9e",
+        "t4-chart-51e44e4e",
+        "t4-chart-2876f35d",
+        "t4-chart-2b8d9383",
+        "t4-chart-e095723b",
+        "t4-chart-c23d09db",
+        "t4-chart-da0b9f1e",
+        "t4-chart-aca9c2c7",
+        "t4-chart-1c93e584",
+        "t4-chart-b9e2db43",
+        "t4-chart-e40515a4",
+        "t4-chart-b5ce7151",
+        "t4-chart-01e45e6b",
+        "t4-chart-54ede835",
+        "t4-chart-db97b3ca",
+        "t4-chart-f10aa496"
+      ],
+      "line": [
+        "t4-chart-15311881",
+        "t4-chart-14b35452",
+        "t4-chart-5f85845c"
+      ],
+      "pie": [
+        "t4-chart-f682b545",
+        "t4-chart-c99162e0"
+      ]
+    },
+    "visualizations_by_category": {
+      "general": [
+        "t4-chart-d2acff22",
+        "t4-chart-a4fcbfb5",
+        "t4-chart-5f85845c",
+        "t4-chart-7def2af1",
+        "t4-chart-a310844c",
+        "t4-chart-8ab93c7f",
+        "t4-chart-b5ce7151",
+        "t4-chart-01e45e6b",
+        "t4-chart-db97b3ca",
+        "t4-chart-f10aa496"
+      ],
+      "construction": [
+        "t4-chart-be92cf65",
+        "t4-chart-79815dc9",
+        "t4-chart-51ad3c9f"
+      ],
+      "climate": [
+        "t4-chart-7bd8021e",
+        "t4-chart-73c81742",
+        "t4-chart-a5f71a6f",
+        "t4-chart-5960fc0c",
+        "t4-chart-20ed6e9e",
+        "t4-chart-aca9c2c7",
+        "t4-chart-54ede835"
+      ],
+      "infrastructure": [
+        "t4-chart-c3e232d0",
+        "t4-chart-232a5b52",
+        "t4-chart-51e44e4e",
+        "t4-chart-2876f35d"
+      ],
+      "market": [
+        "t4-chart-15311881"
+      ],
+      "demographic": [
+        "t4-chart-f682b545",
+        "t4-chart-2b8d9383",
+        "t4-chart-e095723b"
+      ],
+      "financial": [
+        "t4-chart-14b35452",
+        "t4-chart-872bba47",
+        "t4-chart-c23d09db",
+        "t4-chart-da0b9f1e"
+      ],
+      "investment": [
+        "t4-chart-3f31c136",
+        "t4-chart-c99162e0",
+        "t4-chart-33aabed2",
+        "t4-chart-1c93e584",
+        "t4-chart-b9e2db43",
+        "t4-chart-e40515a4"
+      ]
+    },
+    "key_insights": [
+      "Population and demographic trends",
+      "Market dynamics visualization",
+      "Financial performance visualization"
+    ],
+    "timestamp": "2025-07-11T04:02:40.042071",
+    "visualization_details": {
+      "t4-chart-d2acff22": {
+        "chart_id": "t4-chart-d2acff22",
+        "file_path": "Data Processing Part 2/Houston Health-Care Real Estate Outlook (2024-2025/houston_hospital_chart.png",
+        "file_name": "houston_hospital_chart.png",
+        "chart_type": "general",
+        "category": "general",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035295",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-a4fcbfb5": {
+        "chart_id": "t4-chart-a4fcbfb5",
+        "file_path": "Data Processing Part 2/Houston Health-Care Real Estate Outlook (2024-2025/medicaid_telemedicine_providers.png",
+        "file_name": "medicaid_telemedicine_providers.png",
+        "chart_type": "general",
+        "category": "general",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035327",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-be92cf65": {
+        "chart_id": "t4-chart-be92cf65",
+        "file_path": "Data Processing Part 2/Houston\u2019s 2024 Retail & Sports\u2010Driven Development/houston_retail_chart.png",
+        "file_name": "houston_retail_chart.png",
+        "chart_type": "general",
+        "category": "construction",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035356",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-7bd8021e": {
+        "chart_id": "t4-chart-7bd8021e",
+        "file_path": "Data Processing Part 2/Resilient Houston 2024-2025/houston_stormwater_detention.png",
+        "file_name": "houston_stormwater_detention.png",
+        "chart_type": "general",
+        "category": "climate",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035376",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-c3e232d0": {
+        "chart_id": "t4-chart-c3e232d0",
+        "file_path": "Data Processing Part 2/Houston\u2019s 2025 Infrastructure Pulse_ Power, Pipes,/centerpoint_upgrades_chart.png",
+        "file_name": "centerpoint_upgrades_chart.png",
+        "chart_type": "general",
+        "category": "infrastructure",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035398",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-232a5b52": {
+        "chart_id": "t4-chart-232a5b52",
+        "file_path": "Data Processing Part 2/Houston\u2019s 2025 Infrastructure Pulse_ Power, Pipes,/water_plant_capacity_chart.png",
+        "file_name": "water_plant_capacity_chart.png",
+        "chart_type": "general",
+        "category": "infrastructure",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035420",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-15311881": {
+        "chart_id": "t4-chart-15311881",
+        "file_path": "Data Processing Part 2/Generational Housing Shifts and Demographic Curren/houston_submarkets_growth_chart.png",
+        "file_name": "houston_submarkets_growth_chart.png",
+        "chart_type": "line",
+        "category": "market",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [
+          "Market dynamics visualization"
+        ],
+        "timestamp": "2025-07-11T04:02:40.035435",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-f682b545": {
+        "chart_id": "t4-chart-f682b545",
+        "file_path": "Data Processing Part 2/Generational Housing Shifts and Demographic Curren/houston_foreign_born_donut.png",
+        "file_name": "houston_foreign_born_donut.png",
+        "chart_type": "pie",
+        "category": "demographic",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [
+          "Population and demographic trends"
+        ],
+        "timestamp": "2025-07-11T04:02:40.035449",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-14b35452": {
+        "chart_id": "t4-chart-14b35452",
+        "file_path": "Data Processing Part 2/2024\u20132025 Construction Finance & Delivery Outlook/construction_cost_trend.png",
+        "file_name": "construction_cost_trend.png",
+        "chart_type": "line",
+        "category": "financial",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [
+          "Financial performance visualization"
+        ],
+        "timestamp": "2025-07-11T04:02:40.035461",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-872bba47": {
+        "chart_id": "t4-chart-872bba47",
+        "file_path": "Data Processing Part 2/2024\u20132025 Construction Finance & Delivery Outlook/texas_metro_fees.png",
+        "file_name": "texas_metro_fees.png",
+        "chart_type": "general",
+        "category": "financial",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [
+          "Financial performance visualization"
+        ],
+        "timestamp": "2025-07-11T04:02:40.035474",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-73c81742": {
+        "chart_id": "t4-chart-73c81742",
+        "file_path": "Data Processing Part 2/Building a Climate-Resilient Houston_ Flood, Heat,/houston_stormwater_detention.png",
+        "file_name": "houston_stormwater_detention.png",
+        "chart_type": "general",
+        "category": "climate",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035493",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-3f31c136": {
+        "chart_id": "t4-chart-3f31c136",
+        "file_path": "Data Processing Part 2/Capital Currents_ How Money Flowed into Houston Re/houston_cre_acquisitions.png",
+        "file_name": "houston_cre_acquisitions.png",
+        "chart_type": "general",
+        "category": "investment",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035511",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-c99162e0": {
+        "chart_id": "t4-chart-c99162e0",
+        "file_path": "Data Processing Part 2/Capital Currents_ How Money Flowed into Houston Re/texas_real_estate_investment_pie.png",
+        "file_name": "texas_real_estate_investment_pie.png",
+        "chart_type": "pie",
+        "category": "investment",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035528",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-5f85845c": {
+        "chart_id": "t4-chart-5f85845c",
+        "file_path": "Data Processing Part 2/Houston\u2019s 2024 Industrial Real Estate Landscape_ P/port_houston_container_growth.png",
+        "file_name": "port_houston_container_growth.png",
+        "chart_type": "line",
+        "category": "general",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035551",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-79815dc9": {
+        "chart_id": "t4-chart-79815dc9",
+        "file_path": "Data Processing Part 2/Houston\u2019s 2024 Industrial Real Estate Landscape_ P/houston_industrial_construction.png",
+        "file_name": "houston_industrial_construction.png",
+        "chart_type": "general",
+        "category": "construction",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035570",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-a5f71a6f": {
+        "chart_id": "t4-chart-a5f71a6f",
+        "file_path": "Data Processing Part 2/Greening Houston\u2019s Built Environment_ Incentives,/property_tax_chart.png",
+        "file_name": "property_tax_chart.png",
+        "chart_type": "general",
+        "category": "climate",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035592",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-33aabed2": {
+        "chart_id": "t4-chart-33aabed2",
+        "file_path": "Data Processing Part 2/Education, Enrollment, and Real Estate in Greater/uh_capital_projects_chart.png",
+        "file_name": "uh_capital_projects_chart.png",
+        "chart_type": "general",
+        "category": "investment",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035610",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-7def2af1": {
+        "chart_id": "t4-chart-7def2af1",
+        "file_path": "Data Processing Part 2/Education, Enrollment, and Real Estate in Greater/enrollment_change_chart.png",
+        "file_name": "enrollment_change_chart.png",
+        "chart_type": "general",
+        "category": "general",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.035630",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-a310844c": {
+        "chart_id": "t4-chart-a310844c",
+        "file_path": "Data Processing Part 2/Houston Health-Care Real Estate Outlook (2024-2025/chart_script.py",
+        "file_name": "chart_script.py",
+        "chart_type": "general",
+        "category": "general",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.036597",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-8ab93c7f": {
+        "chart_id": "t4-chart-8ab93c7f",
+        "file_path": "Data Processing Part 2/Houston Health-Care Real Estate Outlook (2024-2025/chart_script_1.py",
+        "file_name": "chart_script_1.py",
+        "chart_type": "general",
+        "category": "general",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.036927",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-51ad3c9f": {
+        "chart_id": "t4-chart-51ad3c9f",
+        "file_path": "Data Processing Part 2/Houston\u2019s 2024 Retail & Sports\u2010Driven Development/chart_script.py",
+        "file_name": "chart_script.py",
+        "chart_type": "general",
+        "category": "construction",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.037274",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-5960fc0c": {
+        "chart_id": "t4-chart-5960fc0c",
+        "file_path": "Data Processing Part 2/Resilient Houston 2024-2025/chart_script.py",
+        "file_name": "chart_script.py",
+        "chart_type": "general",
+        "category": "climate",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.037510",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-20ed6e9e": {
+        "chart_id": "t4-chart-20ed6e9e",
+        "file_path": "Data Processing Part 2/Resilient Houston 2024-2025/script.py",
+        "file_name": "script.py",
+        "chart_type": "general",
+        "category": "climate",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.037685",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-51e44e4e": {
+        "chart_id": "t4-chart-51e44e4e",
+        "file_path": "Data Processing Part 2/Houston\u2019s 2025 Infrastructure Pulse_ Power, Pipes,/chart_script.py",
+        "file_name": "chart_script.py",
+        "chart_type": "general",
+        "category": "infrastructure",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.037935",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-2876f35d": {
+        "chart_id": "t4-chart-2876f35d",
+        "file_path": "Data Processing Part 2/Houston\u2019s 2025 Infrastructure Pulse_ Power, Pipes,/chart_script_1.py",
+        "file_name": "chart_script_1.py",
+        "chart_type": "general",
+        "category": "infrastructure",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.038130",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-2b8d9383": {
+        "chart_id": "t4-chart-2b8d9383",
+        "file_path": "Data Processing Part 2/Generational Housing Shifts and Demographic Curren/chart_script.py",
+        "file_name": "chart_script.py",
+        "chart_type": "general",
+        "category": "demographic",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [
+          "Population and demographic trends"
+        ],
+        "timestamp": "2025-07-11T04:02:40.038377",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-e095723b": {
+        "chart_id": "t4-chart-e095723b",
+        "file_path": "Data Processing Part 2/Generational Housing Shifts and Demographic Curren/chart_script_1.py",
+        "file_name": "chart_script_1.py",
+        "chart_type": "general",
+        "category": "demographic",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [
+          "Population and demographic trends"
+        ],
+        "timestamp": "2025-07-11T04:02:40.038554",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-c23d09db": {
+        "chart_id": "t4-chart-c23d09db",
+        "file_path": "Data Processing Part 2/2024\u20132025 Construction Finance & Delivery Outlook/chart_script.py",
+        "file_name": "chart_script.py",
+        "chart_type": "general",
+        "category": "financial",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [
+          "Financial performance visualization"
+        ],
+        "timestamp": "2025-07-11T04:02:40.038775",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-da0b9f1e": {
+        "chart_id": "t4-chart-da0b9f1e",
+        "file_path": "Data Processing Part 2/2024\u20132025 Construction Finance & Delivery Outlook/chart_script_1.py",
+        "file_name": "chart_script_1.py",
+        "chart_type": "general",
+        "category": "financial",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [
+          "Financial performance visualization"
+        ],
+        "timestamp": "2025-07-11T04:02:40.039012",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-aca9c2c7": {
+        "chart_id": "t4-chart-aca9c2c7",
+        "file_path": "Data Processing Part 2/Building a Climate-Resilient Houston_ Flood, Heat,/chart_script.py",
+        "file_name": "chart_script.py",
+        "chart_type": "general",
+        "category": "climate",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.039276",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-1c93e584": {
+        "chart_id": "t4-chart-1c93e584",
+        "file_path": "Data Processing Part 2/Capital Currents_ How Money Flowed into Houston Re/chart_script.py",
+        "file_name": "chart_script.py",
+        "chart_type": "general",
+        "category": "investment",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.039486",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-b9e2db43": {
+        "chart_id": "t4-chart-b9e2db43",
+        "file_path": "Data Processing Part 2/Capital Currents_ How Money Flowed into Houston Re/chart_script_1.py",
+        "file_name": "chart_script_1.py",
+        "chart_type": "general",
+        "category": "investment",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.039660",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-e40515a4": {
+        "chart_id": "t4-chart-e40515a4",
+        "file_path": "Data Processing Part 2/Capital Currents_ How Money Flowed into Houston Re/script.py",
+        "file_name": "script.py",
+        "chart_type": "general",
+        "category": "investment",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.039769",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-b5ce7151": {
+        "chart_id": "t4-chart-b5ce7151",
+        "file_path": "Data Processing Part 2/Houston\u2019s 2024 Industrial Real Estate Landscape_ P/chart_script.py",
+        "file_name": "chart_script.py",
+        "chart_type": "general",
+        "category": "general",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.039936",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-01e45e6b": {
+        "chart_id": "t4-chart-01e45e6b",
+        "file_path": "Data Processing Part 2/Houston\u2019s 2024 Industrial Real Estate Landscape_ P/chart_script_1.py",
+        "file_name": "chart_script_1.py",
+        "chart_type": "general",
+        "category": "general",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.040099",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-54ede835": {
+        "chart_id": "t4-chart-54ede835",
+        "file_path": "Data Processing Part 2/Greening Houston\u2019s Built Environment_ Incentives,/chart_script.py",
+        "file_name": "chart_script.py",
+        "chart_type": "general",
+        "category": "climate",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.040375",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-db97b3ca": {
+        "chart_id": "t4-chart-db97b3ca",
+        "file_path": "Data Processing Part 2/Education, Enrollment, and Real Estate in Greater/chart_script.py",
+        "file_name": "chart_script.py",
+        "chart_type": "general",
+        "category": "general",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.040665",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      },
+      "t4-chart-f10aa496": {
+        "chart_id": "t4-chart-f10aa496",
+        "file_path": "Data Processing Part 2/Education, Enrollment, and Real Estate in Greater/chart_script_1.py",
+        "file_name": "chart_script_1.py",
+        "chart_type": "general",
+        "category": "general",
+        "associated_report": null,
+        "data_sources": [],
+        "key_metrics": [],
+        "visualization_insights": [],
+        "timestamp": "2025-07-11T04:02:40.041027",
+        "processing_metadata": {
+          "handler": "T4-Visualization-Handler",
+          "version": "1.0.0"
+        }
+      }
+    }
+  },
+  "integration_queue": [
+    {
+      "source": "T4-Market-Intelligence",
+      "timestamp": "2025-07-11T04:02:40.042129",
+      "data_type": "premium_market_intelligence",
+      "priority": "high",
+      "content": {
+        "consolidated_intelligence": {
+          "intelligence_id": "t4-consolidated-20250711",
+          "generation_date": "2025-07-11T04:02:40.042099",
+          "data_vintage": "2024-2025",
+          "total_sources": 49,
+          "market_summary": {
+            "overall": "Houston's 2024-2025 real estate market shows robust fundamentals with institutional capital deployment offsetting construction cost pressures"
+          },
+          "key_metrics": {
+            "average_construction_loan_spread": 330.0
+          },
+          "investment_opportunities": [
+            {
+              "description": "com/blog_122070_the-future-of-houston----emerging-suburban-trends-in-2024\n\n[^51]: https://housingforhouston",
+              "keyword": "emerging",
+              "quantitative_metrics": [
+                "122070",
+                "2024",
+                "51"
+              ]
+            },
+            {
+              "description": "org/houston/regional-stories/2024-review-empowering-emerging-developers-and-advancing-affordable-housing-reflecting-2024/\n\n[^55]: https://www",
+              "keyword": "emerging",
+              "quantitative_metrics": [
+                "2024",
+                "2024",
+                "55"
+              ]
+            },
+            {
+              "description": "Synthesis: How Policy Shapes the Deal Sheet\n\n| Driver | Direct Cost Impact | Key Upside for Early Movers |\n| :-- | :-- | :-- |\n| Detention inflation (0",
+              "keyword": "upside",
+              "quantitative_metrics": [
+                "0"
+              ]
+            },
+            {
+              "description": "com/real-estate-blog/the-future-of-houston-emerging-suburban-trends-in-2024/\n\n[^4]: https://houston",
+              "keyword": "emerging",
+              "quantitative_metrics": [
+                "2024",
+                "4"
+              ]
+            },
+            {
+              "description": "com/2025-texas-commercial-real-estate-outlook-resilience-opportunity-and-innovation/\n\n[^85]: https://www",
+              "keyword": "opportunity",
+              "quantitative_metrics": [
+                "2025",
+                "85"
+              ]
+            },
+            {
+              "description": "3  Emerging Private-Sector Standards\n\nLarge REITs such as Hines now specify roof solar reflectance \u2265 0",
+              "keyword": "emerging",
+              "quantitative_metrics": [
+                "3",
+                "0"
+              ]
+            },
+            {
+              "description": "Development Finance Under the New Resilience Regime\n\n| Cost Driver (2024\u201325) | Typical Impact on Pro-Forma | Mitigation/Opportunity | Sources |\n| :-- | :-- | :-- | :-- |\n| Higher on-site detention (0",
+              "keyword": "opportunity",
+              "quantitative_metrics": [
+                "2024",
+                "25",
+                "0"
+              ]
+            },
+            {
+              "description": "**On the Roof:** Cool surfaces and canopy mandates are no longer fringe ESG items; they are embedded in the 2024 construction code and backed by tax incentives, providing measurable NOI upside during record heat waves",
+              "keyword": "upside",
+              "quantitative_metrics": [
+                "2024"
+              ]
+            },
+            {
+              "description": "Completed Opportunity-Zone deals topped \\$1",
+              "keyword": "opportunity",
+              "quantitative_metrics": [
+                "1"
+              ]
+            },
+            {
+              "description": "Opportunity-Zone Deliveries: From Plans to Product\n\nHouston saw **seven OZ projects reach completion** in 2024, delivering 1",
+              "keyword": "opportunity",
+              "quantitative_metrics": [
+                "2024",
+                "1"
+              ]
+            },
+            {
+              "description": "With the supply pipeline throttling back and debt markets thawing, Houston enters 2025 poised for a fresh upswing in deal flow\u2014albeit with sharper underwriting and a heavier tilt toward logistics, lower-cost multifamily and mixed-use nodes in the east\u2010side Opportunity Zones",
+              "keyword": "opportunity",
+              "quantitative_metrics": [
+                "2025"
+              ]
+            },
+            {
+              "description": "For investors, the opportunity lies in port-proximate, rail-served land and in retrofitting older warehouses with higher power capacity",
+              "keyword": "opportunity",
+              "quantitative_metrics": []
+            },
+            {
+              "description": "Conversely, developments that ignore the emerging standards face slow permits, higher insurance, and eroding asset values",
+              "keyword": "emerging",
+              "quantitative_metrics": []
+            }
+          ],
+          "risk_assessment": [
+            {
+              "type": "risk",
+              "description": "6 billion trauma\u2010tower outside the Texas Medical Center (TMC), brisk suburban hospital builds, and an unprecedented wave of medical-office leasing**"
+            },
+            {
+              "type": "risk",
+              "description": "Expect construction inflation and labor shortages to favor CM-at-Risk contracts and phased shells"
+            },
+            {
+              "type": "challenge",
+              "description": "3  West Oaks \\& Galleria Tweaks\n\n- Pacific Retail acquired West Oaks Mall for \\$15 million and is studying entertainment and healthcare insertions to revive a corridor challenged by Katy Mills and CityCentre competition[^3]"
+            },
+            {
+              "type": "risk",
+              "description": "nl/files/248034545/Risk_Analysis_-_2025_-_Son_-_Effectiveness_of_the_Ike_Dike_in_mitigating_coastal_flood_risk_under_multiple_climate_and_sea"
+            },
+            {
+              "type": "risk",
+              "description": "Collectively these moves cut the probability of firm-load shed during an 18 \u00b0F system-wide cold snap to 12%, half the 2023 risk profile, according to ERCOT\u2019s 2024 State of the Grid report[^5]"
+            },
+            {
+              "type": "risk",
+              "description": "Deliveries begin 2026, allowing West Harris County Regional Water Authority members to slash aquifer withdrawals and curb land subsidence that elevates flooding risk[^21]"
+            },
+            {
+              "type": "concern",
+              "description": "Meanwhile, **urban mid-rise condos in Midtown and the Museum District saw a 12 percent y/y decline in retiree purchases** amid concerns over HOA cost escalation[^32][^33]"
+            },
+            {
+              "type": "risk",
+              "description": "2 Risk-Based Spreads\n\n| Property Type | Typical LTC | 2024Q4 All-in Rate* | Y/Y Change | Commentary |\n| :-- | :-- | :-- | :-- | :-- |\n| Industrial BTS | 70% | 7"
+            },
+            {
+              "type": "risk",
+              "description": "50% | +55 bps | Underwriting assumes ramp risk"
+            },
+            {
+              "type": "risk",
+              "description": "2  What the Barrier Means for Development\n\n- Bond underwriters now discount storm-surge risk for Port Houston tank-farms by 20 basis-points when the GCPD match is appropriated, lowering borrowing costs for capital-intensive petrochem plants[^23]"
+            },
+            {
+              "type": "concern",
+              "description": "3  Ike Dike Alternatives and Gate Design Debates\n\nLocal pilots raised navigational concerns about the Corps\u2019 double-sector gate, prompting Texas A\\&M\u2019s Institute for a Disaster-Resilient Texas to study arch and barge-gate options in 2024[^25]"
+            },
+            {
+              "type": "volatility",
+              "description": "Pension-Fund Allocations: Quiet but Growing\n\nHouston-area retirement systems upped real-estate targets to buffer equity volatility:\n\n* **Houston Police Officers Pension System (HPOPS)**\n    * Added \\$15 million to Neuberger Berman Real Estate Secondary Opportunities II; total 2025 pacing \\$105 million[^27][^28]"
+            },
+            {
+              "type": "exposure",
+              "description": "* New strategic asset-allocation (effective Sept 2024) reduces office exposure, reallocates to specialty housing and infrastructure[^30]"
+            },
+            {
+              "type": "risk",
+              "description": "** A 2025 state law lets licensed engineers perform plan review when the city fails to act within two business days, after which construction may start immediately\u2014further de-risking timelines[^22]"
+            },
+            {
+              "type": "risk",
+              "description": "Carbon-Neutrality Goals and Development Risk\n\n### 5"
+            },
+            {
+              "type": "risk",
+              "description": "1 Ranking Frameworks\n\nChildren at Risk\u2019s 2023-24 ranking uses STAAR proficiency, year-over-year growth, and college readiness to grade 1,502 Houston-area campuses[^3]"
+            },
+            {
+              "type": "risk",
+              "description": "Lamar CISD advanced six slots in Children at Risk\u2019s league table, buoyed by 28% five-year enrollment growth that allowed the district to open two STEM-focused high schools and keep class sizes under 24[^2]"
+            }
+          ],
+          "actionable_recommendations": [
+            "Focus on industrial/logistics assets near Port Houston and major highways for e-commerce growth capture"
+          ],
+          "visualization_insights": [
+            "Population and demographic trends",
+            "Market dynamics visualization",
+            "Financial performance visualization"
+          ]
+        },
+        "processing_stats": {
+          "start_time": "2025-07-11T04:02:39.948224",
+          "reports_processed": 11,
+          "visualizations_processed": 38,
+          "intelligence_generated": 11,
+          "errors": [],
+          "end_time": "2025-07-11T04:02:40.043085",
+          "status": "completed"
+        },
+        "domain_mappings": {
+          "financial_intelligence": [
+            {
+              "type": "financial_metrics",
+              "data": {
+                "average_construction_loan_spread": 330.0
+              }
+            }
+          ],
+          "market_intelligence": [
+            {
+              "description": "com/blog_122070_the-future-of-houston----emerging-suburban-trends-in-2024\n\n[^51]: https://housingforhouston",
+              "keyword": "emerging",
+              "quantitative_metrics": [
+                "122070",
+                "2024",
+                "51"
+              ]
+            },
+            {
+              "description": "org/houston/regional-stories/2024-review-empowering-emerging-developers-and-advancing-affordable-housing-reflecting-2024/\n\n[^55]: https://www",
+              "keyword": "emerging",
+              "quantitative_metrics": [
+                "2024",
+                "2024",
+                "55"
+              ]
+            },
+            {
+              "description": "Synthesis: How Policy Shapes the Deal Sheet\n\n| Driver | Direct Cost Impact | Key Upside for Early Movers |\n| :-- | :-- | :-- |\n| Detention inflation (0",
+              "keyword": "upside",
+              "quantitative_metrics": [
+                "0"
+              ]
+            },
+            {
+              "description": "com/real-estate-blog/the-future-of-houston-emerging-suburban-trends-in-2024/\n\n[^4]: https://houston",
+              "keyword": "emerging",
+              "quantitative_metrics": [
+                "2024",
+                "4"
+              ]
+            },
+            {
+              "description": "com/2025-texas-commercial-real-estate-outlook-resilience-opportunity-and-innovation/\n\n[^85]: https://www",
+              "keyword": "opportunity",
+              "quantitative_metrics": [
+                "2025",
+                "85"
+              ]
+            },
+            {
+              "description": "3  Emerging Private-Sector Standards\n\nLarge REITs such as Hines now specify roof solar reflectance \u2265 0",
+              "keyword": "emerging",
+              "quantitative_metrics": [
+                "3",
+                "0"
+              ]
+            },
+            {
+              "description": "Development Finance Under the New Resilience Regime\n\n| Cost Driver (2024\u201325) | Typical Impact on Pro-Forma | Mitigation/Opportunity | Sources |\n| :-- | :-- | :-- | :-- |\n| Higher on-site detention (0",
+              "keyword": "opportunity",
+              "quantitative_metrics": [
+                "2024",
+                "25",
+                "0"
+              ]
+            },
+            {
+              "description": "**On the Roof:** Cool surfaces and canopy mandates are no longer fringe ESG items; they are embedded in the 2024 construction code and backed by tax incentives, providing measurable NOI upside during record heat waves",
+              "keyword": "upside",
+              "quantitative_metrics": [
+                "2024"
+              ]
+            },
+            {
+              "description": "Completed Opportunity-Zone deals topped \\$1",
+              "keyword": "opportunity",
+              "quantitative_metrics": [
+                "1"
+              ]
+            },
+            {
+              "description": "Opportunity-Zone Deliveries: From Plans to Product\n\nHouston saw **seven OZ projects reach completion** in 2024, delivering 1",
+              "keyword": "opportunity",
+              "quantitative_metrics": [
+                "2024",
+                "1"
+              ]
+            },
+            {
+              "description": "With the supply pipeline throttling back and debt markets thawing, Houston enters 2025 poised for a fresh upswing in deal flow\u2014albeit with sharper underwriting and a heavier tilt toward logistics, lower-cost multifamily and mixed-use nodes in the east\u2010side Opportunity Zones",
+              "keyword": "opportunity",
+              "quantitative_metrics": [
+                "2025"
+              ]
+            },
+            {
+              "description": "For investors, the opportunity lies in port-proximate, rail-served land and in retrofitting older warehouses with higher power capacity",
+              "keyword": "opportunity",
+              "quantitative_metrics": []
+            },
+            {
+              "description": "Conversely, developments that ignore the emerging standards face slow permits, higher insurance, and eroding asset values",
+              "keyword": "emerging",
+              "quantitative_metrics": []
+            },
+            {
+              "type": "risk",
+              "description": "6 billion trauma\u2010tower outside the Texas Medical Center (TMC), brisk suburban hospital builds, and an unprecedented wave of medical-office leasing**"
+            },
+            {
+              "type": "risk",
+              "description": "Expect construction inflation and labor shortages to favor CM-at-Risk contracts and phased shells"
+            },
+            {
+              "type": "challenge",
+              "description": "3  West Oaks \\& Galleria Tweaks\n\n- Pacific Retail acquired West Oaks Mall for \\$15 million and is studying entertainment and healthcare insertions to revive a corridor challenged by Katy Mills and CityCentre competition[^3]"
+            },
+            {
+              "type": "risk",
+              "description": "Collectively these moves cut the probability of firm-load shed during an 18 \u00b0F system-wide cold snap to 12%, half the 2023 risk profile, according to ERCOT\u2019s 2024 State of the Grid report[^5]"
+            },
+            {
+              "type": "risk",
+              "description": "Deliveries begin 2026, allowing West Harris County Regional Water Authority members to slash aquifer withdrawals and curb land subsidence that elevates flooding risk[^21]"
+            },
+            {
+              "type": "concern",
+              "description": "Meanwhile, **urban mid-rise condos in Midtown and the Museum District saw a 12 percent y/y decline in retiree purchases** amid concerns over HOA cost escalation[^32][^33]"
+            },
+            {
+              "type": "risk",
+              "description": "2 Risk-Based Spreads\n\n| Property Type | Typical LTC | 2024Q4 All-in Rate* | Y/Y Change | Commentary |\n| :-- | :-- | :-- | :-- | :-- |\n| Industrial BTS | 70% | 7"
+            },
+            {
+              "type": "risk",
+              "description": "50% | +55 bps | Underwriting assumes ramp risk"
+            },
+            {
+              "type": "risk",
+              "description": "2  What the Barrier Means for Development\n\n- Bond underwriters now discount storm-surge risk for Port Houston tank-farms by 20 basis-points when the GCPD match is appropriated, lowering borrowing costs for capital-intensive petrochem plants[^23]"
+            },
+            {
+              "type": "concern",
+              "description": "3  Ike Dike Alternatives and Gate Design Debates\n\nLocal pilots raised navigational concerns about the Corps\u2019 double-sector gate, prompting Texas A\\&M\u2019s Institute for a Disaster-Resilient Texas to study arch and barge-gate options in 2024[^25]"
+            },
+            {
+              "type": "volatility",
+              "description": "Pension-Fund Allocations: Quiet but Growing\n\nHouston-area retirement systems upped real-estate targets to buffer equity volatility:\n\n* **Houston Police Officers Pension System (HPOPS)**\n    * Added \\$15 million to Neuberger Berman Real Estate Secondary Opportunities II; total 2025 pacing \\$105 million[^27][^28]"
+            },
+            {
+              "type": "exposure",
+              "description": "* New strategic asset-allocation (effective Sept 2024) reduces office exposure, reallocates to specialty housing and infrastructure[^30]"
+            },
+            {
+              "type": "risk",
+              "description": "** A 2025 state law lets licensed engineers perform plan review when the city fails to act within two business days, after which construction may start immediately\u2014further de-risking timelines[^22]"
+            },
+            {
+              "type": "risk",
+              "description": "Carbon-Neutrality Goals and Development Risk\n\n### 5"
+            },
+            {
+              "type": "risk",
+              "description": "1 Ranking Frameworks\n\nChildren at Risk\u2019s 2023-24 ranking uses STAAR proficiency, year-over-year growth, and college readiness to grade 1,502 Houston-area campuses[^3]"
+            },
+            {
+              "type": "risk",
+              "description": "Lamar CISD advanced six slots in Children at Risk\u2019s league table, buoyed by 28% five-year enrollment growth that allowed the district to open two STEM-focused high schools and keep class sizes under 24[^2]"
+            }
+          ],
+          "environmental_intelligence": [
+            {
+              "type": "risk",
+              "description": "nl/files/248034545/Risk_Analysis_-_2025_-_Son_-_Effectiveness_of_the_Ike_Dike_in_mitigating_coastal_flood_risk_under_multiple_climate_and_sea"
+            }
+          ],
+          "neighborhood_intelligence": [],
+          "technology_intelligence": []
+        }
+      }
+    }
+  ],
+  "consolidated_intelligence": {
+    "intelligence_id": "t4-consolidated-20250711",
+    "generation_date": "2025-07-11T04:02:40.042099",
+    "data_vintage": "2024-2025",
+    "total_sources": 49,
+    "market_summary": {
+      "overall": "Houston's 2024-2025 real estate market shows robust fundamentals with institutional capital deployment offsetting construction cost pressures"
+    },
+    "key_metrics": {
+      "average_construction_loan_spread": 330.0
+    },
+    "investment_opportunities": [
+      {
+        "description": "com/blog_122070_the-future-of-houston----emerging-suburban-trends-in-2024\n\n[^51]: https://housingforhouston",
+        "keyword": "emerging",
+        "quantitative_metrics": [
+          "122070",
+          "2024",
+          "51"
+        ]
+      },
+      {
+        "description": "org/houston/regional-stories/2024-review-empowering-emerging-developers-and-advancing-affordable-housing-reflecting-2024/\n\n[^55]: https://www",
+        "keyword": "emerging",
+        "quantitative_metrics": [
+          "2024",
+          "2024",
+          "55"
+        ]
+      },
+      {
+        "description": "Synthesis: How Policy Shapes the Deal Sheet\n\n| Driver | Direct Cost Impact | Key Upside for Early Movers |\n| :-- | :-- | :-- |\n| Detention inflation (0",
+        "keyword": "upside",
+        "quantitative_metrics": [
+          "0"
+        ]
+      },
+      {
+        "description": "com/real-estate-blog/the-future-of-houston-emerging-suburban-trends-in-2024/\n\n[^4]: https://houston",
+        "keyword": "emerging",
+        "quantitative_metrics": [
+          "2024",
+          "4"
+        ]
+      },
+      {
+        "description": "com/2025-texas-commercial-real-estate-outlook-resilience-opportunity-and-innovation/\n\n[^85]: https://www",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "2025",
+          "85"
+        ]
+      },
+      {
+        "description": "3  Emerging Private-Sector Standards\n\nLarge REITs such as Hines now specify roof solar reflectance \u2265 0",
+        "keyword": "emerging",
+        "quantitative_metrics": [
+          "3",
+          "0"
+        ]
+      },
+      {
+        "description": "Development Finance Under the New Resilience Regime\n\n| Cost Driver (2024\u201325) | Typical Impact on Pro-Forma | Mitigation/Opportunity | Sources |\n| :-- | :-- | :-- | :-- |\n| Higher on-site detention (0",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "2024",
+          "25",
+          "0"
+        ]
+      },
+      {
+        "description": "**On the Roof:** Cool surfaces and canopy mandates are no longer fringe ESG items; they are embedded in the 2024 construction code and backed by tax incentives, providing measurable NOI upside during record heat waves",
+        "keyword": "upside",
+        "quantitative_metrics": [
+          "2024"
+        ]
+      },
+      {
+        "description": "Completed Opportunity-Zone deals topped \\$1",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "1"
+        ]
+      },
+      {
+        "description": "Opportunity-Zone Deliveries: From Plans to Product\n\nHouston saw **seven OZ projects reach completion** in 2024, delivering 1",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "2024",
+          "1"
+        ]
+      },
+      {
+        "description": "With the supply pipeline throttling back and debt markets thawing, Houston enters 2025 poised for a fresh upswing in deal flow\u2014albeit with sharper underwriting and a heavier tilt toward logistics, lower-cost multifamily and mixed-use nodes in the east\u2010side Opportunity Zones",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "2025"
+        ]
+      },
+      {
+        "description": "For investors, the opportunity lies in port-proximate, rail-served land and in retrofitting older warehouses with higher power capacity",
+        "keyword": "opportunity",
+        "quantitative_metrics": []
+      },
+      {
+        "description": "Conversely, developments that ignore the emerging standards face slow permits, higher insurance, and eroding asset values",
+        "keyword": "emerging",
+        "quantitative_metrics": []
+      }
+    ],
+    "risk_assessment": [
+      {
+        "type": "risk",
+        "description": "6 billion trauma\u2010tower outside the Texas Medical Center (TMC), brisk suburban hospital builds, and an unprecedented wave of medical-office leasing**"
+      },
+      {
+        "type": "risk",
+        "description": "Expect construction inflation and labor shortages to favor CM-at-Risk contracts and phased shells"
+      },
+      {
+        "type": "challenge",
+        "description": "3  West Oaks \\& Galleria Tweaks\n\n- Pacific Retail acquired West Oaks Mall for \\$15 million and is studying entertainment and healthcare insertions to revive a corridor challenged by Katy Mills and CityCentre competition[^3]"
+      },
+      {
+        "type": "risk",
+        "description": "nl/files/248034545/Risk_Analysis_-_2025_-_Son_-_Effectiveness_of_the_Ike_Dike_in_mitigating_coastal_flood_risk_under_multiple_climate_and_sea"
+      },
+      {
+        "type": "risk",
+        "description": "Collectively these moves cut the probability of firm-load shed during an 18 \u00b0F system-wide cold snap to 12%, half the 2023 risk profile, according to ERCOT\u2019s 2024 State of the Grid report[^5]"
+      },
+      {
+        "type": "risk",
+        "description": "Deliveries begin 2026, allowing West Harris County Regional Water Authority members to slash aquifer withdrawals and curb land subsidence that elevates flooding risk[^21]"
+      },
+      {
+        "type": "concern",
+        "description": "Meanwhile, **urban mid-rise condos in Midtown and the Museum District saw a 12 percent y/y decline in retiree purchases** amid concerns over HOA cost escalation[^32][^33]"
+      },
+      {
+        "type": "risk",
+        "description": "2 Risk-Based Spreads\n\n| Property Type | Typical LTC | 2024Q4 All-in Rate* | Y/Y Change | Commentary |\n| :-- | :-- | :-- | :-- | :-- |\n| Industrial BTS | 70% | 7"
+      },
+      {
+        "type": "risk",
+        "description": "50% | +55 bps | Underwriting assumes ramp risk"
+      },
+      {
+        "type": "risk",
+        "description": "2  What the Barrier Means for Development\n\n- Bond underwriters now discount storm-surge risk for Port Houston tank-farms by 20 basis-points when the GCPD match is appropriated, lowering borrowing costs for capital-intensive petrochem plants[^23]"
+      },
+      {
+        "type": "concern",
+        "description": "3  Ike Dike Alternatives and Gate Design Debates\n\nLocal pilots raised navigational concerns about the Corps\u2019 double-sector gate, prompting Texas A\\&M\u2019s Institute for a Disaster-Resilient Texas to study arch and barge-gate options in 2024[^25]"
+      },
+      {
+        "type": "volatility",
+        "description": "Pension-Fund Allocations: Quiet but Growing\n\nHouston-area retirement systems upped real-estate targets to buffer equity volatility:\n\n* **Houston Police Officers Pension System (HPOPS)**\n    * Added \\$15 million to Neuberger Berman Real Estate Secondary Opportunities II; total 2025 pacing \\$105 million[^27][^28]"
+      },
+      {
+        "type": "exposure",
+        "description": "* New strategic asset-allocation (effective Sept 2024) reduces office exposure, reallocates to specialty housing and infrastructure[^30]"
+      },
+      {
+        "type": "risk",
+        "description": "** A 2025 state law lets licensed engineers perform plan review when the city fails to act within two business days, after which construction may start immediately\u2014further de-risking timelines[^22]"
+      },
+      {
+        "type": "risk",
+        "description": "Carbon-Neutrality Goals and Development Risk\n\n### 5"
+      },
+      {
+        "type": "risk",
+        "description": "1 Ranking Frameworks\n\nChildren at Risk\u2019s 2023-24 ranking uses STAAR proficiency, year-over-year growth, and college readiness to grade 1,502 Houston-area campuses[^3]"
+      },
+      {
+        "type": "risk",
+        "description": "Lamar CISD advanced six slots in Children at Risk\u2019s league table, buoyed by 28% five-year enrollment growth that allowed the district to open two STEM-focused high schools and keep class sizes under 24[^2]"
+      }
+    ],
+    "actionable_recommendations": [
+      "Focus on industrial/logistics assets near Port Houston and major highways for e-commerce growth capture"
+    ],
+    "visualization_insights": [
+      "Population and demographic trends",
+      "Market dynamics visualization",
+      "Financial performance visualization"
+    ]
+  }
+}

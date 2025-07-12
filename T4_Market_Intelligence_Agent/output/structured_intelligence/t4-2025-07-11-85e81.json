@@ -1,0 +1,86 @@
+{
+  "intelligence_id": "t4-2025-07-11-85e81",
+  "source_file": "Data Processing Part 2/2024\u20132025 Construction Finance & Delivery Outlook/2024\u20132025 Construction Finance & Delivery Outlook.md",
+  "report_category": "General Market Intelligence",
+  "report_sources": [
+    "2024\u20132025 Construction Finance & Delivery Outlook"
+  ],
+  "market_metrics": {
+    "financial_indicators": {
+      "loan_rates": [
+        {
+          "sofr_spread": 330.0,
+          "context": "amily, and mixed-use builds ended 2024 near 8.0% (SOFR + 330 bps), down 40 bps from the October 2023 peak but"
+        }
+      ]
+    },
+    "investment_opportunities": [],
+    "market_forecasts": {},
+    "risk_factors": [
+      {
+        "type": "risk",
+        "description": "2 Risk-Based Spreads\n\n| Property Type | Typical LTC | 2024Q4 All-in Rate* | Y/Y Change | Commentary |\n| :-- | :-- | :-- | :-- | :-- |\n| Industrial BTS | 70% | 7"
+      },
+      {
+        "type": "risk",
+        "description": "50% | +55 bps | Underwriting assumes ramp risk"
+      },
+      {
+        "type": "risk",
+        "description": "Construction-to-perm executions (\u201cone-time close\u201d) can trim 30\u201350 bps in fees and eliminate re-underwrite risk\u2014particularly appealing for owner-occupied medical and life-science space[^7]"
+      },
+      {
+        "type": "exposure",
+        "description": "2 Alternative Capital Sources\n\n- Regional-bank participation pools are resurfacing for deals under \\$40 million, easing single-bank exposure limits"
+      },
+      {
+        "type": "risk",
+        "description": "Labor Shortage and Schedule Risk\n\n### 5"
+      },
+      {
+        "type": "risk",
+        "description": "- Owners adopting escalation clauses tied to ENR CCI or Turner Index to share inflation risk"
+      },
+      {
+        "type": "threat",
+        "description": "**Labor Scarcity Is the Primary Schedule Threat"
+      },
+      {
+        "type": "volatility",
+        "description": "com/briefs/banks-drive-cre-lending-surge-in-q1-2025-despite-market-volatility/\n\n[^4]: https://ingrams"
+      },
+      {
+        "type": "challenge",
+        "description": "com/a-10b-challenge-2024-loan-maturities-in-texas-and-oklahoma/\n\n[^9]: https://www"
+      },
+      {
+        "type": "challenge",
+        "description": "com/houston-construction-challenges/\n\n[^17]: https://www"
+      }
+    ]
+  },
+  "quantitative_data": {
+    "cap_rates": {},
+    "roi_projections": {},
+    "cost_estimates": {},
+    "demographic_trends": {}
+  },
+  "actionable_insights": [
+    "Construction loans pricing at SOFR+330bps reflects current lending environment"
+  ],
+  "confidence_score": 0.28,
+  "data_vintage": "2024-2025",
+  "timestamp": "2025-07-11T04:02:39.991531",
+  "processing_metadata": {
+    "processor": "T4-Data-Processor",
+    "version": "1.0.0",
+    "extraction_patterns_used": [
+      "cap_rate",
+      "roi",
+      "irr",
+      "price_psf",
+      "loan_rate",
+      "construction_cost"
+    ]
+  }
+}

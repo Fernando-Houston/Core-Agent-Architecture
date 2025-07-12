@@ -1,0 +1,64 @@
+{
+  "intelligence_id": "t4-2025-07-11-d73b3",
+  "source_file": "Data Processing Part 2/Houston Health-Care Real Estate Outlook (2024-2025/Houston Health-Care Real Estate Outlook (2024-2025.md",
+  "report_category": "General Market Intelligence",
+  "report_sources": [
+    "Houston Health-Care Real Estate Outlook (2024-2025"
+  ],
+  "market_metrics": {
+    "financial_indicators": {},
+    "investment_opportunities": [
+      {
+        "description": "com/blog_122070_the-future-of-houston----emerging-suburban-trends-in-2024\n\n[^51]: https://housingforhouston",
+        "keyword": "emerging",
+        "quantitative_metrics": [
+          "122070",
+          "2024",
+          "51"
+        ]
+      },
+      {
+        "description": "org/houston/regional-stories/2024-review-empowering-emerging-developers-and-advancing-affordable-housing-reflecting-2024/\n\n[^55]: https://www",
+        "keyword": "emerging",
+        "quantitative_metrics": [
+          "2024",
+          "2024",
+          "55"
+        ]
+      }
+    ],
+    "market_forecasts": {},
+    "risk_factors": [
+      {
+        "type": "risk",
+        "description": "6 billion trauma\u2010tower outside the Texas Medical Center (TMC), brisk suburban hospital builds, and an unprecedented wave of medical-office leasing**"
+      },
+      {
+        "type": "risk",
+        "description": "Expect construction inflation and labor shortages to favor CM-at-Risk contracts and phased shells"
+      }
+    ]
+  },
+  "quantitative_data": {
+    "cap_rates": {},
+    "roi_projections": {},
+    "cost_estimates": {},
+    "demographic_trends": {}
+  },
+  "actionable_insights": [],
+  "confidence_score": 0.24,
+  "data_vintage": "2024-2025",
+  "timestamp": "2025-07-11T04:02:39.957070",
+  "processing_metadata": {
+    "processor": "T4-Data-Processor",
+    "version": "1.0.0",
+    "extraction_patterns_used": [
+      "cap_rate",
+      "roi",
+      "irr",
+      "price_psf",
+      "loan_rate",
+      "construction_cost"
+    ]
+  }
+}

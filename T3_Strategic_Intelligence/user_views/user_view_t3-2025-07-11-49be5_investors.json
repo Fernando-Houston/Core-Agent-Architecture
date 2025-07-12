@@ -1,0 +1,50 @@
+{
+  "view_id": "t3-2025-07-11-49be5-investors",
+  "segment": "investors",
+  "data": {
+    "priority_insights": [
+      {
+        "type": "recommendation",
+        "title": "Market Expansion Phase - Accelerate Acquisition",
+        "description": "Market indicators suggest expansion phase. Favorable conditions for property acquisition.",
+        "impact_level": "high",
+        "confidence": 1.0,
+        "action_items": [
+          "Increase acquisition pace",
+          "Leverage favorable financing",
+          "Focus on growth markets"
+        ],
+        "timeline": "immediate",
+        "supporting_data": [
+          {
+            "phase": "expansion",
+            "confidence": 1.0
+          }
+        ]
+      }
+    ],
+    "recommendations": [],
+    "risk_factors": [],
+    "action_plan": {
+      "immediate_actions": [
+        "Increase acquisition pace",
+        "Leverage favorable financing"
+      ],
+      "short_term_goals": [],
+      "risk_mitigation": [],
+      "success_metrics": [
+        "ROI achieved",
+        "Portfolio value growth",
+        "Cash flow targets"
+      ]
+    },
+    "market_readiness": {
+      "score": 0.6,
+      "assessment": "Moderate",
+      "factors": [
+        "Market in expansion phase"
+      ]
+    }
+  },
+  "generated_at": "2025-07-11T04:00:14.931475"
+}

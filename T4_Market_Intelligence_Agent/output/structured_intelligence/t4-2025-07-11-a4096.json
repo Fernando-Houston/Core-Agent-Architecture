@@ -1,0 +1,49 @@
+{
+  "intelligence_id": "t4-2025-07-11-a4096",
+  "source_file": "Data Processing Part 2/Resilient Houston 2024-2025/Resilient Houston 2024-2025.md",
+  "report_category": "General Market Intelligence",
+  "report_sources": [
+    "Resilient Houston 2024-2025"
+  ],
+  "market_metrics": {
+    "financial_indicators": {},
+    "investment_opportunities": [
+      {
+        "description": "Synthesis: How Policy Shapes the Deal Sheet\n\n| Driver | Direct Cost Impact | Key Upside for Early Movers |\n| :-- | :-- | :-- |\n| Detention inflation (0",
+        "keyword": "upside",
+        "quantitative_metrics": [
+          "0"
+        ]
+      }
+    ],
+    "market_forecasts": {},
+    "risk_factors": [
+      {
+        "type": "risk",
+        "description": "nl/files/248034545/Risk_Analysis_-_2025_-_Son_-_Effectiveness_of_the_Ike_Dike_in_mitigating_coastal_flood_risk_under_multiple_climate_and_sea"
+      }
+    ]
+  },
+  "quantitative_data": {
+    "cap_rates": {},
+    "roi_projections": {},
+    "cost_estimates": {},
+    "demographic_trends": {}
+  },
+  "actionable_insights": [],
+  "confidence_score": 0.17,
+  "data_vintage": "2024-2025",
+  "timestamp": "2025-07-11T04:02:39.972159",
+  "processing_metadata": {
+    "processor": "T4-Data-Processor",
+    "version": "1.0.0",
+    "extraction_patterns_used": [
+      "cap_rate",
+      "roi",
+      "irr",
+      "price_psf",
+      "loan_rate",
+      "construction_cost"
+    ]
+  }
+}

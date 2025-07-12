@@ -1,0 +1,63 @@
+{
+  "intelligence_id": "t4-2025-07-11-19286",
+  "source_file": "Data Processing Part 2/Greening Houston\u2019s Built Environment_ Incentives,/Greening Houston\u2019s Built Environment_ Incentives,.md",
+  "report_category": "General Market Intelligence",
+  "report_sources": [
+    "Greening Houston\u2019s Built Environment_ Incentives,"
+  ],
+  "market_metrics": {
+    "financial_indicators": {},
+    "investment_opportunities": [
+      {
+        "description": "Conversely, developments that ignore the emerging standards face slow permits, higher insurance, and eroding asset values",
+        "keyword": "emerging",
+        "quantitative_metrics": []
+      }
+    ],
+    "market_forecasts": {},
+    "risk_factors": [
+      {
+        "type": "risk",
+        "description": "** A 2025 state law lets licensed engineers perform plan review when the city fails to act within two business days, after which construction may start immediately\u2014further de-risking timelines[^22]"
+      },
+      {
+        "type": "risk",
+        "description": "Carbon-Neutrality Goals and Development Risk\n\n### 5"
+      },
+      {
+        "type": "risk",
+        "description": "** Carriers now discount premiums for projects that integrate bioretention and elevated mechanical rooms within 500-year floodplains\u2014an implicit carbon-risk price[^8]"
+      },
+      {
+        "type": "risk",
+        "description": "## Conclusion\n\nHouston has moved from aspirational green goals to a layered system of **carrots (tax abatements, C-PACE, 179D)** and **sticks (stricter 2021 codes, flood-risk disclosures, optional EV/solar appendices)** that shape every stage of real-estate development"
+      },
+      {
+        "type": "risk",
+        "description": "Projects that design for LEED or GSI, pre-wire for chargers, and integrate rooftop PV can now lower both construction financing costs and long-term operating expenses, while de-risking exposure to future carbon regulations"
+      }
+    ]
+  },
+  "quantitative_data": {
+    "cap_rates": {},
+    "roi_projections": {},
+    "cost_estimates": {},
+    "demographic_trends": {}
+  },
+  "actionable_insights": [],
+  "confidence_score": 0.17,
+  "data_vintage": "2024-2025",
+  "timestamp": "2025-07-11T04:02:40.023860",
+  "processing_metadata": {
+    "processor": "T4-Data-Processor",
+    "version": "1.0.0",
+    "extraction_patterns_used": [
+      "cap_rate",
+      "roi",
+      "irr",
+      "price_psf",
+      "loan_rate",
+      "construction_cost"
+    ]
+  }
+}

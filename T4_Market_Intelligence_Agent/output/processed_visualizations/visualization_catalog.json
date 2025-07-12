@@ -1,0 +1,738 @@
+{
+  "catalog_id": "t4-viz-catalog-20250711",
+  "total_visualizations": 38,
+  "visualizations_by_type": {
+    "general": [
+      "t4-chart-d2acff22",
+      "t4-chart-a4fcbfb5",
+      "t4-chart-be92cf65",
+      "t4-chart-7bd8021e",
+      "t4-chart-c3e232d0",
+      "t4-chart-232a5b52",
+      "t4-chart-872bba47",
+      "t4-chart-73c81742",
+      "t4-chart-3f31c136",
+      "t4-chart-79815dc9",
+      "t4-chart-a5f71a6f",
+      "t4-chart-33aabed2",
+      "t4-chart-7def2af1",
+      "t4-chart-a310844c",
+      "t4-chart-8ab93c7f",
+      "t4-chart-51ad3c9f",
+      "t4-chart-5960fc0c",
+      "t4-chart-20ed6e9e",
+      "t4-chart-51e44e4e",
+      "t4-chart-2876f35d",
+      "t4-chart-2b8d9383",
+      "t4-chart-e095723b",
+      "t4-chart-c23d09db",
+      "t4-chart-da0b9f1e",
+      "t4-chart-aca9c2c7",
+      "t4-chart-1c93e584",
+      "t4-chart-b9e2db43",
+      "t4-chart-e40515a4",
+      "t4-chart-b5ce7151",
+      "t4-chart-01e45e6b",
+      "t4-chart-54ede835",
+      "t4-chart-db97b3ca",
+      "t4-chart-f10aa496"
+    ],
+    "line": [
+      "t4-chart-15311881",
+      "t4-chart-14b35452",
+      "t4-chart-5f85845c"
+    ],
+    "pie": [
+      "t4-chart-f682b545",
+      "t4-chart-c99162e0"
+    ]
+  },
+  "visualizations_by_category": {
+    "general": [
+      "t4-chart-d2acff22",
+      "t4-chart-a4fcbfb5",
+      "t4-chart-5f85845c",
+      "t4-chart-7def2af1",
+      "t4-chart-a310844c",
+      "t4-chart-8ab93c7f",
+      "t4-chart-b5ce7151",
+      "t4-chart-01e45e6b",
+      "t4-chart-db97b3ca",
+      "t4-chart-f10aa496"
+    ],
+    "construction": [
+      "t4-chart-be92cf65",
+      "t4-chart-79815dc9",
+      "t4-chart-51ad3c9f"
+    ],
+    "climate": [
+      "t4-chart-7bd8021e",
+      "t4-chart-73c81742",
+      "t4-chart-a5f71a6f",
+      "t4-chart-5960fc0c",
+      "t4-chart-20ed6e9e",
+      "t4-chart-aca9c2c7",
+      "t4-chart-54ede835"
+    ],
+    "infrastructure": [
+      "t4-chart-c3e232d0",
+      "t4-chart-232a5b52",
+      "t4-chart-51e44e4e",
+      "t4-chart-2876f35d"
+    ],
+    "market": [
+      "t4-chart-15311881"
+    ],
+    "demographic": [
+      "t4-chart-f682b545",
+      "t4-chart-2b8d9383",
+      "t4-chart-e095723b"
+    ],
+    "financial": [
+      "t4-chart-14b35452",
+      "t4-chart-872bba47",
+      "t4-chart-c23d09db",
+      "t4-chart-da0b9f1e"
+    ],
+    "investment": [
+      "t4-chart-3f31c136",
+      "t4-chart-c99162e0",
+      "t4-chart-33aabed2",
+      "t4-chart-1c93e584",
+      "t4-chart-b9e2db43",
+      "t4-chart-e40515a4"
+    ]
+  },
+  "key_insights": [
+    "Population and demographic trends",
+    "Market dynamics visualization",
+    "Financial performance visualization"
+  ],
+  "timestamp": "2025-07-11T04:02:40.041051",
+  "visualization_details": {
+    "t4-chart-d2acff22": {
+      "chart_id": "t4-chart-d2acff22",
+      "file_path": "Data Processing Part 2/Houston Health-Care Real Estate Outlook (2024-2025/houston_hospital_chart.png",
+      "file_name": "houston_hospital_chart.png",
+      "chart_type": "general",
+      "category": "general",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035295",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-a4fcbfb5": {
+      "chart_id": "t4-chart-a4fcbfb5",
+      "file_path": "Data Processing Part 2/Houston Health-Care Real Estate Outlook (2024-2025/medicaid_telemedicine_providers.png",
+      "file_name": "medicaid_telemedicine_providers.png",
+      "chart_type": "general",
+      "category": "general",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035327",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-be92cf65": {
+      "chart_id": "t4-chart-be92cf65",
+      "file_path": "Data Processing Part 2/Houston\u2019s 2024 Retail & Sports\u2010Driven Development/houston_retail_chart.png",
+      "file_name": "houston_retail_chart.png",
+      "chart_type": "general",
+      "category": "construction",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035356",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-7bd8021e": {
+      "chart_id": "t4-chart-7bd8021e",
+      "file_path": "Data Processing Part 2/Resilient Houston 2024-2025/houston_stormwater_detention.png",
+      "file_name": "houston_stormwater_detention.png",
+      "chart_type": "general",
+      "category": "climate",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035376",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-c3e232d0": {
+      "chart_id": "t4-chart-c3e232d0",
+      "file_path": "Data Processing Part 2/Houston\u2019s 2025 Infrastructure Pulse_ Power, Pipes,/centerpoint_upgrades_chart.png",
+      "file_name": "centerpoint_upgrades_chart.png",
+      "chart_type": "general",
+      "category": "infrastructure",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035398",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-232a5b52": {
+      "chart_id": "t4-chart-232a5b52",
+      "file_path": "Data Processing Part 2/Houston\u2019s 2025 Infrastructure Pulse_ Power, Pipes,/water_plant_capacity_chart.png",
+      "file_name": "water_plant_capacity_chart.png",
+      "chart_type": "general",
+      "category": "infrastructure",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035420",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-15311881": {
+      "chart_id": "t4-chart-15311881",
+      "file_path": "Data Processing Part 2/Generational Housing Shifts and Demographic Curren/houston_submarkets_growth_chart.png",
+      "file_name": "houston_submarkets_growth_chart.png",
+      "chart_type": "line",
+      "category": "market",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [
+        "Market dynamics visualization"
+      ],
+      "timestamp": "2025-07-11T04:02:40.035435",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-f682b545": {
+      "chart_id": "t4-chart-f682b545",
+      "file_path": "Data Processing Part 2/Generational Housing Shifts and Demographic Curren/houston_foreign_born_donut.png",
+      "file_name": "houston_foreign_born_donut.png",
+      "chart_type": "pie",
+      "category": "demographic",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [
+        "Population and demographic trends"
+      ],
+      "timestamp": "2025-07-11T04:02:40.035449",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-14b35452": {
+      "chart_id": "t4-chart-14b35452",
+      "file_path": "Data Processing Part 2/2024\u20132025 Construction Finance & Delivery Outlook/construction_cost_trend.png",
+      "file_name": "construction_cost_trend.png",
+      "chart_type": "line",
+      "category": "financial",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [
+        "Financial performance visualization"
+      ],
+      "timestamp": "2025-07-11T04:02:40.035461",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-872bba47": {
+      "chart_id": "t4-chart-872bba47",
+      "file_path": "Data Processing Part 2/2024\u20132025 Construction Finance & Delivery Outlook/texas_metro_fees.png",
+      "file_name": "texas_metro_fees.png",
+      "chart_type": "general",
+      "category": "financial",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [
+        "Financial performance visualization"
+      ],
+      "timestamp": "2025-07-11T04:02:40.035474",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-73c81742": {
+      "chart_id": "t4-chart-73c81742",
+      "file_path": "Data Processing Part 2/Building a Climate-Resilient Houston_ Flood, Heat,/houston_stormwater_detention.png",
+      "file_name": "houston_stormwater_detention.png",
+      "chart_type": "general",
+      "category": "climate",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035493",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-3f31c136": {
+      "chart_id": "t4-chart-3f31c136",
+      "file_path": "Data Processing Part 2/Capital Currents_ How Money Flowed into Houston Re/houston_cre_acquisitions.png",
+      "file_name": "houston_cre_acquisitions.png",
+      "chart_type": "general",
+      "category": "investment",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035511",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-c99162e0": {
+      "chart_id": "t4-chart-c99162e0",
+      "file_path": "Data Processing Part 2/Capital Currents_ How Money Flowed into Houston Re/texas_real_estate_investment_pie.png",
+      "file_name": "texas_real_estate_investment_pie.png",
+      "chart_type": "pie",
+      "category": "investment",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035528",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-5f85845c": {
+      "chart_id": "t4-chart-5f85845c",
+      "file_path": "Data Processing Part 2/Houston\u2019s 2024 Industrial Real Estate Landscape_ P/port_houston_container_growth.png",
+      "file_name": "port_houston_container_growth.png",
+      "chart_type": "line",
+      "category": "general",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035551",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-79815dc9": {
+      "chart_id": "t4-chart-79815dc9",
+      "file_path": "Data Processing Part 2/Houston\u2019s 2024 Industrial Real Estate Landscape_ P/houston_industrial_construction.png",
+      "file_name": "houston_industrial_construction.png",
+      "chart_type": "general",
+      "category": "construction",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035570",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-a5f71a6f": {
+      "chart_id": "t4-chart-a5f71a6f",
+      "file_path": "Data Processing Part 2/Greening Houston\u2019s Built Environment_ Incentives,/property_tax_chart.png",
+      "file_name": "property_tax_chart.png",
+      "chart_type": "general",
+      "category": "climate",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035592",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-33aabed2": {
+      "chart_id": "t4-chart-33aabed2",
+      "file_path": "Data Processing Part 2/Education, Enrollment, and Real Estate in Greater/uh_capital_projects_chart.png",
+      "file_name": "uh_capital_projects_chart.png",
+      "chart_type": "general",
+      "category": "investment",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035610",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-7def2af1": {
+      "chart_id": "t4-chart-7def2af1",
+      "file_path": "Data Processing Part 2/Education, Enrollment, and Real Estate in Greater/enrollment_change_chart.png",
+      "file_name": "enrollment_change_chart.png",
+      "chart_type": "general",
+      "category": "general",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.035630",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-a310844c": {
+      "chart_id": "t4-chart-a310844c",
+      "file_path": "Data Processing Part 2/Houston Health-Care Real Estate Outlook (2024-2025/chart_script.py",
+      "file_name": "chart_script.py",
+      "chart_type": "general",
+      "category": "general",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.036597",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-8ab93c7f": {
+      "chart_id": "t4-chart-8ab93c7f",
+      "file_path": "Data Processing Part 2/Houston Health-Care Real Estate Outlook (2024-2025/chart_script_1.py",
+      "file_name": "chart_script_1.py",
+      "chart_type": "general",
+      "category": "general",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.036927",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-51ad3c9f": {
+      "chart_id": "t4-chart-51ad3c9f",
+      "file_path": "Data Processing Part 2/Houston\u2019s 2024 Retail & Sports\u2010Driven Development/chart_script.py",
+      "file_name": "chart_script.py",
+      "chart_type": "general",
+      "category": "construction",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.037274",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-5960fc0c": {
+      "chart_id": "t4-chart-5960fc0c",
+      "file_path": "Data Processing Part 2/Resilient Houston 2024-2025/chart_script.py",
+      "file_name": "chart_script.py",
+      "chart_type": "general",
+      "category": "climate",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.037510",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-20ed6e9e": {
+      "chart_id": "t4-chart-20ed6e9e",
+      "file_path": "Data Processing Part 2/Resilient Houston 2024-2025/script.py",
+      "file_name": "script.py",
+      "chart_type": "general",
+      "category": "climate",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.037685",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-51e44e4e": {
+      "chart_id": "t4-chart-51e44e4e",
+      "file_path": "Data Processing Part 2/Houston\u2019s 2025 Infrastructure Pulse_ Power, Pipes,/chart_script.py",
+      "file_name": "chart_script.py",
+      "chart_type": "general",
+      "category": "infrastructure",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.037935",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-2876f35d": {
+      "chart_id": "t4-chart-2876f35d",
+      "file_path": "Data Processing Part 2/Houston\u2019s 2025 Infrastructure Pulse_ Power, Pipes,/chart_script_1.py",
+      "file_name": "chart_script_1.py",
+      "chart_type": "general",
+      "category": "infrastructure",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.038130",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-2b8d9383": {
+      "chart_id": "t4-chart-2b8d9383",
+      "file_path": "Data Processing Part 2/Generational Housing Shifts and Demographic Curren/chart_script.py",
+      "file_name": "chart_script.py",
+      "chart_type": "general",
+      "category": "demographic",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [
+        "Population and demographic trends"
+      ],
+      "timestamp": "2025-07-11T04:02:40.038377",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-e095723b": {
+      "chart_id": "t4-chart-e095723b",
+      "file_path": "Data Processing Part 2/Generational Housing Shifts and Demographic Curren/chart_script_1.py",
+      "file_name": "chart_script_1.py",
+      "chart_type": "general",
+      "category": "demographic",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [
+        "Population and demographic trends"
+      ],
+      "timestamp": "2025-07-11T04:02:40.038554",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-c23d09db": {
+      "chart_id": "t4-chart-c23d09db",
+      "file_path": "Data Processing Part 2/2024\u20132025 Construction Finance & Delivery Outlook/chart_script.py",
+      "file_name": "chart_script.py",
+      "chart_type": "general",
+      "category": "financial",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [
+        "Financial performance visualization"
+      ],
+      "timestamp": "2025-07-11T04:02:40.038775",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-da0b9f1e": {
+      "chart_id": "t4-chart-da0b9f1e",
+      "file_path": "Data Processing Part 2/2024\u20132025 Construction Finance & Delivery Outlook/chart_script_1.py",
+      "file_name": "chart_script_1.py",
+      "chart_type": "general",
+      "category": "financial",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [
+        "Financial performance visualization"
+      ],
+      "timestamp": "2025-07-11T04:02:40.039012",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-aca9c2c7": {
+      "chart_id": "t4-chart-aca9c2c7",
+      "file_path": "Data Processing Part 2/Building a Climate-Resilient Houston_ Flood, Heat,/chart_script.py",
+      "file_name": "chart_script.py",
+      "chart_type": "general",
+      "category": "climate",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.039276",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-1c93e584": {
+      "chart_id": "t4-chart-1c93e584",
+      "file_path": "Data Processing Part 2/Capital Currents_ How Money Flowed into Houston Re/chart_script.py",
+      "file_name": "chart_script.py",
+      "chart_type": "general",
+      "category": "investment",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.039486",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-b9e2db43": {
+      "chart_id": "t4-chart-b9e2db43",
+      "file_path": "Data Processing Part 2/Capital Currents_ How Money Flowed into Houston Re/chart_script_1.py",
+      "file_name": "chart_script_1.py",
+      "chart_type": "general",
+      "category": "investment",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.039660",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-e40515a4": {
+      "chart_id": "t4-chart-e40515a4",
+      "file_path": "Data Processing Part 2/Capital Currents_ How Money Flowed into Houston Re/script.py",
+      "file_name": "script.py",
+      "chart_type": "general",
+      "category": "investment",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.039769",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-b5ce7151": {
+      "chart_id": "t4-chart-b5ce7151",
+      "file_path": "Data Processing Part 2/Houston\u2019s 2024 Industrial Real Estate Landscape_ P/chart_script.py",
+      "file_name": "chart_script.py",
+      "chart_type": "general",
+      "category": "general",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.039936",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-01e45e6b": {
+      "chart_id": "t4-chart-01e45e6b",
+      "file_path": "Data Processing Part 2/Houston\u2019s 2024 Industrial Real Estate Landscape_ P/chart_script_1.py",
+      "file_name": "chart_script_1.py",
+      "chart_type": "general",
+      "category": "general",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.040099",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-54ede835": {
+      "chart_id": "t4-chart-54ede835",
+      "file_path": "Data Processing Part 2/Greening Houston\u2019s Built Environment_ Incentives,/chart_script.py",
+      "file_name": "chart_script.py",
+      "chart_type": "general",
+      "category": "climate",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.040375",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-db97b3ca": {
+      "chart_id": "t4-chart-db97b3ca",
+      "file_path": "Data Processing Part 2/Education, Enrollment, and Real Estate in Greater/chart_script.py",
+      "file_name": "chart_script.py",
+      "chart_type": "general",
+      "category": "general",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.040665",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    },
+    "t4-chart-f10aa496": {
+      "chart_id": "t4-chart-f10aa496",
+      "file_path": "Data Processing Part 2/Education, Enrollment, and Real Estate in Greater/chart_script_1.py",
+      "file_name": "chart_script_1.py",
+      "chart_type": "general",
+      "category": "general",
+      "associated_report": null,
+      "data_sources": [],
+      "key_metrics": [],
+      "visualization_insights": [],
+      "timestamp": "2025-07-11T04:02:40.041027",
+      "processing_metadata": {
+        "handler": "T4-Visualization-Handler",
+        "version": "1.0.0"
+      }
+    }
+  }
+}

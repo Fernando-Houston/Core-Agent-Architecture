@@ -1,0 +1,41 @@
+{
+  "intelligence_id": "t4-2025-07-11-ff417",
+  "source_file": "Data Processing Part 2/Houston\u2019s 2024 Retail & Sports\u2010Driven Development/Houston\u2019s 2024 Retail & Sports\u2010Driven Development.md",
+  "report_category": "General Market Intelligence",
+  "report_sources": [
+    "Houston\u2019s 2024 Retail & Sports\u2010Driven Development"
+  ],
+  "market_metrics": {
+    "financial_indicators": {},
+    "investment_opportunities": [],
+    "market_forecasts": {},
+    "risk_factors": [
+      {
+        "type": "challenge",
+        "description": "3  West Oaks \\& Galleria Tweaks\n\n- Pacific Retail acquired West Oaks Mall for \\$15 million and is studying entertainment and healthcare insertions to revive a corridor challenged by Katy Mills and CityCentre competition[^3]"
+      }
+    ]
+  },
+  "quantitative_data": {
+    "cap_rates": {},
+    "roi_projections": {},
+    "cost_estimates": {},
+    "demographic_trends": {}
+  },
+  "actionable_insights": [],
+  "confidence_score": 0.09,
+  "data_vintage": "2024-2025",
+  "timestamp": "2025-07-11T04:02:39.963861",
+  "processing_metadata": {
+    "processor": "T4-Data-Processor",
+    "version": "1.0.0",
+    "extraction_patterns_used": [
+      "cap_rate",
+      "roi",
+      "irr",
+      "price_psf",
+      "loan_rate",
+      "construction_cost"
+    ]
+  }
+}

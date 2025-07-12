@@ -1,0 +1,95 @@
+{
+  "analysis_id": "t2-2025-07-11-3c831",
+  "source_data": [
+    "t1-2025-01-10-12345"
+  ],
+  "metrics": {
+    "calculated_values": {
+      "total_permits": 12,
+      "unique_types": 2,
+      "residential_permits": 8,
+      "commercial_permits": 4,
+      "renovation_permits": 0,
+      "new_construction_permits": 0,
+      "avg_permit_value": 1278333.3333333333,
+      "median_permit_value": 437500.0,
+      "total_permit_value": 15340000,
+      "max_permit_value": 8500000,
+      "min_permit_value": 85000,
+      "residential_percentage": 66.66666666666666,
+      "commercial_percentage": 33.33333333333333
+    },
+    "trends": {
+      "neighborhood_concentration": {
+        "top_neighborhoods": {
+          "EaDo": 2,
+          "Midtown": 1,
+          "Heights": 1,
+          "Ion District": 1,
+          "Montrose": 1
+        },
+        "concentration_ratio": 50.0
+      },
+      "permit_type_distribution": {
+        "residential": 8,
+        "commercial": 4
+      }
+    },
+    "anomalies": [
+      {
+        "type": "permit_volume_spike",
+        "date": "2025-01-05",
+        "count": 3,
+        "expected": 0.4,
+        "deviation_multiplier": 7.5
+      },
+      {
+        "type": "permit_volume_spike",
+        "date": "2025-01-06",
+        "count": 2,
+        "expected": 0.4,
+        "deviation_multiplier": 5.0
+      },
+      {
+        "type": "permit_volume_spike",
+        "date": "2025-01-07",
+        "count": 2,
+        "expected": 0.4,
+        "deviation_multiplier": 5.0
+      },
+      {
+        "type": "permit_volume_spike",
+        "date": "2025-01-08",
+        "count": 2,
+        "expected": 0.4,
+        "deviation_multiplier": 5.0
+      },
+      {
+        "type": "permit_volume_spike",
+        "date": "2025-01-09",
+        "count": 3,
+        "expected": 0.4,
+        "deviation_multiplier": 7.5
+      },
+      {
+        "type": "high_value_permit",
+        "permit_id": "BP-2025-00133",
+        "value": 8500000,
+        "average_value": 1278333.3333333333,
+        "deviation_multiplier": 6.6492829204693615
+      }
+    ],
+    "correlations": {}
+  },
+  "insights": [
+    "Analyzed 12 building permits",
+    "Highest permit concentration in EaDo",
+    "Detected 5 unusual permit volume spikes",
+    "Average permit value: $1,278,333",
+    "Total development value: $15.3M"
+  ],
+  "confidence_score": 0.5599999999999999,
+  "timestamp": "2025-07-11T03:59:26.172274",
+  "processing_time_ms": 17,
+  "agent_id": "t2-analytical-001"
+}

@@ -62,7 +62,7 @@ git push -u origin main
    - Select `Core-Agent-Architecture`
    - Add environment variables:
      ```
-     PERPLEXITY_API_KEY=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
+     PERPLEXITY_API_KEY=your-perplexity-api-key-here
      CENSUS_API_KEY=cda0d6f4c3bb30fe797126c5b51157e9776eafe6
      SECRET_KEY=generate-random-secret-key-here
      ```

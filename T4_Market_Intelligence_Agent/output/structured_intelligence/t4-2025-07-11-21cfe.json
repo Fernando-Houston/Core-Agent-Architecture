@@ -1,0 +1,42 @@
+{
+  "intelligence_id": "t4-2025-07-11-21cfe",
+  "source_file": "Data Processing Part 2/Houston\u2019s 2024 Industrial Real Estate Landscape_ P/Houston\u2019s 2024 Industrial Real Estate Landscape_ P.md",
+  "report_category": "General Market Intelligence",
+  "report_sources": [
+    "Houston\u2019s 2024 Industrial Real Estate Landscape_ P"
+  ],
+  "market_metrics": {
+    "financial_indicators": {},
+    "investment_opportunities": [
+      {
+        "description": "For investors, the opportunity lies in port-proximate, rail-served land and in retrofitting older warehouses with higher power capacity",
+        "keyword": "opportunity",
+        "quantitative_metrics": []
+      }
+    ],
+    "market_forecasts": {},
+    "risk_factors": []
+  },
+  "quantitative_data": {
+    "cap_rates": {},
+    "roi_projections": {},
+    "cost_estimates": {},
+    "demographic_trends": {}
+  },
+  "actionable_insights": [],
+  "confidence_score": 0.17,
+  "data_vintage": "2024-2025",
+  "timestamp": "2025-07-11T04:02:40.016694",
+  "processing_metadata": {
+    "processor": "T4-Data-Processor",
+    "version": "1.0.0",
+    "extraction_patterns_used": [
+      "cap_rate",
+      "roi",
+      "irr",
+      "price_psf",
+      "loan_rate",
+      "construction_cost"
+    ]
+  }
+}

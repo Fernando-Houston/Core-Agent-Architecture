@@ -1,0 +1,92 @@
+{
+  "intelligence_id": "t4-2025-07-11-37ab1",
+  "source_file": "Data Processing Part 2/Building a Climate-Resilient Houston_ Flood, Heat,/Building a Climate-Resilient Houston_ Flood, Heat,.md",
+  "report_category": "General Market Intelligence",
+  "report_sources": [
+    "Building a Climate-Resilient Houston_ Flood, Heat,"
+  ],
+  "market_metrics": {
+    "financial_indicators": {},
+    "investment_opportunities": [
+      {
+        "description": "3  Emerging Private-Sector Standards\n\nLarge REITs such as Hines now specify roof solar reflectance \u2265 0",
+        "keyword": "emerging",
+        "quantitative_metrics": [
+          "3",
+          "0"
+        ]
+      },
+      {
+        "description": "Development Finance Under the New Resilience Regime\n\n| Cost Driver (2024\u201325) | Typical Impact on Pro-Forma | Mitigation/Opportunity | Sources |\n| :-- | :-- | :-- | :-- |\n| Higher on-site detention (0",
+        "keyword": "opportunity",
+        "quantitative_metrics": [
+          "2024",
+          "25",
+          "0"
+        ]
+      },
+      {
+        "description": "**On the Roof:** Cool surfaces and canopy mandates are no longer fringe ESG items; they are embedded in the 2024 construction code and backed by tax incentives, providing measurable NOI upside during record heat waves",
+        "keyword": "upside",
+        "quantitative_metrics": [
+          "2024"
+        ]
+      }
+    ],
+    "market_forecasts": {
+      "2024": 35.0
+    },
+    "risk_factors": [
+      {
+        "type": "risk",
+        "description": "2  What the Barrier Means for Development\n\n- Bond underwriters now discount storm-surge risk for Port Houston tank-farms by 20 basis-points when the GCPD match is appropriated, lowering borrowing costs for capital-intensive petrochem plants[^23]"
+      },
+      {
+        "type": "concern",
+        "description": "3  Ike Dike Alternatives and Gate Design Debates\n\nLocal pilots raised navigational concerns about the Corps\u2019 double-sector gate, prompting Texas A\\&M\u2019s Institute for a Disaster-Resilient Texas to study arch and barge-gate options in 2024[^25]"
+      },
+      {
+        "type": "risk",
+        "description": "Early simulations suggest a wider, single-sector gate could halve dredging costs without sacrificing surge performance\u2014an engineering decision that will influence both construction phasing and real-estate risk maps over the next decade"
+      },
+      {
+        "type": "uncertainty",
+        "description": "35 psf roof install | 10-yr GSI tax abatement; energy OPEX savings 10\u201315% | [^14][^16] |\n| Coastal barrier funding uncertainty | Equity hurdle-rate premium 100 bps on surge-exposed sites | Stage land options; track GCPD drawdown schedule | [^24][^28] |\n\n## 6"
+      },
+      {
+        "type": "risk",
+        "description": "Taken together, these measures represent a **structural re-pricing of location risk** across Greater Houston"
+      },
+      {
+        "type": "risk",
+        "description": "For stakeholders across the property spectrum, from single-family builders to global energy majors, understanding the shifting code base and infrastructure map is no longer optional\u2014it is the key to de-risking investments and sustaining Houston\u2019s momentum through the next century of storms, heat, and coastal change"
+      },
+      {
+        "type": "risk",
+        "description": "org/riskreduction/\n\n[^10]: https://www"
+      }
+    ]
+  },
+  "quantitative_data": {
+    "cap_rates": {},
+    "roi_projections": {},
+    "cost_estimates": {},
+    "demographic_trends": {}
+  },
+  "actionable_insights": [],
+  "confidence_score": 0.31,
+  "data_vintage": "2024-2025",
+  "timestamp": "2025-07-11T04:02:39.997268",
+  "processing_metadata": {
+    "processor": "T4-Data-Processor",
+    "version": "1.0.0",
+    "extraction_patterns_used": [
+      "cap_rate",
+      "roi",
+      "irr",
+      "price_psf",
+      "loan_rate",
+      "construction_cost"
+    ]
+  }
+}

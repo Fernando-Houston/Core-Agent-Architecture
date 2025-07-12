@@ -1,0 +1,24 @@
+{
+  "analysis_id": "t2-2024-01-15-demo1",
+  "analysis_type": "market_trend",
+  "timestamp": "2025-07-11T04:00:14.929450",
+  "metrics": {
+    "appreciation_rate": 8.5,
+    "rental_yield": 6.2,
+    "demand_score": 85,
+    "inventory_months": 2.3,
+    "price_volatility": 0.12
+  },
+  "key_findings": [
+    "Strong appreciation in Houston Heights area",
+    "Rental yields exceeding market average",
+    "Low inventory driving competitive market"
+  ],
+  "market_signals": [
+    "expansion_phase",
+    "seller_market"
+  ],
+  "confidence_score": 0.85,
+  "location": "Houston Heights",
+  "market_cycle_phase": "expansion"
+}

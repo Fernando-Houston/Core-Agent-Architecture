@@ -1,0 +1,248 @@
+{
+  "structure_id": "t3-2025-07-11-49be5",
+  "source_analyses": [
+    "t2-2024-01-15-demo1",
+    "t2-2024-01-15-demo2",
+    "t2-2024-01-15-demo3"
+  ],
+  "strategic_insights": {
+    "opportunities": [],
+    "risks": [],
+    "recommendations": [
+      {
+        "type": "recommendation",
+        "title": "Market Expansion Phase - Accelerate Acquisition",
+        "description": "Market indicators suggest expansion phase. Favorable conditions for property acquisition.",
+        "impact_level": "high",
+        "confidence": 1.0,
+        "action_items": [
+          "Increase acquisition pace",
+          "Leverage favorable financing",
+          "Focus on growth markets"
+        ],
+        "timeline": "immediate",
+        "supporting_data": [
+          {
+            "phase": "expansion",
+            "confidence": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "market_narrative": {
+    "summary": "The Houston market presents a balanced outlook with both opportunities and risks. Key themes include market, driving, strong.",
+    "key_trends": [],
+    "market_drivers": [
+      "Buyer and renter demand patterns",
+      "Infrastructure development and improvements",
+      "Housing inventory levels",
+      "Technology sector growth and innovation"
+    ],
+    "outlook": "The market presents a balanced risk-reward profile. Successful strategies will require careful market selection and thorough due diligence on individual opportunities.",
+    "confidence": 1.0
+  },
+  "user_segments": {
+    "investors": {
+      "priority_insights": [
+        {
+          "type": "recommendation",
+          "title": "Market Expansion Phase - Accelerate Acquisition",
+          "description": "Market indicators suggest expansion phase. Favorable conditions for property acquisition.",
+          "impact_level": "high",
+          "confidence": 1.0,
+          "action_items": [
+            "Increase acquisition pace",
+            "Leverage favorable financing",
+            "Focus on growth markets"
+          ],
+          "timeline": "immediate",
+          "supporting_data": [
+            {
+              "phase": "expansion",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ],
+      "recommendations": [],
+      "risk_factors": [],
+      "action_plan": {
+        "immediate_actions": [
+          "Increase acquisition pace",
+          "Leverage favorable financing"
+        ],
+        "short_term_goals": [],
+        "risk_mitigation": [],
+        "success_metrics": [
+          "ROI achieved",
+          "Portfolio value growth",
+          "Cash flow targets"
+        ]
+      },
+      "market_readiness": {
+        "score": 0.6,
+        "assessment": "Moderate",
+        "factors": [
+          "Market in expansion phase"
+        ]
+      }
+    },
+    "developers": {
+      "priority_insights": [
+        {
+          "type": "recommendation",
+          "title": "Market Expansion Phase - Accelerate Acquisition",
+          "description": "Market indicators suggest expansion phase. Favorable conditions for property acquisition.",
+          "impact_level": "high",
+          "confidence": 1.0,
+          "action_items": [
+            "Increase acquisition pace",
+            "Leverage favorable financing",
+            "Focus on growth markets"
+          ],
+          "timeline": "immediate",
+          "supporting_data": [
+            {
+              "phase": "expansion",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ],
+      "recommendations": [],
+      "risk_factors": [],
+      "action_plan": {
+        "immediate_actions": [
+          "Increase acquisition pace",
+          "Leverage favorable financing"
+        ],
+        "short_term_goals": [],
+        "risk_mitigation": [],
+        "success_metrics": [
+          "Projects completed",
+          "Permit approval rate",
+          "Cost vs budget"
+        ]
+      },
+      "market_readiness": {
+        "score": 0.6,
+        "assessment": "Moderate",
+        "factors": [
+          "Market in expansion phase"
+        ]
+      }
+    },
+    "homeowners": {
+      "priority_insights": [],
+      "recommendations": [],
+      "risk_factors": [],
+      "action_plan": {
+        "immediate_actions": [],
+        "short_term_goals": [],
+        "risk_mitigation": [],
+        "success_metrics": [
+          "Property value appreciation",
+          "Neighborhood improvement",
+          "Quality of life"
+        ]
+      },
+      "market_readiness": {
+        "score": 0.6,
+        "assessment": "Moderate",
+        "factors": [
+          "Market in expansion phase"
+        ]
+      }
+    }
+  },
+  "confidence_score": 0.865,
+  "timestamp": "2025-07-11T04:00:14.931065",
+  "metadata": {
+    "total_insights": 1,
+    "primary_markets": [
+      "Ion District",
+      "Houston Heights",
+      "Houston",
+      "Midtown",
+      "West Houston"
+    ],
+    "key_metrics": {
+      "appreciation_rate": {
+        "current": 8.5,
+        "average": 8.5,
+        "trend": "decreasing"
+      },
+      "rental_yield": {
+        "current": 6.2,
+        "average": 6.2,
+        "trend": "decreasing"
+      },
+      "demand_score": {
+        "current": 85,
+        "average": 85,
+        "trend": "decreasing"
+      },
+      "inventory_months": {
+        "current": 2.3,
+        "average": 2.3,
+        "trend": "decreasing"
+      },
+      "price_volatility": {
+        "current": 0.12,
+        "average": 0.12,
+        "trend": "decreasing"
+      },
+      "development_activity": {
+        "current": 125,
+        "average": 125,
+        "trend": "decreasing"
+      },
+      "zoning_favorability": {
+        "current": 0.9,
+        "average": 0.9,
+        "trend": "decreasing"
+      },
+      "infrastructure_investment": {
+        "current": 45000000,
+        "average": 45000000,
+        "trend": "decreasing"
+      },
+      "innovation_index": {
+        "current": 78,
+        "average": 78,
+        "trend": "decreasing"
+      },
+      "construction_costs": {
+        "current": 185,
+        "average": 185,
+        "trend": "decreasing"
+      },
+      "vacancy_rate": {
+        "current": 7.8,
+        "average": 7.8,
+        "trend": "decreasing"
+      },
+      "default_rate": {
+        "current": 2.1,
+        "average": 2.1,
+        "trend": "decreasing"
+      },
+      "environmental_risk": {
+        "current": 0.35,
+        "average": 0.35,
+        "trend": "decreasing"
+      },
+      "regulatory_uncertainty": {
+        "current": 0.25,
+        "average": 0.25,
+        "trend": "decreasing"
+      },
+      "market_correlation": {
+        "current": 0.78,
+        "average": 0.78,
+        "trend": "decreasing"
+      }
+    }
+  }
+}

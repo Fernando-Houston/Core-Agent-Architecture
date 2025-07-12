@@ -1,0 +1,65 @@
+{
+  "intelligence_id": "t4-2025-07-11-4e5e7",
+  "source_file": "Data Processing Part 2/Education, Enrollment, and Real Estate in Greater/Education, Enrollment, and Real Estate in Greater.md",
+  "report_category": "General Market Intelligence",
+  "report_sources": [
+    "Education, Enrollment, and Real Estate in Greater"
+  ],
+  "market_metrics": {
+    "financial_indicators": {},
+    "investment_opportunities": [],
+    "market_forecasts": {},
+    "risk_factors": [
+      {
+        "type": "risk",
+        "description": "1 Ranking Frameworks\n\nChildren at Risk\u2019s 2023-24 ranking uses STAAR proficiency, year-over-year growth, and college readiness to grade 1,502 Houston-area campuses[^3]"
+      },
+      {
+        "type": "risk",
+        "description": "Lamar CISD advanced six slots in Children at Risk\u2019s league table, buoyed by 28% five-year enrollment growth that allowed the district to open two STEM-focused high schools and keep class sizes under 24[^2]"
+      },
+      {
+        "type": "uncertainty",
+        "description": "3 Voucher Uncertainty\n\nAlthough the 2025 Legislature appears set to pass an education-savings-account program, Houston-area heads of school say they lack classroom surplus to absorb a sudden voucher wave and would need several years to expand physical plant[^17]"
+      },
+      {
+        "type": "risk",
+        "description": "com/post/children-risk-announces-annual-top-ranking-school-districts-2023-2024-year/15928040/\n\n[^4]: https://www"
+      },
+      {
+        "type": "concern",
+        "description": "com/news/local/2024/04/17/concern-brewing-in-two-of-houstons-upscale-neighborhoods-where-zoning-guidelines-suddenly-removed-from-two-top-schools/\n\n[^11]: https://www"
+      },
+      {
+        "type": "risk",
+        "description": "com/watch?v=dDoLK3rSRoA\n\n[^43]: https://childrenatrisk"
+      },
+      {
+        "type": "risk",
+        "description": "com/news/houston-texas/education/hisd/article/hisd-rankings-children-at-risk-20202418"
+      }
+    ]
+  },
+  "quantitative_data": {
+    "cap_rates": {},
+    "roi_projections": {},
+    "cost_estimates": {},
+    "demographic_trends": {}
+  },
+  "actionable_insights": [],
+  "confidence_score": 0.18,
+  "data_vintage": "2024-2025",
+  "timestamp": "2025-07-11T04:02:40.031923",
+  "processing_metadata": {
+    "processor": "T4-Data-Processor",
+    "version": "1.0.0",
+    "extraction_patterns_used": [
+      "cap_rate",
+      "roi",
+      "irr",
+      "price_psf",
+      "loan_rate",
+      "construction_cost"
+    ]
+  }
+}

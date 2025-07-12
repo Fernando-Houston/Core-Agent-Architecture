@@ -1,0 +1,28 @@
+{
+  "analysis_id": "t2-2024-01-15-demo2",
+  "analysis_type": "investment_opportunity",
+  "timestamp": "2025-07-11T04:00:14.929458",
+  "metrics": {
+    "development_activity": 125,
+    "zoning_favorability": 0.9,
+    "infrastructure_investment": 45000000,
+    "innovation_index": 78,
+    "construction_costs": 185
+  },
+  "key_findings": [
+    "Major infrastructure improvements in Ion District",
+    "Technology sector driving real estate demand",
+    "Construction costs stabilizing after recent increases"
+  ],
+  "market_signals": [
+    "tech_growth",
+    "infrastructure_catalyst"
+  ],
+  "confidence_score": 0.82,
+  "location": "Ion District",
+  "markets": [
+    "Houston",
+    "Midtown",
+    "Ion District"
+  ]
+}
